@@ -382,6 +382,18 @@
     [
       "4b1cea9d-93bc-4380-88c3-ede99bb53de2",
       ""
+    ],
+    [
+      "4da56470-0b67-4551-923f-8b4b216ded57",
+      "CM4_HighSpeed"
+    ],
+    [
+      "e0c51feb-4d89-45a3-8e53-506ae2882681",
+      "USB2-HUB"
+    ],
+    [
+      "620225a5-f804-40cd-b5ea-f876279ff075",
+      "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
     ]
   ],
   "text_variables": {}
