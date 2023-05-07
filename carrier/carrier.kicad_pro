@@ -402,6 +402,10 @@
     [
       "9ea89edd-9822-472f-9c73-e53551d82d32",
       "Neopixel"
+    ],
+    [
+      "af6c5568-d2e2-4612-83c1-6e53a7c32d99",
+      "Connectors"
     ]
   ],
   "text_variables": {}

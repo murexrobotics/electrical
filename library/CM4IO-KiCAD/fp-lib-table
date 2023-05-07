@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.pretty")(options "")(descr ""))
-)
