@@ -5569,7 +5569,7 @@
   (symbol (lib_id "Device:R") (at 224.79 79.375 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3e8028f-50c1-4039-bab0-79fc788a0680)
-    (property "Reference" "R14" (at 224.79 84.455 90)
+    (property "Reference" "R16" (at 224.79 84.455 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 224.79 81.915 90)
@@ -5604,7 +5604,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "R14") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -5962,7 +5962,7 @@
   (symbol (lib_id "Device:R") (at 224.79 74.295 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e544cda5-701c-4308-9f78-ee341551698f)
-    (property "Reference" "R13" (at 224.79 69.0372 90)
+    (property "Reference" "R15" (at 224.79 69.0372 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 224.79 71.3486 90)
@@ -5997,7 +5997,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -6059,7 +6059,7 @@
   (symbol (lib_id "Device:R") (at 208.915 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4147253-1b31-4c29-bfaf-bd2b77baa4c6)
-    (property "Reference" "R12" (at 210.693 114.4016 0)
+    (property "Reference" "R14" (at 210.693 114.4016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 210.693 116.713 0)
@@ -6094,7 +6094,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -6157,7 +6157,7 @@
   (symbol (lib_id "Device:R") (at 114.554 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4d5c6b4-48f0-43a9-8b90-fac7eaf1b0a6)
-    (property "Reference" "R11" (at 116.332 78.2066 0)
+    (property "Reference" "R13" (at 116.332 78.2066 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 116.332 80.518 0)
@@ -6192,7 +6192,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "CM4IOv5"
