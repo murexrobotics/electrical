@@ -394,6 +394,14 @@
     [
       "620225a5-f804-40cd-b5ea-f876279ff075",
       "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
+    ],
+    [
+      "982f4b68-a38c-4772-af6b-ffe8049f8a46",
+      "Sensors"
+    ],
+    [
+      "9ea89edd-9822-472f-9c73-e53551d82d32",
+      "Neopixel"
     ]
   ],
   "text_variables": {}
