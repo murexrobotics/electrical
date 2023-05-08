@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "switch.kicad_pro",
+    "filename": "plc.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -378,6 +378,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "18112086-1a00-4da6-b6d3-aaa95033c726",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
