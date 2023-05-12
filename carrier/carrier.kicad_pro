@@ -551,6 +551,10 @@
     [
       "af6c5568-d2e2-4612-83c1-6e53a7c32d99",
       "Connectors"
+    ],
+    [
+      "ddaf85b2-573f-4b38-8f89-d403b0d00540",
+      "Leak Sensor"
     ]
   ],
   "text_variables": {}
