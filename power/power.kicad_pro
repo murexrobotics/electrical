@@ -382,6 +382,10 @@
     [
       "6d3c5c52-febb-4c99-82d7-f9b22bb5762b",
       ""
+    ],
+    [
+      "695e1137-9cb6-4bf9-8c43-7eef31e7d9ba",
+      "RP2040"
     ]
   ],
   "text_variables": {}
