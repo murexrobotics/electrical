@@ -384,8 +384,12 @@
       ""
     ],
     [
-      "695e1137-9cb6-4bf9-8c43-7eef31e7d9ba",
-      "RP2040"
+      "9671ab96-bd83-43eb-84af-5bfacc0dab1f",
+      "TPS568215RNNR_1"
+    ],
+    [
+      "7ff00463-b304-4939-a6b4-8114d64b272c",
+      "TPS568215RNNR_2"
     ]
   ],
   "text_variables": {}
