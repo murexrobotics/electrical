@@ -2135,8 +2135,8 @@
     (property "JLCPCB Part #" "" (at 57.15 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd5ca487-1658-4e67-aa87-e6c2806b0289))
-    (pin "2" (uuid 6f567a78-533d-4e69-a09e-936d04d04786))
+    (pin "1" (uuid eae67411-fb50-4f0d-950a-8ce11408be6a))
+    (pin "2" (uuid 8fae0e2f-a415-430b-93cf-b9c7a43a4cca))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2206,8 +2206,8 @@
     (property "Datasheet" "~" (at 128.27 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46a6d7db-6de3-432b-bac2-1363c268aaa9))
-    (pin "2" (uuid f93b928d-1634-4bec-bb19-32db37174537))
+    (pin "1" (uuid 15b564ac-874f-4f41-8e8a-c8a5291d86ef))
+    (pin "2" (uuid e8b7f09d-cba9-4c75-8d53-c75eda2c667d))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2269,8 +2269,8 @@
     (property "JLCPCB Part #" "" (at 109.22 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3d83bd3-8fed-4b29-89ed-5a2ea5d8a07b))
-    (pin "2" (uuid 8f0f4218-5482-46de-92a4-db54929aa7ad))
+    (pin "1" (uuid 016b0a31-fbe1-45f8-85ce-29954ecea467))
+    (pin "2" (uuid 721672b5-56fc-4278-9fa3-3eabc77cbb60))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2303,8 +2303,8 @@
     (property "JLCPCB Part #" "" (at 122.555 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid acb06424-9fc7-439b-b66e-f2bfac861901))
-    (pin "2" (uuid 329c103f-690e-4b54-9490-98aa6e644ad0))
+    (pin "1" (uuid 5def628d-0bc7-4e56-9887-d556e50b4a98))
+    (pin "2" (uuid d75f2434-d098-4f92-b088-a05118a5273b))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2337,8 +2337,8 @@
     (property "JLCPCB Part #" "" (at 106.68 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid afce625f-75ac-4544-aa64-4730e4781dfc))
-    (pin "2" (uuid 725c3a4f-cfcd-44d4-bd42-407df2bd0c5e))
+    (pin "1" (uuid f4413254-bc98-4565-b80c-463ca07bfa5b))
+    (pin "2" (uuid 151cbd9e-f4a2-4b2c-8c1f-60c4150051c6))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2368,8 +2368,8 @@
     (property "Datasheet" "~" (at 62.865 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 517f2223-904a-41c3-8cd5-7c7f525bcef7))
-    (pin "2" (uuid 3f34b924-9710-4546-9913-dcfbffd1e920))
+    (pin "1" (uuid f76ef5b9-6d61-47c4-acb3-5301c6ae6774))
+    (pin "2" (uuid a2e5e465-8009-4a2b-833c-52891f6c2fef))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2397,8 +2397,8 @@
     (property "JLCPCB Part #" "" (at 100.965 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c79b6af-8d6c-4efc-beb2-4c68f58b610d))
-    (pin "2" (uuid bae81e6e-6828-400d-afac-3555cae9c2a6))
+    (pin "1" (uuid 896675e0-ea82-47d9-9e6d-dd6d57b46a0f))
+    (pin "2" (uuid 561bf61c-4ca8-4650-8113-e33b6c46ee4b))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2456,8 +2456,8 @@
     (property "JLCPCB Part #" "" (at 111.76 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7952444-b640-480e-bed5-8717ab495be2))
-    (pin "2" (uuid a7a5670b-b794-49be-b593-25d66c4e1aa5))
+    (pin "1" (uuid 94685a42-72bb-430c-ba75-042d767ac8da))
+    (pin "2" (uuid 9d97ee76-b087-4770-9c7e-0eaa9d39f397))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2551,8 +2551,8 @@
     (property "JLCPCB Part #" "" (at 99.06 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ff5d7c8-49d4-4476-a79a-559ca236c685))
-    (pin "2" (uuid a88254b4-c3ba-4c37-a5d6-396f56a81ab2))
+    (pin "1" (uuid 3a03bcf8-1052-4fde-829e-ecc304165773))
+    (pin "2" (uuid 9483296a-3ba8-49ca-9fa9-b8ecd833a6e3))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -2863,8 +2863,8 @@
     (property "JLCPCB Part #" "" (at 66.04 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f34b1f9-0cf6-4ef6-b40c-6955ecf87f48))
-    (pin "2" (uuid 124c0fb7-4170-4fb5-8c4f-37eaa0e80184))
+    (pin "1" (uuid 25246121-8f11-4072-a442-2ac94465290a))
+    (pin "2" (uuid c287de0e-0e3e-48bf-af1c-99dda92a2028))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -3045,8 +3045,8 @@
     (property "Datasheet" "~" (at 123.19 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 92ba2b7f-b588-4f23-b6de-c6b288a951dd))
-    (pin "2" (uuid d59c319d-790b-4e5b-9e91-d793020122d5))
+    (pin "1" (uuid f78fce96-99fd-488a-86e9-0737a3dfb5be))
+    (pin "2" (uuid d49c9052-f232-4bf6-aa17-35fa2a7c7a6b))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -3096,8 +3096,8 @@
     (property "Datasheet" "~" (at 67.945 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06ba9da1-b136-482d-9dfc-fd8bd0a9a48f))
-    (pin "2" (uuid ecc7aac1-7215-4b55-8550-98aaf43c9a43))
+    (pin "1" (uuid 1a5d1705-74c1-47ea-8332-fd16c22b6cb0))
+    (pin "2" (uuid adfc6b35-52f5-44e3-9abb-31c2e6383077))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -3234,7 +3234,7 @@
     (property "Datasheet" "~" (at 72.39 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b28390bd-a5e1-460d-ba4a-688e3d72e856))
+    (pin "1" (uuid d75f92f6-ebbc-4688-bcb1-ba895a74404c))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -3259,7 +3259,7 @@
     (property "Datasheet" "~" (at 82.55 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 346f8ec7-511d-400f-9e6b-146911f1b978))
+    (pin "1" (uuid 1d854eba-dd17-4e9a-bd85-607907bfc4aa))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
@@ -3287,8 +3287,8 @@
     (property "JLCPCB Part #" "" (at 99.06 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b50f7ed8-12a5-4be4-9514-2103d5467fbd))
-    (pin "2" (uuid 2a53d6c4-76ad-47ec-837c-63c75e582616))
+    (pin "1" (uuid 07016bcd-1106-4776-9022-d190f3c24a10))
+    (pin "2" (uuid 03ea83dc-d3cc-4733-b3c8-46a5a5c1a657))
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"

@@ -986,8 +986,8 @@
     (property "LCSC" "" (at 147.32 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85db102f-abbb-4f0d-8af9-67f7954331d8))
-    (pin "2" (uuid fc3da499-cc2e-4b5b-b447-8b03416e3e9f))
+    (pin "1" (uuid 970def59-28a3-4f34-89e8-92953f6d67a2))
+    (pin "2" (uuid 9355706d-fdf1-450a-b49b-1734ec9b09a2))
     (instances
       (project "rp2040_keyboard"
         (path "/43ef6b2a-6b52-4779-8e4e-9ea5b6bcd1a3"
@@ -1327,8 +1327,8 @@
     (property "LCSC" "" (at 121.92 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 755ce500-54fb-498d-8561-c6963b067be7))
-    (pin "2" (uuid 217ea453-70d0-479f-8ded-3fff507b6eec))
+    (pin "1" (uuid 0687d4a3-7ddf-4ff8-8b16-b883da8a05b2))
+    (pin "2" (uuid a328acdd-46d7-4f60-ac4f-280d2e103bf3))
     (instances
       (project "rp2040_keyboard"
         (path "/43ef6b2a-6b52-4779-8e4e-9ea5b6bcd1a3"
@@ -1390,8 +1390,8 @@
     (property "LCSC" "" (at 96.52 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b1a405c-3ab4-4dea-bafe-059eeb603875))
-    (pin "2" (uuid 56c10d81-fbd1-492b-a1f6-1f55d2c3a0a3))
+    (pin "1" (uuid eb8409a4-35ec-4bbd-b295-6f1568f95a7b))
+    (pin "2" (uuid 7c68302b-1397-4a53-8fff-72d15ba03e10))
     (instances
       (project "rp2040_keyboard"
         (path "/43ef6b2a-6b52-4779-8e4e-9ea5b6bcd1a3"
