@@ -4,4 +4,5 @@
   (lib (name "MMC5603NJ")(type "KiCad")(uri "${MUREX_2024}/MMC5603NJ/MMC5603NJ.pretty")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "${MUREX_2024}/CM4IO-KiCAD/CM4IO.pretty")(options "")(descr ""))
   (lib (name "M.2")(type "KiCad")(uri "${MUREX_2024}/NGFF.pretty")(options "")(descr ""))
+  (lib (name "M.2_Connector")(type "KiCad")(uri "${MUREX_2024}/2199119-8/TE_2199119-8.pretty")(options "")(descr ""))
 )
