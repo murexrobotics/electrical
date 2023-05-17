@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "M.2 Symbol")(type "KiCad")(uri "${MUREX_2024}/2199119-8/2199119-8.kicad_sym")(options "")(descr ""))
+)
