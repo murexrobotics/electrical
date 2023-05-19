@@ -385,15 +385,19 @@
     ],
     [
       "9671ab96-bd83-43eb-84af-5bfacc0dab1f",
-      "TPS568215RNNR_1"
+      "TI Buck Converter 1"
     ],
     [
       "7ff00463-b304-4939-a6b4-8114d64b272c",
-      "TPS568215RNNR_2"
+      "TI Buck Converter 2"
     ],
     [
       "1deab8fe-9bff-4888-8818-6721b444c21b",
       "Custom Softstarter"
+    ],
+    [
+      "67d6e32f-48e8-4582-a115-95fda843ec4d",
+      "Allegro Current Sensor"
     ]
   ],
   "text_variables": {}
