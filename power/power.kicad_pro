@@ -398,6 +398,10 @@
     [
       "67d6e32f-48e8-4582-a115-95fda843ec4d",
       "Allegro Current Sensor"
+    ],
+    [
+      "10807fc9-e13d-42f8-8510-6de977afc8e3",
+      "TI Current, Power Sensor"
     ]
   ],
   "text_variables": {}
