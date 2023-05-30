@@ -1011,7 +1011,7 @@
     (property "Value" "Conn_01x05" (at 177.8 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal" (at 175.26 109.22 0)
+    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical" (at 175.26 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.26 109.22 0)
