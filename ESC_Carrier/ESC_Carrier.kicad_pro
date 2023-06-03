@@ -382,6 +382,70 @@
     [
       "bda61329-80a1-4402-a8ce-b974364c2747",
       ""
+    ],
+    [
+      "3523bc9d-fea3-48db-85d5-bfaae65837c0",
+      "Efuse 1"
+    ],
+    [
+      "6d0e0674-1c1b-454e-9a43-7fdda0cbc0b2",
+      "SlimStack 1"
+    ],
+    [
+      "b579ddb8-1f75-4ec1-a698-a69bf168de5e",
+      "Efuse 2"
+    ],
+    [
+      "42ebc50b-9e49-41ae-9b90-408175b68d0f",
+      "SlimStack 2"
+    ],
+    [
+      "0bda1f60-1c56-4c34-8b5f-f8d5f24918ec",
+      "Efuse 3"
+    ],
+    [
+      "6fd9b83e-8334-411a-927e-c376c02a0220",
+      "SlimStack 3"
+    ],
+    [
+      "ac6b3e55-159b-49d4-a39f-888a2798ca10",
+      "Efuse 4"
+    ],
+    [
+      "1742204e-8cfc-47e6-8936-3784a193d078",
+      "SlimStack 4"
+    ],
+    [
+      "7225eccd-9f79-43bf-a363-49bfc661603c",
+      "Efuse 5"
+    ],
+    [
+      "41316efd-3a4f-47d5-b3c0-2a3d1df1180b",
+      "SlimStack 5"
+    ],
+    [
+      "f6bdf82a-9910-47db-b1c3-15e7c4955bf9",
+      "Efuse 6"
+    ],
+    [
+      "933b7d0d-6964-4f5a-81b1-c91a308e68e2",
+      "SlimStack 6"
+    ],
+    [
+      "b33d2aaa-4b44-44f6-8c0a-0fd18e6617e3",
+      "Efuse 7"
+    ],
+    [
+      "883d7fee-0e61-4952-8fd8-79aae5db6682",
+      "SlimStack 7"
+    ],
+    [
+      "2b0ebd52-360d-4b5a-bdc6-a39b7f113155",
+      "Efuse 8"
+    ],
+    [
+      "ebf8ebd7-cce6-436e-9e71-44cdb89eaba7",
+      "SlimStack 8"
     ]
   ],
   "text_variables": {}
