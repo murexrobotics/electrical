@@ -170,7 +170,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.09,
+        0.125,
+        0.3,
+        0.5,
+        1.0,
+        2.0,
+        3.0
       ],
       "via_dimensions": [
         {
@@ -626,6 +633,14 @@
       {
         "netclass": "HDMI",
         "pattern": "/CM4_HighSpeed/HDMI1_D2_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/CM4_HighSpeed/USB2_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/CM4_HighSpeed/USB2_N"
       }
     ]
   },
