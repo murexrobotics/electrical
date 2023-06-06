@@ -977,7 +977,7 @@
     (property "Value" "5530843-7" (at 36.83 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "55308437" (at 44.45 116.51 0)
+    (property "Footprint" "5530843-7:55308437" (at 44.45 116.51 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5530843&DocType=Customer+Drawing&DocLang=English" (at 44.45 216.51 0)
