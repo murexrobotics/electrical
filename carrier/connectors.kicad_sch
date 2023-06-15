@@ -1244,7 +1244,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c5894451-fef9-49f7-bed0-3ff7e1d38fb6)
   )
-  (hierarchical_label "VIOUT" (shape output) (at 133.35 55.88 0) (fields_autoplaced)
+  (hierarchical_label "ISENSE" (shape output) (at 133.35 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d679c22e-bdab-44ff-a517-89a363b21eae)
   )
