@@ -82,58 +82,6 @@
         )
       )
     )
-    (symbol "Connector:TestPoint_Probe" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 1.651 5.842 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint_Probe" (at 1.651 4.064 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point (alternative probe-style design)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_Probe_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0.762)
-            (xy 0 0)
-            (xy 0.762 1.27)
-            (xy 1.27 0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 1.397 0.635)
-            (xy 0.635 1.397)
-            (xy 2.413 3.175)
-            (xy 3.175 2.413)
-            (xy 1.397 0.635)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "TestPoint_Probe_1_1"
-        (pin passive line (at 0 0 90) (length 0)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector:TestPoint_Small" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
@@ -708,6 +656,35 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -942,9 +919,6 @@
   (junction (at 133.35 88.9) (diameter 0) (color 0 0 0 0)
     (uuid f1009527-3597-4b1b-8961-cb6ef11809de)
   )
-
-  (no_connect (at 62.23 95.25) (uuid 8dd32a41-d6a0-46fd-8259-ba53ecae7ef8))
-  (no_connect (at 62.23 101.6) (uuid f424dda1-5de1-4eee-acb2-4b4f475e7391))
 
   (wire (pts (xy 133.35 109.22) (xy 133.35 111.76))
     (stroke (width 0) (type default))
@@ -1307,7 +1281,7 @@
   (symbol (lib_id "M.2_Connector:2199119-8") (at 120.65 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 044f4191-09e2-4374-bafa-b164c6de8a6c)
-    (property "Reference" "J11" (at 120.65 46.99 0)
+    (property "Reference" "J18" (at 120.65 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2199119-8" (at 120.65 49.53 0)
@@ -1394,7 +1368,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "J11") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -1403,7 +1377,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 175.26 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a30bd6b-dae8-420d-8ed1-9a503f4ba07a)
-    (property "Reference" "J12" (at 177.8 108.585 0)
+    (property "Reference" "J20" (at 177.8 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05" (at 177.8 111.125 0)
@@ -1423,57 +1397,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "J12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Probe") (at 62.23 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 10cf9ba9-bd17-4e6c-91ea-6ade207e1d03)
-    (property "Reference" "TP10" (at 66.04 99.3775 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CM4 GPIO Placeholder" (at 66.04 101.9175 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 67.31 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 67.31 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0da3570b-4209-48d3-a4cb-897d24a8c5ed))
-    (instances
-      (project "carrier"
-        (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "TP10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Probe") (at 62.23 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2b77c01b-197a-404d-8a7a-0dbe1cd7e9ad)
-    (property "Reference" "TP9" (at 66.04 93.0275 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CM4 GPIO Placeholder" (at 66.04 95.5675 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 67.31 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 67.31 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 46850a26-1cce-45d4-849f-a0f240ab86fb))
-    (instances
-      (project "carrier"
-        (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "TP9") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
@@ -1482,7 +1406,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 165.608 79.248 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dd23ba8-8ad5-4f5a-bf61-27c7ff3183ae)
-    (property "Reference" "J7" (at 165.354 70.612 0)
+    (property "Reference" "J19" (at 165.354 70.612 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "External 5V Input" (at 165.354 73.152 0)
@@ -1499,7 +1423,31 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "J7") (unit 1)
+          (reference "J19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 62.23 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2fc1433f-9639-48e3-93fb-e9211185df9e)
+    (property "Reference" "H5" (at 64.77 94.615 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CM4 GPIO Hirose 2x50" (at 64.77 97.155 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module-No-Outline-No-Pads" (at 62.23 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.23 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "carrier"
+        (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -1508,7 +1456,7 @@
   (symbol (lib_id "power:GND") (at 163.83 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30907c1c-d870-4bde-b351-490e7a0a0fbd)
-    (property "Reference" "#PWR0103" (at 163.83 120.65 0)
+    (property "Reference" "#PWR086" (at 163.83 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 115.57 0)
@@ -1524,7 +1472,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1533,7 +1481,7 @@
   (symbol (lib_id "power:GND") (at 170.688 79.248 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35e6b062-94ef-4b5e-9e53-fb69be304a8a)
-    (property "Reference" "#PWR037" (at 170.688 85.598 0)
+    (property "Reference" "#PWR087" (at 170.688 85.598 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.688 84.836 0)
@@ -1549,7 +1497,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1558,7 +1506,7 @@
   (symbol (lib_id "power:GND") (at 107.95 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39ed7e36-9ce4-4b6b-b65f-aa14d5869203)
-    (property "Reference" "#PWR071" (at 107.95 149.86 0)
+    (property "Reference" "#PWR084" (at 107.95 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 147.955 0)
@@ -1574,7 +1522,31 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR084") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 62.23 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7f900e78-8bf8-4680-9884-b7c601d8643a)
+    (property "Reference" "H6" (at 64.77 100.965 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CM4 High Speed Hirose 2x50" (at 64.77 103.505 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module-No-Outline-No-Pads" (at 62.23 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.23 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "carrier"
+        (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -1583,7 +1555,7 @@
   (symbol (lib_id "Device:D") (at 188.722 74.168 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 900bb480-d7c2-423e-9215-6653f1598722)
-    (property "Reference" "D10" (at 188.722 68.58 0)
+    (property "Reference" "D12" (at 188.722 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Input Diode" (at 188.722 71.12 0)
@@ -1606,7 +1578,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "D10") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1615,7 +1587,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 179.324 77.978 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid b318dcd5-0eaa-4bb0-a37e-8ed76fa2904d)
-    (property "Reference" "C36" (at 182.88 76.454 0)
+    (property "Reference" "C39" (at 182.88 76.454 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Input Filter" (at 182.88 78.994 0)
@@ -1632,7 +1604,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "C36") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -1641,7 +1613,7 @@
   (symbol (lib_id "power:GND") (at 133.35 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4f737cf-3996-4019-9eaf-1dc5425d203e)
-    (property "Reference" "#PWR072" (at 133.35 152.4 0)
+    (property "Reference" "#PWR085" (at 133.35 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 150.495 0)
@@ -1657,7 +1629,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1666,7 +1638,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 175.26 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b794cb62-40d4-44b8-b24d-6de161af3771)
-    (property "Reference" "J10" (at 177.8 128.905 0)
+    (property "Reference" "J21" (at 177.8 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Backup I2C" (at 177.8 131.445 0)
@@ -1683,7 +1655,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "J10") (unit 1)
+          (reference "J21") (unit 1)
         )
       )
     )
@@ -1692,7 +1664,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 179.324 81.788 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7b158d8-8e26-47b5-9921-847c25ff2200)
-    (property "Reference" "TP8" (at 177.292 84.074 0)
+    (property "Reference" "TP12" (at 177.292 84.074 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-CAP" (at 177.292 86.614 0)
@@ -1708,7 +1680,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "TP8") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -1717,7 +1689,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 179.324 74.168 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de4b89c5-59b3-4b42-88de-e4678567e3a0)
-    (property "Reference" "TP7" (at 179.324 69.85 0)
+    (property "Reference" "TP11" (at 179.324 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "+CAP" (at 179.324 72.39 0)
@@ -1733,7 +1705,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "TP7") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )

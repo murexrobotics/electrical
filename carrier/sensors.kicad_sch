@@ -2056,7 +2056,7 @@
   (symbol (lib_id "power:GND") (at 135.128 34.544 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01957192-f1da-4211-9273-5f9035d53df1)
-    (property "Reference" "#PWR062" (at 135.128 40.894 0)
+    (property "Reference" "#PWR056" (at 135.128 40.894 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.128 39.624 0)
@@ -2072,7 +2072,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2139,7 +2139,7 @@
   (symbol (lib_id "power:GND") (at 214.63 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d683bf7-ac08-46a7-aafb-d32f3fc57522)
-    (property "Reference" "#PWR088" (at 214.63 52.07 0)
+    (property "Reference" "#PWR065" (at 214.63 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 50.8 0)
@@ -2155,7 +2155,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2169,7 +2169,7 @@
   (symbol (lib_id "power:GND") (at 66.04 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1275dcc8-dfe3-4511-8e0c-e499c3d0a714)
-    (property "Reference" "#PWR046" (at 66.04 40.005 0)
+    (property "Reference" "#PWR047" (at 66.04 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 38.735 0)
@@ -2185,7 +2185,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2199,7 +2199,7 @@
   (symbol (lib_id "Device:C_Small") (at 57.15 28.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1590db93-c02b-4588-b4e9-a70d816fc187)
-    (property "Reference" "C22" (at 59.69 27.9463 0)
+    (property "Reference" "C20" (at 59.69 27.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 59.69 30.4863 0)
@@ -2219,7 +2219,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C22") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2273,7 +2273,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 243.84 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b47620e-e688-4f5a-b51d-5bb7c9fa7582)
-    (property "Reference" "J13" (at 246.126 86.995 0)
+    (property "Reference" "J14" (at 246.126 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWM" (at 246.126 89.535 0)
@@ -2291,7 +2291,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J13") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -2300,7 +2300,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ba24270-b0ad-4de5-a8b8-05d18b9c4534)
-    (property "Reference" "C25" (at 131.445 95.2563 0)
+    (property "Reference" "C28" (at 131.445 95.2563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 131.445 97.7963 0)
@@ -2317,7 +2317,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C25") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -2326,7 +2326,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.29 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cb10f3e-f040-4a98-badd-c809d7bfb3d0)
-    (property "Reference" "R25" (at 163.83 167.005 0)
+    (property "Reference" "R21" (at 163.83 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 163.83 169.545 0)
@@ -2346,7 +2346,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "R25") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2360,7 +2360,7 @@
   (symbol (lib_id "Device:R_Small") (at 154.305 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f106a62-a0f3-4d38-a9c0-79e2797c2fae)
-    (property "Reference" "R19" (at 156.845 98.425 0)
+    (property "Reference" "R20" (at 156.845 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 156.845 100.965 0)
@@ -2380,7 +2380,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2394,7 +2394,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 109.22 29.845 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f86bdc0-0b3b-4461-a628-93ab8769882b)
-    (property "Reference" "JP1" (at 111.76 29.21 90)
+    (property "Reference" "JP3" (at 111.76 29.21 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TO_GND" (at 111.76 31.75 90)
@@ -2414,7 +2414,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "JP1") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2428,7 +2428,7 @@
   (symbol (lib_id "Device:C_Small") (at 122.555 159.385 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22e6c548-052b-4ea2-b0cd-24357704cb9b)
-    (property "Reference" "C29" (at 125.095 158.7436 0)
+    (property "Reference" "C26" (at 125.095 158.7436 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 125.095 161.2836 0)
@@ -2448,7 +2448,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C29") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2462,7 +2462,7 @@
   (symbol (lib_id "power:GND") (at 219.71 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23ec6865-d1fa-440c-9afb-f783cfea68e3)
-    (property "Reference" "#PWR074" (at 219.71 110.49 0)
+    (property "Reference" "#PWR067" (at 219.71 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 109.22 0)
@@ -2478,7 +2478,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2526,7 +2526,7 @@
   (symbol (lib_id "Device:C_Small") (at 237.49 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f5d2f0f-31d8-4459-8c1b-0f44c8c2189c)
-    (property "Reference" "C41" (at 240.03 42.5513 0)
+    (property "Reference" "C31" (at 240.03 42.5513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 240.03 45.0913 0)
@@ -2543,7 +2543,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C41") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -2552,7 +2552,7 @@
   (symbol (lib_id "power:GND") (at 252.73 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 306ff1ea-9f53-4adb-b24c-acf7c4e118e8)
-    (property "Reference" "#PWR083" (at 252.73 29.21 0)
+    (property "Reference" "#PWR074" (at 252.73 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 27.94 0)
@@ -2568,7 +2568,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2582,7 +2582,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 224.79 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31113fe2-c42f-4e9c-86e9-9fce6918c4cb)
-    (property "Reference" "J14" (at 227.076 100.965 0)
+    (property "Reference" "J12" (at 227.076 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWM" (at 227.076 103.505 0)
@@ -2600,7 +2600,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J14") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -2609,7 +2609,7 @@
   (symbol (lib_id "Device:LED_Small") (at 151.13 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39ea8c41-eeff-4b0a-97d2-c3e8eea0b9fe)
-    (property "Reference" "D11" (at 153.67 174.5615 90)
+    (property "Reference" "D4" (at 153.67 174.5615 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5V" (at 153.67 177.1015 90)
@@ -2629,7 +2629,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "D11") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2638,7 +2638,7 @@
   (symbol (lib_id "Device:C_Small") (at 62.865 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41023b44-f6ce-4fb0-b8a5-872f210b3032)
-    (property "Reference" "C20" (at 54.61 97.79 0)
+    (property "Reference" "C21" (at 54.61 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 54.61 100.33 0)
@@ -2655,7 +2655,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C20") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -2664,7 +2664,7 @@
   (symbol (lib_id "power:GND") (at 238.76 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 412655d6-771c-4b81-8bc5-607065d9b197)
-    (property "Reference" "#PWR075" (at 238.76 110.49 0)
+    (property "Reference" "#PWR072" (at 238.76 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 109.22 0)
@@ -2680,7 +2680,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2694,7 +2694,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.965 159.385 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4192e6b9-edf3-4701-9839-6b0f00d978e4)
-    (property "Reference" "C27" (at 104.14 158.7436 0)
+    (property "Reference" "C24" (at 104.14 158.7436 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 104.14 161.2836 0)
@@ -2714,7 +2714,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C27") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2728,7 +2728,7 @@
   (symbol (lib_id "Device:C_Small") (at 111.76 159.385 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d470684-d748-45cf-adbf-b5fdcb4df550)
-    (property "Reference" "C28" (at 114.935 158.7436 0)
+    (property "Reference" "C25" (at 114.935 158.7436 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 114.935 161.2836 0)
@@ -2748,7 +2748,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C28") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2762,7 +2762,7 @@
   (symbol (lib_id "power:GND") (at 277.114 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5020e8a5-a7a5-408b-b383-5968d5fcbbce)
-    (property "Reference" "#PWR081" (at 277.114 55.88 0)
+    (property "Reference" "#PWR076" (at 277.114 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 277.114 54.61 0)
@@ -2778,7 +2778,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2792,7 +2792,7 @@
   (symbol (lib_id "BMI088:BMI088") (at 95.25 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50f115c6-9dcc-4fb9-be6c-cc33f7b9b219)
-    (property "Reference" "U12" (at 95.25 84.455 0)
+    (property "Reference" "U13" (at 95.25 84.455 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BMI088" (at 95.25 86.995 0)
@@ -2844,7 +2844,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "U12") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -2915,7 +2915,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 224.79 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59efc09f-6f74-401a-a21a-d5f7e17900ab)
-    (property "Reference" "J8" (at 227.076 86.995 0)
+    (property "Reference" "J11" (at 227.076 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWM" (at 227.076 89.535 0)
@@ -2933,7 +2933,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J8") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2942,7 +2942,7 @@
   (symbol (lib_id "power:GND") (at 76.2 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 636f2d5f-cb6a-4359-b4dd-cffb0a9f2dc1)
-    (property "Reference" "#PWR047" (at 76.2 67.945 0)
+    (property "Reference" "#PWR048" (at 76.2 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 66.675 0)
@@ -2958,7 +2958,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -2972,7 +2972,7 @@
   (symbol (lib_id "power:GND") (at 113.03 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 656fb5d8-873e-4e02-87e7-39d0e23e0f26)
-    (property "Reference" "#PWR048" (at 113.03 129.54 0)
+    (property "Reference" "#PWR053" (at 113.03 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 128.27 0)
@@ -2988,7 +2988,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2997,7 +2997,7 @@
   (symbol (lib_id "power:GND") (at 57.15 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 674f4811-1053-4925-a7d9-f01c596d587d)
-    (property "Reference" "#PWR044" (at 57.15 40.005 0)
+    (property "Reference" "#PWR045" (at 57.15 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 38.735 0)
@@ -3013,7 +3013,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3027,7 +3027,7 @@
   (symbol (lib_id "power:GND") (at 164.465 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aad73c4-f502-4f9c-94fb-dbc56a62273d)
-    (property "Reference" "#PWR056" (at 164.465 85.09 0)
+    (property "Reference" "#PWR061" (at 164.465 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 164.465 83.82 0)
@@ -3043,7 +3043,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3057,7 +3057,7 @@
   (symbol (lib_id "power:GND") (at 174.625 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dcac9c4-3469-4148-9f48-50c6dd925f44)
-    (property "Reference" "#PWR057" (at 174.625 140.97 0)
+    (property "Reference" "#PWR063" (at 174.625 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.625 139.7 0)
@@ -3073,7 +3073,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3087,7 +3087,7 @@
   (symbol (lib_id "power:GND") (at 109.22 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7110a9d6-dc29-406c-9da3-7e1061037fdf)
-    (property "Reference" "#PWR051" (at 109.22 40.005 0)
+    (property "Reference" "#PWR052" (at 109.22 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 38.735 0)
@@ -3103,7 +3103,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3117,7 +3117,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 142.748 29.464 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73e3642c-81b1-4d5c-b9a9-af355c2e6de5)
-    (property "Reference" "J6" (at 145.288 30.099 0)
+    (property "Reference" "J8" (at 145.288 30.099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 145.288 32.639 0)
@@ -3136,7 +3136,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J6") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -3145,7 +3145,7 @@
   (symbol (lib_id "Device:C_Small") (at 66.04 28.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76fe8f23-40cb-48a4-8b3a-44483148783c)
-    (property "Reference" "C23" (at 68.58 27.9463 0)
+    (property "Reference" "C22" (at 68.58 27.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 68.58 30.4863 0)
@@ -3165,7 +3165,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C23") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3179,7 +3179,7 @@
   (symbol (lib_id "power:GND") (at 65.405 100.965 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77cf2096-2367-4c55-ab19-56aa921ecd61)
-    (property "Reference" "#PWR043" (at 65.405 107.315 0)
+    (property "Reference" "#PWR046" (at 65.405 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 65.405 106.045 0)
@@ -3195,7 +3195,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3204,7 +3204,7 @@
   (symbol (lib_id "power:GND") (at 219.71 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b9a323c-a849-4fb7-8c01-5a896eb3e946)
-    (property "Reference" "#PWR073" (at 219.71 124.46 0)
+    (property "Reference" "#PWR068" (at 219.71 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 123.19 0)
@@ -3220,7 +3220,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3234,7 +3234,7 @@
   (symbol (lib_id "power:GND") (at 77.47 117.475 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f098f30-4546-42ed-a87f-c5bb432ecb9d)
-    (property "Reference" "#PWR045" (at 77.47 123.825 0)
+    (property "Reference" "#PWR049" (at 77.47 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.47 122.555 0)
@@ -3250,7 +3250,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -3259,7 +3259,7 @@
   (symbol (lib_id "power:GND") (at 212.725 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c5bb879-476e-4544-965e-f378d7429805)
-    (property "Reference" "#PWR060" (at 212.725 76.835 0)
+    (property "Reference" "#PWR064" (at 212.725 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.725 74.93 0)
@@ -3275,7 +3275,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -3310,7 +3310,7 @@
   (symbol (lib_id "power:GND") (at 262.89 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9763483f-c7bd-4bac-982e-87f97fe5296c)
-    (property "Reference" "#PWR082" (at 262.89 55.88 0)
+    (property "Reference" "#PWR075" (at 262.89 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 54.61 0)
@@ -3326,7 +3326,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3340,7 +3340,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99a44022-01c4-4f8f-a847-9516383f6895)
-    (property "Reference" "C24" (at 114.935 95.25 0)
+    (property "Reference" "C27" (at 114.935 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 114.935 97.79 0)
@@ -3357,7 +3357,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C24") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3366,7 +3366,7 @@
   (symbol (lib_id "Device:C_Small") (at 67.945 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a46dbde8-99a7-49ee-8a96-5483a0828489)
-    (property "Reference" "C21" (at 71.12 97.7963 0)
+    (property "Reference" "C23" (at 71.12 97.7963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 71.12 100.3363 0)
@@ -3383,7 +3383,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C21") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3392,7 +3392,7 @@
   (symbol (lib_id "power:GND") (at 237.49 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa7cee6b-81b9-494f-b371-7186a66e4fc2)
-    (property "Reference" "#PWR089" (at 237.49 52.07 0)
+    (property "Reference" "#PWR070" (at 237.49 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 50.8 0)
@@ -3408,7 +3408,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3422,7 +3422,7 @@
   (symbol (lib_id "power:GND") (at 125.73 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2549f5c-ce9f-4f3a-8801-f8a1b1517eef)
-    (property "Reference" "#PWR052" (at 125.73 104.775 0)
+    (property "Reference" "#PWR055" (at 125.73 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 103.505 0)
@@ -3438,7 +3438,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -3447,7 +3447,7 @@
   (symbol (lib_id "Device:C_Small") (at 214.63 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4dae738-7e74-4a66-871b-0e17edab2c5e)
-    (property "Reference" "C40" (at 212.09 42.5513 0)
+    (property "Reference" "C30" (at 212.09 42.5513 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 212.09 45.0913 0)
@@ -3464,7 +3464,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C40") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3473,7 +3473,7 @@
   (symbol (lib_id "power:GND") (at 154.305 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5a05882-eeef-496c-a787-04afe0790a82)
-    (property "Reference" "#PWR055" (at 154.305 133.35 0)
+    (property "Reference" "#PWR059" (at 154.305 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.305 132.08 0)
@@ -3489,7 +3489,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3503,7 +3503,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 224.79 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b639bb77-b426-4a77-9cdb-564c2dd59fb4)
-    (property "Reference" "J16" (at 227.076 114.935 0)
+    (property "Reference" "J13" (at 227.076 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWM" (at 227.076 117.475 0)
@@ -3521,7 +3521,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J16") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -3530,7 +3530,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 22.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6e3af11-a617-44a5-b782-f41536a8cbd0)
-    (property "Reference" "C39" (at 257.8163 17.78 90)
+    (property "Reference" "C32" (at 257.8163 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 257.8163 20.32 90)
@@ -3547,7 +3547,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C39") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -3556,7 +3556,7 @@
   (symbol (lib_id "power:GND") (at 219.71 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb5fea64-c11b-4c80-8961-55bd78a645c3)
-    (property "Reference" "#PWR077" (at 219.71 96.52 0)
+    (property "Reference" "#PWR066" (at 219.71 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 95.25 0)
@@ -3572,7 +3572,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3586,7 +3586,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 246.38 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be064051-6efb-400f-a7ab-d4236dc3568b)
-    (property "Reference" "J21" (at 246.126 30.988 0)
+    (property "Reference" "J17" (at 246.126 30.988 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AIN" (at 246.126 33.528 0)
@@ -3605,7 +3605,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J21") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -3614,7 +3614,7 @@
   (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 226.06 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfa76cdd-1833-41b5-ad64-ef0396fc5b8d)
-    (property "Reference" "U17" (at 226.06 34.29 0)
+    (property "Reference" "U15" (at 226.06 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP2112K-3.3" (at 226.06 36.83 0)
@@ -3634,7 +3634,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "U17") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -3643,7 +3643,7 @@
   (symbol (lib_id "power:GND") (at 238.76 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfd18b71-b99b-4abb-ac74-cef5b4cbf33a)
-    (property "Reference" "#PWR076" (at 238.76 96.52 0)
+    (property "Reference" "#PWR071" (at 238.76 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 95.25 0)
@@ -3659,7 +3659,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3673,7 +3673,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 243.84 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2f1abb9-9c8a-48e1-b434-bb647fb77457)
-    (property "Reference" "J17" (at 246.126 114.935 0)
+    (property "Reference" "J16" (at 246.126 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWM" (at 246.126 117.475 0)
@@ -3691,7 +3691,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J17") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -3700,7 +3700,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 203.2 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c798c48c-047b-45bf-99dd-190051ca3fbc)
-    (property "Reference" "J18" (at 205.74 114.935 0)
+    (property "Reference" "J10" (at 205.74 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x10" (at 205.74 117.475 0)
@@ -3725,7 +3725,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "J18") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -3828,7 +3828,7 @@
   (symbol (lib_id "power:GND") (at 174.625 31.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cedca7e9-238d-47cb-80cb-8564eb59d63d)
-    (property "Reference" "#PWR061" (at 174.625 37.465 0)
+    (property "Reference" "#PWR062" (at 174.625 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.625 36.195 0)
@@ -3844,7 +3844,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3858,7 +3858,7 @@
   (symbol (lib_id "Device:C_Small") (at 169.545 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00bdc2f-9837-4a13-b09c-58252ed11d5a)
-    (property "Reference" "C26" (at 169.5513 73.66 90)
+    (property "Reference" "C29" (at 169.5513 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 169.5513 76.2 90)
@@ -3878,7 +3878,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "C26") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3892,7 +3892,7 @@
   (symbol (lib_id "MMC5603NJ:MMC5603NJ") (at 83.185 159.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1014aae-251b-40be-8069-9982f5a71986)
-    (property "Reference" "U13" (at 83.185 147.955 0)
+    (property "Reference" "U12" (at 83.185 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MMC5603NJ" (at 83.185 150.495 0)
@@ -3926,7 +3926,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "U13") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -3935,7 +3935,7 @@
   (symbol (lib_id "power:GND") (at 226.06 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1783bef-7e71-49da-958c-a358d8d72b51)
-    (property "Reference" "#PWR087" (at 226.06 57.15 0)
+    (property "Reference" "#PWR069" (at 226.06 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 55.88 0)
@@ -3951,7 +3951,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3965,7 +3965,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3b1de35-c8d6-44e4-82d1-8a4630fece11)
-    (property "Reference" "R23" (at 153.67 167.005 0)
+    (property "Reference" "R19" (at 153.67 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 153.67 169.545 0)
@@ -3985,7 +3985,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "R23") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -3999,7 +3999,7 @@
   (symbol (lib_id "Device:LED_Small") (at 161.29 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da3896cc-c492-4b5f-8921-7751df399930)
-    (property "Reference" "D13" (at 163.83 174.5615 90)
+    (property "Reference" "D5" (at 163.83 174.5615 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3.3V" (at 163.83 177.1015 90)
@@ -4019,7 +4019,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "D13") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -4028,7 +4028,7 @@
   (symbol (lib_id "power:GND") (at 238.76 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc80e3c6-425d-4421-9dc3-5a17d22aeb6b)
-    (property "Reference" "#PWR059" (at 238.76 124.46 0)
+    (property "Reference" "#PWR073" (at 238.76 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 123.19 0)
@@ -4044,7 +4044,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -4083,7 +4083,7 @@
   (symbol (lib_id "power:GND") (at 100.965 165.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dee73fd2-e8fe-42a1-b72a-7c2fc4cdd30c)
-    (property "Reference" "#PWR058" (at 100.965 172.085 0)
+    (property "Reference" "#PWR050" (at 100.965 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.965 170.815 0)
@@ -4099,7 +4099,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -4113,7 +4113,7 @@
   (symbol (lib_id "power:GND") (at 116.84 100.965 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1c4a09e-0dfe-44d2-97bf-bb26c8d0d7c1)
-    (property "Reference" "#PWR049" (at 116.84 107.315 0)
+    (property "Reference" "#PWR054" (at 116.84 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 102.87 0)
@@ -4129,7 +4129,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -4172,7 +4172,7 @@
   (symbol (lib_id "power:GND") (at 154.305 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e38dabb7-957f-4657-b303-554f20d09874)
-    (property "Reference" "#PWR054" (at 154.305 107.95 0)
+    (property "Reference" "#PWR058" (at 154.305 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.305 106.68 0)
@@ -4188,7 +4188,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -4227,7 +4227,7 @@
   (symbol (lib_id "power:GND") (at 156.21 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9160a24-3d00-41b9-961d-20afcbfc3b3a)
-    (property "Reference" "#PWR086" (at 156.21 186.69 0)
+    (property "Reference" "#PWR060" (at 156.21 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 185.42 0)
@@ -4243,7 +4243,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -4257,7 +4257,7 @@
   (symbol (lib_id "power:GND") (at 149.225 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9eb0164-a2b4-4764-8c9f-88b459b3ab7c)
-    (property "Reference" "#PWR053" (at 149.225 100.33 0)
+    (property "Reference" "#PWR057" (at 149.225 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.225 99.06 0)
@@ -4273,7 +4273,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -4287,7 +4287,7 @@
   (symbol (lib_id "Device:R_Small") (at 278.13 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea885225-7ec9-41e9-9f6e-98fc1495b8a7)
-    (property "Reference" "R21" (at 279.908 31.115 0)
+    (property "Reference" "R23" (at 279.908 31.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 279.908 33.655 0)
@@ -4304,7 +4304,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "R21") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4363,7 +4363,7 @@
   (symbol (lib_id "power:+3.3V") (at 106.68 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd3036cd-91c6-477d-bee1-5438dfadc6fb)
-    (property "Reference" "#PWR050" (at 106.68 50.165 0)
+    (property "Reference" "#PWR051" (at 106.68 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3v" (at 109.22 45.72 0)
@@ -4379,7 +4379,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/982f4b68-a38c-4772-af6b-ffe8049f8a46"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "rov_pcb_v2"

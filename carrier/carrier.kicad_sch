@@ -496,7 +496,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 89.408 98.298 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f2d7316-9118-4044-bff0-bdf16bce76a0)
-    (property "Reference" "JP7" (at 91.44 97.663 90)
+    (property "Reference" "JP2" (at 91.44 97.663 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SDA" (at 91.44 100.203 90)
@@ -513,7 +513,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "JP7") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -522,7 +522,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 77.724 98.298 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63dfb77e-23b5-40f6-9831-b2b992c5b53b)
-    (property "Reference" "JP4" (at 80.01 97.663 90)
+    (property "Reference" "JP1" (at 80.01 97.663 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SCL" (at 80.01 100.203 90)
@@ -539,7 +539,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "JP4") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )

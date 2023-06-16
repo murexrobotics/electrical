@@ -2329,7 +2329,7 @@
   )
 
   (symbol (lib_id "CM4IO:ComputeModule4-CM4") (at -64.77 88.9 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid cd4e5fa5-b626-4964-9ca2-188d721ad5dd)
     (property "Reference" "Module1" (at 74.93 16.637 0)
       (effects (font (size 1.27 1.27)))

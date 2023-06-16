@@ -313,7 +313,7 @@
           (reference "D13") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D6") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
       (project "keyboard"
@@ -376,7 +376,7 @@
           (reference "SW1") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "keyboard"
@@ -390,7 +390,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 102.87 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31151fa4-b9c6-4beb-8c26-42a1a6657302)
-    (property "Reference" "JP6" (at 102.87 107.95 0)
+    (property "Reference" "JP5" (at 102.87 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 102.87 110.49 0)
@@ -407,7 +407,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP6") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -465,7 +465,7 @@
           (reference "SW2") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW2") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
       (project "keyboard"
@@ -528,7 +528,7 @@
           (reference "D14") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D7") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
       (project "keyboard"
@@ -605,7 +605,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 102.87 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a048097-1519-43d2-a374-573c01a14a3f)
-    (property "Reference" "JP5" (at 102.87 82.55 0)
+    (property "Reference" "JP4" (at 102.87 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 102.87 85.09 0)
@@ -622,7 +622,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP5") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -680,7 +680,7 @@
           (reference "D10") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D3") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
       (project "keyboard"
@@ -694,7 +694,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 124.46 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b9294b3-ff09-4a57-a44f-0dae444ff4f0)
-    (property "Reference" "JP2" (at 124.46 71.12 0)
+    (property "Reference" "JP6" (at 124.46 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 124.46 73.66 0)
@@ -711,7 +711,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP2") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -720,7 +720,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 149.86 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c60ebdcf-499c-4a5e-a378-36c2632b8b49)
-    (property "Reference" "JP3" (at 149.86 71.12 0)
+    (property "Reference" "JP7" (at 149.86 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 149.86 73.66 0)
@@ -737,7 +737,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP3") (unit 1)
+          (reference "JP7") (unit 1)
         )
       )
     )
@@ -795,7 +795,7 @@
           (reference "D11") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D4") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
       (project "keyboard"

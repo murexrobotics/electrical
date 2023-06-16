@@ -4315,7 +4315,7 @@
   (symbol (lib_id "power:GND") (at 99.06 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b4fbcd7-72c4-472d-bfac-1f9092eb7104)
-    (property "Reference" "#PWR035" (at 99.06 196.215 0)
+    (property "Reference" "#PWR036" (at 99.06 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 194.2592 0)
@@ -4331,7 +4331,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4345,7 +4345,7 @@
   (symbol (lib_id "power:GND") (at 199.39 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1551c870-0744-4931-99b7-dd87e8f237a2)
-    (property "Reference" "#PWR039" (at 199.39 80.645 0)
+    (property "Reference" "#PWR041" (at 199.39 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.517 78.6892 0)
@@ -4361,7 +4361,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4403,7 +4403,7 @@
   (symbol (lib_id "power:GND") (at 220.98 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a04929f-cb1e-47b7-931b-14065608122b)
-    (property "Reference" "#PWR041" (at 220.98 51.435 0)
+    (property "Reference" "#PWR043" (at 220.98 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.107 49.4792 0)
@@ -4419,7 +4419,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4433,7 +4433,7 @@
   (symbol (lib_id "power:GND") (at 143.51 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cd11bb6-136f-4dbc-8966-3460df9568e7)
-    (property "Reference" "#PWR078" (at 143.51 113.03 0)
+    (property "Reference" "#PWR037" (at 143.51 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.637 111.0742 0)
@@ -4449,7 +4449,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4463,7 +4463,7 @@
   (symbol (lib_id "power:GND") (at 161.29 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24b3eefb-cd40-435a-afa1-11bddd25d32a)
-    (property "Reference" "#PWR036" (at 161.29 189.23 0)
+    (property "Reference" "#PWR038" (at 161.29 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.417 187.2742 0)
@@ -4479,7 +4479,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4598,7 +4598,7 @@
   (symbol (lib_id "power:GND") (at 238.76 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dd4b0d9-c10a-4915-b1a7-487a105374df)
-    (property "Reference" "#PWR042" (at 238.76 95.885 0)
+    (property "Reference" "#PWR044" (at 238.76 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.887 93.9292 0)
@@ -4614,7 +4614,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4628,7 +4628,7 @@
   (symbol (lib_id "power:GND") (at 199.39 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 425c5ac2-1934-42d3-a25d-e695d04c1f86)
-    (property "Reference" "#PWR038" (at 199.39 48.895 0)
+    (property "Reference" "#PWR040" (at 199.39 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.517 46.9392 0)
@@ -4644,7 +4644,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4658,7 +4658,7 @@
   (symbol (lib_id "power:GND") (at 35.56 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47e6ad41-63f4-495a-ae38-f9cf620d0682)
-    (property "Reference" "#PWR034" (at 35.56 196.215 0)
+    (property "Reference" "#PWR035" (at 35.56 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.687 194.2592 0)
@@ -4674,7 +4674,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4688,7 +4688,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x15") (at 148.59 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 498bdf57-4ef8-4b50-b9ee-1895b9c4fb62)
-    (property "Reference" "J19" (at 135.89 67.31 0)
+    (property "Reference" "J6" (at 135.89 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Left GPIO" (at 140.97 67.31 0)
@@ -4718,7 +4718,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "J19") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -4769,7 +4769,7 @@
   (symbol (lib_id "power:GND") (at 163.83 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67cac3b8-7e65-481d-a6af-63b7bfd74cec)
-    (property "Reference" "#PWR079" (at 163.83 113.03 0)
+    (property "Reference" "#PWR039" (at 163.83 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.957 111.0742 0)
@@ -4785,7 +4785,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4799,7 +4799,7 @@
   (symbol (lib_id "power:GND") (at 30.226 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68e16b42-505c-4995-bbb0-47e75dff3b10)
-    (property "Reference" "#PWR033" (at 30.226 50.8 0)
+    (property "Reference" "#PWR034" (at 30.226 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.353 48.8442 0)
@@ -4815,7 +4815,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "CM4IOv5"
@@ -4827,7 +4827,7 @@
   )
 
   (symbol (lib_id "CM4IO:ComputeModule4-CM4") (at 69.85 116.205 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 78b80b8a-be0b-47a7-aa97-23805e7e3cba)
     (property "Reference" "Module1" (at 67.31 54.61 0)
       (effects (font (size 1.27 1.27)))
@@ -5361,7 +5361,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x15") (at 168.91 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d90096eb-0ac9-4bf5-aa9f-a72c621ecdf4)
-    (property "Reference" "J20" (at 156.21 67.31 0)
+    (property "Reference" "J7" (at 156.21 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Right GPIO" (at 161.29 67.31 0)
@@ -5391,7 +5391,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "J20") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -5400,7 +5400,7 @@
   (symbol (lib_id "power:GND") (at 201.295 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcca7ce1-795d-4d4a-b869-68dcc2c355a2)
-    (property "Reference" "#PWR040" (at 201.295 139.7 0)
+    (property "Reference" "#PWR042" (at 201.295 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.422 137.7442 0)
@@ -5416,7 +5416,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "CM4IOv5"
