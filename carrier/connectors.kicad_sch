@@ -1508,7 +1508,7 @@
   (symbol (lib_id "power:GND") (at 163.83 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30907c1c-d870-4bde-b351-490e7a0a0fbd)
-    (property "Reference" "#PWR064" (at 163.83 120.65 0)
+    (property "Reference" "#PWR0103" (at 163.83 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 115.57 0)
@@ -1524,7 +1524,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/af6c5568-d2e2-4612-83c1-6e53a7c32d99"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
