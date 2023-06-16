@@ -3740,7 +3740,7 @@
     (property "Value" "1N4148" (at 99.06 57.785 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 99.06 51.435 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 99.06 51.435 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 99.06 51.435 90)

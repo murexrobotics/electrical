@@ -313,7 +313,7 @@
           (reference "D13") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D22") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "keyboard"
@@ -376,7 +376,7 @@
           (reference "SW1") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW10") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "keyboard"
@@ -465,7 +465,7 @@
           (reference "SW2") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW11") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "keyboard"
@@ -528,7 +528,7 @@
           (reference "D14") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D23") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "keyboard"
@@ -591,7 +591,7 @@
           (reference "SW4") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW13") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
       (project "keyboard"
@@ -680,7 +680,7 @@
           (reference "D10") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D19") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
       (project "keyboard"
@@ -795,7 +795,7 @@
           (reference "D11") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D20") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "keyboard"
@@ -858,7 +858,7 @@
           (reference "SW5") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW14") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
       (project "keyboard"
