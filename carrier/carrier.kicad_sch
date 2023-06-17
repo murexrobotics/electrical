@@ -100,7 +100,7 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole" (in_bom yes) (on_board yes)
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
