@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carrier Board")
+    (date "2023-06-18")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "//DO IT RIGHT,  DO IT MUREX")
+    (comment 2 "// ATTEMPT THE IMPOSSIBLE")
+    (comment 3 "CM4-based ROV (robotics) control board.")
+    (comment 4 "The MUREX Carrier Board is the world's first open-source ")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint_Small" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 3.81 0)
@@ -634,7 +645,7 @@
           (reference "D8") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "D8") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -667,7 +678,7 @@
           (reference "TP24") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "TP35") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -695,7 +706,7 @@
           (reference "#PWR065") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -728,7 +739,7 @@
           (reference "#PWR060") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -765,7 +776,7 @@
           (reference "C34") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C34") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -802,7 +813,7 @@
           (reference "C33") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C33") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -841,7 +852,7 @@
           (reference "D4") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -880,7 +891,7 @@
           (reference "D7") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "D7") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -919,7 +930,7 @@
           (reference "D5") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -952,7 +963,7 @@
           (reference "#PWR061") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -989,7 +1000,7 @@
           (reference "C35") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C35") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1022,7 +1033,7 @@
           (reference "#PWR063") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1055,7 +1066,7 @@
           (reference "TP24") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "TP36") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -1089,7 +1100,7 @@
           (reference "D6") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "D6") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1126,7 +1137,7 @@
           (reference "C32") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C32") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1159,7 +1170,7 @@
           (reference "#PWR066") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1192,7 +1203,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1232,7 +1243,7 @@
           (reference "U15") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "U15") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1269,7 +1280,7 @@
           (reference "R20") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "R20") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1306,7 +1317,7 @@
           (reference "C31") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C31") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1345,7 +1356,7 @@
           (reference "D9") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "D9") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1382,7 +1393,7 @@
           (reference "C30") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C30") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1415,7 +1426,7 @@
           (reference "#PWR064") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
       (project "rov_pcb_v2"

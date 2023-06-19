@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carrier Board")
+    (date "2023-06-18")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "//DO IT RIGHT,  DO IT MUREX")
+    (comment 2 "// ATTEMPT THE IMPOSSIBLE")
+    (comment 3 "CM4-based ROV (robotics) control board.")
+    (comment 4 "The MUREX Carrier Board is the world's first open-source ")
+  )
+
   (lib_symbols
     (symbol "Device:D_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at -1.27 2.032 0)
@@ -16,6 +27,12 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Device" "D" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "diode" (at 0 0 0)
@@ -238,8 +255,9 @@
     (uuid b1a158eb-42fe-469b-830f-c651f537b630)
   )
 
-  (text "Leak Detection Matrix" (exclude_from_sim no)
- (at 77.47 134.62 0)
+  (text "Leak Detection Matrix (if signal amp. required, connect to ADC)" (exclude_from_sim no)
+
+    (at 77.47 134.62 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6982567e-95b0-480d-bce8-ef243aa2a634)
   )
@@ -270,7 +288,7 @@
     (property "Value" "1N4148" (at 135.89 85.598 90)
       (effects (font (face "Fira Code") (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 134.62 92.71 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 134.62 92.71 0)
       (effects (font (face "Fira Code") (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 92.71 0)
@@ -300,6 +318,12 @@
     (property "LCSC" "" (at 133.35 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 133.35 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 133.35 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 126b55b5-0736-4304-9ba7-d658d866ccb2))
     (pin "2" (uuid 01d9cf1f-4e62-4a79-aee7-4ad80d4ffecc))
     (instances
@@ -313,7 +337,7 @@
           (reference "D13") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D22") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
       (project "keyboard"
@@ -376,7 +400,7 @@
           (reference "SW1") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW10") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "keyboard"
@@ -390,7 +414,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 102.87 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31151fa4-b9c6-4beb-8c26-42a1a6657302)
-    (property "Reference" "JP6" (at 102.87 107.95 0)
+    (property "Reference" "JP5" (at 102.87 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 102.87 110.49 0)
@@ -407,7 +431,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP6") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -465,7 +489,7 @@
           (reference "SW2") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW11") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
       (project "keyboard"
@@ -485,7 +509,7 @@
     (property "Value" "1N4148" (at 135.89 110.998 90)
       (effects (font (face "Fira Code") (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 134.62 118.11 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 134.62 118.11 0)
       (effects (font (face "Fira Code") (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 118.11 0)
@@ -515,6 +539,12 @@
     (property "LCSC" "" (at 133.35 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 133.35 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 133.35 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 13a128fa-d0d3-44f0-a555-7cbf13a19121))
     (pin "2" (uuid 5815ed56-7d34-4e69-ad48-99427ac90628))
     (instances
@@ -528,7 +558,7 @@
           (reference "D14") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D23") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
       (project "keyboard"
@@ -591,7 +621,7 @@
           (reference "SW4") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW13") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
       (project "keyboard"
@@ -605,7 +635,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 102.87 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a048097-1519-43d2-a374-573c01a14a3f)
-    (property "Reference" "JP5" (at 102.87 82.55 0)
+    (property "Reference" "JP4" (at 102.87 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 102.87 85.09 0)
@@ -622,7 +652,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP5") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -637,7 +667,7 @@
     (property "Value" "1N4148" (at 110.49 85.598 90)
       (effects (font (face "Fira Code") (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 109.22 92.71 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 109.22 92.71 0)
       (effects (font (face "Fira Code") (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.22 92.71 0)
@@ -667,6 +697,12 @@
     (property "LCSC" "" (at 107.95 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 107.95 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 107.95 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e2890394-1c42-413a-8594-45b059b711c7))
     (pin "2" (uuid 15be1c4c-be4e-47a5-95ad-844dae164daf))
     (instances
@@ -680,7 +716,7 @@
           (reference "D10") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D19") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
       (project "keyboard"
@@ -694,7 +730,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 124.46 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b9294b3-ff09-4a57-a44f-0dae444ff4f0)
-    (property "Reference" "JP2" (at 124.46 71.12 0)
+    (property "Reference" "JP6" (at 124.46 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 124.46 73.66 0)
@@ -711,7 +747,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP2") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -720,7 +756,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 149.86 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c60ebdcf-499c-4a5e-a378-36c2632b8b49)
-    (property "Reference" "JP3" (at 149.86 71.12 0)
+    (property "Reference" "JP7" (at 149.86 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper" (at 149.86 73.66 0)
@@ -737,7 +773,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "JP3") (unit 1)
+          (reference "JP7") (unit 1)
         )
       )
     )
@@ -752,7 +788,7 @@
     (property "Value" "1N4148" (at 110.49 110.998 90)
       (effects (font (face "Fira Code") (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 109.22 118.11 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 109.22 118.11 0)
       (effects (font (face "Fira Code") (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.22 118.11 0)
@@ -782,6 +818,12 @@
     (property "LCSC" "" (at 107.95 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 107.95 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 107.95 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 35284880-2f62-437e-9593-32044d374e92))
     (pin "2" (uuid e7dab2a4-b947-4e44-9107-1e39fcdf2437))
     (instances
@@ -795,7 +837,7 @@
           (reference "D11") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "D20") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
       (project "keyboard"
@@ -858,7 +900,7 @@
           (reference "SW5") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/ddaf85b2-573f-4b38-8f89-d403b0d00540"
-          (reference "SW14") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
       (project "keyboard"

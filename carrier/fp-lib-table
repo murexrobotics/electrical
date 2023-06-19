@@ -5,4 +5,6 @@
   (lib (name "CM4IO")(type "KiCad")(uri "${MUREX_2024}/CM4IO-KiCAD/CM4IO.pretty")(options "")(descr ""))
   (lib (name "M.2")(type "KiCad")(uri "${MUREX_2024}/NGFF.pretty")(options "")(descr ""))
   (lib (name "M.2_Connector")(type "KiCad")(uri "${MUREX_2024}/2199119-8/TE_2199119-8.pretty")(options "")(descr ""))
+  (lib (name "AP2112K-3.3TRG1")(type "KiCad")(uri "${MUREX_2024}/AP2112K-3/SOT-25-5.pretty")(options "")(descr ""))
+  (lib (name "JLCPCB Logo")(type "KiCad")(uri "${MUREX_2024}/JLCPCB_Logo.pretty")(options "")(descr ""))
 )
