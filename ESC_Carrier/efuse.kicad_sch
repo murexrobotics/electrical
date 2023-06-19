@@ -809,7 +809,7 @@
     (property "Reference" "C?" (at 15.24 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120pF" (at 13.97 48.26 0)
+    (property "Value" "1nF" (at 15.24 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 21.59 45.72 0)
