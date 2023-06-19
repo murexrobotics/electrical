@@ -5,8 +5,14 @@
   (paper "A4")
 
   (title_block
-    (title "CM4 GPIO")
-    (company "MUREX")
+    (title "Carrier Board")
+    (date "2023-06-18")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "//DO IT RIGHT,  DO IT MUREX")
+    (comment 2 "// ATTEMPT THE IMPOSSIBLE")
+    (comment 3 "CM4-based ROV (robotics) control board.")
+    (comment 4 "The MUREX Carrier Board is the world's first open-source ")
   )
 
   (lib_symbols

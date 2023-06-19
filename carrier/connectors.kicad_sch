@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carrier Board")
+    (date "2023-06-18")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "//DO IT RIGHT,  DO IT MUREX")
+    (comment 2 "// ATTEMPT THE IMPOSSIBLE")
+    (comment 3 "CM4-based ROV (robotics) control board.")
+    (comment 4 "The MUREX Carrier Board is the world's first open-source ")
+  )
+
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -1231,6 +1242,27 @@
   (wire (pts (xy 107.95 78.74) (xy 107.95 81.28))
     (stroke (width 0) (type default))
     (uuid fcf489fa-ce3a-4e42-b469-4111d21f5a4c)
+  )
+
+  (rectangle (start 96.52 44.45) (end 146.05 154.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 063504ba-9792-44fa-b190-75a3bd2ec6be)
+  )
+  (rectangle (start 153.67 97.79) (end 196.85 138.43)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 13f5128d-dbd9-46e8-a265-9003c95eebff)
+  )
+  (rectangle (start 58.42 91.44) (end 93.98 106.68)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 153454a9-047b-4e64-939b-0f5456607ac9)
+  )
+  (rectangle (start 153.67 64.77) (end 200.66 90.17)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 16db75ac-1c18-4f5b-b20e-d2076650c310)
   )
 
   (hierarchical_label "RX" (shape bidirectional) (at 102.87 54.61 180) (fields_autoplaced)

@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carrier Board")
+    (date "2023-06-18")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "//DO IT RIGHT,  DO IT MUREX")
+    (comment 2 "// ATTEMPT THE IMPOSSIBLE")
+    (comment 3 "CM4-based ROV (robotics) control board.")
+    (comment 4 "The MUREX Carrier Board is the world's first open-source ")
+  )
+
   (lib_symbols
     (symbol "Device:D_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at -1.27 2.032 0)
@@ -244,8 +255,9 @@
     (uuid b1a158eb-42fe-469b-830f-c651f537b630)
   )
 
-  (text "Leak Detection Matrix" (exclude_from_sim no)
- (at 77.47 134.62 0)
+  (text "Leak Detection Matrix (if signal amp. required, connect to ADC)" (exclude_from_sim no)
+
+    (at 77.47 134.62 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6982567e-95b0-480d-bce8-ef243aa2a634)
   )

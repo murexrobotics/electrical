@@ -6,9 +6,13 @@
 
   (title_block
     (title "Carrier Board")
-    (date "2023-05-06")
-    (rev "V0.1")
-    (company "MUREX")
+    (date "2023-06-18")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "//DO IT RIGHT,  DO IT MUREX")
+    (comment 2 "// ATTEMPT THE IMPOSSIBLE")
+    (comment 3 "CM4-based ROV (robotics) control board.")
+    (comment 4 "The MUREX Carrier Board is the world's first open-source ")
   )
 
   (lib_symbols
