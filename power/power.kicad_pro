@@ -368,7 +368,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -390,10 +390,6 @@
     [
       "7ff00463-b304-4939-a6b4-8114d64b272c",
       "TI Buck Converter 2"
-    ],
-    [
-      "1deab8fe-9bff-4888-8818-6721b444c21b",
-      "Custom Softstarter"
     ],
     [
       "67d6e32f-48e8-4582-a115-95fda843ec4d",

@@ -525,6 +525,8 @@
     (uuid f2a1561c-bb03-4b2a-b5e9-e8df9acd1f80)
   )
 
+  (no_connect (at 145.796 101.219) (uuid 24e0c22b-8119-42c0-a3c8-c6e4ddc6e923))
+
   (wire (pts (xy 164.592 93.599) (xy 166.751 93.599))
     (stroke (width 0) (type default))
     (uuid 14eb6625-db0c-4125-b965-0e81f4ba5230)
