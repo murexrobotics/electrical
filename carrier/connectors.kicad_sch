@@ -1265,11 +1265,11 @@
     (uuid 16db75ac-1c18-4f5b-b20e-d2076650c310)
   )
 
-  (hierarchical_label "RX" (shape bidirectional) (at 102.87 54.61 180) (fields_autoplaced)
+  (hierarchical_label "SDA" (shape bidirectional) (at 102.87 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 19407a6b-edf0-4de3-9ca8-1fcf769ea534)
   )
-  (hierarchical_label "TX" (shape bidirectional) (at 102.87 59.69 180) (fields_autoplaced)
+  (hierarchical_label "SCL" (shape bidirectional) (at 102.87 59.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 233f4ea9-7a7a-449f-b833-373b32a4959f)
   )
