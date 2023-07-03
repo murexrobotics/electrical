@@ -2271,7 +2271,7 @@
     (property "Value" "Conn_01x02" (at 32.385 99.187 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Power:CONN3_2606-1102&slash_020-000_WAG" (at 30.353 96.012 0)
+    (property "Footprint" "Power:MOLEX_1720420202" (at 30.353 96.012 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.353 96.012 0)

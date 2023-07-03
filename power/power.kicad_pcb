@@ -653,7 +653,7 @@
 
   (footprint "Power:MOLEX_1720420202" (layer "F.Cu")
     (tstamp 2610dc0e-5ba5-4ae6-a3d0-b12524be2f4a)
-    (at 125.984 74.8284 -90)
+    (at 126.3248 74.992 -90)
     (property "Sheetfile" "power.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
