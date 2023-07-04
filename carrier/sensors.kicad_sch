@@ -7,7 +7,7 @@
   (title_block
     (title "Carrier Board")
     (date "2023-06-18")
-    (rev "V1.0")
+    (rev "V1.1")
     (company "MUREX Robotics [Byran Huang]")
     (comment 1 "//DO IT RIGHT,  DO IT MUREX")
     (comment 2 "// ATTEMPT THE IMPOSSIBLE")
