@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.39999999999999997
         }
       },
       "diff_pair_dimensions": [
@@ -543,7 +543,7 @@
     ],
     [
       "3523bc9d-fea3-48db-85d5-bfaae65837c0",
-      "Efuse 1"
+      "Fuse 1"
     ],
     [
       "c9324708-9ed2-42eb-bd55-ae61a8c8bf7c",
@@ -551,7 +551,7 @@
     ],
     [
       "b579ddb8-1f75-4ec1-a698-a69bf168de5e",
-      "Efuse 2"
+      "Fuse 2"
     ],
     [
       "cb34a3df-6333-4cdd-bb45-d31e1943ef9a",
@@ -559,7 +559,7 @@
     ],
     [
       "0bda1f60-1c56-4c34-8b5f-f8d5f24918ec",
-      "Efuse 3"
+      "Fuse 3"
     ],
     [
       "93c47994-eaf0-4c44-8f7a-acae509944d3",
@@ -567,7 +567,7 @@
     ],
     [
       "ac6b3e55-159b-49d4-a39f-888a2798ca10",
-      "Efuse 4"
+      "Fuse 4"
     ],
     [
       "a10beb29-c95b-4710-a257-32c15c3252fb",
@@ -575,7 +575,7 @@
     ],
     [
       "7225eccd-9f79-43bf-a363-49bfc661603c",
-      "Efuse 5"
+      "Fuse 5"
     ],
     [
       "6b1fb621-e20d-4dbb-a8d4-42f854befb2a",
@@ -583,7 +583,7 @@
     ],
     [
       "f6bdf82a-9910-47db-b1c3-15e7c4955bf9",
-      "Efuse 6"
+      "Fuse 6"
     ],
     [
       "bca554dd-8364-4d67-b6eb-1f8c87b66186",
@@ -591,7 +591,7 @@
     ],
     [
       "b33d2aaa-4b44-44f6-8c0a-0fd18e6617e3",
-      "Efuse 7"
+      "Fuse 7"
     ],
     [
       "4adbae65-fa07-452a-a8e0-cdd4d5c2e1f2",
@@ -599,7 +599,7 @@
     ],
     [
       "2b0ebd52-360d-4b5a-bdc6-a39b7f113155",
-      "Efuse 8"
+      "Fuse 8"
     ],
     [
       "594617f6-0003-4a10-998b-237472dfd114",
