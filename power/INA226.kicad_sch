@@ -395,8 +395,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2ff24ba6-db2f-4426-92ff-24578f9e9858)
   )
-  (text "Default Address: 0b1000101\nA1 -> GND: 0b1000001" (exclude_from_sim no)
- (at 161.925 108.585 0)
+  (text "Default Address: 0x45 | 0b1000101\nA1 -> GND: 0x41 | 0b1000001" (exclude_from_sim no)
+
+    (at 161.925 108.585 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 862c123e-e2f2-462a-8192-aa8ae5ed4501)
   )
