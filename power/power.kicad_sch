@@ -1931,30 +1931,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 26.035 122.936 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6dbaf68e-8d5d-44ed-b87b-91e2330ada00)
-    (property "Reference" "H2" (at 29.464 122.301 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 29.464 124.841 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 26.035 122.936 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.035 122.936 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "power"
-        (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 78.994 55.372 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70324445-899b-4c2c-8344-e47235021baf)
