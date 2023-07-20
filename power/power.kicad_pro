@@ -446,7 +446,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "power.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -553,10 +553,6 @@
     [
       "7ff00463-b304-4939-a6b4-8114d64b272c",
       "TI Buck Converter 2"
-    ],
-    [
-      "67d6e32f-48e8-4582-a115-95fda843ec4d",
-      "Allegro Current Sensor"
     ],
     [
       "10807fc9-e13d-42f8-8510-6de977afc8e3",
