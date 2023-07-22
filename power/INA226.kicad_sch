@@ -389,7 +389,7 @@
     (uuid f06edd7c-0f78-486f-a901-05f666ecbd40)
   )
 
-  (text "Offset error = 0.0025mV / (3mΩ*25A) = 0.003%\nPower dissipation = 3mΩ *(25A)^2 = 1.875W" (exclude_from_sim no)
+  (text "Offset error = 0.0025mV / (3mΩ*25A) = 0.003%\nMax power dissipation = 3mΩ *(25A)^2 = 1.875W" (exclude_from_sim no)
 
     (at 93.472 115.443 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
