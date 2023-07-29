@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "W25Q64JVXGIQ")(type "KiCad")(uri "${MUREX_2024}/ul_W25Q64JVXGIQ-TR/footprints.pretty")(options "")(descr ""))
   (lib (name "SLIM_6MM_SWITCH")(type "KiCad")(uri "${MUREX_2024}/slim-6mm-switch/footprints.pretty")(options "")(descr ""))
+  (lib (name "B-G431B-ESC1")(type "KiCad")(uri "${MUREX_2024}/B-G431B-ESC1/B-G431B-ESC1.pretty")(options "")(descr ""))
 )
