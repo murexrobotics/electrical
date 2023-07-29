@@ -1109,7 +1109,6 @@
   (no_connect (at 57.15 97.79) (uuid b107227d-d72c-4945-ac1d-8d2de8216e70))
   (no_connect (at 57.15 123.19) (uuid c64a25e5-717b-4816-b8ad-b187e367ee6b))
   (no_connect (at 57.15 102.87) (uuid d0af441f-97e0-48f6-9de6-ac37349a86ce))
-  (no_connect (at 88.9 25.4) (uuid e2b74d7e-3ad5-4e0c-addc-42dd5d611f9c))
   (no_connect (at 57.15 153.67) (uuid e3afa74a-765a-4ed6-85f2-4cbf868131a5))
   (no_connect (at 118.11 135.89) (uuid f5e12071-0db3-4d8b-a187-ef5e78fadfd6))
 
@@ -1573,6 +1572,10 @@
     (stroke (width 0) (type default))
     (uuid cab7012e-9645-41de-b308-d646ab1ce578)
   )
+  (wire (pts (xy 88.9 25.4) (xy 99.06 25.4))
+    (stroke (width 0) (type default))
+    (uuid d249778f-9bff-454a-a9cf-c4d437a5348c)
+  )
   (wire (pts (xy 176.53 92.71) (xy 184.15 92.71))
     (stroke (width 0) (type default))
     (uuid d50fb835-0f31-4b57-8a90-a465daa97688)
@@ -1749,7 +1752,7 @@
     (uuid d80abb16-e2d6-47c5-8491-05537abb945e)
   )
   (text "VBUS NC, RP2040 3.3V injection powered" (exclude_from_sim no)
- (at 91.44 25.4 0)
+ (at 90.17 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e7ef9522-d8ff-4b93-930e-0c682971931f)
   )
@@ -1773,6 +1776,10 @@
   (label "QSPI_SD1" (at 199.39 52.07 0) (fields_autoplaced)
     (effects (font (face "Fira Code") (size 1.27 1.27)) (justify left bottom))
     (uuid 1d1fe2d3-6bb0-4948-a63b-20ad5d714352)
+  )
+  (label "USB_VBUS" (at 99.06 25.4 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 22773070-2643-4111-97d3-5ce0b7d3b27b)
   )
   (label "QSPI_SCK" (at 135.89 97.79 180) (fields_autoplaced)
     (effects (font (face "Fira Code") (size 1.27 1.27)) (justify right bottom))
@@ -1943,7 +1950,7 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR011") (unit 1)
         )
@@ -1981,7 +1988,7 @@
           (reference "#PWR025") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR025") (unit 1)
         )
@@ -2017,7 +2024,7 @@
           (reference "Y1") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "Y1") (unit 1)
         )
@@ -2056,7 +2063,7 @@
           (reference "R8") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R8") (unit 1)
         )
@@ -2094,7 +2101,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR023") (unit 1)
         )
@@ -2132,7 +2139,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR06") (unit 1)
         )
@@ -2170,7 +2177,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR01") (unit 1)
         )
@@ -2209,7 +2216,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C3") (unit 1)
         )
@@ -2247,7 +2254,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR024") (unit 1)
         )
@@ -2285,7 +2292,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR017") (unit 1)
         )
@@ -2323,7 +2330,7 @@
           (reference "#PWR019") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR019") (unit 1)
         )
@@ -2362,7 +2369,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R4") (unit 1)
         )
@@ -2400,7 +2407,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR013") (unit 1)
         )
@@ -2441,7 +2448,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "J2") (unit 1)
         )
@@ -2480,7 +2487,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C8") (unit 1)
         )
@@ -2519,7 +2526,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C1") (unit 1)
         )
@@ -2557,7 +2564,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR09") (unit 1)
         )
@@ -2651,7 +2658,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "U1") (unit 1)
         )
@@ -2689,7 +2696,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR08") (unit 1)
         )
@@ -2743,7 +2750,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "J1") (unit 1)
         )
@@ -2782,7 +2789,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C7") (unit 1)
         )
@@ -2821,7 +2828,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R5") (unit 1)
         )
@@ -2860,7 +2867,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C2") (unit 1)
         )
@@ -2899,7 +2906,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C4") (unit 1)
         )
@@ -2937,7 +2944,7 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR014") (unit 1)
         )
@@ -2975,7 +2982,7 @@
           (reference "#PWR026") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR026") (unit 1)
         )
@@ -3013,7 +3020,7 @@
           (reference "#PWR020") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR020") (unit 1)
         )
@@ -3051,7 +3058,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR03") (unit 1)
         )
@@ -3090,7 +3097,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R2") (unit 1)
         )
@@ -3128,7 +3135,7 @@
           (reference "#PWR012") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR012") (unit 1)
         )
@@ -3166,7 +3173,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR05") (unit 1)
         )
@@ -3205,7 +3212,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C6") (unit 1)
         )
@@ -3244,7 +3251,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R3") (unit 1)
         )
@@ -3282,7 +3289,7 @@
           (reference "#PWR018") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR018") (unit 1)
         )
@@ -3321,7 +3328,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R6") (unit 1)
         )
@@ -3341,7 +3348,7 @@
     (property "Value" "W25Q64JVXGIQ" (at 220.98 40.64 0)
       (effects (font (face "Fira Code") (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (at 219.71 52.07 0)
+    (property "Footprint" "W25Q64JVXGIQ:DFN_XGIQ TR_WIN-M" (at 219.71 52.07 0)
       (effects (font (face "Fira Code") (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" (at 219.71 52.07 0)
@@ -3366,7 +3373,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "U2") (unit 1)
         )
@@ -3405,7 +3412,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R1") (unit 1)
         )
@@ -3443,7 +3450,7 @@
           (reference "#PWR022") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR022") (unit 1)
         )
@@ -3481,7 +3488,7 @@
           (reference "#PWR015") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR015") (unit 1)
         )
@@ -3520,7 +3527,7 @@
           (reference "C12") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C12") (unit 1)
         )
@@ -3558,7 +3565,7 @@
           (reference "#PWR07") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR07") (unit 1)
         )
@@ -3596,7 +3603,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR04") (unit 1)
         )
@@ -3634,7 +3641,7 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR02") (unit 1)
         )
@@ -3673,7 +3680,7 @@
           (reference "SW2") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "SW2") (unit 1)
         )
@@ -3712,7 +3719,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C9") (unit 1)
         )
@@ -3751,7 +3758,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C5") (unit 1)
         )
@@ -3789,7 +3796,7 @@
           (reference "#PWR021") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR021") (unit 1)
         )
@@ -3827,7 +3834,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR016") (unit 1)
         )
@@ -3866,7 +3873,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C13") (unit 1)
         )
@@ -3905,7 +3912,7 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C11") (unit 1)
         )
@@ -3944,7 +3951,7 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "SW1") (unit 1)
         )
@@ -3983,7 +3990,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C14") (unit 1)
         )
@@ -4022,7 +4029,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "C10") (unit 1)
         )
@@ -4061,7 +4068,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "R7") (unit 1)
         )
@@ -4099,7 +4106,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "rp2040_module"
+      (project "stesc"
         (path "/d542d406-ecfb-4bf5-96fd-8b3424de93d2"
           (reference "#PWR010") (unit 1)
         )
