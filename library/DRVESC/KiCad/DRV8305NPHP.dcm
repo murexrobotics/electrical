@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8305NPHP
+D Three phase gate driver with three integrated current shunt amplifiers
+K
+F http://www.ti.com/lit/gpn/DRV8305
+$ENDCMP
+#
+#End Doc Library
