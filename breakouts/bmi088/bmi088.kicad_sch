@@ -11,8 +11,7 @@
     (company "MUREX Robotics [Byran Huang]")
     (comment 1 "// ATTEMPT THE IMPOSSIBLE.")
     (comment 2 "// DO IT RIGHT. DO IT MUREX.")
-    (comment 3 "with SPI + I2C configurations supported")
-    (comment 4 "Simple BMI088 development breakout board")
+    (comment 4 "BMI088 breakout board with I2C + SPI support")
   )
 
   (lib_symbols
