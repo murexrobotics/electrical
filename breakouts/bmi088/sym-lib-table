@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMI088")(type "KiCad")(uri "${MUREX_2024}/BMI088/BMI088.kicad_sym")(options "")(descr ""))
+)
