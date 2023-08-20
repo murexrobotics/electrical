@@ -772,7 +772,7 @@
   (symbol (lib_id "power:GND") (at 161.798 118.999 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 025d89a6-8ced-4b7c-bf57-22b4ccea54ba)
-    (property "Reference" "#PWR013" (at 161.798 125.349 0)
+    (property "Reference" "#PWR015" (at 161.798 125.349 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.798 123.063 0)
@@ -788,7 +788,7 @@
     (instances
       (project "drvesc"
         (path "/98c2d148-7ff4-424c-a960-ad3471e42eda/30afad5b-e722-4918-86ac-e7cc9a442e6e"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -803,7 +803,7 @@
     (property "Value" "5530843-7" (at 146.685 63.246 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "55308437" (at 154.305 163.119 0)
+    (property "Footprint" "5530843-7_PCB_Edge:TE_5530843-7_PCB_Edge" (at 154.305 163.119 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5530843&DocType=Customer+Drawing&DocLang=English" (at 154.305 263.119 0)
@@ -902,7 +902,7 @@
   (symbol (lib_id "power:GND") (at 131.445 118.999 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea3c718b-6d09-4186-9cfd-eb95f909e45a)
-    (property "Reference" "#PWR012" (at 131.445 125.349 0)
+    (property "Reference" "#PWR014" (at 131.445 125.349 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 131.445 123.19 0)
@@ -918,7 +918,7 @@
     (instances
       (project "drvesc"
         (path "/98c2d148-7ff4-424c-a960-ad3471e42eda/30afad5b-e722-4918-86ac-e7cc9a442e6e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
