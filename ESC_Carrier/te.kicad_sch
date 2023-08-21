@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MUREX ESC Carrier Board")
+    (date "2023-08-21")
+    (rev "V2.0")
+    (company "MUREX Robotics [Celine Zhang]")
+    (comment 1 "//CONTINUOUS EVOLUTION.")
+    (comment 2 "//DREAM BIG. DREAM MUREX.")
+    (comment 3 "in the event of a speed controller failure.")
+    (comment 4 "The MUREX ESC Carrier board is designed for rapid replacement of components")
+  )
+
   (lib_symbols
     (symbol "5530843-7:5530843-7" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 19.05 7.62 0)
