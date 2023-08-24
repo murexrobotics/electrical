@@ -11,7 +11,7 @@
     (company "Murex Robotics [Max Liu]")
     (comment 1 "// ONLY THE PARANOID SURVIVE.")
     (comment 2 "// MOVE FAST AND MAKE THINGS.")
-    (comment 3 "TI's DRV8305 driver, and external mosfets, as the motor driver architecture.")
+    (comment 3 "TI's DRV8305 driver, and 3 MOSFET half-bridges, as the motor driver architecture.")
     (comment 4 "The MUREX DRVESC is Murex Robotics' custom speed controller using an RP2040,")
   )
 
