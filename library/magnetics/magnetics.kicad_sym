@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "quad-transformer" (in_bom yes) (on_board yes)
+  (symbol "dual-transformer" (in_bom yes) (on_board yes)
     (property "Reference" "T" (at -7.62 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Quad Transformer" (at 0 -19.05 0)
+    (property "Value" "Dual Transformer" (at 0 -19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 1.27 0)
@@ -12,7 +12,7 @@
     (property "Datasheet" "" (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "quad-transformer_1_0"
+    (symbol "dual-transformer_1_0"
       (pin unspecified line (at -13.97 15.24 0) (length 5.08)
         (name "RD2+" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -94,7 +94,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "quad-transformer_1_1"
+    (symbol "dual-transformer_1_1"
       (rectangle (start -8.89 17.78) (end 8.89 -17.78)
         (stroke (width 0) (type default))
         (fill (type background))
