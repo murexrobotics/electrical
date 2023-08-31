@@ -9,7 +9,9 @@
     (date "2023-08-30")
     (rev "V1.0")
     (company "MUREX Robotics [Byran Huang and Max Liu]")
-    (comment 3 "// INNOVATION FOR ALL.")
+    (comment 1 "utilizing the IC Plus IP175G and external magnetics")
+    (comment 2 "Ultra-compact 5 port unmanaged ethernet switch")
+    (comment 3 "// TECHNOLOGY FOR ALL.")
     (comment 4 "// ATTEMPT THE IMPOSSIBLE.")
   )
 
