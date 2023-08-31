@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "IP175G")(type "KiCad")(uri "${MUREX_2024}/IP175G/IP175G.kicad_sym")(options "")(descr ""))
+  (lib (name "magnetics")(type "KiCad")(uri "${MUREX_2024}/magnetics/magnetics.kicad_sym")(options "")(descr ""))
 )

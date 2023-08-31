@@ -1,5 +1,65 @@
 (kicad_sch (version 20230409) (generator eeschema)
+
+  (uuid 3a8c8799-9295-4740-b990-f123ec1feb18)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 96.52) (size 30.48 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 08f54c79-9823-49b6-a2d6-0f99f475e3a2)
+    (property "Sheetname" "IP175G" (at 88.9 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IP175G.kicad_sch" (at 88.9 123.7746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "switch"
+        (path "/3a8c8799-9295-4740-b990-f123ec1feb18" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 167.64 96.52) (size 29.21 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3b4e3a24-52bc-4456-b8ba-0ef7b116b867)
+    (property "Sheetname" "Magnetics" (at 167.64 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "magnetics.kicad_sch" (at 167.64 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "switch"
+        (path "/3a8c8799-9295-4740-b990-f123ec1feb18" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 96.52) (size 29.21 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ae30af2c-3015-4dad-a9da-cdbd35ec9eec)
+    (property "Sheetname" "Power" (at 130.81 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 130.81 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "switch"
+        (path "/3a8c8799-9295-4740-b990-f123ec1feb18" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

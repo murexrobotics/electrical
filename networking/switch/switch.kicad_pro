@@ -378,6 +378,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3a8c8799-9295-4740-b990-f123ec1feb18",
+      ""
+    ],
+    [
+      "ae30af2c-3015-4dad-a9da-cdbd35ec9eec",
+      "Power"
+    ],
+    [
+      "08f54c79-9823-49b6-a2d6-0f99f475e3a2",
+      "IP175G"
+    ],
+    [
+      "3b4e3a24-52bc-4456-b8ba-0ef7b116b867",
+      "Magnetics"
+    ]
+  ],
   "text_variables": {}
 }
