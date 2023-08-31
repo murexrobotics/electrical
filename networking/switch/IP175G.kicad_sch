@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MUREX Ethernet Switch (needs a better name)")
+    (date "2023-08-30")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang and Max Liu]")
+    (comment 3 "// INNOVATION FOR ALL.")
+    (comment 4 "// ATTEMPT THE IMPOSSIBLE.")
+  )
+
   (lib_symbols
   )
 
