@@ -880,7 +880,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1fa54955-5d77-423b-b4e0-ed911e5f4b14)
   )
-  (text "most likely molex picoblades" (exclude_from_sim no)
+  (text "most likely molex picoblades\n\nsir yes sir" (exclude_from_sim no)
  (at 232.41 91.44 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3fc2155b-72e3-4cd5-b8f6-9f4f6eeb6acf)
