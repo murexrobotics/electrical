@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ANYESC")
+    (date "2023-08-31")
+    (rev "V1.0")
+    (company "MUREX Robotics [Byran Huang]")
+    (comment 1 "electronic speed controlling system")
+    (comment 2 "ESC agnostic integration board for the MUREX")
+    (comment 3 "// TECHNOLOGY FOR ALL")
+    (comment 4 "// ATTEMPT THE IMPOSSIBLE")
+  )
+
   (lib_symbols
     (symbol "2022-10-24_20-36-00:RP2040" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 10.16 0)
@@ -2672,7 +2683,7 @@
     (property "Value" "Conn_01x04" (at 180.975 151.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" (at 177.8 148.59 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 177.8 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 148.59 0)
