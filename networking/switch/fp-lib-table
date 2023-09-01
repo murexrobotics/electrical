@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "6MM SW SLIM")(type "KiCad")(uri "${MUREX_2024}/slim-6mm-switch/footprints.pretty")(options "")(descr ""))
+  (lib (name "QT24A23")(type "KiCad")(uri "${MUREX_2024}/magnetics/QT24A23.pretty")(options "")(descr ""))
+  (lib (name "BT16A07")(type "KiCad")(uri "${MUREX_2024}/magnetics/BT16A07.pretty")(options "")(descr ""))
+)
