@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "B-G431B-ESC1")(type "KiCad")(uri "${MUREX_2024}/B-G431B-ESC1/B-G431B-ESC1.kicad_sym")(options "")(descr ""))
+  (lib (name "Card_Edge")(type "KiCad")(uri "${MUREX_2024}/5530843-7/5530843-7.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q64JVXGIQ")(type "KiCad")(uri "${MUREX_2024}/ul_W25Q64JVXGIQ-TR/W25Q64JVXGIQ.kicad_sym")(options "")(descr ""))
+)
