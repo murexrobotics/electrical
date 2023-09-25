@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -175,6 +175,7 @@
         0.0,
         0.09,
         0.125,
+        0.1994,
         0.3,
         0.5,
         1.0,
@@ -436,52 +437,18 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.1016,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1074,
+        "diff_pair_width": 0.13,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "100R",
+        "name": "50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1074,
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.1016,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1588,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "90R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1588,
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.1016,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1074,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HDMI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1074,
-        "via_diameter": 0.4,
+        "track_width": 0.1994,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -493,156 +460,168 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIP4"
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIP3"
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIP2"
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIP1"
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIP0"
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIP4 "
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIM4"
       },
       {
-        "netclass": "100R",
-        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIM3"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD1_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIM2"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD1_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIM1"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD2_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/RXIM0"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD2_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOP4"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD3_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOP3"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD3_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOP2"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD4_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOP1"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/HD4_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOP0"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBD_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOM4"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBD_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOM3"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBH_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOM2"
       },
       {
-        "netclass": "90R",
-        "pattern": "/USB2-HUB/USBH_P"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOM1"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_CK_N"
+        "netclass": "50R",
+        "pattern": "/IP175G/TXOM0"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_CK_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX4+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D0_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX3+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D0_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX2+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D1_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX1+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D1_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX0+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D2_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX4-"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI0_D2_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX3-"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_CK_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX2-"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_CK_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX1-"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D0_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/TX0-"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D0_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX4+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D1_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX3+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D1_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX2+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D2_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX1+"
       },
       {
-        "netclass": "HDMI",
-        "pattern": "/CM4_HighSpeed/HDMI1_D2_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX0+"
       },
       {
-        "netclass": "90R",
-        "pattern": "/CM4_HighSpeed/USB2_P"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX4-"
       },
       {
-        "netclass": "90R",
-        "pattern": "/CM4_HighSpeed/USB2_N"
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX3-"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX2-"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX1-"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/Magnetics/RX0-"
       }
     ]
   },
