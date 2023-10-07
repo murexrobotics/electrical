@@ -24,6 +24,9 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Lock Files (nightly feature)
+*.lck
+
 # Exported BOM files
 *.xml
 *.csv
