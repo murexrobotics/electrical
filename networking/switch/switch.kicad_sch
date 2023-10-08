@@ -1,4 +1,4 @@
-(kicad_sch (version 20230409) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid 3a8c8799-9295-4740-b990-f123ec1feb18)
 
@@ -16,7 +16,7 @@
   )
 
   (lib_symbols
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -29,10 +29,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
+      (property "Description" "Mounting Hole without connection" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
@@ -130,7 +130,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 89.535 107.442 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 553a68b2-43f7-45a5-aa29-1da614835789)
     (property "Reference" "H1" (at 92.329 106.172 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -144,6 +144,9 @@
     (property "Datasheet" "~" (at 89.535 107.442 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 89.535 107.442 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "switch"
         (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
@@ -154,7 +157,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 89.535 125.857 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c336cbd-258b-4429-84f1-a8ee02bff1ae)
     (property "Reference" "H4" (at 92.329 124.587 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -168,6 +171,9 @@
     (property "Datasheet" "~" (at 89.535 125.857 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 89.535 125.857 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "switch"
         (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
@@ -178,7 +184,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 89.535 119.634 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97c1e644-8a37-43b2-add2-d9c6b09ad2de)
     (property "Reference" "H3" (at 92.329 118.364 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -192,6 +198,9 @@
     (property "Datasheet" "~" (at 89.535 119.634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 89.535 119.634 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "switch"
         (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
@@ -202,7 +211,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 89.535 113.665 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a76ce476-b164-40ca-a670-92c7a7aafe1a)
     (property "Reference" "H2" (at 92.329 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -214,6 +223,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 89.535 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 89.535 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
