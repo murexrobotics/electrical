@@ -10,6 +10,7 @@
     (rev "1.2")
     (company "MUREX Robotics")
     (comment 1 "//VARIT ASAVATHIRATHAM '25")
+    (comment 2 "//INNOVATION UNLEASHED")
   )
 
   (lib_symbols
