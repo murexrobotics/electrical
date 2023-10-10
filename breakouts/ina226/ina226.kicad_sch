@@ -1035,7 +1035,7 @@
     (property "Value" "2mΩ" (at 127 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 122.682 113.03 90)
+    (property "Footprint" "R_2mO_ShuntResistor:RESC6432X90N" (at 122.682 113.03 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 113.03 0)
