@@ -1,11 +1,11 @@
-(kicad_sch (version 20230409) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid 34dee353-125e-4647-8273-981f76f186b2)
 
   (paper "A4")
 
   (lib_symbols
-    (symbol "5530843-7:5530843-7" (in_bom yes) (on_board yes)
+    (symbol "5530843-7:5530843-7" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 19.05 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
@@ -17,6 +17,9 @@
       )
       (property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5530843&DocType=Customer+Drawing&DocLang=English" (at 19.05 -194.92 0)
         (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Description" "CONN SEC II 30 POS 100C/L" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (property "Height" "15.494" (at 19.05 -394.92 0)
         (effects (font (size 1.27 1.27)) (justify left top) hide)
@@ -38,9 +41,6 @@
       )
       (property "Arrow Price/Stock" "https://www.arrow.com/en/products/5530843-7/te-connectivity" (at 19.05 -994.92 0)
         (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "ki_description" "CONN SEC II 30 POS 100C/L" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "5530843-7_1_1"
         (rectangle (start 5.08 2.54) (end 17.78 -76.2)
@@ -289,7 +289,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -302,10 +302,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GND_0_1"
@@ -763,7 +763,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 161.798 113.919 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 025d89a6-8ced-4b7c-bf57-22b4ccea54ba)
     (property "Reference" "#PWR015" (at 161.798 120.269 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -777,6 +777,9 @@
     (property "Datasheet" "" (at 161.798 113.919 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.798 113.919 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fde9e43f-96f8-4475-90b6-6e86c8f88eae))
     (instances
       (project "drvesc"
@@ -788,7 +791,7 @@
   )
 
   (symbol (lib_id "5530843-7:5530843-7") (at 135.255 68.199 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bca83dfd-b410-4e20-aa00-0434bbc164fa)
     (property "Reference" "J1" (at 146.685 60.706 0)
       (effects (font (size 1.27 1.27)))
@@ -801,6 +804,9 @@
     )
     (property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5530843&DocType=Customer+Drawing&DocLang=English" (at 154.305 263.119 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Description" "" (at 135.255 68.199 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Height" "15.494" (at 154.305 463.119 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
@@ -893,7 +899,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 131.445 113.919 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ea3c718b-6d09-4186-9cfd-eb95f909e45a)
     (property "Reference" "#PWR014" (at 131.445 120.269 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -905,6 +911,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 131.445 113.919 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 131.445 113.919 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7797f2d3-6e8b-435b-ab06-bcca22e8fefe))
