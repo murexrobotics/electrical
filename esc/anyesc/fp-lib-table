@@ -6,4 +6,5 @@
   (lib (name "W25Q64JVXGIQ")(type "KiCad")(uri "${MUREX_2024}/ul_W25Q64JVXGIQ-TR/footprints.pretty")(options "")(descr ""))
   (lib (name "JLCPCB_Logo")(type "KiCad")(uri "${MUREX_2024}/JLCPCB_Logo.pretty")(options "")(descr ""))
   (lib (name "adjustable_esc_mount")(type "KiCad")(uri "${MUREX_2024}/adjustable_esc_mount/adjustable_esc_mount.pretty")(options "")(descr ""))
+  (lib (name "panelization")(type "KiCad")(uri "${MUREX_2024}/panelization.pretty")(options "")(descr ""))
 )
