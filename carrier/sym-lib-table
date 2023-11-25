@@ -4,4 +4,6 @@
   (lib (name "BMI088")(type "KiCad")(uri "${MUREX_2024}/BMI088/BMI088.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5603NJ")(type "KiCad")(uri "${MUREX_2024}/MMC5603NJ/MMC5603NJ.kicad_sym")(options "")(descr ""))
   (lib (name "M.2_Connector")(type "KiCad")(uri "${MUREX_2024}/2199119-8/2199119-8.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S3-MINI-1-N8")(type "KiCad")(uri "${MUREX_2024}/ESP32-S3-MINI-1-N8/ESP32-S3-MINI-1-N8.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS259474ARPWR")(type "KiCad")(uri "${MUREX_2024}/TPS259474ARPWR/TPS259474ARPWR.kicad_sym")(options "")(descr ""))
 )

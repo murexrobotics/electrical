@@ -3,6 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -182,6 +185,32 @@
         2.0,
         3.0
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -888,6 +917,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -905,6 +935,7 @@
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 0.0,
       "text_offset_ratio": 0.08
     },
@@ -965,6 +996,18 @@
     [
       "ddaf85b2-573f-4b38-8f89-d403b0d00540",
       "Leak Sensor"
+    ],
+    [
+      "26fb909b-6484-4110-89e6-3c90cde5a3cd",
+      "eFuse"
+    ],
+    [
+      "492bafab-0ef0-4086-b1f6-9eb03269f753",
+      "ESP32-S3"
+    ],
+    [
+      "7428a731-2323-481a-bc64-c9fb631cc98e",
+      "USB3"
     ]
   ],
   "text_variables": {}
