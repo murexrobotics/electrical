@@ -10,4 +10,5 @@
   (lib (name "TPS259474")(type "KiCad")(uri "${MUREX_2024}/TPS259474ARPWR/TPS259474.pretty")(options "")(descr ""))
   (lib (name "ESP32-S3-MINI-1")(type "KiCad")(uri "${MUREX_2024}/ESP32-S3-MINI-1-N8/ESP32-S3-MINI-1.pretty")(options "")(descr ""))
   (lib (name "W25X40CLUXIG")(type "KiCad")(uri "${MUREX_2024}/W25X40CLUXIG/W25X40CLUXIG.pretty")(options "")(descr ""))
+  (lib (name "QT24A23")(type "KiCad")(uri "${MUREX_2024}/magnetics/QT24A23.pretty")(options "")(descr ""))
 )
