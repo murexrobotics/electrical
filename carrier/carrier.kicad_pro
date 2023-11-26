@@ -975,11 +975,11 @@
     ],
     [
       "e0c51feb-4d89-45a3-8e53-506ae2882681",
-      "USB2-HUB"
+      "USB2"
     ],
     [
       "620225a5-f804-40cd-b5ea-f876279ff075",
-      "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
+      "CM4_GPIO"
     ],
     [
       "982f4b68-a38c-4772-af6b-ffe8049f8a46",
@@ -991,15 +991,7 @@
     ],
     [
       "af6c5568-d2e2-4612-83c1-6e53a7c32d99",
-      "Connectors"
-    ],
-    [
-      "ddaf85b2-573f-4b38-8f89-d403b0d00540",
-      "Leak Sensor"
-    ],
-    [
-      "26fb909b-6484-4110-89e6-3c90cde5a3cd",
-      "eFuse"
+      "Power"
     ],
     [
       "492bafab-0ef0-4086-b1f6-9eb03269f753",
