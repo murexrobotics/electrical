@@ -797,7 +797,7 @@
           (reference "#PWR060") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -837,7 +837,7 @@
           (reference "D4") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -868,7 +868,7 @@
           (reference "#PWR086") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -877,13 +877,13 @@
   (symbol (lib_id "Device:R_Small") (at 77.47 101.6 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8692e389-4970-480f-a4df-afec589b8d1b)
-    (property "Reference" "R1" (at 80.01 100.965 0)
+    (property "Reference" "R3" (at 80.01 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 80.01 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 77.47 101.6 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 77.47 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 101.6 0)
@@ -900,7 +900,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -935,7 +935,7 @@
           (reference "J20") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "J7") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -997,7 +997,7 @@
     (property "Value" "2.2k" (at 60.96 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 58.42 143.51 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 58.42 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 143.51 0)
@@ -1017,7 +1017,7 @@
           (reference "R19") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "R17") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1084,7 +1084,7 @@
     (property "Value" "2.2k" (at 71.12 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 68.58 143.51 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 68.58 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 143.51 0)
@@ -1104,7 +1104,7 @@
           (reference "R21") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "R18") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1144,7 +1144,7 @@
           (reference "D5") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1260,13 +1260,13 @@
   (symbol (lib_id "Device:R_Small") (at 88.9 101.6 180) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f79b95b1-2f53-4dc4-8665-595aa00d0121)
-    (property "Reference" "R2" (at 90.805 100.965 0)
+    (property "Reference" "R4" (at 90.805 100.965 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 90.805 103.505 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 88.9 101.6 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 88.9 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 101.6 0)
@@ -1283,7 +1283,7 @@
     (instances
       (project "carrier"
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )

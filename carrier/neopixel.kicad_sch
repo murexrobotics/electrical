@@ -549,7 +549,7 @@
           (reference "#PWR065") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -585,7 +585,7 @@
           (reference "#PWR060") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -605,7 +605,7 @@
     (property "Value" "0.1uF" (at 173.355 90.805 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 175.895 90.17 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 175.895 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.895 90.17 0)
@@ -625,7 +625,7 @@
           (reference "C33") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C36") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -787,7 +787,7 @@
           (reference "#PWR061") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -823,7 +823,7 @@
           (reference "#PWR063") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -885,7 +885,7 @@
     (property "Value" "0.1uF" (at 155.575 90.805 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 158.115 90.17 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 158.115 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.115 90.17 0)
@@ -905,7 +905,7 @@
           (reference "C32") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C35") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -948,7 +948,7 @@
           (reference "U15") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "U17") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -968,7 +968,7 @@
     (property "Value" "470" (at 101.6 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 101.6 97.79 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 101.6 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 97.79 0)
@@ -988,7 +988,7 @@
           (reference "R20") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "R24") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1008,7 +1008,7 @@
     (property "Value" "0.1uF" (at 137.795 90.805 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 140.335 90.17 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 140.335 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.335 90.17 0)
@@ -1028,7 +1028,7 @@
           (reference "C31") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C34") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1048,7 +1048,7 @@
     (property "Value" "0.1uF" (at 121.285 90.805 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 123.825 90.17 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 123.825 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.825 90.17 0)
@@ -1068,7 +1068,7 @@
           (reference "C30") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "C33") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "rov_pcb_v2"
@@ -1104,7 +1104,7 @@
           (reference "#PWR064") (unit 1)
         )
         (path "/4b1cea9d-93bc-4380-88c3-ede99bb53de2/620225a5-f804-40cd-b5ea-f876279ff075/9ea89edd-9822-472f-9c73-e53551d82d32"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "rov_pcb_v2"
