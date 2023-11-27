@@ -11,4 +11,5 @@
   (lib (name "ESP32-S3-MINI-1")(type "KiCad")(uri "${MUREX_2024}/ESP32-S3-MINI-1-N8/ESP32-S3-MINI-1.pretty")(options "")(descr ""))
   (lib (name "W25X40CLUXIG")(type "KiCad")(uri "${MUREX_2024}/W25X40CLUXIG/W25X40CLUXIG.pretty")(options "")(descr ""))
   (lib (name "QT24A23")(type "KiCad")(uri "${MUREX_2024}/magnetics/QT24A23.pretty")(options "")(descr ""))
+  (lib (name "SK6812-EC20")(type "KiCad")(uri "${MUREX_2024}/SK6812-EC20.pretty")(options "")(descr ""))
 )
