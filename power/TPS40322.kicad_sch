@@ -2022,13 +2022,13 @@
   (symbol (lib_id "Device:R_Small") (at 118.872 124.46 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 01ca71b1-2452-4c98-ba89-5269e50634d1)
-    (property "Reference" "R35" (at 118.872 129.54 90)
+    (property "Reference" "R15" (at 118.872 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.32k" (at 118.872 127.254 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.872 124.46 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 118.872 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.872 124.46 0)
@@ -2042,7 +2042,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R35") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2051,13 +2051,13 @@
   (symbol (lib_id "Device:R_Small") (at 114.808 137.414 0) (mirror y) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 032ca4e3-0ec0-4a70-bc12-2b6046f342c4)
-    (property "Reference" "R33" (at 117.856 136.398 0)
+    (property "Reference" "R13" (at 117.856 136.398 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 117.856 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.808 137.414 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 114.808 137.414 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.808 137.414 0)
@@ -2071,7 +2071,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R33") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2080,13 +2080,13 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 132.08 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 041e5e32-0041-46a7-9ab3-ad14c0320b36)
-    (property "Reference" "R34" (at 110.49 137.16 90)
+    (property "Reference" "R10" (at 110.49 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150" (at 110.49 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 110.49 132.08 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.49 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 132.08 0)
@@ -2100,7 +2100,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R34") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2109,7 +2109,7 @@
   (symbol (lib_id "power:GNDA") (at 129.54 91.694 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06217095-be33-4ab1-b52d-2516c3610625)
-    (property "Reference" "#PWR035" (at 129.54 98.044 0)
+    (property "Reference" "#PWR016" (at 129.54 98.044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 129.54 96.266 0)
@@ -2128,7 +2128,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2137,7 +2137,7 @@
   (symbol (lib_id "power:GNDA") (at 21.082 170.942 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 06b149d9-1609-4716-bbf2-f77fd9051bc2)
-    (property "Reference" "#PWR032" (at 21.082 177.292 0)
+    (property "Reference" "#PWR07" (at 21.082 177.292 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 21.082 175.006 0)
@@ -2156,7 +2156,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2165,7 +2165,7 @@
   (symbol (lib_id "power:GNDA") (at 114.808 142.748 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07dd0fd5-dd76-42d3-86b1-34d3b59cfcce)
-    (property "Reference" "#PWR041" (at 114.808 149.098 0)
+    (property "Reference" "#PWR013" (at 114.808 149.098 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 114.808 147.32 0)
@@ -2184,7 +2184,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2193,13 +2193,13 @@
   (symbol (lib_id "Device:R_Small") (at 154.178 116.84 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 095ab16c-9388-4fe6-834e-aa6287ec46b7)
-    (property "Reference" "R15" (at 154.178 110.744 90)
+    (property "Reference" "R22" (at 154.178 110.744 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.11" (at 154.178 113.284 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.178 116.84 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.178 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.178 116.84 0)
@@ -2213,7 +2213,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R15") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2222,13 +2222,13 @@
   (symbol (lib_id "Device:C_Small") (at 160.782 126.238 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ca7125b-7ea4-4f14-bf41-c8a81ff847aa)
-    (property "Reference" "C54" (at 163.068 124.968 0)
+    (property "Reference" "C13" (at 163.068 124.968 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 163.068 127.508 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 160.782 126.238 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 160.782 126.238 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.782 126.238 0)
@@ -2242,7 +2242,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C54") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2257,7 +2257,7 @@
     (property "Value" "TestPoint" (at 97.536 154.178 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.838 151.384 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 100.838 151.384 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.838 151.384 0)
@@ -2279,13 +2279,13 @@
   (symbol (lib_id "Device:C_Small") (at 164.592 35.814 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 102fe937-f915-47c0-85f3-4934238237b2)
-    (property "Reference" "C34" (at 166.878 34.544 0)
+    (property "Reference" "C15" (at 166.878 34.544 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 166.878 37.084 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 164.592 35.814 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 164.592 35.814 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 164.592 35.814 0)
@@ -2299,7 +2299,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C34") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -2308,13 +2308,13 @@
   (symbol (lib_id "Device:C_Small") (at 238.76 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 13100f8d-b5e9-497a-9b9b-48b472d70be6)
-    (property "Reference" "C48" (at 241.046 118.11 0)
+    (property "Reference" "C31" (at 241.046 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 241.046 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 238.76 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 238.76 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.76 119.38 0)
@@ -2328,7 +2328,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C48") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -2337,13 +2337,13 @@
   (symbol (lib_id "Device:C_Small") (at 276.606 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 13cfc76b-576a-4a38-a279-2e01a3dc7e0a)
-    (property "Reference" "C69" (at 275.082 123.444 0)
+    (property "Reference" "C39" (at 275.082 123.444 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 275.082 125.984 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 276.606 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 276.606 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 276.606 119.38 0)
@@ -2357,7 +2357,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C69") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -2366,13 +2366,13 @@
   (symbol (lib_id "Device:R_Small") (at 119.38 158.75 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 15a0096c-806a-4ae1-b6ab-7963a35985fd)
-    (property "Reference" "R40" (at 119.38 163.83 90)
+    (property "Reference" "R16" (at 119.38 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.32k" (at 119.38 161.544 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 119.38 158.75 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 119.38 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 158.75 0)
@@ -2386,7 +2386,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R40") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2395,13 +2395,13 @@
   (symbol (lib_id "Device:R_Small") (at 122.936 64.516 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fb5aeff-da7d-424a-9b46-c4502e853b83)
-    (property "Reference" "R30" (at 122.936 59.436 90)
+    (property "Reference" "R17" (at 122.936 59.436 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.0" (at 122.936 61.976 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 122.936 64.516 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 122.936 64.516 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 122.936 64.516 0)
@@ -2415,7 +2415,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R30") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2424,13 +2424,13 @@
   (symbol (lib_id "Device:R_Small") (at 102.108 72.136 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fc93134-286e-4f3c-aed9-a579aa8ef59e)
-    (property "Reference" "R32" (at 102.108 67.056 90)
+    (property "Reference" "R4" (at 102.108 67.056 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "86.6k" (at 102.108 69.596 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 102.108 72.136 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 102.108 72.136 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.108 72.136 0)
@@ -2444,7 +2444,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R32") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2453,7 +2453,7 @@
   (symbol (lib_id "power:GND") (at 97.028 41.91 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 202cdd8a-61ac-4b86-a6a6-2f984a2deab0)
-    (property "Reference" "#PWR037" (at 97.028 48.26 0)
+    (property "Reference" "#PWR09" (at 97.028 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.028 45.974 0)
@@ -2472,7 +2472,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2481,13 +2481,13 @@
   (symbol (lib_id "Device:R_Small") (at 107.696 44.45 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 21594bd2-59ef-4638-8db2-b30777fb1a46)
-    (property "Reference" "R29" (at 112.522 43.434 0)
+    (property "Reference" "R8" (at 112.522 43.434 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.22k" (at 112.522 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 107.696 44.45 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 107.696 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.696 44.45 0)
@@ -2501,7 +2501,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R29") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2510,13 +2510,13 @@
   (symbol (lib_id "Device:R_Small") (at 203.454 76.708 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 24bf93c3-fb95-40ee-8387-f30b0b99a0d0)
-    (property "Reference" "R22" (at 203.454 71.628 90)
+    (property "Reference" "R25" (at 203.454 71.628 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.13k" (at 203.454 74.168 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 203.454 76.708 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 203.454 76.708 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.454 76.708 0)
@@ -2530,7 +2530,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R22") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2539,7 +2539,7 @@
   (symbol (lib_id "power:GNDA") (at 115.316 177.038 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2531ddc3-7ebe-4e98-958b-ea671e2f7b00)
-    (property "Reference" "#PWR024" (at 115.316 183.388 0)
+    (property "Reference" "#PWR014" (at 115.316 183.388 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 115.316 181.61 0)
@@ -2558,7 +2558,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2567,13 +2567,13 @@
   (symbol (lib_id "Device:C_Small") (at 220.726 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a13bc91-9a56-45eb-bff9-3b96ac963615)
-    (property "Reference" "C46" (at 223.012 118.11 0)
+    (property "Reference" "C27" (at 223.012 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3uF" (at 223.012 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 220.726 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 220.726 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.726 119.38 0)
@@ -2587,7 +2587,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C46") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -2596,13 +2596,13 @@
   (symbol (lib_id "Device:C_Small") (at 266.446 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 32777aed-65ae-4568-a3f7-5590d21c1dd6)
-    (property "Reference" "C51" (at 268.732 57.15 0)
+    (property "Reference" "C36" (at 268.732 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 268.732 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 266.446 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 266.446 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.446 58.42 0)
@@ -2616,7 +2616,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C51") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -2625,13 +2625,13 @@
   (symbol (lib_id "Device:R_Small") (at 107.696 37.592 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3670b57a-2871-4658-a7cf-a3710fa11438)
-    (property "Reference" "R28" (at 112.522 36.576 0)
+    (property "Reference" "R7" (at 112.522 36.576 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33.2k" (at 112.522 38.862 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 107.696 37.592 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 107.696 37.592 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.696 37.592 0)
@@ -2645,7 +2645,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R28") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2654,13 +2654,13 @@
   (symbol (lib_id "Device:C_Small") (at 275.082 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3702d971-0fe8-4c96-8409-e876bc7d16ca)
-    (property "Reference" "C68" (at 277.368 57.15 0)
+    (property "Reference" "C38" (at 277.368 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 277.368 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 275.082 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 275.082 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.082 58.42 0)
@@ -2674,7 +2674,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C68") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -2683,13 +2683,13 @@
   (symbol (lib_id "Device:L_Small") (at 204.216 116.84 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3aa060a4-dc49-42b5-a680-31ca0ed35d64)
-    (property "Reference" "L4" (at 204.216 111.506 90)
+    (property "Reference" "L2" (at 204.216 111.506 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.1uH" (at 204.216 114.046 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.216 116.84 0)
+    (property "Footprint" "Power:WE-HCI_7030_7040_705023" (at 204.216 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.216 116.84 0)
@@ -2703,7 +2703,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "L4") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -2712,13 +2712,13 @@
   (symbol (lib_id "Device:C_Small") (at 211.074 137.668 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f68f451-21b3-459b-8b51-41b4cc83485c)
-    (property "Reference" "C56" (at 208.534 132.588 90)
+    (property "Reference" "C24" (at 208.534 132.588 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.772 134.874 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 211.074 137.668 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 211.074 137.668 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 211.074 137.668 0)
@@ -2732,7 +2732,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C56") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -2741,13 +2741,13 @@
   (symbol (lib_id "Device:C_Small") (at 256.286 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 44848494-a407-4872-b748-3ca4dfb7a080)
-    (property "Reference" "C44" (at 258.572 57.15 0)
+    (property "Reference" "C34" (at 258.572 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 258.572 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 256.286 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 256.286 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 256.286 58.42 0)
@@ -2761,7 +2761,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C44") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -2770,13 +2770,13 @@
   (symbol (lib_id "Device:C_Small") (at 174.498 35.814 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fe97c11-a90d-4bd1-97cc-c4b8c5d51c0c)
-    (property "Reference" "C32" (at 176.784 34.544 0)
+    (property "Reference" "C17" (at 176.784 34.544 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 176.784 37.084 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 174.498 35.814 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.498 35.814 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 174.498 35.814 0)
@@ -2790,7 +2790,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C32") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2799,13 +2799,13 @@
   (symbol (lib_id "CSD86330Q3D:CSD86330Q3D") (at 177.292 115.57 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 508caccb-b9ce-4e8b-aa2a-6b8aa6bf21c8)
-    (property "Reference" "U7" (at 169.418 108.712 0)
+    (property "Reference" "U3" (at 169.418 108.712 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CSD86330Q3D" (at 179.324 125.222 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "DQZ8_1P8X2P7" (at 177.292 115.57 0)
+    (property "Footprint" "Power:DQZ8_1P8X2P7" (at 177.292 115.57 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "CSD86330Q3D" (at 177.292 115.57 0)
@@ -2826,7 +2826,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "U7") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2835,13 +2835,13 @@
   (symbol (lib_id "Device:R_Small") (at 110.998 166.37 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 51cba3d8-d780-46b2-a2f8-5f48a2cd51da)
-    (property "Reference" "R38" (at 110.998 171.45 90)
+    (property "Reference" "R12" (at 110.998 171.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "86.6" (at 110.998 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 110.998 166.37 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.998 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.998 166.37 0)
@@ -2855,7 +2855,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R38") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2864,13 +2864,13 @@
   (symbol (lib_id "Device:R_Small") (at 154.178 128.778 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5425e337-c2da-4b63-af99-99decb1783a0)
-    (property "Reference" "R20" (at 154.178 133.858 90)
+    (property "Reference" "R24" (at 154.178 133.858 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1" (at 154.178 131.318 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.178 128.778 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.178 128.778 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.178 128.778 0)
@@ -2884,7 +2884,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R20") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2893,7 +2893,7 @@
   (symbol (lib_id "power:GND") (at 164.592 40.64 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d9c1f5e-52d3-4bf6-ac85-943a57b8d688)
-    (property "Reference" "#PWR08" (at 164.592 46.99 0)
+    (property "Reference" "#PWR019" (at 164.592 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 164.592 44.704 0)
@@ -2912,7 +2912,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2921,7 +2921,7 @@
   (symbol (lib_id "power:GNDA") (at 105.664 100.076 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e91da8d-c27f-466a-be7e-f49d2c2b304c)
-    (property "Reference" "#PWR034" (at 105.664 106.426 0)
+    (property "Reference" "#PWR010" (at 105.664 106.426 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 105.664 104.648 0)
@@ -2940,7 +2940,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2949,13 +2949,13 @@
   (symbol (lib_id "Device:R_Small") (at 115.316 171.704 0) (mirror y) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 63b64af4-4c86-47c4-8f71-d1547666a58a)
-    (property "Reference" "R39" (at 118.364 170.688 0)
+    (property "Reference" "R14" (at 118.364 170.688 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 118.364 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 115.316 171.704 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 115.316 171.704 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.316 171.704 0)
@@ -2969,7 +2969,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R39") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2978,13 +2978,13 @@
   (symbol (lib_id "Device:C_Small") (at 104.14 163.576 180) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c4ce8f9-7af1-47a7-bf8c-e3b49612d2d4)
-    (property "Reference" "C64" (at 101.6 162.814 0)
+    (property "Reference" "C5" (at 101.6 162.814 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7nF" (at 101.854 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 104.14 163.576 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 104.14 163.576 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 163.576 0)
@@ -2998,7 +2998,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C64") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3007,7 +3007,7 @@
   (symbol (lib_id "power:GNDA") (at 126.492 71.628 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c5a9ae8-9238-47d5-bb09-f09a9cdd0518)
-    (property "Reference" "#PWR026" (at 126.492 77.978 0)
+    (property "Reference" "#PWR015" (at 126.492 77.978 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 126.492 76.2 0)
@@ -3026,7 +3026,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3035,13 +3035,13 @@
   (symbol (lib_id "Device:C_Small") (at 220.218 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 72058fe7-4229-4e53-89bb-084480bff9e8)
-    (property "Reference" "C40" (at 222.504 57.15 0)
+    (property "Reference" "C26" (at 222.504 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3uF" (at 222.504 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 220.218 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 220.218 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.218 58.42 0)
@@ -3055,7 +3055,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C40") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -3064,13 +3064,13 @@
   (symbol (lib_id "Device:C_Small") (at 103.632 129.286 180) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7945c4f5-d1ee-4764-b4b7-eb8fc677259c)
-    (property "Reference" "C63" (at 101.092 128.524 0)
+    (property "Reference" "C4" (at 101.092 128.524 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.9nF" (at 101.346 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.632 129.286 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.632 129.286 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 103.632 129.286 0)
@@ -3084,7 +3084,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C63") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3093,13 +3093,13 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 124.46 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ac2050e-43d1-42ca-ba1d-1aa881aeccdc)
-    (property "Reference" "R26" (at 110.49 129.54 90)
+    (property "Reference" "R9" (at 110.49 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7.7k" (at 110.49 127 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 110.49 124.46 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.49 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 124.46 0)
@@ -3113,7 +3113,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R26") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3122,13 +3122,13 @@
   (symbol (lib_id "Device:C_Small") (at 125.984 132.588 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7adc79e8-97eb-41aa-8858-0ac310c278b2)
-    (property "Reference" "C62" (at 127.508 137.668 90)
+    (property "Reference" "C8" (at 127.508 137.668 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220pF" (at 128.27 135.382 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 125.984 132.588 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 125.984 132.588 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.984 132.588 0)
@@ -3142,7 +3142,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C62") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3151,13 +3151,13 @@
   (symbol (lib_id "Device:C_Small") (at 266.7 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ca12db8-6bef-4b4b-87e5-2049adef37da)
-    (property "Reference" "C52" (at 268.986 118.11 0)
+    (property "Reference" "C37" (at 268.986 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 268.986 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 266.7 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 266.7 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 119.38 0)
@@ -3171,7 +3171,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C52") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -3180,13 +3180,13 @@
   (symbol (lib_id "Device:C_Small") (at 210.058 76.708 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d713823-d2dc-4c60-8ea3-e7d1c32db25c)
-    (property "Reference" "C55" (at 207.518 71.628 90)
+    (property "Reference" "C22" (at 207.518 71.628 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 206.756 73.914 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 210.058 76.708 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 210.058 76.708 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.058 76.708 0)
@@ -3200,7 +3200,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C55") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -3209,13 +3209,13 @@
   (symbol (lib_id "Device:C_Small") (at 229.616 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7eb2d733-c070-4141-b6cf-60fdfc0a3c72)
-    (property "Reference" "C41" (at 231.902 57.15 0)
+    (property "Reference" "C28" (at 231.902 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "17uF" (at 231.902 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 229.616 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 229.616 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 229.616 58.42 0)
@@ -3229,7 +3229,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C41") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -3238,13 +3238,13 @@
   (symbol (lib_id "Device:C_Small") (at 191.262 97.536 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a73f0ce-6852-441f-9d65-21fad6082c36)
-    (property "Reference" "C35" (at 193.548 96.266 0)
+    (property "Reference" "C20" (at 193.548 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 193.548 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 191.262 97.536 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 191.262 97.536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.262 97.536 0)
@@ -3258,7 +3258,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C35") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3267,13 +3267,13 @@
   (symbol (lib_id "Device:R_Small") (at 154.178 67.564 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9022ee8d-49b5-4e2f-9a53-c9f2c7a0394d)
-    (property "Reference" "R19" (at 154.178 72.644 90)
+    (property "Reference" "R21" (at 154.178 72.644 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1" (at 154.178 70.104 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.178 67.564 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.178 67.564 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.178 67.564 0)
@@ -3287,7 +3287,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R19") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3296,13 +3296,13 @@
   (symbol (lib_id "Device:C_Small") (at 247.904 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9120b6e2-77d4-470e-9e08-52e358582a4c)
-    (property "Reference" "C49" (at 250.19 118.11 0)
+    (property "Reference" "C33" (at 250.19 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 250.19 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 247.904 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 247.904 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.904 119.38 0)
@@ -3316,7 +3316,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C49") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -3325,13 +3325,13 @@
   (symbol (lib_id "Device:C_Small") (at 182.372 97.536 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a3294ee1-03e6-406f-8658-cf7ab6bcfc90)
-    (property "Reference" "C36" (at 184.658 96.266 0)
+    (property "Reference" "C18" (at 184.658 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 184.658 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 182.372 97.536 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 182.372 97.536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.372 97.536 0)
@@ -3345,7 +3345,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C36") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -3354,13 +3354,13 @@
   (symbol (lib_id "Device:C_Small") (at 247.396 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a71113c7-3338-4846-955f-bce32f0b674a)
-    (property "Reference" "C43" (at 249.682 57.15 0)
+    (property "Reference" "C32" (at 249.682 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 249.682 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 247.396 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 247.396 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.396 58.42 0)
@@ -3374,7 +3374,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C43") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -3383,13 +3383,13 @@
   (symbol (lib_id "TPS40322RHBR:TPS40322RHBR") (at 48.768 66.04 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a8403fa2-82c5-463f-9c93-77937e0699a4)
-    (property "Reference" "U5" (at 28.448 41.91 0)
+    (property "Reference" "U1" (at 28.448 41.91 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "TPS40322RHBR" (at 73.152 89.662 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "RHB0032D" (at 48.768 66.04 0)
+    (property "Footprint" "Power:RHB0032D" (at 48.768 66.04 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "TPS40322RHBR" (at 48.768 66.04 0)
@@ -3434,7 +3434,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3443,13 +3443,13 @@
   (symbol (lib_id "Device:C_Small") (at 210.82 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a9103a1c-3054-4f4a-9228-b096a721f255)
-    (property "Reference" "C39" (at 213.106 57.15 0)
+    (property "Reference" "C23" (at 213.106 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 213.106 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 210.82 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 210.82 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.82 58.42 0)
@@ -3463,7 +3463,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C39") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3472,13 +3472,13 @@
   (symbol (lib_id "Device:R_Small") (at 210.058 80.772 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid adb7ceec-9cdf-45db-9a05-7fd21773916a)
-    (property "Reference" "R21" (at 210.058 85.852 90)
+    (property "Reference" "R27" (at 210.058 85.852 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "13.8k" (at 210.058 83.312 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 210.058 80.772 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 210.058 80.772 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.058 80.772 0)
@@ -3492,7 +3492,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R21") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3501,13 +3501,13 @@
   (symbol (lib_id "Device:R_Small") (at 127 89.408 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid affc24b3-abd6-48dd-a652-fe9e3ee354af)
-    (property "Reference" "R27" (at 127 84.328 90)
+    (property "Reference" "R18" (at 127 84.328 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "25k" (at 127 86.868 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 127 89.408 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 127 89.408 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 89.408 0)
@@ -3521,7 +3521,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R27") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3530,13 +3530,13 @@
   (symbol (lib_id "Device:C_Small") (at 238.252 58.42 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b04086fe-6461-44bf-bc12-4690491194c4)
-    (property "Reference" "C42" (at 240.538 57.15 0)
+    (property "Reference" "C30" (at 240.538 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "17uF" (at 240.538 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 238.252 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 238.252 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.252 58.42 0)
@@ -3550,7 +3550,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C42") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3559,13 +3559,13 @@
   (symbol (lib_id "Device:R_Small") (at 154.178 119.38 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b67508ae-c705-4486-bafd-57819fa31289)
-    (property "Reference" "R17" (at 154.178 125.222 90)
+    (property "Reference" "R23" (at 154.178 125.222 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 154.178 122.936 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.178 119.38 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.178 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.178 119.38 0)
@@ -3579,7 +3579,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R17") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3588,13 +3588,13 @@
   (symbol (lib_id "Device:C_Small") (at 126.492 158.75 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b95d64ff-57d8-4c70-befd-b87caf54c4ab)
-    (property "Reference" "C65" (at 128.016 163.83 90)
+    (property "Reference" "C10" (at 128.016 163.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.8nF" (at 128.778 161.544 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 126.492 158.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 126.492 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 126.492 158.75 0)
@@ -3608,7 +3608,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C65") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3617,13 +3617,13 @@
   (symbol (lib_id "Device:C_Small") (at 124.968 104.394 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid bf0672cb-b2c9-4d83-90b1-010642be71ad)
-    (property "Reference" "C67" (at 127.254 103.124 0)
+    (property "Reference" "C6" (at 127.254 103.124 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3uF" (at 127.254 105.664 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 124.968 104.394 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 124.968 104.394 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.968 104.394 0)
@@ -3637,7 +3637,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C67") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3646,13 +3646,13 @@
   (symbol (lib_id "Device:C_Small") (at 256.794 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c04f9531-0ccb-498e-a127-e32509bcdcb6)
-    (property "Reference" "C50" (at 259.08 118.11 0)
+    (property "Reference" "C35" (at 259.08 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 259.08 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 256.794 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 256.794 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 256.794 119.38 0)
@@ -3666,7 +3666,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C50") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -3675,13 +3675,13 @@
   (symbol (lib_id "Device:C_Small") (at 160.782 65.024 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c31abd00-ce32-4f15-a2e9-2f106497b4a8)
-    (property "Reference" "C53" (at 163.068 63.754 0)
+    (property "Reference" "C12" (at 163.068 63.754 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 163.068 66.294 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 160.782 65.024 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 160.782 65.024 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.782 65.024 0)
@@ -3695,7 +3695,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C53") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3704,13 +3704,13 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 137.668 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c617e286-63e8-4562-af1a-f0926c0c5b98)
-    (property "Reference" "R23" (at 204.47 132.588 90)
+    (property "Reference" "R26" (at 204.47 132.588 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.5k" (at 204.47 135.128 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.47 137.668 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 204.47 137.668 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 137.668 0)
@@ -3724,7 +3724,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R23") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3733,13 +3733,13 @@
   (symbol (lib_id "Device:R_Small") (at 154.178 55.88 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca72141b-74a3-4cb8-8a6e-471f0d2fe465)
-    (property "Reference" "R14" (at 154.178 49.784 90)
+    (property "Reference" "R19" (at 154.178 49.784 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.11" (at 154.178 52.324 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.178 55.88 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.178 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.178 55.88 0)
@@ -3753,7 +3753,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R14") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3762,13 +3762,13 @@
   (symbol (lib_id "Device:C_Small") (at 230.124 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cb67dd4d-c071-4f47-aa27-fb8d38e2d9b2)
-    (property "Reference" "C47" (at 232.41 118.11 0)
+    (property "Reference" "C29" (at 232.41 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 232.41 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 230.124 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 230.124 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 230.124 119.38 0)
@@ -3782,7 +3782,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C47") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -3791,13 +3791,13 @@
   (symbol (lib_id "Device:C_Small") (at 211.328 119.38 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cdb3e0a8-dfff-4760-a0f5-7ecfccd36b09)
-    (property "Reference" "C45" (at 213.614 118.11 0)
+    (property "Reference" "C25" (at 213.614 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 213.614 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 211.328 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 211.328 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 211.328 119.38 0)
@@ -3811,7 +3811,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C45") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -3820,13 +3820,13 @@
   (symbol (lib_id "Device:C_Small") (at 126.492 68.072 180) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ce60b03f-50f1-4d69-85ab-91244461c0a7)
-    (property "Reference" "C60" (at 133.858 69.342 0)
+    (property "Reference" "C9" (at 133.858 69.342 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 133.858 66.802 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 126.492 68.072 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 126.492 68.072 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 126.492 68.072 0)
@@ -3840,7 +3840,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C60") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3849,7 +3849,7 @@
   (symbol (lib_id "power:GNDA") (at 107.696 48.514 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf46a2ff-b129-4b48-aecc-64ef75e63ffe)
-    (property "Reference" "#PWR036" (at 107.696 54.864 0)
+    (property "Reference" "#PWR011" (at 107.696 54.864 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 107.696 53.086 0)
@@ -3868,7 +3868,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3877,13 +3877,13 @@
   (symbol (lib_id "Device:R_Small") (at 211.074 141.732 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d1afa5c9-b922-4ed4-a75f-d9e46f55d387)
-    (property "Reference" "R24" (at 211.074 146.812 90)
+    (property "Reference" "R28" (at 211.074 146.812 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22.7k" (at 211.074 144.272 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 211.074 141.732 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 211.074 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 211.074 141.732 0)
@@ -3897,7 +3897,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R24") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -3906,13 +3906,13 @@
   (symbol (lib_id "Device:C_Small") (at 103.124 89.408 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d2531f02-8b2b-4eb2-87f3-1c163e1830a4)
-    (property "Reference" "C57" (at 101.6 84.328 90)
+    (property "Reference" "C2" (at 101.6 84.328 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33nF" (at 100.838 86.614 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.124 89.408 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.124 89.408 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 103.124 89.408 0)
@@ -3926,7 +3926,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C57") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3935,13 +3935,13 @@
   (symbol (lib_id "Device:C_Small") (at 183.388 35.814 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d95c1c90-2586-4edf-9457-3af0fbb87100)
-    (property "Reference" "C31" (at 185.674 34.544 0)
+    (property "Reference" "C19" (at 185.674 34.544 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30uF" (at 185.674 37.084 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 183.388 35.814 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 183.388 35.814 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 183.388 35.814 0)
@@ -3955,7 +3955,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C31") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3964,13 +3964,13 @@
   (symbol (lib_id "Device:C_Small") (at 97.028 37.592 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e13622c5-4c62-4ade-8ac1-771006a95163)
-    (property "Reference" "C59" (at 99.314 36.322 0)
+    (property "Reference" "C1" (at 99.314 36.322 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 99.314 38.862 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 97.028 37.592 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 97.028 37.592 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.028 37.592 0)
@@ -3984,7 +3984,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C59") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3993,7 +3993,7 @@
   (symbol (lib_id "power:GNDA") (at 133.096 35.306 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3b20c5c-7ad1-4930-ab0c-5b4f7a0e8523)
-    (property "Reference" "#PWR038" (at 133.096 41.656 0)
+    (property "Reference" "#PWR017" (at 133.096 41.656 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 133.096 39.878 0)
@@ -4012,7 +4012,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4021,13 +4021,13 @@
   (symbol (lib_id "Device:R_Small") (at 104.14 153.924 180) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e45661a1-1ecb-4687-85c2-2ad6910d5440)
-    (property "Reference" "R36" (at 107.95 152.908 0)
+    (property "Reference" "R6" (at 107.95 152.908 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "49.9" (at 107.95 155.448 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 104.14 153.924 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 104.14 153.924 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 153.924 0)
@@ -4041,7 +4041,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R36") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4050,13 +4050,13 @@
   (symbol (lib_id "Device:C_Small") (at 103.124 97.79 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e9d66e09-e54c-4645-8a00-c38ab2a8722b)
-    (property "Reference" "C58" (at 101.6 92.71 90)
+    (property "Reference" "C3" (at 101.6 92.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33nF" (at 100.838 94.996 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.124 97.79 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.124 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 103.124 97.79 0)
@@ -4070,7 +4070,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C58") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4079,13 +4079,13 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 97.536 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid eb208e62-81f9-4951-b6be-d3338363e81c)
-    (property "Reference" "C38" (at 166.116 96.266 0)
+    (property "Reference" "C14" (at 166.116 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 166.116 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 163.83 97.536 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 163.83 97.536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 97.536 0)
@@ -4099,7 +4099,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C38") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4108,13 +4108,13 @@
   (symbol (lib_id "Device:L_Small") (at 203.2 55.88 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec0f1323-9ca8-47a5-8f18-acf5683d294c)
-    (property "Reference" "L3" (at 203.2 50.546 90)
+    (property "Reference" "L1" (at 203.2 50.546 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5uH" (at 203.2 53.086 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 203.2 55.88 0)
+    (property "Footprint" "Power:WE-HCI_7030_7040_705023" (at 203.2 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 55.88 0)
@@ -4128,7 +4128,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "L3") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -4137,13 +4137,13 @@
   (symbol (lib_id "Device:C_Small") (at 192.024 35.814 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ec71f4db-4d89-4f29-a3f6-d5bd3b2e392d)
-    (property "Reference" "C16" (at 194.31 34.544 0)
+    (property "Reference" "C21" (at 194.31 34.544 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30uF" (at 194.31 37.084 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 192.024 35.814 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 192.024 35.814 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 192.024 35.814 0)
@@ -4157,7 +4157,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C16") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -4166,7 +4166,7 @@
   (symbol (lib_id "power:GND") (at 26.67 170.942 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ec7b5d7b-cab9-46a6-b616-974fbefd0254)
-    (property "Reference" "#PWR044" (at 26.67 177.292 0)
+    (property "Reference" "#PWR08" (at 26.67 177.292 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 175.006 0)
@@ -4185,7 +4185,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4194,13 +4194,13 @@
   (symbol (lib_id "Device:R_Small") (at 103.632 119.634 180) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ed44e389-4ed2-479e-a37f-9ce54c169230)
-    (property "Reference" "R25" (at 107.442 118.618 0)
+    (property "Reference" "R5" (at 107.442 118.618 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "49.9" (at 107.442 121.158 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 103.632 119.634 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 103.632 119.634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 103.632 119.634 0)
@@ -4214,7 +4214,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R25") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4223,13 +4223,13 @@
   (symbol (lib_id "CSD86330Q3D:CSD86330Q3D") (at 177.292 54.61 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f3bab1a6-f6e0-410c-a6fc-074f9624cad3)
-    (property "Reference" "U6" (at 169.418 47.752 0)
+    (property "Reference" "U2" (at 169.418 47.752 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CSD86330Q3D" (at 179.324 64.262 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "DQZ8_1P8X2P7" (at 177.292 54.61 0)
+    (property "Footprint" "Power:DQZ8_1P8X2P7" (at 177.292 54.61 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "CSD86330Q3D" (at 177.292 54.61 0)
@@ -4250,7 +4250,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "U6") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -4259,13 +4259,13 @@
   (symbol (lib_id "Device:C_Small") (at 126.492 166.878 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f70df3b6-3db2-409c-a846-8269e05ed895)
-    (property "Reference" "C66" (at 128.016 171.958 90)
+    (property "Reference" "C11" (at 128.016 171.958 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220pF" (at 128.778 169.672 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 126.492 166.878 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 126.492 166.878 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 126.492 166.878 0)
@@ -4279,7 +4279,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C66") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4288,7 +4288,7 @@
   (symbol (lib_id "power:GNDA") (at 107.696 72.136 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f77320cf-de82-4933-9206-08ae9ddcfbc7)
-    (property "Reference" "#PWR040" (at 107.696 78.486 0)
+    (property "Reference" "#PWR012" (at 107.696 78.486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 107.696 76.708 0)
@@ -4307,7 +4307,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4316,13 +4316,13 @@
   (symbol (lib_id "Device:R_Small") (at 110.998 158.75 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f80619e1-5d33-4867-a5ef-e97a33712afc)
-    (property "Reference" "R37" (at 110.998 163.83 90)
+    (property "Reference" "R11" (at 110.998 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 110.998 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 110.998 158.75 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.998 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.998 158.75 0)
@@ -4336,7 +4336,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R37") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -4345,13 +4345,13 @@
   (symbol (lib_id "Device:R_Small") (at 102.108 64.516 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fb5622c6-d583-4708-8182-fb5fbd33f70b)
-    (property "Reference" "R31" (at 102.108 59.436 90)
+    (property "Reference" "R3" (at 102.108 59.436 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "86.6k" (at 102.108 61.976 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 102.108 64.516 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 102.108 64.516 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.108 64.516 0)
@@ -4365,7 +4365,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R31") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4374,13 +4374,13 @@
   (symbol (lib_id "Device:C_Small") (at 125.984 124.46 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fc05574b-3bc9-4e2e-b71b-1244276c61cc)
-    (property "Reference" "C61" (at 127.508 129.54 90)
+    (property "Reference" "C7" (at 127.508 129.54 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.8nF" (at 128.27 127.254 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 125.984 124.46 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 125.984 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.984 124.46 0)
@@ -4394,7 +4394,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C61") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4403,7 +4403,7 @@
   (symbol (lib_id "power:GND") (at 163.83 101.6 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fc1c0614-6131-4dd4-b96b-67f74e2ba97e)
-    (property "Reference" "#PWR010" (at 163.83 107.95 0)
+    (property "Reference" "#PWR018" (at 163.83 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 105.664 0)
@@ -4422,7 +4422,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4431,13 +4431,13 @@
   (symbol (lib_id "Device:C_Small") (at 173.736 97.536 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fcba0461-fbcf-470b-bcf0-31d2f68da200)
-    (property "Reference" "C37" (at 176.022 96.266 0)
+    (property "Reference" "C16" (at 176.022 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 176.022 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 173.736 97.536 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 173.736 97.536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.736 97.536 0)
@@ -4451,7 +4451,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "C37") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4466,7 +4466,7 @@
     (property "Value" "TestPoint" (at 97.028 119.888 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.33 117.094 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 100.33 117.094 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 117.094 0)
@@ -4488,13 +4488,13 @@
   (symbol (lib_id "Device:R_Small") (at 154.178 58.42 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fe8633b1-d7c8-4eb1-97b2-9f13d085f1da)
-    (property "Reference" "R16" (at 154.178 64.262 90)
+    (property "Reference" "R20" (at 154.178 64.262 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 154.178 61.976 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.178 58.42 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.178 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.178 58.42 0)
@@ -4508,7 +4508,7 @@
     (instances
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b/e9cffae5-225f-4451-ab4a-9aa44e3a4ef6"
-          (reference "R16") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
