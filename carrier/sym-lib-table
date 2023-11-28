@@ -8,4 +8,5 @@
   (lib (name "TPS259474ARPWR")(type "KiCad")(uri "${MUREX_2024}/TPS259474ARPWR/TPS259474ARPWR.kicad_sym")(options "")(descr ""))
   (lib (name "uPD720202")(type "KiCad")(uri "${MUREX_2024}/uPD720202/uPD720202.kicad_sym")(options "")(descr ""))
   (lib (name "AP2191")(type "KiCad")(uri "${MUREX_2024}/AP2191/AP2191.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS54331")(type "KiCad")(uri "${MUREX_2024}/TPS54331DR/TPS54331DR.kicad_sym")(options "")(descr ""))
 )
