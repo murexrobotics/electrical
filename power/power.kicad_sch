@@ -799,33 +799,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 167.894 124.968 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 06c82669-f4f2-4240-a671-fa4def4378d0)
-    (property "Reference" "H4" (at 171.323 124.333 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 171.323 126.873 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 167.894 124.968 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.894 124.968 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Mounting Hole without connection" (at 167.894 124.968 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "power"
-        (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 149.098 124.46 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ccd4a1a-74cc-4475-ace1-5629ddd48102)
@@ -1112,33 +1085,6 @@
       (project "power"
         (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b"
           (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 167.894 118.364 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 753b71e0-d8e7-4ec3-aa56-5ed9a5fb5920)
-    (property "Reference" "H3" (at 171.323 117.729 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 171.323 120.269 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 167.894 118.364 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.894 118.364 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Mounting Hole without connection" (at 167.894 118.364 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "power"
-        (path "/6d3c5c52-febb-4c99-82d7-f9b22bb5762b"
-          (reference "H3") (unit 1)
         )
       )
     )
