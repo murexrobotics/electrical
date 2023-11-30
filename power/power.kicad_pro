@@ -176,6 +176,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1995,
         0.254,
         0.4064,
         0.762,
@@ -537,6 +538,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "./",
     "spice_current_sheet_as_root": false,
@@ -554,8 +563,12 @@
       ""
     ],
     [
-      "e9cffae5-225f-4451-ab4a-9aa44e3a4ef6",
-      "Dual-Output Buck Converter"
+      "e479a492-f085-4afe-886c-479f29421304",
+      "Stage 1 Step Down"
+    ],
+    [
+      "fcfdf5f3-99a1-43fa-8eea-009e7e49ea9a",
+      "Stage 2 Step Down"
     ],
     [
       "d3c479b7-f7bf-4296-8fee-4e35418d9676",
