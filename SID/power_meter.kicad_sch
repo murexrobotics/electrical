@@ -1,0 +1,19 @@
+(kicad_sch (version 20230819) (generator eeschema)
+
+  (uuid 09e6183f-aea5-4d2a-b11c-82d64c0df918)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "12V IN" (shape bidirectional) (at 88.9 97.79 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 69da9ad3-b5b4-4053-ace6-8bf5f0c70d68)
+  )
+  (hierarchical_label "12V OUT" (shape bidirectional) (at 88.9 100.33 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f8c8b763-dfd4-4a22-835b-b7e9a793aa36)
+  )
+)
