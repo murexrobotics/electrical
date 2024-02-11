@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "5530843-7")(type "KiCad")(uri "${MUREX_2024}/5530843-7/5530843-7.pretty")(options "")(descr ""))
+)
