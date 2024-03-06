@@ -13,6 +13,564 @@
 		(comment 4 "Autonomotive Grade In-line Highside Power Protection Board")
 	)
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x05_Counter_Clockwise"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x05_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -612,7 +1170,7 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_DSG"
+		(symbol "Device:Q_NMOS_GDS"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -627,7 +1185,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_DSG"
+			(property "Value" "Q_NMOS_GDS"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -654,7 +1212,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "N-MOSFET transistor, gate/drain/source"
 				(at 0 0 0)
 				(effects
 					(font
@@ -672,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_DSG_0_1"
+			(symbol "Q_NMOS_GDS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -839,11 +1397,11 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_DSG_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_GDS_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -859,9 +1417,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -876,10 +1434,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2041,6 +2599,12 @@
 		(uuid "ca413ce9-2d55-4c78-bf0e-4978658ccec8")
 	)
 	(junction
+		(at 111.76 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc1a7f98-654d-48dd-93a7-694fea60936f")
+	)
+	(junction
 		(at 95.25 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2065,22 +2629,26 @@
 		(uuid "e7bb3075-71f0-4a96-bae4-c79cf29ad14b")
 	)
 	(junction
-		(at 149.86 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f74016ca-3934-497c-ae01-b9887c5b7b20")
-	)
-	(junction
-		(at 111.76 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbfcba19-bbf3-4602-a2d5-39f8a68298dd")
-	)
-	(junction
 		(at 88.9 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd07a462-0a4b-449f-9276-df8a6af7b6a5")
+	)
+	(junction
+		(at 149.86 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe1b5a63-c008-414f-9ce1-71f7c2f26285")
+	)
+	(wire
+		(pts
+			(xy 204.978 113.792) (xy 204.978 115.062)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03aedcbd-1fa9-4eb3-8fbf-7b6402663c61")
 	)
 	(wire
 		(pts
@@ -2104,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 154.94 95.25)
+			(xy 142.24 95.25) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2174,6 +2742,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.026 113.792) (xy 208.026 118.618)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbde75f-1af2-46c8-8d81-eff37a2cdf57")
+	)
+	(wire
+		(pts
 			(xy 95.25 123.19) (xy 69.85 123.19)
 		)
 		(stroke
@@ -2211,6 +2789,16 @@
 			(type default)
 		)
 		(uuid "25a52d64-9bba-4003-90c6-c1ca82e60cc8")
+	)
+	(wire
+		(pts
+			(xy 208.026 126.492) (xy 208.026 121.158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e9fafe-0c88-4abe-ab36-9ecc46c79de8")
 	)
 	(wire
 		(pts
@@ -2364,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.168 102.362) (xy 201.168 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb50a6f-9914-4425-b8df-6c79dc96fa32")
+	)
+	(wire
+		(pts
 			(xy 121.92 87.63) (xy 121.92 95.25)
 		)
 		(stroke
@@ -2454,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 80.01) (xy 107.696 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d086b1b-5ae1-4737-9ad9-0672fe82bb44")
+	)
+	(wire
+		(pts
 			(xy 88.9 134.62) (xy 88.9 133.35)
 		)
 		(stroke
@@ -2531,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "62b3e9f4-2f7d-42fc-adba-b1cb06f46964")
+	)
+	(wire
+		(pts
+			(xy 201.168 105.918) (xy 201.168 107.188)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d98f52-11c0-40aa-b7f8-6b0471d19301")
 	)
 	(wire
 		(pts
@@ -2824,6 +3442,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b360b3ac-c940-4d3f-98a9-fb636424e0b4")
+	)
+	(wire
+		(pts
+			(xy 204.978 113.792) (xy 208.026 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6616213-9128-4a26-8c04-4a462bec5c34")
+	)
+	(wire
+		(pts
 			(xy 80.01 130.81) (xy 80.01 133.35)
 		)
 		(stroke
@@ -2954,6 +3592,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 95.25) (xy 107.696 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9091853-5c22-4e6a-8bc7-d54dd791a262")
+	)
+	(wire
+		(pts
 			(xy 127 88.9) (xy 127 87.63)
 		)
 		(stroke
@@ -3064,13 +3712,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 149.86 95.25)
+			(xy 200.66 126.492) (xy 208.026 126.492)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5ea9792-f9a1-470b-b981-cd1a266f061c")
+		(uuid "e4e73da7-9270-4550-bd08-4fc33e11f499")
 	)
 	(wire
 		(pts
@@ -3081,6 +3729,16 @@
 			(type default)
 		)
 		(uuid "e685d428-f6cb-4c20-988a-cd01b973479a")
+	)
+	(wire
+		(pts
+			(xy 107.696 80.01) (xy 107.696 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78bcaa1-cf78-4a91-9911-5b76dc295e55")
 	)
 	(wire
 		(pts
@@ -3131,6 +3789,16 @@
 			(type default)
 		)
 		(uuid "fc580e2d-3c4e-4daf-8509-e58f032a6b34")
+	)
+	(text "missing decoupling cap?"
+		(exclude_from_sim no)
+		(at 121.158 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d93eae5c-8486-490a-a81f-ee8d5d15076b")
 	)
 	(label "ILIM"
 		(at 120.65 148.59 0)
@@ -3193,7 +3861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 80.01 137.16 0)
 			(effects
 				(font
@@ -3263,7 +3931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 135.89 0)
 			(effects
 				(font
@@ -3333,7 +4001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 116.84 0)
 			(effects
 				(font
@@ -3404,7 +4072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -3447,33 +4115,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_DSG")
-		(at 106.68 90.17 270)
-		(mirror x)
+		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
+		(at 202.946 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1f9a757a-7bd6-4947-af8c-57c993d23a08")
-		(property "Reference" "Q1"
-			(at 106.68 81.28 90)
+		(fields_autoplaced yes)
+		(uuid "28262a22-6c31-4270-a7f4-8f95beb82c78")
+		(property "Reference" "J3"
+			(at 204.216 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 106.68 83.82 90)
+		(property "Value" "Conn_02x05_Counter_Clockwise"
+			(at 204.216 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 85.09 0)
+		(property "Footprint" "DF40C-10:CONN_DF40B-10DS-0.4V51_HIR"
+			(at 202.946 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +4150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 90.17 0)
+			(at 202.946 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,8 +4158,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 106.68 90.17 0)
+		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 202.946 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,14 +4167,105 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5155b9cd-2a5b-4f4d-8bb0-e3eb33cd18ed")
+		(pin "8"
+			(uuid "eae9e3eb-7744-4cdb-b111-8436332108ed")
 		)
-		(pin "3"
-			(uuid "b24013ec-87fa-4509-b5b4-06e64ff4c641")
+		(pin "7"
+			(uuid "84a20612-b6a9-4b88-948a-c6b701166058")
+		)
+		(pin "6"
+			(uuid "584b13f5-b766-4caa-b9a1-f16894cc0fc6")
+		)
+		(pin "5"
+			(uuid "e1e22429-fbc2-44a6-90aa-3b085614a787")
+		)
+		(pin "9"
+			(uuid "fd4ee2a6-ea30-4a41-a32f-9dfef82cb1a7")
+		)
+		(pin "10"
+			(uuid "53133160-e593-473e-b4cc-6439fe4d5ef0")
 		)
 		(pin "1"
-			(uuid "873e5ad8-1a30-463c-b5b7-b55291bb6594")
+			(uuid "c3c724b3-15bd-4b5e-b53a-913af7671f98")
+		)
+		(pin "4"
+			(uuid "7709942d-9435-4188-a224-6057bdf0ca41")
+		)
+		(pin "3"
+			(uuid "730f4ae1-101b-4aff-9b5a-2cb47836a636")
+		)
+		(pin "2"
+			(uuid "98c9a94f-0d46-48f2-8fb0-7010af89ae65")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_GDS")
+		(at 106.68 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "283de6cf-8250-4d51-91cf-3ce6e36d0deb")
+		(property "Reference" "Q1"
+			(at 99.06 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 99.06 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4fb9f8be-cbab-4e0e-bf8a-01c50c4a1840")
+		)
+		(pin "2"
+			(uuid "8133152b-45ee-4df7-b4cd-62fe39572f8b")
+		)
+		(pin "1"
+			(uuid "203f8ffe-f380-402a-8205-8912d2a78ec3")
 		)
 		(instances
 			(project "shield"
@@ -3545,7 +4304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 88.9 128.27 0)
 			(effects
 				(font
@@ -3615,7 +4374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.81 135.89 0)
 			(effects
 				(font
@@ -3686,7 +4445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -3723,6 +4482,77 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_GDS")
+		(at 149.86 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ac1749-b6c4-4575-9ff5-97571c39f8c0")
+		(property "Reference" "Q2"
+			(at 149.86 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 149.86 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c75acc6-d490-4972-9377-509a64e34270")
+		)
+		(pin "2"
+			(uuid "73ea6c28-0ca9-43e3-b628-c1ce165c3f6a")
+		)
+		(pin "1"
+			(uuid "d6ff6fde-3062-4c14-b095-2ad0ff7bcb04")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3820,7 +4650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 83.82 133.35 0)
 			(effects
 				(font
@@ -3957,7 +4787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 153.67 0)
 			(effects
 				(font
@@ -4024,7 +4854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 120.65 0)
 			(effects
 				(font
@@ -4094,7 +4924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 69.85 134.62 0)
 			(effects
 				(font
@@ -4164,7 +4994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -4234,7 +5064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -4271,6 +5101,76 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 206.248 103.378 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50064ffe-adcb-4b54-bfa0-9c072dbda44c")
+		(property "Reference" "J1"
+			(at 208.534 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 208.534 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 206.248 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 206.248 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 206.248 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f306da71-b5ee-4ed5-90d2-ea95859d9241")
+		)
+		(pin "2"
+			(uuid "c83d4e3b-592d-40d2-9d1e-6be6937f0b28")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4343,76 +5243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_DSG")
-		(at 149.86 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53064201-ddb6-44ca-979e-cc5f368c5c7f")
-		(property "Reference" "Q2"
-			(at 149.86 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 149.86 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "accd003b-6d8d-46bc-82e7-d2a58d8e74ca")
-		)
-		(pin "3"
-			(uuid "03723bb5-cfa5-4786-baab-595ea5fdc803")
-		)
-		(pin "1"
-			(uuid "158d2c2e-f03a-437d-bfec-fc9c975fe67b")
-		)
-		(instances
-			(project "shield"
-				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 63.5 134.62 270)
 		(mirror x)
@@ -4440,7 +5270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 63.5 134.62 0)
 			(effects
 				(font
@@ -4510,7 +5340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -4579,7 +5409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -4649,7 +5479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 66.04 92.71 0)
 			(effects
 				(font
@@ -4692,6 +5522,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 213.106 118.618 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c479af0-72a7-4eb8-b3e2-0aa74f45d7c9")
+		(property "Reference" "J2"
+			(at 215.392 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 215.392 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 213.106 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.106 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.106 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdfbc2ee-5e9a-4246-8073-6a4c11190c36")
+		)
+		(pin "2"
+			(uuid "b9f97958-a3b1-4146-aeed-932f4940ec9f")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 69.85 116.84 0)
 		(mirror y)
@@ -4719,7 +5619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.85 116.84 0)
 			(effects
 				(font
@@ -4789,7 +5689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -4991,7 +5891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 140.97 0)
 			(effects
 				(font
@@ -5060,7 +5960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 138.43 87.63 0)
 			(effects
 				(font
@@ -5131,7 +6031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 153.67 0)
 			(effects
 				(font
@@ -5168,6 +6068,71 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 200.66 126.492 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a69decf7-9ae2-48f6-8f1b-6bed17638506")
+		(property "Reference" "#PWR010"
+			(at 200.66 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_PROTECTED"
+			(at 200.66 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 200.66 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f37a719-52bf-47ac-8b9a-c38b6f7d17ff")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5234,6 +6199,72 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 201.168 102.362 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8e7121e-ddb5-4438-9d0d-34afacbec323")
+		(property "Reference" "#PWR08"
+			(at 201.168 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 201.168 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.168 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.168 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 201.168 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17f7671-ec2e-46f9-84af-16f6e3bbf68f")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5364,6 +6395,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
+		(at 229.87 149.098 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c435e9f8-23d8-47e3-b4c5-bb75af97c457")
+		(property "Reference" "J4"
+			(at 231.14 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Counter_Clockwise"
+			(at 231.14 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DF40C-10:CONN_DF40C-10DP-0.4V51_HIR"
+			(at 229.87 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "975ddf9b-1825-4067-8919-ac78b5b578d1")
+		)
+		(pin "7"
+			(uuid "49505d62-5d66-4ce5-81b5-0ef2dbcd2d9e")
+		)
+		(pin "6"
+			(uuid "7c168321-e27e-4509-8245-c88130ee0332")
+		)
+		(pin "5"
+			(uuid "14cb477f-f995-4348-abd6-aca72bf6a956")
+		)
+		(pin "9"
+			(uuid "b25d0e77-8606-490b-9af2-f08dc3454aef")
+		)
+		(pin "10"
+			(uuid "c89d81bf-1872-4da9-8cb5-7d346f942dc3")
+		)
+		(pin "1"
+			(uuid "7ca78079-58e6-4151-9c5f-f99c31cf812a")
+		)
+		(pin "4"
+			(uuid "be888e89-4cdf-425f-9372-0cd7f50ce1ff")
+		)
+		(pin "3"
+			(uuid "62ccbcaa-077e-4ca5-8b04-dd6208cedf3d")
+		)
+		(pin "2"
+			(uuid "b896b6c1-5a34-47a1-9375-5a3fb8277e3e")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.978 115.062 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf1bb2cc-eb5b-4459-8771-b723b35832da")
+		(property "Reference" "#PWR011"
+			(at 204.978 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.978 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.978 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.978 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.978 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462a66b2-d74d-4ff2-8bdc-7aac721183a7")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 125.73 153.67 0)
 		(mirror y)
@@ -5391,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 153.67 0)
 			(effects
 				(font
@@ -5462,7 +6650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.81 153.67 0)
 			(effects
 				(font
@@ -5529,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -5598,7 +6786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 137.16 0)
 			(effects
 				(font
@@ -5668,7 +6856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.7052 96.52 0)
 			(effects
 				(font
@@ -5735,7 +6923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 166.37 113.03 90)
 			(effects
 				(font
@@ -5805,7 +6993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -5842,6 +7030,72 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.168 107.188 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91f200b-bba4-4d8d-a19c-1d5e89deb90d")
+		(property "Reference" "#PWR09"
+			(at 201.168 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.168 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.168 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.168 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.168 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d295a2f5-5020-4544-b9a1-99e38f135b00")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5941,7 +7195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -6011,7 +7265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 55.88 134.62 0)
 			(effects
 				(font
