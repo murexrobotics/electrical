@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "LM74900")(type "KiCad")(uri "${MUREX_2024}/LM74900/LM74900.kicad_sym")(options "")(descr ""))
+  (lib (name "NFET")(type "KiCad")(uri "${MUREX_2024}/MOSFET Symbols/nmos.kicad_sym")(options "")(descr ""))
 )

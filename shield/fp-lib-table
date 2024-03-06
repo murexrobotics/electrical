@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WLCSP8-SOT8072")(type "KiCad")(uri "${MUREX_2024}/WLCSP8-SOT8072.pretty")(options "")(descr ""))
+)
