@@ -2,12 +2,12 @@
 	(version 20240101)
 	(generator "eeschema")
 	(generator_version "8.99")
-	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
+	(uuid "4aef1d23-0855-488b-9c65-233fd689c12c")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "OFDM"
-		(shape bidirectional)
-		(at 109.22 91.44 0)
+	(hierarchical_label "PSU IN"
+		(shape input)
+		(at 109.2592 91.7612 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18,26 +18,11 @@
 			)
 			(justify left)
 		)
-		(uuid "19a27453-3cbc-4bb7-a2bc-a264aebd473b")
-	)
-	(hierarchical_label "12V IN"
-		(shape bidirectional)
-		(at 109.22 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "3a6c9421-e944-40af-9b71-8d0f2fef334e")
+		(uuid "6e27d035-83ab-46b7-8718-f5a5ab0c36a0")
 	)
 	(hierarchical_label "Ethernet"
-		(shape bidirectional)
-		(at 109.22 86.36 0)
+		(shape input)
+		(at 109.22 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -48,6 +33,21 @@
 			)
 			(justify left)
 		)
-		(uuid "6a402674-229a-4b8c-baba-0c8eb4132eec")
+		(uuid "95e8416f-f92c-4038-8679-f04335e39210")
+	)
+	(hierarchical_label "WIFI"
+		(shape input)
+		(at 109.22 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e39d284e-4200-4077-b81b-0dfc2dc8e5bf")
 	)
 )

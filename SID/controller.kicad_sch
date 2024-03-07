@@ -2,12 +2,12 @@
 	(version 20240101)
 	(generator "eeschema")
 	(generator_version "8.99")
-	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
+	(uuid "50644320-b1c8-4d2e-8c9f-a1ffd7c346bc")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "Phases IN"
-		(shape bidirectional)
-		(at 109.22 99.06 0)
+	(hierarchical_label "BLE"
+		(shape input)
+		(at 104.14 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18,6 +18,6 @@
 			)
 			(justify left)
 		)
-		(uuid "c3e544e6-278e-443e-8a8a-e653d4b2a8fa")
+		(uuid "4effd4a5-7b3d-4bf2-af89-d4cb94979183")
 	)
 )

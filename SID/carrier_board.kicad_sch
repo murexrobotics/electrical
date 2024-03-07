@@ -1,31 +1,98 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid 9656877e-9947-4465-b8a7-40790b2fc774)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (hierarchical_label "PWM" (shape bidirectional) (at 109.22 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 19a27453-3cbc-4bb7-a2bc-a264aebd473b)
-  )
-  (hierarchical_label "5V IN" (shape bidirectional) (at 109.22 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3a6c9421-e944-40af-9b71-8d0f2fef334e)
-  )
-  (hierarchical_label "Ethernet" (shape bidirectional) (at 109.22 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6a402674-229a-4b8c-baba-0c8eb4132eec)
-  )
-  (hierarchical_label "3.3V IN" (shape bidirectional) (at 119.38 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 89f26e55-632c-45c1-b52e-0327d1fe8083)
-  )
-  (hierarchical_label "UART" (shape bidirectional) (at 109.22 93.98 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c53cbbf8-468b-4f93-b0e6-63ac024e5b9b)
-  )
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PWM"
+		(shape bidirectional)
+		(at 109.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "19a27453-3cbc-4bb7-a2bc-a264aebd473b")
+	)
+	(hierarchical_label "5V IN"
+		(shape bidirectional)
+		(at 109.22 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3a6c9421-e944-40af-9b71-8d0f2fef334e")
+	)
+	(hierarchical_label "Ethernet"
+		(shape bidirectional)
+		(at 109.22 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6a402674-229a-4b8c-baba-0c8eb4132eec")
+	)
+	(hierarchical_label "3.3V IN"
+		(shape bidirectional)
+		(at 119.38 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "89f26e55-632c-45c1-b52e-0327d1fe8083")
+	)
+	(hierarchical_label "UART"
+		(shape bidirectional)
+		(at 109.22 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c53cbbf8-468b-4f93-b0e6-63ac024e5b9b")
+	)
+	(hierarchical_label "USB"
+		(shape bidirectional)
+		(at 109.22 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ff7be114-7808-40e7-afa8-5a346de2b15a")
+	)
 )

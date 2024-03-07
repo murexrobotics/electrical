@@ -1,19 +1,38 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid 09e6183f-aea5-4d2a-b11c-82d64c0df918)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (hierarchical_label "5V OUT" (shape bidirectional) (at 102.87 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5a3172d5-3e49-4e76-9984-e493571b77bd)
-  )
-  (hierarchical_label "12V IN" (shape bidirectional) (at 102.87 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6b0e83c6-9b25-45ed-9c82-39571aad7e54)
-  )
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "09e6183f-aea5-4d2a-b11c-82d64c0df918")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "5V OUT"
+		(shape bidirectional)
+		(at 102.87 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5a3172d5-3e49-4e76-9984-e493571b77bd")
+	)
+	(hierarchical_label "12V IN"
+		(shape bidirectional)
+		(at 102.87 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6b0e83c6-9b25-45ed-9c82-39571aad7e54")
+	)
 )

@@ -24,6 +24,13 @@
       "track_widths": [],
       "via_dimensions": []
     },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
     "layer_presets": [],
     "viewports": []
   },
@@ -218,10 +225,12 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_link_issues": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -379,7 +388,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -392,7 +401,7 @@
   "sheets": [
     [
       "ee80e385-b521-4c0c-8377-5ddf37ba7638",
-      ""
+      "Root"
     ],
     [
       "e3c2e569-fe21-4faa-b91e-95a211c508bf",
@@ -444,11 +453,11 @@
     ],
     [
       "22db3b24-3e20-4208-bff7-bebc94312e4e",
-      "MUREX ESCs 6x"
+      "MUREX ESCs 8x"
     ],
     [
       "5e1e932a-f42a-4e5b-867f-c84db178afbe",
-      "Blue Robotics T200 6x"
+      "Blue Robotics T200 8x"
     ],
     [
       "1298ad33-fd0d-4cf2-b53b-d020b6e2f40c",
@@ -457,6 +466,26 @@
     [
       "4e0103d9-f778-4f66-9493-17140c1b9b46",
       "IP Camera 2"
+    ],
+    [
+      "3990524d-a068-49b2-bfa8-26cab12a2cbf",
+      "Murata DCDC"
+    ],
+    [
+      "3ea14ede-a5d9-4eba-a4ba-56a58e7694bd",
+      "Pico"
+    ],
+    [
+      "32910284-f2ac-4d47-8360-82a5ebc37a14",
+      "USB Camera"
+    ],
+    [
+      "86fb5682-ad7b-4288-8e00-48e0731ea200",
+      "Controller"
+    ],
+    [
+      "b9ab6197-019b-44ec-a267-c939acb5d991",
+      "Router"
     ]
   ],
   "text_variables": {}
