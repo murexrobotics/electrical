@@ -2882,6 +2882,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 46.482) (xy 175.26 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d8a50f-8860-44ce-912b-f983d8117888")
+	)
+	(wire
+		(pts
 			(xy 55.88 143.51) (xy 63.5 143.51)
 		)
 		(stroke
@@ -2889,6 +2899,16 @@
 			(type default)
 		)
 		(uuid "6e6cd08c-7ea5-4fb5-8fec-07f5a19fa624")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.356) (xy 93.98 54.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2a4c45-7293-4485-ac63-c286b606cdad")
 	)
 	(wire
 		(pts
@@ -3142,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 54.102) (xy 163.83 54.102)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97469fe2-f92c-4ec3-b609-a15f86deea11")
+	)
+	(wire
+		(pts
 			(xy 142.24 95.25) (xy 154.94 95.25)
 		)
 		(stroke
@@ -3189,6 +3219,26 @@
 			(type default)
 		)
 		(uuid "a3443550-e858-4574-b42c-14cc40285aa0")
+	)
+	(wire
+		(pts
+			(xy 132.08 46.482) (xy 146.05 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5eb40f4-ca1c-417b-bf75-29ecce67c2f9")
+	)
+	(wire
+		(pts
+			(xy 93.218 46.736) (xy 102.87 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60468cb-ed80-47df-a372-3891dafe1ad8")
 	)
 	(wire
 		(pts
@@ -3652,6 +3702,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 46.736) (xy 113.03 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1dfa5c-4dd0-4b39-a735-a3c33f9c5a0e")
+	)
+	(wire
+		(pts
 			(xy 220.726 134.112) (xy 235.966 134.112)
 		)
 		(stroke
@@ -3680,36 +3740,6 @@
 		)
 		(uuid "fe87930b-4a43-4cd4-8f5f-e8a5966417ae")
 	)
-	(text "100nF for VS pin - Max"
-		(exclude_from_sim no)
-		(at 106.426 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "41cfbfb2-d917-4ef0-be2b-507cbaebbec4")
-	)
-	(text "what do you mean? - byran"
-		(exclude_from_sim no)
-		(at 107.696 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "581da98c-1582-48ca-9e45-e15e60916d3a")
-	)
-	(text "missing decoupling cap? - max"
-		(exclude_from_sim no)
-		(at 107.442 44.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d93eae5c-8486-490a-a81f-ee8d5d15076b")
-	)
 	(label "SHUNT-_IC"
 		(at 179.07 159.512 0)
 		(fields_autoplaced yes)
@@ -3720,6 +3750,39 @@
 			(justify left bottom)
 		)
 		(uuid "07c466fe-acd1-4443-b942-f6afa02d0d3f")
+	)
+	(label "GATE2_PWR"
+		(at 163.83 54.102 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1060ff9e-ff56-4f64-a27e-58f03ad66e29")
+	)
+	(label "SHUNT+_PWR"
+		(at 127 46.736 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "119e4fa0-d63a-40d2-b1f8-5a7a32285bc5")
+	)
+	(label "SHUNT-_PWR"
+		(at 132.08 46.482 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1440ed58-30f7-488f-9255-72405f985ae3")
 	)
 	(label "EN"
 		(at 182.88 120.65 180)
@@ -3753,6 +3816,17 @@
 			(justify left bottom)
 		)
 		(uuid "2e1ef7e0-88b3-4a2f-8cc6-84c51ad1a690")
+	)
+	(label "GATE1_PWR"
+		(at 93.98 54.356 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f4a0029-ccf7-431d-90b7-15575dfc1784")
 	)
 	(label "ILIM"
 		(at 120.65 148.59 0)
@@ -3874,6 +3948,17 @@
 			(justify left bottom)
 		)
 		(uuid "9dd27ad6-280a-4dc5-8ef2-8ad7beb83390")
+	)
+	(label "VCC_PROT_PWR"
+		(at 175.26 46.482 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9839e35-9320-4f0b-9262-2bdf1e4c8ec5")
 	)
 	(label "GATE2_PWR"
 		(at 163.83 72.39 180)
@@ -4018,6 +4103,17 @@
 		)
 		(uuid "f7127852-a8cb-483c-a3e5-3c5ef39ae2ef")
 	)
+	(label "VCC_PWR"
+		(at 93.218 46.736 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbca4db4-7774-4779-8f6c-a31637c620d6")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 161.29 116.84 0)
@@ -4150,6 +4246,77 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NFET:Q_NMOS_GSD")
+		(at 151.13 49.022 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06710d36-ff3b-4677-8442-71cd1751d3e9")
+		(property "Reference" "Q4"
+			(at 151.13 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2304"
+			(at 153.924 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPC2304ENGRT:EPC2304_ECC"
+			(at 148.59 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 151.13 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G"
+			(uuid "9d13f40d-0e81-4aef-b20d-df78bad0bb39")
+		)
+		(pin "D"
+			(uuid "e6aa3969-2f1d-462f-8d62-36c973b987aa")
+		)
+		(pin "S"
+			(uuid "87b38753-cab5-4d97-a0f3-8c622233d2c9")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4366,6 +4533,77 @@
 			(project "shield"
 				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NFET:Q_NMOS_GSD")
+		(at 107.95 49.276 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11f9ba4c-ef0e-4a3f-910c-300b0b34cd9f")
+		(property "Reference" "Q3"
+			(at 107.95 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2304"
+			(at 107.95 42.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPC2304ENGRT:EPC2304_ECC"
+			(at 110.49 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 107.95 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G"
+			(uuid "0568a83b-5dd4-430d-8ce5-d327403f4208")
+		)
+		(pin "D"
+			(uuid "401672e9-2ef3-47c0-8952-c0cb58dcb1d8")
+		)
+		(pin "S"
+			(uuid "def6e245-289f-4e68-975b-5420bd4df450")
+		)
+		(instances
+			(project "shield"
+				(path "/5b82dc35-3a33-40e8-9adc-c72e6c4a87f2"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
