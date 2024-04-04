@@ -3740,6 +3740,41 @@
 		)
 		(uuid "fe87930b-4a43-4cd4-8f5f-e8a5966417ae")
 	)
+	(text "UVLO 8.6V: JP #4, JP #6\nUVLO 4.6V: JP #4\nUVLO 2.6V: JP #5"
+		(exclude_from_sim no)
+		(at 52.07 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c7fb876-08c1-4d1a-a893-d8e6f4e738bd")
+	)
+	(text "OVLO 14.82V: JP #3\nOVLO 5.72V: JP #1, JP #2\nOVLO 3.72V: JP #2"
+		(exclude_from_sim no)
+		(at 52.07 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbad0cd4-c144-465f-b040-a5970dc094dc")
+	)
+	(text "Selectable OVLO/UVLO, bridge jumpers:"
+		(exclude_from_sim no)
+		(at 68.58 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "fdff35e4-dcae-487e-9f78-0dc07ee940b9")
+	)
 	(label "SHUNT-_IC"
 		(at 179.07 159.512 0)
 		(fields_autoplaced yes)
@@ -5385,7 +5420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "15k"
 			(at 60.96 142.2399 0)
 			(effects
 				(font
@@ -6715,7 +6750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "15k"
 			(at 53.34 142.2399 0)
 			(effects
 				(font
@@ -7990,7 +8025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "4.22k"
 			(at 67.31 129.5399 0)
 			(effects
 				(font
