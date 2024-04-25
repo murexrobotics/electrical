@@ -1,0 +1,53 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "f75755cd-d3a3-49d5-ad03-a57362207b81")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "UART"
+		(shape input)
+		(at 100.33 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "394fcd60-850c-40aa-955c-f729fffd32a8")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 100.33 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3fb6119d-a7dd-4adb-a18f-e9d92a6aca55")
+	)
+	(hierarchical_label "5V IN"
+		(shape input)
+		(at 100.33 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ad320615-112b-4124-a335-9fb958dafdd8")
+	)
+)

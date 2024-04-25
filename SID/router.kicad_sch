@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "4aef1d23-0855-488b-9c65-233fd689c12c")
-	(paper "A4")
+	(paper "User" 270 180)
 	(lib_symbols)
 	(hierarchical_label "PSU IN"
 		(shape input)

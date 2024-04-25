@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "09e6183f-aea5-4d2a-b11c-82d64c0df918")
-	(paper "A4")
+	(paper "User" 270 180)
 	(lib_symbols)
 	(hierarchical_label "12V IN"
 		(shape bidirectional)

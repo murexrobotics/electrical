@@ -1,0 +1,38 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "DC OUT"
+		(shape input)
+		(at 105.41 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8dbe7d92-5368-4e74-bbaa-953db27a117a")
+	)
+	(hierarchical_label "110VAC"
+		(shape input)
+		(at 105.41 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9d69dcc5-8d22-45fc-bc39-306fc34a96c0")
+	)
+)

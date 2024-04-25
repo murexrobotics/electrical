@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "40def146-f4c2-4e5f-9244-1f75d5d23718")
-	(paper "A4")
+	(paper "User" 270 180)
 	(lib_symbols)
 	(hierarchical_label "USB"
 		(shape input)

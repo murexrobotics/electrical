@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
-	(paper "A4")
+	(paper "User" 270 180)
 	(lib_symbols)
 	(hierarchical_label "PWM"
 		(shape bidirectional)

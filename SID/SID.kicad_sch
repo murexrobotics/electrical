@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "ee80e385-b521-4c0c-8377-5ddf37ba7638")
-	(paper "A4")
+	(paper "User" 270 180)
 	(title_block
 		(title "System Integration Diagram")
 		(date "2024-05-11")
@@ -843,156 +843,156 @@
 		)
 	)
 	(junction
-		(at 231.14 127)
+		(at 220.98 116.078)
 		(diameter 0)
 		(color 132 132 0 1)
 		(uuid "0473a412-25ea-4ca4-b1fc-365645de86ae")
 	)
 	(junction
-		(at 156.21 60.96)
+		(at 146.05 50.038)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "04a0bdd2-ed11-492d-bc9c-b0c7aa599877")
 	)
 	(junction
-		(at 198.12 127)
+		(at 187.96 116.078)
 		(diameter 0)
 		(color 132 132 0 1)
 		(uuid "087fa56b-1ec7-4d58-a3bd-c802acb54b87")
 	)
 	(junction
-		(at 196.85 100.33)
+		(at 186.69 89.408)
 		(diameter 0)
 		(color 255 153 0 1)
 		(uuid "26984a18-9aae-49ab-b61a-feaecd3ceb8c")
 	)
 	(junction
-		(at 214.63 127)
+		(at 204.47 116.078)
 		(diameter 0)
 		(color 132 132 0 1)
 		(uuid "2d396930-91d1-49f1-a34f-51899d63ef10")
 	)
 	(junction
-		(at 194.31 50.8)
+		(at 184.15 39.878)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "3068f545-5dee-4095-b0cf-b6fee13f3530")
 	)
 	(junction
-		(at 49.53 92.71)
+		(at 39.37 81.788)
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "47204654-9930-4c1f-a061-2c690334e19f")
 	)
 	(junction
-		(at 203.2 124.46)
+		(at 193.04 113.538)
 		(diameter 0)
 		(color 194 194 0 1)
 		(uuid "5f007fb7-f345-4363-bdb7-4e7523f7479f")
 	)
 	(junction
-		(at 49.53 98.044)
+		(at 39.37 87.122)
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "728d05b1-3a8d-439f-a079-1762eb993e2a")
 	)
 	(junction
-		(at 49.53 95.504)
+		(at 39.37 84.582)
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "93f57c2a-b8c1-4f66-afea-99213cc539f3")
 	)
 	(junction
-		(at 196.85 50.8)
+		(at 186.69 39.878)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "a252fa0f-608b-453b-b218-295fcd4f235c")
 	)
 	(junction
-		(at 195.58 124.46)
+		(at 185.42 113.538)
 		(diameter 0)
 		(color 194 194 0 1)
 		(uuid "a7071528-9b5e-48f7-b9d0-5ccde1c887fd")
 	)
 	(junction
-		(at 156.21 82.55)
+		(at 146.05 71.628)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "ac608d0a-c455-4e39-a803-175f4ce0258c")
 	)
 	(junction
-		(at 226.06 63.5)
+		(at 215.9 52.578)
 		(diameter 0)
 		(color 255 0 255 1)
 		(uuid "bddda8f3-fea7-41df-979f-5bdfe24d64d8")
 	)
 	(junction
-		(at 156.21 67.31)
+		(at 146.05 56.388)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "c16926fa-de3c-4b8c-b3ad-dc1527d1e8df")
 	)
 	(junction
-		(at 199.39 62.23)
+		(at 189.23 51.308)
 		(diameter 0)
 		(color 255 153 0 1)
 		(uuid "cceb0d26-e0d4-4cda-947e-6efa12ff3ea5")
 	)
 	(junction
-		(at 203.2 113.03)
+		(at 193.04 102.108)
 		(diameter 0)
 		(color 194 194 0 1)
 		(uuid "d2148075-82b6-4680-9bcf-5290a14ea14f")
 	)
 	(junction
-		(at 143.51 67.31)
+		(at 133.35 56.388)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "d343916c-7933-416b-b7cf-a17ea89d1ab6")
 	)
 	(junction
-		(at 231.14 88.9)
+		(at 220.98 77.978)
 		(diameter 0)
 		(color 255 0 255 1)
 		(uuid "d703ac98-7a7c-48ca-8ff7-e1cfa447e3d4")
 	)
 	(junction
-		(at 212.09 124.46)
+		(at 201.93 113.538)
 		(diameter 0)
 		(color 194 194 0 1)
 		(uuid "d9b30cbb-29f9-4b8c-a380-88bba700ba9b")
 	)
 	(junction
-		(at 92.71 71.12)
+		(at 82.55 60.198)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "dd6bf559-238c-42d8-9e12-eea9f04ff574")
 	)
 	(junction
-		(at 193.04 100.33)
+		(at 182.88 89.408)
 		(diameter 0)
 		(color 255 153 0 1)
 		(uuid "e8e44b9f-5c61-4a32-839a-72488ab8aaf0")
 	)
 	(junction
-		(at 156.21 78.74)
+		(at 146.05 67.818)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "efe97c84-743a-48f1-b02a-e3ab6f13de5c")
 	)
 	(junction
-		(at 156.21 96.52)
+		(at 146.05 85.598)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "f72759d4-a543-448e-b46d-b35fc3f46d24")
 	)
 	(no_connect
-		(at 223.52 74.93)
+		(at 213.36 64.008)
 		(uuid "bd22c8e8-afff-422b-9bb8-371f23993fb5")
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 156.21 96.52)
+			(xy 154.94 85.598) (xy 146.05 85.598)
 		)
 		(stroke
 			(width 0.4)
@@ -1003,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 214.63 127)
+			(xy 220.98 116.078) (xy 204.47 116.078)
 		)
 		(stroke
 			(width 0.4)
@@ -1014,7 +1014,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 124.46) (xy 203.2 124.46)
+			(xy 185.42 113.538) (xy 193.04 113.538)
 		)
 		(stroke
 			(width 0.4)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 96.52 88.9)
+			(xy 78.74 77.978) (xy 86.36 77.978)
 		)
 		(stroke
 			(width 0.4)
@@ -1036,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 67.31) (xy 143.51 67.31)
+			(xy 129.54 56.388) (xy 133.35 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -1047,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 66.04) (xy 191.77 74.93)
+			(xy 181.61 55.118) (xy 181.61 64.008)
 		)
 		(stroke
 			(width 0.4)
@@ -1058,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 100.33) (xy 196.85 100.33)
+			(xy 182.88 89.408) (xy 186.69 89.408)
 		)
 		(stroke
 			(width 0.4)
@@ -1069,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 234.95 96.52)
+			(xy 177.8 85.598) (xy 224.79 85.598)
 		)
 		(stroke
 			(width 0.4)
@@ -1080,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 100.33) (xy 264.16 115.57)
+			(xy 254 89.408) (xy 254 104.648)
 		)
 		(stroke
 			(width 0.4)
@@ -1091,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 41.91 67.31)
+			(xy 21.59 56.388) (xy 31.75 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -1102,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 48.26) (xy 209.55 48.26)
+			(xy 189.23 37.338) (xy 199.39 37.338)
 		)
 		(stroke
 			(width 0.4)
@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 156.21 113.03)
+			(xy 146.05 85.598) (xy 146.05 102.108)
 		)
 		(stroke
 			(width 0.4)
@@ -1124,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 180.086) (xy 105.41 180.086)
+			(xy 91.186 156.718) (xy 96.266 156.718)
 		)
 		(stroke
 			(width 1)
@@ -1135,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 92.71 71.12)
+			(xy 78.74 60.198) (xy 82.55 60.198)
 		)
 		(stroke
 			(width 0.4)
@@ -1146,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 69.85) (xy 31.75 69.85)
+			(xy 26.67 58.928) (xy 21.59 58.928)
 		)
 		(stroke
 			(width 0.4)
@@ -1157,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 120.65 71.12)
+			(xy 111.76 60.198) (xy 110.49 60.198)
 		)
 		(stroke
 			(width 0.4)
@@ -1168,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 129.54) (xy 193.04 129.54)
+			(xy 179.07 118.618) (xy 182.88 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1179,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 129.54) (xy 226.06 129.54)
+			(xy 212.09 118.618) (xy 215.9 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1190,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 156.21 78.74)
+			(xy 146.05 71.628) (xy 146.05 67.818)
 		)
 		(stroke
 			(width 0.4)
@@ -1201,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 55.88)
+			(xy 82.55 60.198) (xy 82.55 44.958)
 		)
 		(stroke
 			(width 0.4)
@@ -1212,7 +1212,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 193.04 100.33)
+			(xy 182.88 71.628) (xy 182.88 89.408)
 		)
 		(stroke
 			(width 0.4)
@@ -1223,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 193.04 100.33)
+			(xy 177.8 89.408) (xy 182.88 89.408)
 		)
 		(stroke
 			(width 0.4)
@@ -1234,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 82.55) (xy 223.52 82.55)
+			(xy 217.17 71.628) (xy 213.36 71.628)
 		)
 		(stroke
 			(width 0.4)
@@ -1245,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 63.5) (xy 231.14 63.5)
+			(xy 215.9 52.578) (xy 220.98 52.578)
 		)
 		(stroke
 			(width 0.4)
@@ -1256,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 124.46) (xy 195.58 129.54)
+			(xy 185.42 113.538) (xy 185.42 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1267,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 167.386) (xy 129.54 167.386)
+			(xy 115.316 144.018) (xy 120.396 144.018)
 		)
 		(stroke
 			(width 1)
@@ -1278,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 116.84) (xy 231.14 127)
+			(xy 220.98 105.918) (xy 220.98 116.078)
 		)
 		(stroke
 			(width 0.4)
@@ -1289,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 175.768) (xy 105.41 175.768)
+			(xy 91.186 152.4) (xy 96.266 152.4)
 		)
 		(stroke
 			(width 1)
@@ -1300,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 92.71) (xy 227.33 92.71)
+			(xy 224.79 81.788) (xy 217.17 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -1311,7 +1311,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 62.23) (xy 196.85 62.23)
+			(xy 189.23 51.308) (xy 186.69 51.308)
 		)
 		(stroke
 			(width 0.4)
@@ -1322,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 127) (xy 214.63 129.54)
+			(xy 204.47 116.078) (xy 204.47 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1333,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 231.14 129.54)
+			(xy 220.98 116.078) (xy 220.98 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1344,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 92.71) (xy 143.51 92.71)
+			(xy 137.16 81.788) (xy 133.35 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 49.53 92.71)
+			(xy 39.37 70.358) (xy 39.37 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -1366,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 127) (xy 198.12 129.54)
+			(xy 187.96 116.078) (xy 187.96 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1377,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 63.5) (xy 231.14 88.9)
+			(xy 220.98 52.578) (xy 220.98 77.978)
 		)
 		(stroke
 			(width 0.4)
@@ -1388,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 209.55 44.45)
+			(xy 186.69 33.528) (xy 199.39 33.528)
 		)
 		(stroke
 			(width 0.4)
@@ -1399,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 95.504) (xy 49.53 98.044)
+			(xy 39.37 84.582) (xy 39.37 87.122)
 		)
 		(stroke
 			(width 0.4)
@@ -1410,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 158.75) (xy 105.41 158.75)
+			(xy 91.186 135.382) (xy 96.266 135.382)
 		)
 		(stroke
 			(width 1)
@@ -1421,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 92.71) (xy 118.618 81.28)
+			(xy 108.458 81.788) (xy 108.458 70.358)
 		)
 		(stroke
 			(width 0.4)
@@ -1432,7 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 212.09 124.46)
+			(xy 201.93 118.618) (xy 201.93 113.538)
 		)
 		(stroke
 			(width 0.4)
@@ -1443,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 66.04) (xy 191.77 66.04)
+			(xy 177.8 55.118) (xy 181.61 55.118)
 		)
 		(stroke
 			(width 0.4)
@@ -1454,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 200.66 78.74)
+			(xy 177.8 67.818) (xy 190.5 67.818)
 		)
 		(stroke
 			(width 0.4)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 165.1 82.55)
+			(xy 146.05 71.628) (xy 154.94 71.628)
 		)
 		(stroke
 			(width 0.4)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 95.504) (xy 32.004 95.504)
+			(xy 39.37 84.582) (xy 21.844 84.582)
 		)
 		(stroke
 			(width 0.4)
@@ -1487,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 127) (xy 181.61 127)
+			(xy 187.96 116.078) (xy 171.45 116.078)
 		)
 		(stroke
 			(width 0.4)
@@ -1498,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 50.8) (xy 196.85 58.42)
+			(xy 186.69 39.878) (xy 186.69 47.498)
 		)
 		(stroke
 			(width 0.4)
@@ -1509,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 82.55) (xy 193.04 82.55)
+			(xy 190.5 71.628) (xy 182.88 71.628)
 		)
 		(stroke
 			(width 0.4)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 72.39) (xy 227.33 72.39)
+			(xy 224.79 61.468) (xy 217.17 61.468)
 		)
 		(stroke
 			(width 0.4)
@@ -1531,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 100.33) (xy 264.16 100.33)
+			(xy 247.65 89.408) (xy 254 89.408)
 		)
 		(stroke
 			(width 0.4)
@@ -1542,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 58.42) (xy 200.66 58.42)
+			(xy 186.69 47.498) (xy 190.5 47.498)
 		)
 		(stroke
 			(width 0.4)
@@ -1553,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 124.46) (xy 179.07 124.46)
+			(xy 185.42 113.538) (xy 168.91 113.538)
 		)
 		(stroke
 			(width 0.4)
@@ -1564,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 234.95 88.9)
+			(xy 220.98 77.978) (xy 224.79 77.978)
 		)
 		(stroke
 			(width 0.4)
@@ -1575,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 125.73 87.63)
+			(xy 110.49 76.708) (xy 115.57 76.708)
 		)
 		(stroke
 			(width 0.4)
@@ -1586,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.698 175.768) (xy 130.048 175.768)
+			(xy 114.554 152.4) (xy 120.904 152.4)
 		)
 		(stroke
 			(width 0.5)
@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 113.03) (xy 203.2 113.03)
+			(xy 177.8 102.108) (xy 193.04 102.108)
 		)
 		(stroke
 			(width 0.4)
@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 62.23) (xy 200.66 62.23)
+			(xy 189.23 51.308) (xy 190.5 51.308)
 		)
 		(stroke
 			(width 0.4)
@@ -1619,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 96.52 71.12)
+			(xy 82.55 60.198) (xy 86.36 60.198)
 		)
 		(stroke
 			(width 0.4)
@@ -1630,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 57.15) (xy 224.79 57.15)
+			(xy 212.09 46.228) (xy 214.63 46.228)
 		)
 		(stroke
 			(width 0.4)
@@ -1641,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 234.95 100.33)
+			(xy 186.69 89.408) (xy 224.79 89.408)
 		)
 		(stroke
 			(width 0.4)
@@ -1652,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 156.21 78.74)
+			(xy 146.05 56.388) (xy 146.05 67.818)
 		)
 		(stroke
 			(width 0.4)
@@ -1663,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 127) (xy 181.61 129.54)
+			(xy 171.45 116.078) (xy 171.45 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1674,7 +1674,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 171.196) (xy 129.54 171.196)
+			(xy 115.316 147.828) (xy 120.396 147.828)
 		)
 		(stroke
 			(width 1)
@@ -1685,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 176.53 129.54)
+			(xy 162.56 118.618) (xy 166.37 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -1696,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 98.044) (xy 49.53 109.22)
+			(xy 39.37 87.122) (xy 39.37 98.298)
 		)
 		(stroke
 			(width 0.4)
@@ -1707,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 57.15) (xy 224.79 63.5)
+			(xy 214.63 46.228) (xy 214.63 52.578)
 		)
 		(stroke
 			(width 0.4)
@@ -1718,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 81.28) (xy 49.53 81.28)
+			(xy 108.458 70.358) (xy 39.37 70.358)
 		)
 		(stroke
 			(width 0.4)
@@ -1729,7 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 196.85 50.8)
+			(xy 186.69 33.528) (xy 186.69 39.878)
 		)
 		(stroke
 			(width 0.4)
@@ -1740,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 163.068) (xy 129.54 163.068)
+			(xy 115.316 139.7) (xy 120.396 139.7)
 		)
 		(stroke
 			(width 1)
@@ -1751,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 120.65 87.63)
+			(xy 110.49 60.198) (xy 110.49 76.708)
 		)
 		(stroke
 			(width 0.4)
@@ -1762,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 55.88) (xy 143.51 67.31)
+			(xy 133.35 44.958) (xy 133.35 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -1773,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 74.93) (xy 200.66 74.93)
+			(xy 181.61 64.008) (xy 190.5 64.008)
 		)
 		(stroke
 			(width 0.4)
@@ -1784,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 114.3 104.14)
+			(xy 106.68 93.218) (xy 104.14 93.218)
 		)
 		(stroke
 			(width 0.4)
@@ -1795,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 111.76) (xy 231.14 111.76)
+			(xy 218.44 100.838) (xy 220.98 100.838)
 		)
 		(stroke
 			(width 0.4)
@@ -1806,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 92.71) (xy 227.33 82.55)
+			(xy 217.17 81.788) (xy 217.17 71.628)
 		)
 		(stroke
 			(width 0.4)
@@ -1817,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 50.8) (xy 196.85 50.8)
+			(xy 184.15 39.878) (xy 186.69 39.878)
 		)
 		(stroke
 			(width 0.4)
@@ -1828,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 124.46) (xy 228.6 124.46)
+			(xy 201.93 113.538) (xy 218.44 113.538)
 		)
 		(stroke
 			(width 0.4)
@@ -1839,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 48.26) (xy 199.39 62.23)
+			(xy 189.23 37.338) (xy 189.23 51.308)
 		)
 		(stroke
 			(width 0.4)
@@ -1850,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 116.84 104.14)
+			(xy 106.68 80.518) (xy 106.68 93.218)
 		)
 		(stroke
 			(width 0.4)
@@ -1861,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 67.31) (xy 194.31 50.8)
+			(xy 184.15 56.388) (xy 184.15 39.878)
 		)
 		(stroke
 			(width 0.4)
@@ -1872,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 167.132) (xy 105.41 167.132)
+			(xy 91.186 143.764) (xy 96.266 143.764)
 		)
 		(stroke
 			(width 1)
@@ -1883,7 +1883,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 81.28) (xy 147.32 81.28)
+			(xy 124.46 70.358) (xy 137.16 70.358)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 147.32 106.68)
+			(xy 104.14 95.758) (xy 137.16 95.758)
 		)
 		(stroke
 			(width 0.4)
@@ -1904,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 69.85) (xy 36.83 73.66)
+			(xy 26.67 58.928) (xy 26.67 62.738)
 		)
 		(stroke
 			(width 0.4)
@@ -1915,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.532 67.31) (xy 71.12 67.31)
+			(xy 55.372 56.388) (xy 60.96 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -1926,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 116.84 91.44)
+			(xy 104.14 80.518) (xy 106.68 80.518)
 		)
 		(stroke
 			(width 0.4)
@@ -1937,7 +1937,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 53.34) (xy 240.03 53.34)
+			(xy 212.09 42.418) (xy 229.87 42.418)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 113.03) (xy 165.1 113.03)
+			(xy 146.05 102.108) (xy 154.94 102.108)
 		)
 		(stroke
 			(width 0.4)
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 62.23) (xy 196.85 100.33)
+			(xy 186.69 51.308) (xy 186.69 89.408)
 		)
 		(stroke
 			(width 0.4)
@@ -1970,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 78.74) (xy 165.1 78.74)
+			(xy 146.05 67.818) (xy 154.94 67.818)
 		)
 		(stroke
 			(width 0.4)
@@ -1981,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 92.71) (xy 71.12 92.71)
+			(xy 39.37 81.788) (xy 60.96 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -1992,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 163.068) (xy 105.41 163.068)
+			(xy 91.186 139.7) (xy 96.266 139.7)
 		)
 		(stroke
 			(width 1)
@@ -2003,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 228.6 129.54)
+			(xy 218.44 113.538) (xy 218.44 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -2014,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 156.21 82.55)
+			(xy 146.05 85.598) (xy 146.05 71.628)
 		)
 		(stroke
 			(width 0.4)
@@ -2025,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 165.1 60.96)
+			(xy 146.05 50.038) (xy 154.94 50.038)
 		)
 		(stroke
 			(width 0.4)
@@ -2036,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 111.76) (xy 231.14 88.9)
+			(xy 220.98 100.838) (xy 220.98 77.978)
 		)
 		(stroke
 			(width 0.4)
@@ -2047,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 63.5) (xy 226.06 63.5)
+			(xy 214.63 52.578) (xy 215.9 52.578)
 		)
 		(stroke
 			(width 0.4)
@@ -2058,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 55.372 67.31)
+			(xy 39.37 56.388) (xy 45.212 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -2069,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 124.46 123.19)
+			(xy 104.14 112.268) (xy 114.3 112.268)
 		)
 		(stroke
 			(width 0.4)
@@ -2080,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 124.46) (xy 179.07 129.54)
+			(xy 168.91 113.538) (xy 168.91 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -2091,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 156.21 67.31)
+			(xy 133.35 56.388) (xy 146.05 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -2102,7 +2102,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 21.59) (xy 149.86 134.62)
+			(xy 139.7 10.668) (xy 139.7 123.698)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 67.31) (xy 121.92 67.31)
+			(xy 104.14 56.388) (xy 111.76 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -2123,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 92.71) (xy 118.618 92.71)
+			(xy 115.57 81.788) (xy 108.458 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -2134,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 116.84) (xy 231.14 116.84)
+			(xy 218.44 105.918) (xy 220.98 105.918)
 		)
 		(stroke
 			(width 0.4)
@@ -2145,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 72.39) (xy 227.33 78.74)
+			(xy 217.17 61.468) (xy 217.17 67.818)
 		)
 		(stroke
 			(width 0.4)
@@ -2156,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 50.8) (xy 194.31 50.8)
+			(xy 146.05 39.878) (xy 184.15 39.878)
 		)
 		(stroke
 			(width 0.4)
@@ -2167,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 98.044) (xy 32.004 98.044)
+			(xy 39.37 87.122) (xy 21.844 87.122)
 		)
 		(stroke
 			(width 0.4)
@@ -2178,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 67.31) (xy 194.31 67.31)
+			(xy 224.79 56.388) (xy 184.15 56.388)
 		)
 		(stroke
 			(width 0.4)
@@ -2189,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 156.21 50.8)
+			(xy 146.05 50.038) (xy 146.05 39.878)
 		)
 		(stroke
 			(width 0.4)
@@ -2200,7 +2200,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 68.58) (xy 147.32 81.28)
+			(xy 137.16 57.658) (xy 137.16 70.358)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 156.21 60.96)
+			(xy 146.05 56.388) (xy 146.05 50.038)
 		)
 		(stroke
 			(width 0.4)
@@ -2221,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 154.686) (xy 129.54 154.686)
+			(xy 115.316 131.318) (xy 120.396 131.318)
 		)
 		(stroke
 			(width 1)
@@ -2232,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 127) (xy 198.12 127)
+			(xy 204.47 116.078) (xy 187.96 116.078)
 		)
 		(stroke
 			(width 0.4)
@@ -2243,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 124.46 109.22)
+			(xy 114.3 112.268) (xy 114.3 98.298)
 		)
 		(stroke
 			(width 0.4)
@@ -2254,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 129.54) (xy 209.55 129.54)
+			(xy 195.58 118.618) (xy 199.39 118.618)
 		)
 		(stroke
 			(width 0.4)
@@ -2265,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 171.45) (xy 105.41 171.45)
+			(xy 91.186 148.082) (xy 96.266 148.082)
 		)
 		(stroke
 			(width 1)
@@ -2276,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 115.57) (xy 257.81 115.57)
+			(xy 254 104.648) (xy 247.65 104.648)
 		)
 		(stroke
 			(width 0.4)
@@ -2287,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 105.41) (xy 96.52 105.41)
+			(xy 78.74 94.488) (xy 86.36 94.488)
 		)
 		(stroke
 			(width 0.4)
@@ -2298,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 71.12 109.22)
+			(xy 39.37 98.298) (xy 60.96 98.298)
 		)
 		(stroke
 			(width 0.4)
@@ -2309,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 95.504) (xy 49.53 92.71)
+			(xy 39.37 84.582) (xy 39.37 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 124.46) (xy 212.09 124.46)
+			(xy 193.04 113.538) (xy 201.93 113.538)
 		)
 		(stroke
 			(width 0.4)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 78.74) (xy 223.52 78.74)
+			(xy 217.17 67.818) (xy 213.36 67.818)
 		)
 		(stroke
 			(width 0.4)
@@ -2342,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 106.68) (xy 147.32 92.71)
+			(xy 137.16 95.758) (xy 137.16 81.788)
 		)
 		(stroke
 			(width 0.4)
@@ -2353,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 55.88) (xy 143.51 55.88)
+			(xy 82.55 44.958) (xy 133.35 44.958)
 		)
 		(stroke
 			(width 0.4)
@@ -2364,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 109.22) (xy 114.3 109.22)
+			(xy 114.3 98.298) (xy 104.14 98.298)
 		)
 		(stroke
 			(width 0.4)
@@ -2375,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 158.75) (xy 129.54 158.75)
+			(xy 115.316 135.382) (xy 120.396 135.382)
 		)
 		(stroke
 			(width 1)
@@ -2386,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.714 180.086) (xy 129.794 180.086)
+			(xy 115.57 156.718) (xy 120.65 156.718)
 		)
 		(stroke
 			(width 1)
@@ -2397,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 113.03) (xy 205.74 113.03)
+			(xy 193.04 102.108) (xy 195.58 102.108)
 		)
 		(stroke
 			(width 0.4)
@@ -2408,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 113.03) (xy 203.2 124.46)
+			(xy 193.04 102.108) (xy 193.04 113.538)
 		)
 		(stroke
 			(width 0.4)
@@ -2418,8 +2418,8 @@
 		(uuid "ff1e61e5-1969-410b-98c1-fe2832e55fb0")
 	)
 	(rectangle
-		(start 144.78 66.04)
-		(end 154.94 68.58)
+		(start 134.62 55.118)
+		(end 144.78 57.658)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2430,8 +2430,8 @@
 		(uuid 07fdd770-2b76-4fd0-a3c3-bdf4e8fab406)
 	)
 	(rectangle
-		(start 96.52 149.86)
-		(end 147.32 184.15)
+		(start 87.376 126.492)
+		(end 138.176 160.782)
 		(stroke
 			(width 0)
 			(type default)
@@ -2442,8 +2442,8 @@
 		(uuid 4478903f-e1a2-4b14-b38f-e40b970230b0)
 	)
 	(rectangle
-		(start 31.75 149.606)
-		(end 82.55 183.896)
+		(start 22.606 126.238)
+		(end 73.406 160.528)
 		(stroke
 			(width 0)
 			(type default)
@@ -2455,7 +2455,7 @@
 	)
 	(text "Anderson Powerpole \n(MATE Power Supply)"
 		(exclude_from_sim no)
-		(at 25.4 62.484 0)
+		(at 15.24 51.562 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2469,7 +2469,7 @@
 	)
 	(text "110VAC"
 		(exclude_from_sim no)
-		(at 26.924 91.186 0)
+		(at 16.764 80.264 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2483,7 +2483,7 @@
 	)
 	(text "0"
 		(exclude_from_sim no)
-		(at 90.678 44.196 0)
+		(at 80.518 33.274 0)
 		(effects
 			(font
 				(face "murex")
@@ -2497,7 +2497,7 @@
 	)
 	(text "ELEC-008R Requirements"
 		(exclude_from_sim no)
-		(at 56.388 154.686 0)
+		(at 47.244 131.318 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2511,7 +2511,7 @@
 	)
 	(text "TOPSIDE"
 		(exclude_from_sim no)
-		(at 130.048 34.798 0)
+		(at 119.888 23.876 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2525,7 +2525,7 @@
 	)
 	(text "8 thrusters         2.5A each = 20A\n3 cameras           0.2A each = 0.6A\n8 ESCs             0.05A each = 0.4A\n1 ethernet switch        0.1A = 0.1A\n1 control board          0.2A = 0.2A\n4 servos            0.8A each = 3.2A\n2 PLC modules       0.1A each = 0.2A\n———————————————————————————————————————\nTotal Amps       24.7A * 150% = 37.1A\n\nFuse Selected:"
 		(exclude_from_sim no)
-		(at 34.036 169.418 0)
+		(at 24.892 146.05 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2537,7 +2537,7 @@
 	)
 	(text "25A ATO"
 		(exclude_from_sim no)
-		(at 53.34 180.34 0)
+		(at 44.196 156.972 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2549,7 +2549,7 @@
 	)
 	(text "* FLUID POWER IS NOT USED"
 		(exclude_from_sim no)
-		(at 29.972 49.53 0)
+		(at 19.812 38.608 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2562,7 +2562,7 @@
 	)
 	(text "TETHER"
 		(exclude_from_sim no)
-		(at 145.796 80.518 0)
+		(at 135.636 69.596 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2575,7 +2575,7 @@
 	)
 	(text "USB\n\n5VDC\n\nGND\n\nUART (MASCP)\n\nBLDC Phases\n\nWireless\n\n7VDC"
 		(exclude_from_sim no)
-		(at 132.334 154.686 0)
+		(at 123.19 131.318 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2589,7 +2589,7 @@
 	)
 	(text "SID Legend"
 		(exclude_from_sim no)
-		(at 108.458 154.686 0)
+		(at 99.314 131.318 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2603,7 +2603,7 @@
 	)
 	(text "SYSTEM INTEGRATION\nDIAGRAM (SID)"
 		(exclude_from_sim no)
-		(at 29.718 39.878 0)
+		(at 19.558 28.956 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2618,7 +2618,7 @@
 	)
 	(text "AQUATIC"
 		(exclude_from_sim no)
-		(at 152.908 35.052 0)
+		(at 142.748 24.13 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2632,7 +2632,7 @@
 	)
 	(text "110VAC\n\nPSUs DC\n\n12VDC\n\nEthernet\n\n3.3VDC\n\nPWM\n\n"
 		(exclude_from_sim no)
-		(at 108.966 158.75 0)
+		(at 99.822 135.382 0)
 		(effects
 			(font
 				(face "JetBrains Mono")
@@ -2646,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 228.6 137.16 270)
+		(at 218.44 126.238 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2655,7 +2655,7 @@
 		(fields_autoplaced yes)
 		(uuid "007b0ab9-f1b2-452a-a646-218b73414673")
 		(property "Reference" "M4"
-			(at 234.95 137.1488 90)
+			(at 224.79 126.2268 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2667,7 +2667,7 @@
 			)
 		)
 		(property "Value" "Servo"
-			(at 234.95 139.6888 90)
+			(at 224.79 128.7668 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.774 137.16 0)
+			(at 213.614 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2691,7 +2691,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 223.774 137.16 0)
+			(at 213.614 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2703,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 228.6 137.16 0)
+			(at 218.44 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2734,7 +2734,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 212.09 137.16 270)
+		(at 201.93 126.238 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2743,7 +2743,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b08cba9-300b-40b4-924a-44b840fb840a")
 		(property "Reference" "M3"
-			(at 218.44 137.1488 90)
+			(at 208.28 126.2268 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2755,7 +2755,7 @@
 			)
 		)
 		(property "Value" "Servo"
-			(at 218.44 139.6888 90)
+			(at 208.28 128.7668 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2767,7 +2767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.264 137.16 0)
+			(at 197.104 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2779,7 +2779,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 207.264 137.16 0)
+			(at 197.104 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2791,7 +2791,7 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 212.09 137.16 0)
+			(at 201.93 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2822,7 +2822,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 26.924 98.044 180)
+		(at 16.764 87.122 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2830,7 +2830,7 @@
 		(dnp no)
 		(uuid "128f71ac-7769-4286-b81f-7976a8028ccf")
 		(property "Reference" "J2"
-			(at 27.559 90.424 0)
+			(at 17.399 79.502 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(property "Value" "110V AC"
-			(at 27.686 91.694 0)
+			(at 17.526 80.772 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.924 98.044 0)
+			(at 16.764 87.122 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2866,7 +2866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.924 98.044 0)
+			(at 16.764 87.122 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2878,7 +2878,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 26.924 98.044 0)
+			(at 16.764 87.122 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2906,7 +2906,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 179.07 137.16 270)
+		(at 168.91 126.238 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2915,7 +2915,7 @@
 		(fields_autoplaced yes)
 		(uuid "63317e8e-9aa8-45b3-a596-33f09ebef367")
 		(property "Reference" "M1"
-			(at 185.42 137.1488 90)
+			(at 175.26 126.2268 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2927,7 +2927,7 @@
 			)
 		)
 		(property "Value" "Servo"
-			(at 185.42 139.6888 90)
+			(at 175.26 128.7668 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.244 137.16 0)
+			(at 164.084 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2951,7 +2951,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 174.244 137.16 0)
+			(at 164.084 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2963,7 +2963,7 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 179.07 137.16 0)
+			(at 168.91 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -2994,7 +2994,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 26.67 69.85 180)
+		(at 16.51 58.928 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3002,7 +3002,7 @@
 		(dnp no)
 		(uuid "8a2fdd9a-833d-4630-b25f-71be0a0c2a17")
 		(property "Reference" "J1"
-			(at 27.305 62.23 0)
+			(at 17.145 51.308 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3014,7 +3014,7 @@
 			)
 		)
 		(property "Value" "Anderson Powerpole (MATE Power Supply)"
-			(at 27.432 63.246 0)
+			(at 17.272 52.324 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 69.85 0)
+			(at 16.51 58.928 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3038,7 +3038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 69.85 0)
+			(at 16.51 58.928 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3050,7 +3050,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 26.67 69.85 0)
+			(at 16.51 58.928 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3078,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 129.54 0)
+		(at 179.07 118.618 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3087,7 +3087,7 @@
 		(fields_autoplaced yes)
 		(uuid "998cdb7a-d8ba-4c0e-84fb-5373acb7147c")
 		(property "Reference" "#PWR03"
-			(at 189.23 135.89 0)
+			(at 179.07 124.968 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 134.62 0)
+			(at 179.07 123.698 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3110,7 +3110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 129.54 0)
+			(at 179.07 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3122,7 +3122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 129.54 0)
+			(at 179.07 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3134,7 +3134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 129.54 0)
+			(at 179.07 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3159,7 +3159,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 195.58 137.16 270)
+		(at 185.42 126.238 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3168,7 +3168,7 @@
 		(fields_autoplaced yes)
 		(uuid "a045bc02-bc40-4d42-b434-61fec83c67ed")
 		(property "Reference" "M2"
-			(at 201.93 137.1488 90)
+			(at 191.77 126.2268 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3180,7 +3180,7 @@
 			)
 		)
 		(property "Value" "Servo"
-			(at 201.93 139.6888 90)
+			(at 191.77 128.7668 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.754 137.16 0)
+			(at 180.594 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3204,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 190.754 137.16 0)
+			(at 180.594 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3216,7 +3216,7 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 195.58 137.16 0)
+			(at 185.42 126.238 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3247,7 +3247,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 60.452 67.31 0)
+		(at 50.292 56.388 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3256,7 +3256,7 @@
 		(fields_autoplaced yes)
 		(uuid "a16916b6-9f32-44af-9013-9a31b56eea3f")
 		(property "Reference" "SW1"
-			(at 60.452 59.69 0)
+			(at 50.292 48.768 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3267,7 +3267,7 @@
 			)
 		)
 		(property "Value" "Emergency Stop"
-			(at 60.452 62.23 0)
+			(at 50.292 51.308 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3278,7 +3278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.452 62.23 0)
+			(at 50.292 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +3287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.452 62.23 0)
+			(at 50.292 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3296,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 60.452 67.31 0)
+			(at 50.292 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 129.54 0)
+		(at 212.09 118.618 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3330,7 +3330,7 @@
 		(fields_autoplaced yes)
 		(uuid "a53e77ed-1621-4de3-b876-743f3913e3f5")
 		(property "Reference" "#PWR05"
-			(at 222.25 135.89 0)
+			(at 212.09 124.968 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 134.62 0)
+			(at 212.09 123.698 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 129.54 0)
+			(at 212.09 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3365,7 +3365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 129.54 0)
+			(at 212.09 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3377,7 +3377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 129.54 0)
+			(at 212.09 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3402,7 +3402,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 45.72 67.31 90)
+		(at 35.56 56.388 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3410,7 +3410,7 @@
 		(dnp no)
 		(uuid "af959eaa-68b1-4c9d-9909-05f2322b4371")
 		(property "Reference" "F1"
-			(at 50.038 65.786 90)
+			(at 39.878 54.864 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3421,7 +3421,7 @@
 			)
 		)
 		(property "Value" "25A Fast Blow Fuse"
-			(at 47.244 69.85 90)
+			(at 37.084 58.928 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3432,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 69.088 90)
+			(at 35.56 58.166 90)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3444,7 +3444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 67.31 0)
+			(at 35.56 56.388 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3456,7 +3456,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 45.72 67.31 0)
+			(at 35.56 56.388 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3484,7 +3484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 129.54 0)
+		(at 195.58 118.618 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3493,7 +3493,7 @@
 		(fields_autoplaced yes)
 		(uuid "cac5602a-4224-417c-ba3c-fd6a0d4beeaf")
 		(property "Reference" "#PWR04"
-			(at 205.74 135.89 0)
+			(at 195.58 124.968 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3505,7 +3505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 134.62 0)
+			(at 195.58 123.698 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3516,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 129.54 0)
+			(at 195.58 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 129.54 0)
+			(at 195.58 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3540,7 +3540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 129.54 0)
+			(at 195.58 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3565,7 +3565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 73.66 0)
+		(at 26.67 62.738 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3574,7 +3574,7 @@
 		(fields_autoplaced yes)
 		(uuid "deae15f4-9a16-4ff7-988e-4e6b0348bea5")
 		(property "Reference" "#PWR01"
-			(at 36.83 80.01 0)
+			(at 26.67 69.088 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3586,7 +3586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 78.74 0)
+			(at 26.67 67.818 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3597,7 +3597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 73.66 0)
+			(at 26.67 62.738 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3609,7 +3609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 73.66 0)
+			(at 26.67 62.738 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3621,7 +3621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 73.66 0)
+			(at 26.67 62.738 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3646,7 +3646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 129.54 0)
+		(at 162.56 118.618 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3655,7 +3655,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc41973e-6bfe-46e0-be74-703f109ee495")
 		(property "Reference" "#PWR02"
-			(at 172.72 135.89 0)
+			(at 162.56 124.968 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3667,7 +3667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 134.62 0)
+			(at 162.56 123.698 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3678,7 +3678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 129.54 0)
+			(at 162.56 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3690,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 129.54 0)
+			(at 162.56 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3702,7 +3702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 129.54 0)
+			(at 162.56 118.618 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3726,7 +3726,7 @@
 		)
 	)
 	(sheet
-		(at 200.66 36.83)
+		(at 190.5 25.908)
 		(size 25.4 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -3738,7 +3738,7 @@
 		)
 		(uuid "0acc8390-ed57-41f9-8729-ab7876995f31")
 		(property "Sheetname" "MUREX ESC Carrier"
-			(at 200.66 36.1184 0)
+			(at 190.5 25.1964 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Sheetfile" "esc_carrier.kicad_sch"
-			(at 200.66 66.6246 0)
+			(at 190.5 55.7026 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3763,7 +3763,7 @@
 			)
 		)
 		(pin "UART" bidirectional
-			(at 226.06 63.5 0)
+			(at 215.9 52.578 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3776,7 +3776,7 @@
 			(uuid "68c28e01-2aec-43cd-8a67-1f3a1cf52f7d")
 		)
 		(pin "12V IN" bidirectional
-			(at 200.66 58.42 180)
+			(at 190.5 47.498 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3789,7 +3789,7 @@
 			(uuid "263dd83d-bffc-46b6-b779-8a7fc775e56d")
 		)
 		(pin "3.3V IN" bidirectional
-			(at 200.66 62.23 180)
+			(at 190.5 51.308 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3810,7 +3810,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 57.15)
+		(at 154.94 46.228)
 		(size 22.86 12.7)
 		(stroke
 			(width 0.1524)
@@ -3821,7 +3821,7 @@
 		)
 		(uuid "1298ad33-fd0d-4cf2-b53b-d020b6e2f40c")
 		(property "Sheetname" "IP Camera 1"
-			(at 165.1 56.134 0)
+			(at 154.94 45.212 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3833,7 +3833,7 @@
 			)
 		)
 		(property "Sheetfile" "ip_camera.kicad_sch"
-			(at 165.1 76.7846 0)
+			(at 154.94 65.8626 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3846,7 +3846,7 @@
 			)
 		)
 		(pin "12V IN" bidirectional
-			(at 165.1 60.96 180)
+			(at 154.94 50.038 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3859,7 +3859,7 @@
 			(uuid "6e2d1233-5180-40ed-a7e4-342b46bb4102")
 		)
 		(pin "Ethernet" bidirectional
-			(at 187.96 66.04 0)
+			(at 177.8 55.118 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3880,7 +3880,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 40.64)
+		(at 199.39 29.718)
 		(size 12.7 19.05)
 		(stroke
 			(width 0.1524)
@@ -3891,7 +3891,7 @@
 		)
 		(uuid "22db3b24-3e20-4208-bff7-bebc94312e4e")
 		(property "Sheetname" "MUREX ESCs 8x"
-			(at 206.502 39.624 0)
+			(at 196.342 28.702 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3903,7 +3903,7 @@
 			)
 		)
 		(property "Sheetfile" "escs.kicad_sch"
-			(at 209.55 60.2746 0)
+			(at 199.39 49.3526 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3916,7 +3916,7 @@
 			)
 		)
 		(pin "UART" bidirectional
-			(at 222.25 57.15 0)
+			(at 212.09 46.228 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3929,7 +3929,7 @@
 			(uuid "7d8b4f57-e579-4243-b410-b6ad160b86fd")
 		)
 		(pin "12V IN" bidirectional
-			(at 209.55 44.45 180)
+			(at 199.39 33.528 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3942,7 +3942,7 @@
 			(uuid "9e01ef3d-6964-4779-ac99-8f05d9f377e9")
 		)
 		(pin "3.3V IN" bidirectional
-			(at 209.55 48.26 180)
+			(at 199.39 37.338 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3955,7 +3955,7 @@
 			(uuid "55963936-6a2a-4046-8c0e-d6c9adee6f73")
 		)
 		(pin "BLDC OUT" bidirectional
-			(at 222.25 53.34 0)
+			(at 212.09 42.418 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -3976,7 +3976,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 101.6)
+		(at 86.36 90.678)
 		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -3988,7 +3988,7 @@
 		)
 		(uuid "2f0317cd-80e8-427c-a5a6-0a9a045a5e0f")
 		(property "Sheetname" "Computer"
-			(at 96.52 100.8884 0)
+			(at 86.36 89.9664 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4000,7 +4000,7 @@
 			)
 		)
 		(property "Sheetfile" "computer.kicad_sch"
-			(at 96.52 112.3446 0)
+			(at 86.36 101.4226 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4013,7 +4013,7 @@
 			)
 		)
 		(pin "DC IN" input
-			(at 96.52 105.41 180)
+			(at 86.36 94.488 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4026,7 +4026,7 @@
 			(uuid "c811455e-13c4-457a-b849-525e20b7bf25")
 		)
 		(pin "BLE" input
-			(at 114.3 109.22 0)
+			(at 104.14 98.298 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4039,7 +4039,7 @@
 			(uuid "648de209-c062-42d5-956f-2a6bec9cc3cb")
 		)
 		(pin "HDMI" input
-			(at 114.3 104.14 0)
+			(at 104.14 93.218 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4052,7 +4052,7 @@
 			(uuid "f11d36eb-119b-4d63-8fa5-57ca25369c74")
 		)
 		(pin "WIFI" input
-			(at 114.3 106.68 0)
+			(at 104.14 95.758 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4073,7 +4073,7 @@
 		)
 	)
 	(sheet
-		(at 242.57 110.49)
+		(at 232.41 99.568)
 		(size 15.24 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -4085,7 +4085,7 @@
 		)
 		(uuid "32910284-f2ac-4d47-8360-82a5ebc37a14")
 		(property "Sheetname" "USB Camera"
-			(at 242.57 109.7784 0)
+			(at 232.41 98.8564 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4097,7 +4097,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_camera.kicad_sch"
-			(at 242.57 121.2346 0)
+			(at 232.41 110.3126 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4110,7 +4110,7 @@
 			)
 		)
 		(pin "USB" input
-			(at 257.81 115.57 0)
+			(at 247.65 104.648 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4131,7 +4131,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 101.6)
+		(at 60.96 90.678)
 		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -4143,7 +4143,7 @@
 		)
 		(uuid "353896fc-c162-4880-93c2-96fba366eb55")
 		(property "Sheetname" "Computer PSU"
-			(at 71.12 100.8884 0)
+			(at 60.96 89.9664 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4155,7 +4155,7 @@
 			)
 		)
 		(property "Sheetfile" "computer_psu.kicad_sch"
-			(at 71.12 112.3446 0)
+			(at 60.96 101.4226 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4168,7 +4168,7 @@
 			)
 		)
 		(pin "110VAC" input
-			(at 71.12 109.22 180)
+			(at 60.96 98.298 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4181,7 +4181,7 @@
 			(uuid "1a433da0-7f54-4e33-95c6-29f85f6f3a4a")
 		)
 		(pin "DC OUT" input
-			(at 88.9 105.41 0)
+			(at 78.74 94.488 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4202,7 +4202,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 109.22)
+		(at 154.94 98.298)
 		(size 22.86 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -4214,7 +4214,7 @@
 		)
 		(uuid "3990524d-a068-49b2-bfa8-26cab12a2cbf")
 		(property "Sheetname" "Murata DCDC"
-			(at 165.1 108.5084 0)
+			(at 154.94 97.5864 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4226,7 +4226,7 @@
 			)
 		)
 		(property "Sheetfile" "power_board.kicad_sch"
-			(at 165.1 121.2346 0)
+			(at 154.94 110.3126 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4239,7 +4239,7 @@
 			)
 		)
 		(pin "5V OUT" bidirectional
-			(at 187.96 113.03 0)
+			(at 177.8 102.108 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4252,7 +4252,7 @@
 			(uuid "b07543df-5ee5-4ff4-a9a7-7362f45c2c59")
 		)
 		(pin "12V IN" bidirectional
-			(at 165.1 113.03 180)
+			(at 154.94 102.108 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4273,7 +4273,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 85.09)
+		(at 60.96 74.168)
 		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -4285,7 +4285,7 @@
 		)
 		(uuid "3af4e8eb-0276-46cc-ab6c-feea0cf8e99c")
 		(property "Sheetname" "Monitor PSU"
-			(at 71.12 84.3784 0)
+			(at 60.96 73.4564 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4297,7 +4297,7 @@
 			)
 		)
 		(property "Sheetfile" "monitor_psu.kicad_sch"
-			(at 71.12 95.8346 0)
+			(at 60.96 84.9126 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4310,7 +4310,7 @@
 			)
 		)
 		(pin "110VAC" input
-			(at 71.12 92.71 180)
+			(at 60.96 81.788 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4323,7 +4323,7 @@
 			(uuid "236b7112-1733-4ba8-a7ab-fef1f844ef2e")
 		)
 		(pin "DC OUT" input
-			(at 88.9 88.9 0)
+			(at 78.74 77.978 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4344,7 +4344,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 109.22)
+		(at 195.58 98.298)
 		(size 22.86 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -4356,7 +4356,7 @@
 		)
 		(uuid "3ea14ede-a5d9-4eba-a4ba-56a58e7694bd")
 		(property "Sheetname" "Pico"
-			(at 205.74 108.5084 0)
+			(at 195.58 97.5864 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4368,7 +4368,7 @@
 			)
 		)
 		(property "Sheetfile" "mascp_pico.kicad_sch"
-			(at 205.74 119.9646 0)
+			(at 195.58 109.0426 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4381,7 +4381,7 @@
 			)
 		)
 		(pin "5V IN" input
-			(at 205.74 113.03 180)
+			(at 195.58 102.108 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4394,7 +4394,7 @@
 			(uuid "f6fc0738-4334-4bf6-b52c-9cb58274edff")
 		)
 		(pin "PWM" input
-			(at 228.6 116.84 0)
+			(at 218.44 105.918 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4407,7 +4407,7 @@
 			(uuid "062845e3-3004-4edb-9e92-7955d6b86b0d")
 		)
 		(pin "UART" input
-			(at 228.6 111.76 0)
+			(at 218.44 100.838 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4428,7 +4428,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 63.5)
+		(at 224.79 52.578)
 		(size 22.86 12.7)
 		(stroke
 			(width 0.1524)
@@ -4439,7 +4439,7 @@
 		)
 		(uuid "4e0103d9-f778-4f66-9493-17140c1b9b46")
 		(property "Sheetname" "IP Camera 2"
-			(at 234.95 62.484 0)
+			(at 224.79 51.562 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4451,7 +4451,7 @@
 			)
 		)
 		(property "Sheetfile" "ip_camera.kicad_sch"
-			(at 234.95 83.1346 0)
+			(at 224.79 72.2126 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4464,7 +4464,7 @@
 			)
 		)
 		(pin "12V IN" bidirectional
-			(at 234.95 67.31 180)
+			(at 224.79 56.388 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4477,7 +4477,7 @@
 			(uuid "4a584447-3844-401b-a2c3-f666cfc338c8")
 		)
 		(pin "Ethernet" bidirectional
-			(at 234.95 72.39 180)
+			(at 224.79 61.468 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4498,7 +4498,7 @@
 		)
 	)
 	(sheet
-		(at 200.66 71.12)
+		(at 190.5 60.198)
 		(size 22.86 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -4510,7 +4510,7 @@
 		)
 		(uuid "5c470650-fa42-4eb2-b2a5-e8bf5711a84b")
 		(property "Sheetname" "MUREX Ethernet Switch"
-			(at 200.66 70.4084 0)
+			(at 190.5 59.4864 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4522,7 +4522,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet_switch.kicad_sch"
-			(at 200.66 86.9446 0)
+			(at 190.5 76.0226 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4535,7 +4535,7 @@
 			)
 		)
 		(pin "3.3V IN" bidirectional
-			(at 200.66 82.55 180)
+			(at 190.5 71.628 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4548,7 +4548,7 @@
 			(uuid "aef8e847-6249-4fc2-8d46-bd3df7216e2e")
 		)
 		(pin "PORT 1" bidirectional
-			(at 200.66 74.93 180)
+			(at 190.5 64.008 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4561,7 +4561,7 @@
 			(uuid "b10da5c2-818d-4277-8323-14aad9a7b272")
 		)
 		(pin "PORT 2" bidirectional
-			(at 200.66 78.74 180)
+			(at 190.5 67.818 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4574,7 +4574,7 @@
 			(uuid "f251814d-549a-4006-bab2-63ae45990789")
 		)
 		(pin "PORT 5" bidirectional
-			(at 223.52 82.55 0)
+			(at 213.36 71.628 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4587,7 +4587,7 @@
 			(uuid "00bcb8f2-12d4-4f94-97e2-632fa96b85a4")
 		)
 		(pin "PORT 3" bidirectional
-			(at 223.52 74.93 0)
+			(at 213.36 64.008 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4600,7 +4600,7 @@
 			(uuid "9ecab423-b441-4769-b29d-b41302d866eb")
 		)
 		(pin "PORT 4" bidirectional
-			(at 223.52 78.74 0)
+			(at 213.36 67.818 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4621,7 +4621,7 @@
 		)
 	)
 	(sheet
-		(at 240.03 46.99)
+		(at 229.87 36.068)
 		(size 17.78 12.7)
 		(stroke
 			(width 0.1524)
@@ -4632,7 +4632,7 @@
 		)
 		(uuid "5e1e932a-f42a-4e5b-867f-c84db178afbe")
 		(property "Sheetname" "Blue Robotics T200 8x"
-			(at 236.982 45.974 0)
+			(at 226.822 35.052 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4644,7 +4644,7 @@
 			)
 		)
 		(property "Sheetfile" "t200s.kicad_sch"
-			(at 240.03 66.6246 0)
+			(at 229.87 55.7026 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4657,7 +4657,7 @@
 			)
 		)
 		(pin "Phases IN" bidirectional
-			(at 240.03 53.34 180)
+			(at 229.87 42.418 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4678,7 +4678,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 118.11)
+		(at 86.36 107.188)
 		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -4690,7 +4690,7 @@
 		)
 		(uuid "86fb5682-ad7b-4288-8e00-48e0731ea200")
 		(property "Sheetname" "Controller"
-			(at 96.52 117.3984 0)
+			(at 86.36 106.4764 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4702,7 +4702,7 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 96.52 128.8546 0)
+			(at 86.36 117.9326 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4715,7 +4715,7 @@
 			)
 		)
 		(pin "BLE" input
-			(at 114.3 123.19 0)
+			(at 104.14 112.268 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4736,7 +4736,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 92.71)
+		(at 154.94 81.788)
 		(size 22.86 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -4748,7 +4748,7 @@
 		)
 		(uuid "8f218eb5-0658-46d4-a16b-01c4d35d8cc6")
 		(property "Sheetname" "MUREX Power Board"
-			(at 165.1 91.9984 0)
+			(at 154.94 81.0764 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4760,7 +4760,7 @@
 			)
 		)
 		(property "Sheetfile" "power_board.kicad_sch"
-			(at 165.1 104.7246 0)
+			(at 154.94 93.8026 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4773,7 +4773,7 @@
 			)
 		)
 		(pin "5V OUT" bidirectional
-			(at 187.96 96.52 0)
+			(at 177.8 85.598 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4786,7 +4786,7 @@
 			(uuid "befc2f4c-00ff-404d-8437-fbef2e045221")
 		)
 		(pin "12V IN" bidirectional
-			(at 165.1 96.52 180)
+			(at 154.94 85.598 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4799,7 +4799,7 @@
 			(uuid "a426f962-a000-4a58-97da-a0821a930207")
 		)
 		(pin "3.3V OUT" bidirectional
-			(at 187.96 100.33 0)
+			(at 177.8 89.408 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4820,7 +4820,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 85.09)
+		(at 224.79 74.168)
 		(size 22.86 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -4832,7 +4832,7 @@
 		)
 		(uuid "9e27de3e-005c-40f1-b975-88bfc2fd0444")
 		(property "Sheetname" "MUREX Carrier Board"
-			(at 234.95 84.3784 0)
+			(at 224.79 73.4564 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4844,7 +4844,7 @@
 			)
 		)
 		(property "Sheetfile" "carrier_board.kicad_sch"
-			(at 234.95 104.7246 0)
+			(at 224.79 93.8026 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4857,7 +4857,7 @@
 			)
 		)
 		(pin "3.3V IN" bidirectional
-			(at 234.95 100.33 180)
+			(at 224.79 89.408 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4870,7 +4870,7 @@
 			(uuid "542454e6-de69-42a8-ad8b-8a253dc19921")
 		)
 		(pin "Ethernet" bidirectional
-			(at 234.95 92.71 180)
+			(at 224.79 81.788 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4883,7 +4883,7 @@
 			(uuid "ed46d03f-4ef7-4593-856b-6026f04f86ec")
 		)
 		(pin "5V IN" bidirectional
-			(at 234.95 96.52 180)
+			(at 224.79 85.598 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4896,7 +4896,7 @@
 			(uuid "08dcd585-b2f0-4c7a-aff0-d8d02fc662c5")
 		)
 		(pin "UART" bidirectional
-			(at 234.95 88.9 180)
+			(at 224.79 77.978 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4909,7 +4909,7 @@
 			(uuid "6eb26838-e7fb-4068-bf96-be48452e3b3c")
 		)
 		(pin "USB" bidirectional
-			(at 257.81 100.33 0)
+			(at 247.65 89.408 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4930,7 +4930,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 85.09)
+		(at 86.36 74.168)
 		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -4942,7 +4942,7 @@
 		)
 		(uuid "a854d375-7f5b-41c1-b8de-f0feaa678aa0")
 		(property "Sheetname" "Monitor"
-			(at 96.52 84.3784 0)
+			(at 86.36 73.4564 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4954,7 +4954,7 @@
 			)
 		)
 		(property "Sheetfile" "monitor.kicad_sch"
-			(at 96.52 95.8346 0)
+			(at 86.36 84.9126 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4967,7 +4967,7 @@
 			)
 		)
 		(pin "DC IN" input
-			(at 96.52 88.9 180)
+			(at 86.36 77.978 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -4980,7 +4980,7 @@
 			(uuid "bbab3a23-e73d-44e4-b980-39d55b2d744c")
 		)
 		(pin "HDMI" input
-			(at 114.3 91.44 0)
+			(at 104.14 80.518 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5001,7 +5001,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 63.5)
+		(at 86.36 52.578)
 		(size 17.78 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -5013,7 +5013,7 @@
 		)
 		(uuid "b5174dcd-c693-406a-8932-eb7d14cac07e")
 		(property "Sheetname" "DC-DC Converter"
-			(at 96.52 62.7884 0)
+			(at 86.36 51.8664 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5025,7 +5025,7 @@
 			)
 		)
 		(property "Sheetfile" "dcdc_converter.kicad_sch"
-			(at 96.52 75.5146 0)
+			(at 86.36 64.5926 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5038,7 +5038,7 @@
 			)
 		)
 		(pin "12V IN" bidirectional
-			(at 96.52 71.12 180)
+			(at 86.36 60.198 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5051,7 +5051,7 @@
 			(uuid "d594ff18-8f85-4aaa-9f93-18817f4fbe33")
 		)
 		(pin "7V OUT" bidirectional
-			(at 114.3 67.31 0)
+			(at 104.14 56.388 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5072,7 +5072,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 85.09)
+		(at 115.57 74.168)
 		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -5084,7 +5084,7 @@
 		)
 		(uuid "b9ab6197-019b-44ec-a267-c939acb5d991")
 		(property "Sheetname" "Router"
-			(at 125.73 84.3784 0)
+			(at 115.57 73.4564 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5096,7 +5096,7 @@
 			)
 		)
 		(property "Sheetfile" "router.kicad_sch"
-			(at 125.73 95.8346 0)
+			(at 115.57 84.9126 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5109,7 +5109,7 @@
 			)
 		)
 		(pin "Ethernet" input
-			(at 125.73 87.63 180)
+			(at 115.57 76.708 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5122,7 +5122,7 @@
 			(uuid "0ccea72f-9f4f-4dac-91ff-4890b3c850dd")
 		)
 		(pin "WIFI" input
-			(at 143.51 92.71 0)
+			(at 133.35 81.788 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5135,7 +5135,7 @@
 			(uuid "525e895d-27c1-4376-addd-5bf3337acf48")
 		)
 		(pin "PSU IN" input
-			(at 125.73 92.71 180)
+			(at 115.57 81.788 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5156,7 +5156,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 74.93)
+		(at 154.94 64.008)
 		(size 22.86 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -5168,7 +5168,7 @@
 		)
 		(uuid "cfb3b818-0d13-4fee-aace-66bce29454ea")
 		(property "Sheetname" "LX200V20EVB Aquatic"
-			(at 165.1 74.2184 0)
+			(at 154.94 63.2964 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5180,7 +5180,7 @@
 			)
 		)
 		(property "Sheetfile" "lx200v20evb_aquatic.kicad_sch"
-			(at 165.1 86.9446 0)
+			(at 154.94 76.0226 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5193,7 +5193,7 @@
 			)
 		)
 		(pin "OFDM" bidirectional
-			(at 165.1 78.74 180)
+			(at 154.94 67.818 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5206,7 +5206,7 @@
 			(uuid "a3a6b4af-493e-40f5-9117-bd32cfcdef08")
 		)
 		(pin "Ethernet" bidirectional
-			(at 187.96 78.74 0)
+			(at 177.8 67.818 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5219,7 +5219,7 @@
 			(uuid "56cfc489-c516-43b2-b6a5-8529d3855689")
 		)
 		(pin "12V IN" bidirectional
-			(at 165.1 82.55 180)
+			(at 154.94 71.628 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5240,7 +5240,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 63.5)
+		(at 111.76 52.578)
 		(size 17.78 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -5252,7 +5252,7 @@
 		)
 		(uuid "d185571d-1b5e-43ef-950d-2c4fbd0caa25")
 		(property "Sheetname" "LX200V20EVB Topside"
-			(at 121.92 62.7884 0)
+			(at 111.76 51.8664 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5264,7 +5264,7 @@
 			)
 		)
 		(property "Sheetfile" "lx200v20evb_topside.kicad_sch"
-			(at 121.92 75.5146 0)
+			(at 111.76 64.5926 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5277,7 +5277,7 @@
 			)
 		)
 		(pin "7V IN" bidirectional
-			(at 121.92 67.31 180)
+			(at 111.76 56.388 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5290,7 +5290,7 @@
 			(uuid "f0e3197c-3c14-4a7d-be18-5dd307f002fc")
 		)
 		(pin "Ethernet" bidirectional
-			(at 121.92 71.12 180)
+			(at 111.76 60.198 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5303,7 +5303,7 @@
 			(uuid "e097773b-b8fe-4631-a3b7-7e161f7d0050")
 		)
 		(pin "OFDM" bidirectional
-			(at 139.7 67.31 0)
+			(at 129.54 56.388 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5324,7 +5324,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 63.5)
+		(at 60.96 52.578)
 		(size 17.78 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -5336,7 +5336,7 @@
 		)
 		(uuid "e3c2e569-fe21-4faa-b91e-95a211c508bf")
 		(property "Sheetname" "Power Meter"
-			(at 71.12 62.7884 0)
+			(at 60.96 51.8664 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5348,7 +5348,7 @@
 			)
 		)
 		(property "Sheetfile" "power_meter.kicad_sch"
-			(at 71.12 75.5146 0)
+			(at 60.96 64.5926 0)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5361,7 +5361,7 @@
 			)
 		)
 		(pin "12V IN" bidirectional
-			(at 71.12 67.31 180)
+			(at 60.96 56.388 180)
 			(effects
 				(font
 					(face "JetBrains Mono")
@@ -5374,7 +5374,7 @@
 			(uuid "a52b0e05-74a5-4656-98e8-e60b20b5e7ca")
 		)
 		(pin "12V OUT" bidirectional
-			(at 88.9 71.12 0)
+			(at 78.74 60.198 0)
 			(effects
 				(font
 					(face "JetBrains Mono")

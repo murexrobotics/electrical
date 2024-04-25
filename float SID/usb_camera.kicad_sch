@@ -1,0 +1,23 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "40def146-f4c2-4e5f-9244-1f75d5d23718")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "USB"
+		(shape input)
+		(at 109.22 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "79688dcc-93f1-41c1-823d-b919d2da9a1e")
+	)
+)

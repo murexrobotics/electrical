@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "f75755cd-d3a3-49d5-ad03-a57362207b81")
-	(paper "A4")
+	(paper "User" 270 180)
 	(lib_symbols)
 	(hierarchical_label "UART"
 		(shape input)

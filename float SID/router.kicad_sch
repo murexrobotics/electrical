@@ -1,0 +1,53 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "4aef1d23-0855-488b-9c65-233fd689c12c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PSU IN"
+		(shape input)
+		(at 109.2592 91.7612 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6e27d035-83ab-46b7-8718-f5a5ab0c36a0")
+	)
+	(hierarchical_label "Ethernet"
+		(shape input)
+		(at 109.22 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "95e8416f-f92c-4038-8679-f04335e39210")
+	)
+	(hierarchical_label "WIFI"
+		(shape input)
+		(at 109.22 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e39d284e-4200-4077-b81b-0dfc2dc8e5bf")
+	)
+)

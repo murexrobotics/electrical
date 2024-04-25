@@ -1,0 +1,2485 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "ee80e385-b521-4c0c-8377-5ddf37ba7638")
+	(paper "A5")
+	(title_block
+		(title "MUREX FLOAT SID")
+		(date "2024-04-24")
+		(rev "V1")
+		(company "MUREX ROBOTICS")
+		(comment 3 "FLOAT SID")
+		(comment 4 "MUREX ROV V3")
+	)
+	(lib_symbols
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Motor:Motor_Servo"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at -5.08 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_Servo"
+				(at -5.08 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_0_1"
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 1.778)
+					(mid 1.2406 0)
+					(end 2.413 -1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 3.175)
+					(mid 7.4485 4.2735)
+					(end 6.35 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sensor_Pressure:MS5837-xxBA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MS5837-xxBA"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sensor_Pressure:TE_MS5837-xxBA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5837-30BA%7FB1%7Fpdf%7FEnglish%7FENG_DS_MS5837-30BA_B1.pdf%7FCAT-BLPS0017"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-small, gel-filled, pressure sensor with stainless steel cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "pressure sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TE_MS5837*BA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MS5837-xxBA_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MS5837-xxBA_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 118.618 42.672)
+		(diameter 0)
+		(color 194 194 0 1)
+		(uuid "36597f7a-f309-4d6a-b6a7-bb4be88b4cfe")
+	)
+	(bus_entry
+		(at 141.986 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940c904e-6eda-444a-a69a-e31d4a6d872c")
+	)
+	(bus_entry
+		(at 141.986 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06a6e76-4e5f-4430-860e-407f0d1ba02f")
+	)
+	(wire
+		(pts
+			(xy 77.978 42.672) (xy 88.138 42.672)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "0b252bd5-9180-4b30-a9b5-7e4842de506e")
+	)
+	(wire
+		(pts
+			(xy 146.558 38.862) (xy 142.494 38.862)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "0d327bc6-d081-41ff-b20a-42a613150083")
+	)
+	(wire
+		(pts
+			(xy 21.082 43.688) (xy 26.162 43.688)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 72 72 0 1)
+		)
+		(uuid "0f1d2ed5-07be-48d2-9b3f-3a0ec92b2dfd")
+	)
+	(wire
+		(pts
+			(xy 83.058 73.152) (xy 77.978 73.152)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "105eec90-e369-42e5-99be-1409ee04d47a")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 149.352 41.91)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "28d66f82-cb59-4224-b875-29f5f9e2f6c6")
+	)
+	(bus
+		(pts
+			(xy 144.526 45.72) (xy 144.526 76.2)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "2bf8ad75-c355-4534-b303-113027b23dfb")
+	)
+	(wire
+		(pts
+			(xy 21.082 39.37) (xy 26.162 39.37)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "37619a88-5b7e-4d6c-a482-7def90b820ec")
+	)
+	(wire
+		(pts
+			(xy 182.118 49.53) (xy 182.118 68.072)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 132 132 0 1)
+		)
+		(uuid "41920482-4dd1-4283-a76c-f7ba4cc63769")
+	)
+	(wire
+		(pts
+			(xy 153.67 49.53) (xy 146.558 49.53)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "50c2798c-ef18-4670-a0c5-7515e7375324")
+	)
+	(wire
+		(pts
+			(xy 118.618 59.69) (xy 118.618 42.672)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "5fec0be6-e453-457a-aff2-1a07e163ffc5")
+	)
+	(wire
+		(pts
+			(xy 179.578 59.69) (xy 118.618 59.69)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "791ba8d7-20b0-4bc3-b06e-0d4c49740458")
+	)
+	(wire
+		(pts
+			(xy 171.958 68.072) (xy 177.038 68.072)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7e1aa90d-f644-45c9-9eca-a07984cb921f")
+	)
+	(wire
+		(pts
+			(xy 44.958 43.434) (xy 50.038 43.434)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "80f3e22f-34fc-47eb-a4c4-760c8bc49b21")
+	)
+	(wire
+		(pts
+			(xy 149.352 66.04) (xy 134.366 66.04)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "8c465db3-4049-4014-9b73-90b66ec19ce5")
+	)
+	(wire
+		(pts
+			(xy 83.058 73.152) (xy 83.058 76.962)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9db8e51e-3642-4253-903b-ec53eb22266a")
+	)
+	(bus
+		(pts
+			(xy 144.526 76.2) (xy 144.526 78.74)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "9ff7fd89-386b-4479-a7c4-0c47cb1cddab")
+	)
+	(wire
+		(pts
+			(xy 111.76 42.672) (xy 118.618 42.672)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "a0b431bb-7547-4b88-9bbd-cdc10db2f3cb")
+	)
+	(wire
+		(pts
+			(xy 182.118 49.53) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 132 132 0 1)
+		)
+		(uuid "a4024b03-9681-4f39-b644-0f76882f06ce")
+	)
+	(wire
+		(pts
+			(xy 149.352 41.91) (xy 149.352 66.04)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "ad29ce52-8af3-4056-9424-e059e76db3e9")
+	)
+	(wire
+		(pts
+			(xy 179.578 59.69) (xy 179.578 68.072)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "ba4ec33d-a605-4abd-b92a-5db26aa52f45")
+	)
+	(wire
+		(pts
+			(xy 171.958 68.072) (xy 171.958 71.882)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bb87d25e-3d27-400b-b5a8-5cca5a3a694d")
+	)
+	(wire
+		(pts
+			(xy 95.758 42.672) (xy 101.6 42.672)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "c239d8d8-ca65-48cb-a0e0-ebb8cfb6dc38")
+	)
+	(bus
+		(pts
+			(xy 144.526 45.72) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "cc726d04-6116-4fad-bc42-cbf237420489")
+	)
+	(wire
+		(pts
+			(xy 21.336 47.752) (xy 26.416 47.752)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "dbc5d83f-7423-4357-a866-6c8f2050154f")
+	)
+	(wire
+		(pts
+			(xy 146.558 49.53) (xy 146.558 38.862)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "dd053afa-6256-48ee-94e6-9ccaa97ae279")
+	)
+	(wire
+		(pts
+			(xy 118.618 42.672) (xy 124.714 42.672)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "e4b907da-d897-4ccf-bba2-4c20efaf0b66")
+	)
+	(wire
+		(pts
+			(xy 44.958 39.116) (xy 50.038 39.116)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "fb6da27d-e696-487a-ab7a-e4addd5e197e")
+	)
+	(rectangle
+		(start 17.018 30.226)
+		(end 67.818 53.848)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4478903f-e1a2-4b14-b38f-e40b970230b0)
+	)
+	(rectangle
+		(start 17.018 55.626)
+		(end 67.818 89.916)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ca4ee79-d47d-4b3b-bdc4-b6c4879a8e56)
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 83.566 23.622 0)
+		(effects
+			(font
+				(face "murex")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "440023ff-adcb-4552-ad7a-8055fddecc1a")
+	)
+	(text "ELEC-008R Requirements"
+		(exclude_from_sim no)
+		(at 41.656 60.706 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "57210918-d62c-4457-9f42-b76548c6e5b7")
+	)
+	(text "CR Servo                   4A =   4A\nDC-DC Parasitic Power    0.3A = 0.3A\nESP32 LoRa V3  		     0.5A = 0.5A\n———————————————————————————————————————\nTotal Amps        4.8A * 150% = 7.2A\n\nFuse Selected:"
+		(exclude_from_sim no)
+		(at 19.304 75.438 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bcf0fa3-4aad-464d-baf2-da9832d752c1")
+	)
+	(text "7.5A ATO"
+		(exclude_from_sim no)
+		(at 39.624 82.296 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "5fc55833-8b31-4ad9-a86c-ffd4cf3fc637")
+	)
+	(text "6VDC\n\nGND"
+		(exclude_from_sim no)
+		(at 52.578 38.862 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "9dc70853-0c7d-42ad-8657-131a28e5c8ab")
+	)
+	(text "SID Legend"
+		(exclude_from_sim no)
+		(at 28.956 35.052 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "a139e4b8-4efd-4496-8905-176488d6a5c2")
+	)
+	(text "MUREX FLOAT SID"
+		(exclude_from_sim no)
+		(at 14.986 23.368 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+			(href "https://www.murexrobotics.com")
+		)
+		(uuid "be28abe5-b46b-42d5-a183-149944e885ed")
+	)
+	(text "3.3VDC\n\nPWM\n\nI2C"
+		(exclude_from_sim no)
+		(at 29.464 39.116 0)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "d9c860b8-e554-439c-b331-28c3f692fd7a")
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 179.578 75.692 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "007b0ab9-f1b2-452a-a646-218b73414673")
+		(property "Reference" "M4"
+			(at 168.402 83.312 90)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Continuous Rotation Servo"
+			(at 168.402 85.852 90)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.752 75.692 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 174.752 75.692 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 179.578 75.692 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20ecacc1-f655-4024-b4c0-070d96f3faa4")
+		)
+		(pin "2"
+			(uuid "43c4256d-8823-4a6b-bdfb-48608ddd82f8")
+		)
+		(pin "1"
+			(uuid "51e67bb5-1f40-481c-ba9f-f82e8282d23d")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Pressure:MS5837-xxBA")
+		(at 134.366 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb4c241-84fc-43a7-8759-44b84f438c59")
+		(property "Reference" "U1"
+			(at 127.508 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bar02 Depth Sensor"
+			(at 127.508 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Sensor_Pressure:TE_MS5837-xxBA"
+			(at 134.366 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5837-30BA%7FB1%7Fpdf%7FEnglish%7FENG_DS_MS5837-30BA_B1.pdf%7FCAT-BLPS0017"
+			(at 134.366 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-small, gel-filled, pressure sensor with stainless steel cap"
+			(at 134.366 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1888b884-fec1-4219-8db8-c5c76f8f57dc")
+		)
+		(pin "3"
+			(uuid "73b0c759-bf40-4825-b965-4e7f2e1211f0")
+		)
+		(pin "4"
+			(uuid "d21d72a3-7227-4c44-8d9f-db15cc4f3f2e")
+		)
+		(pin "1"
+			(uuid "78a81826-b4ec-4282-bc91-1e09c43da82a")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 77.978 62.992 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d6a68b-1087-418a-a5d0-b508bebdfb6a")
+		(property "Reference" "BT2"
+			(at 74.168 59.8804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AA"
+			(at 74.168 62.4204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.978 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.978 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 77.978 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ea8147e-76d6-4472-b528-4bd54b7b7996")
+		)
+		(pin "2"
+			(uuid "5854f6d7-dc24-4b74-a70b-7a513225df62")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 77.978 70.612 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61bc2ec5-0543-4ac4-9161-c4d59051e396")
+		(property "Reference" "BT1"
+			(at 74.168 67.5004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AA"
+			(at 74.168 70.0404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.978 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.978 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 77.978 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04925f12-8ccf-49ea-b678-84a334914a32")
+		)
+		(pin "2"
+			(uuid "994da4ed-a8e7-47c5-9227-a9cf8849c501")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 42.672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a16916b6-9f32-44af-9013-9a31b56eea3f")
+		(property "Reference" "SW1"
+			(at 106.68 35.052 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "Power Switch"
+			(at 106.68 37.592 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc758034-a559-433a-9a77-9e1fadfc1023")
+		)
+		(pin "1"
+			(uuid "7255fa23-b6e4-414c-8322-76d18a79142f")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 91.948 42.672 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af959eaa-68b1-4c9d-9909-05f2322b4371")
+		(property "Reference" "F1"
+			(at 96.266 41.148 90)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "7.5A"
+			(at 93.472 45.212 90)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.948 44.45 90)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.948 42.672 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 91.948 42.672 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89eec2aa-b0fe-49f7-8233-d42da1e69571")
+		)
+		(pin "1"
+			(uuid "ec0c75ce-f01c-45aa-92bc-97835dcf7349")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.958 71.882 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b63d17c6-7fda-44bb-be5b-3324f508980d")
+		(property "Reference" "#PWR02"
+			(at 171.958 78.232 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.958 76.962 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.958 71.882 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.958 71.882 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.958 71.882 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7636e603-c751-4d24-911b-4ce03bd504b5")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.058 76.962 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deae15f4-9a16-4ff7-988e-4e6b0348bea5")
+		(property "Reference" "#PWR01"
+			(at 83.058 83.312 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.058 82.042 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 76.962 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 76.962 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.058 76.962 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7962c743-6248-43b2-9f52-75b6ab51332c")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 77.978 47.752 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23d71b8-bdd7-46f3-b669-fe561295b6e9")
+		(property "Reference" "BT4"
+			(at 74.168 44.6404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AA"
+			(at 74.168 47.1804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.978 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.978 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 77.978 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a841357a-943e-4c16-9ba2-b471a3e87665")
+		)
+		(pin "2"
+			(uuid "eef04716-6376-4527-853c-57cfa04d8f98")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.366 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb907f25-e71f-452f-8b81-21aa9fad9f25")
+		(property "Reference" "#PWR03"
+			(at 134.366 92.71 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.366 91.44 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.366 86.36 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.366 86.36 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.366 86.36 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c053638e-0c9b-4331-9158-2f661a1a5118")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 77.978 55.372 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc4bd6be-7aaf-4419-9a08-d9030bec1012")
+		(property "Reference" "BT3"
+			(at 74.168 52.2604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AA"
+			(at 74.168 54.8004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.978 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.978 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 77.978 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d245023-a3e4-4260-9f80-ea2f90bae314")
+		)
+		(pin "2"
+			(uuid "9dc1f5c0-3abd-45d5-927b-86a14edffbe3")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(reference "BT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 34.29)
+		(size 22.86 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e27de3e-005c-40f1-b975-88bfc2fd0444")
+		(property "Sheetname" "ESP32 LoRa V3"
+			(at 153.67 33.5784 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "carrier_board.kicad_sch"
+			(at 153.67 53.9246 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3.3V IN" bidirectional
+			(at 153.67 49.53 180)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "542454e6-de69-42a8-ad8b-8a253dc19921")
+		)
+		(pin "3.3V OUT" bidirectional
+			(at 153.67 41.91 180)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "ed46d03f-4ef7-4593-856b-6026f04f86ec")
+		)
+		(pin "I2C" bidirectional
+			(at 153.67 45.72 180)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "08dcd585-b2f0-4c7a-aff0-d8d02fc662c5")
+		)
+		(pin "PWM" bidirectional
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "69f78dee-ea4a-473f-ab5d-a10e2c1c5ed3")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.714 35.052)
+		(size 17.78 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5174dcd-c693-406a-8932-eb7d14cac07e")
+		(property "Sheetname" "DC-DC Converter"
+			(at 124.714 34.3404 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcdc_converter.kicad_sch"
+			(at 124.714 47.0666 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6V IN" bidirectional
+			(at 124.714 42.672 180)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "d594ff18-8f85-4aaa-9f93-18817f4fbe33")
+		)
+		(pin "3.3V OUT" bidirectional
+			(at 142.494 38.862 0)
+			(effects
+				(font
+					(face "JetBrains Mono")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "f6196b18-11fd-4eec-9a92-67d942d02131")
+		)
+		(instances
+			(project "float_sid"
+				(path "/ee80e385-b521-4c0c-8377-5ddf37ba7638"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "50644320-b1c8-4d2e-8c9f-a1ffd7c346bc")
-	(paper "A4")
+	(paper "User" 270 180)
 	(lib_symbols)
 	(hierarchical_label "BLE"
 		(shape input)

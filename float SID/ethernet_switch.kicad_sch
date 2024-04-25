@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PORT 1"
+		(shape bidirectional)
+		(at 109.22 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "01781eeb-5ef6-48a0-aff9-369b559b80de")
+	)
+	(hierarchical_label "PORT 3"
+		(shape bidirectional)
+		(at 109.22 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "126421d9-9944-48f8-83af-e4bfeb158691")
+	)
+	(hierarchical_label "PORT 5"
+		(shape bidirectional)
+		(at 109.22 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2d95ce1f-0555-4de6-91f6-b7191b4d708b")
+	)
+	(hierarchical_label "PORT 2"
+		(shape bidirectional)
+		(at 109.22 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "774bc39e-b51b-47a7-a6ec-86db3476bf71")
+	)
+	(hierarchical_label "3.3V IN"
+		(shape bidirectional)
+		(at 109.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "89f26e55-632c-45c1-b52e-0327d1fe8083")
+	)
+	(hierarchical_label "PORT 4"
+		(shape bidirectional)
+		(at 109.22 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ac20a6a9-bf86-42df-9e5b-b3f439522944")
+	)
+)
