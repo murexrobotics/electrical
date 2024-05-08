@@ -39783,20 +39783,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BYRAN LOGO"
-		(at 160.7 84.6 0)
-		(layer "F.SilkS")
-		(uuid "1d843d1b-07e5-403e-855c-edbdb93379bb")
-		(effects
-			(font
-				(face "Byran-Technologies-Logo")
-				(size 4 4)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-		(render_cache "BYRAN LOGO" 0)
-	)
 	(gr_text "R+"
 		(at 151.3 114.8 -90)
 		(layer "F.SilkS")
