@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<script type="module" src="/kicanvas.js"></script>
+
+<Layout title="Welcome to Astro.">
+	<div class="flex">
+		<div class="w-1/2 p-3">
+			<kicanvas-embed src="https://raw.githubusercontent.com/murexrobotics/electrical-2024/main/carrier/carrier.kicad_pcb" controls="full"> </kicanvas-embed>
+		</div>
+		<div class="w-1/2 p-3">
+			<kicanvas-embed src="https://raw.githubusercontent.com/murexrobotics/electrical-2024/main/power/power.kicad_pcb" controls="full"> </kicanvas-embed>
+		</div>
+		<div class="w-1/2 p-3">
+			<kicanvas-embed src="https://github.com/murexrobotics/electrical-2024/raw/main/networking/switch/switch.kicad_pcb" controls="full"> </kicanvas-embed>
+		</div>
+	</div>
+</Layout>
