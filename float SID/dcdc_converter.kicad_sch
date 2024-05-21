@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240101)
+	(version 20240417)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "09e6183f-aea5-4d2a-b11c-82d64c0df918")
@@ -11,8 +11,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
@@ -26,8 +26,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)

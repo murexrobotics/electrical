@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240101)
+	(version 20240417)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "ee80e385-b521-4c0c-8377-5ddf37ba7638")
@@ -10,7 +10,7 @@
 		(rev "V1")
 		(company "MUREX ROBOTICS")
 		(comment 3 "FLOAT SID")
-		(comment 4 "MUREX ROV V3")
+		(comment 4 "mrxFloat V9")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
@@ -99,7 +99,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy 0 1.778) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -111,7 +111,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -391,19 +391,7 @@
 			(symbol "Motor_Servo_0_1"
 				(polyline
 					(pts
-						(xy 2.413 -1.778) (xy 2.032 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.778) (xy 2.286 -1.397)
+						(xy 2.413 1.778) (xy 2.286 1.397)
 					)
 					(stroke
 						(width 0)
@@ -427,7 +415,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.413 1.778) (xy 2.286 1.397)
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -439,34 +427,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 4.445) (xy 2.54 1.27)
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.175) (xy 4.191 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -474,9 +438,9 @@
 					)
 				)
 				(arc
-					(start 2.413 1.778)
+					(start 2.413 -1.778)
 					(mid 1.2406 0)
-					(end 2.413 -1.778)
+					(end 2.413 1.778)
 					(stroke
 						(width 0)
 						(type default)
@@ -507,9 +471,33 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 5.969 2.794)
 					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -529,6 +517,18 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 6.985 3.81)
 					(radius 0.127)
@@ -540,10 +540,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 7.62 3.175)
-					(mid 7.4485 4.2735)
-					(end 6.35 4.445)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -849,10 +849,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -861,9 +860,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1007,6 +1007,124 @@
 			)
 		)
 	)
+	(rectangle
+		(start 15.748 67.056)
+		(end 66.548 90.678)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4478903f-e1a2-4b14-b38f-e40b970230b0)
+	)
+	(rectangle
+		(start 15.494 93.98)
+		(end 76.2 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ca4ee79-d47d-4b3b-bdc4-b6c4879a8e56)
+	)
+	(text "ELEC-008R Requirements"
+		(exclude_from_sim no)
+		(at 37.592 98.552 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 2.286 2.286)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "57210918-d62c-4457-9f42-b76548c6e5b7")
+	)
+	(text "CR Servo                   4A =   4A\nDC-DC Parasitic Power    0.3A = 0.3A\nESP32 LoRa V3  		     0.5A = 0.5A\n———————————————————————————————————————\nTotal Amps        4.8A * 150% = 7.2A\n\nFuse Selected:"
+		(exclude_from_sim no)
+		(at 16.764 111.506 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "5bcf0fa3-4aad-464d-baf2-da9832d752c1")
+	)
+	(text "7.5A ATO"
+		(exclude_from_sim no)
+		(at 38.1 120.65 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "5fc55833-8b31-4ad9-a86c-ffd4cf3fc637")
+	)
+	(text "6VDC\n\nGND"
+		(exclude_from_sim no)
+		(at 51.308 75.692 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 1.778 1.778)
+				(thickness 0.1588)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "9dc70853-0c7d-42ad-8657-131a28e5c8ab")
+	)
+	(text "SID Legend"
+		(exclude_from_sim no)
+		(at 27.686 71.882 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "a139e4b8-4efd-4496-8905-176488d6a5c2")
+	)
+	(text "mrxFloat SID"
+		(exclude_from_sim no)
+		(at 17.526 24.892 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 6.35 6.35)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "be28abe5-b46b-42d5-a183-149944e885ed")
+	)
+	(text "3.3VDC\n\nPWM\n\nI2C"
+		(exclude_from_sim no)
+		(at 28.194 75.946 0)
+		(effects
+			(font
+				(face "Monaco")
+				(size 1.778 1.778)
+				(thickness 0.1588)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "d9c860b8-e554-439c-b331-28c3f692fd7a")
+	)
 	(junction
 		(at 118.618 42.672)
 		(diameter 0)
@@ -1055,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.082 43.688) (xy 26.162 43.688)
+			(xy 19.05 82.55) (xy 24.13 82.55)
 		)
 		(stroke
 			(width 1)
@@ -1099,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.082 39.37) (xy 26.162 39.37)
+			(xy 19.05 76.2) (xy 24.13 76.2)
 		)
 		(stroke
 			(width 1)
@@ -1165,7 +1283,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.958 43.434) (xy 50.038 43.434)
+			(xy 43.18 81.28) (xy 48.26 81.28)
 		)
 		(stroke
 			(width 1)
@@ -1286,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.336 47.752) (xy 26.416 47.752)
+			(xy 19.05 87.63) (xy 24.13 87.63)
 		)
 		(stroke
 			(width 1)
@@ -1319,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.958 39.116) (xy 50.038 39.116)
+			(xy 43.688 75.946) (xy 48.768 75.946)
 		)
 		(stroke
 			(width 1)
@@ -1327,139 +1445,6 @@
 			(color 194 194 0 1)
 		)
 		(uuid "fb6da27d-e696-487a-ab7a-e4addd5e197e")
-	)
-	(rectangle
-		(start 17.018 30.226)
-		(end 67.818 53.848)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4478903f-e1a2-4b14-b38f-e40b970230b0)
-	)
-	(rectangle
-		(start 17.018 55.626)
-		(end 67.818 89.916)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4ca4ee79-d47d-4b3b-bdc4-b6c4879a8e56)
-	)
-	(text "0"
-		(exclude_from_sim no)
-		(at 83.566 23.622 0)
-		(effects
-			(font
-				(face "murex")
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "440023ff-adcb-4552-ad7a-8055fddecc1a")
-	)
-	(text "ELEC-008R Requirements"
-		(exclude_from_sim no)
-		(at 41.656 60.706 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-		)
-		(uuid "57210918-d62c-4457-9f42-b76548c6e5b7")
-	)
-	(text "CR Servo                   4A =   4A\nDC-DC Parasitic Power    0.3A = 0.3A\nESP32 LoRa V3  		     0.5A = 0.5A\n———————————————————————————————————————\nTotal Amps        4.8A * 150% = 7.2A\n\nFuse Selected:"
-		(exclude_from_sim no)
-		(at 19.304 75.438 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5bcf0fa3-4aad-464d-baf2-da9832d752c1")
-	)
-	(text "7.5A ATO"
-		(exclude_from_sim no)
-		(at 39.624 82.296 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "5fc55833-8b31-4ad9-a86c-ffd4cf3fc637")
-	)
-	(text "6VDC\n\nGND"
-		(exclude_from_sim no)
-		(at 52.578 38.862 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "9dc70853-0c7d-42ad-8657-131a28e5c8ab")
-	)
-	(text "SID Legend"
-		(exclude_from_sim no)
-		(at 28.956 35.052 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-		)
-		(uuid "a139e4b8-4efd-4496-8905-176488d6a5c2")
-	)
-	(text "MUREX FLOAT SID"
-		(exclude_from_sim no)
-		(at 14.986 23.368 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left)
-			(href "https://www.murexrobotics.com")
-		)
-		(uuid "be28abe5-b46b-42d5-a183-149944e885ed")
-	)
-	(text "3.3VDC\n\nPWM\n\nI2C"
-		(exclude_from_sim no)
-		(at 29.464 39.116 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "d9c860b8-e554-439c-b331-28c3f692fd7a")
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
@@ -1474,8 +1459,8 @@
 			(at 168.402 83.312 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1483,11 +1468,11 @@
 			)
 		)
 		(property "Value" "Continuous Rotation Servo"
-			(at 168.402 85.852 90)
+			(at 156.718 86.106 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1498,8 +1483,8 @@
 			(at 174.752 75.692 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1510,8 +1495,8 @@
 			(at 174.752 75.692 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1522,8 +1507,8 @@
 			(at 179.578 75.692 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1562,7 +1547,8 @@
 			(at 127.508 74.9299 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify right)
 			)
@@ -1571,7 +1557,8 @@
 			(at 127.508 77.4699 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify right)
 			)
@@ -1580,7 +1567,8 @@
 			(at 134.366 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1589,7 +1577,8 @@
 			(at 134.366 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1598,7 +1587,8 @@
 			(at 134.366 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1639,7 +1629,8 @@
 			(at 74.168 59.8804 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -1648,7 +1639,8 @@
 			(at 74.168 62.4204 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -1657,7 +1649,8 @@
 			(at 77.978 61.468 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1666,7 +1659,8 @@
 			(at 77.978 61.468 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1675,7 +1669,8 @@
 			(at 77.978 62.992 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1710,7 +1705,8 @@
 			(at 74.168 67.5004 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -1719,7 +1715,8 @@
 			(at 74.168 70.0404 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -1728,7 +1725,8 @@
 			(at 77.978 69.088 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1737,7 +1735,8 @@
 			(at 77.978 69.088 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1746,7 +1745,8 @@
 			(at 77.978 70.612 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1780,8 +1780,8 @@
 			(at 106.68 35.052 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1791,8 +1791,8 @@
 			(at 106.68 37.592 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1802,7 +1802,8 @@
 			(at 106.68 37.592 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1811,7 +1812,8 @@
 			(at 106.68 37.592 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1820,7 +1822,8 @@
 			(at 106.68 42.672 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -1853,8 +1856,8 @@
 			(at 96.266 41.148 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1864,8 +1867,8 @@
 			(at 93.472 45.212 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1875,8 +1878,8 @@
 			(at 91.948 44.45 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1887,8 +1890,8 @@
 			(at 91.948 42.672 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1899,8 +1902,8 @@
 			(at 91.948 42.672 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1937,8 +1940,8 @@
 			(at 171.958 78.232 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1949,8 +1952,8 @@
 			(at 171.958 76.962 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1960,8 +1963,8 @@
 			(at 171.958 71.882 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1972,8 +1975,8 @@
 			(at 171.958 71.882 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -1984,8 +1987,8 @@
 			(at 171.958 71.882 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2018,8 +2021,8 @@
 			(at 83.058 83.312 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2030,8 +2033,8 @@
 			(at 83.058 82.042 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2041,8 +2044,8 @@
 			(at 83.058 76.962 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2053,8 +2056,8 @@
 			(at 83.058 76.962 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2065,8 +2068,8 @@
 			(at 83.058 76.962 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2100,7 +2103,8 @@
 			(at 74.168 44.6404 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -2109,7 +2113,8 @@
 			(at 74.168 47.1804 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -2118,7 +2123,8 @@
 			(at 77.978 46.228 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -2127,7 +2133,8 @@
 			(at 77.978 46.228 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -2136,7 +2143,8 @@
 			(at 77.978 47.752 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -2171,8 +2179,8 @@
 			(at 134.366 92.71 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2183,8 +2191,8 @@
 			(at 134.366 91.44 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2194,8 +2202,8 @@
 			(at 134.366 86.36 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2206,8 +2214,8 @@
 			(at 134.366 86.36 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2218,8 +2226,8 @@
 			(at 134.366 86.36 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2253,7 +2261,8 @@
 			(at 74.168 52.2604 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -2262,7 +2271,8 @@
 			(at 74.168 54.8004 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(justify left)
 			)
@@ -2271,7 +2281,8 @@
 			(at 77.978 53.848 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -2280,7 +2291,8 @@
 			(at 77.978 53.848 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -2289,7 +2301,8 @@
 			(at 77.978 55.372 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 				)
 				(hide yes)
 			)
@@ -2325,8 +2338,8 @@
 			(at 153.67 33.5784 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2337,8 +2350,8 @@
 			(at 153.67 53.9246 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2350,8 +2363,8 @@
 			(at 153.67 49.53 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2363,8 +2376,8 @@
 			(at 153.67 41.91 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2376,8 +2389,8 @@
 			(at 153.67 45.72 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2389,8 +2402,8 @@
 			(at 176.53 49.53 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2422,8 +2435,8 @@
 			(at 124.714 34.3404 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2434,8 +2447,8 @@
 			(at 124.714 47.0666 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2447,8 +2460,8 @@
 			(at 124.714 42.672 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -2460,8 +2473,8 @@
 			(at 142.494 38.862 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
-					(size 1.27 1.27)
+					(face "Monaco")
+					(size 1.778 1.778)
 					(thickness 0.254)
 					(bold yes)
 				)

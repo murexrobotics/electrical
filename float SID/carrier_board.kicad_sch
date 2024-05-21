@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240101)
+	(version 20240417)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "9656877e-9947-4465-b8a7-40790b2fc774")
@@ -11,8 +11,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
@@ -26,8 +26,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
@@ -41,8 +41,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
@@ -56,8 +56,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
@@ -71,8 +71,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
@@ -86,8 +86,8 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
+				(face "Monaco")
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 			)
