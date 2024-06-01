@@ -1,454 +1,1076 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid 3a8c8799-9295-4740-b990-f123ec1feb18)
-
-  (paper "A4")
-
-  (title_block
-    (title "MUREX Ethernet Switch")
-    (date "2023-09-01")
-    (rev "V1.0")
-    (company "MUREX Robotics [Byran Huang and Max Liu]")
-    (comment 1 "utilizing the IC Plus IP175G and external magnetics")
-    (comment 2 "Ultra-compact 5 port unmanaged ethernet switch")
-    (comment 3 "// TECHNOLOGY FOR ALL.")
-    (comment 4 "// ATTEMPT THE IMPOSSIBLE.")
-  )
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 152.4 88.9) (xy 157.48 88.9))
-    (stroke (width 0) (type default))
-    (uuid 05e647fc-4650-48ac-8163-e8078493b632)
-  )
-  (wire (pts (xy 152.4 80.01) (xy 157.48 80.01))
-    (stroke (width 0) (type default))
-    (uuid 0edfd357-7cf6-4405-9f33-6f9758b35de1)
-  )
-  (wire (pts (xy 152.4 68.58) (xy 157.48 68.58))
-    (stroke (width 0) (type default))
-    (uuid 1e932c04-9f71-4d0e-bea8-db01199a1256)
-  )
-  (wire (pts (xy 152.4 91.44) (xy 157.48 91.44))
-    (stroke (width 0) (type default))
-    (uuid 3381fc0b-1db0-48dd-9894-90db1096ac97)
-  )
-  (wire (pts (xy 152.4 121.92) (xy 157.48 121.92))
-    (stroke (width 0) (type default))
-    (uuid 39de5901-f392-4ce3-a2c1-cfb33f9e6cf2)
-  )
-  (wire (pts (xy 152.4 107.95) (xy 157.48 107.95))
-    (stroke (width 0) (type default))
-    (uuid 43d07192-9db2-4d48-82ba-1a7d580785cf)
-  )
-  (wire (pts (xy 152.4 105.41) (xy 157.48 105.41))
-    (stroke (width 0) (type default))
-    (uuid 5b9023da-8c38-43eb-b3fc-e048f6460562)
-  )
-  (wire (pts (xy 152.4 119.38) (xy 157.48 119.38))
-    (stroke (width 0) (type default))
-    (uuid 79a2a048-caa8-4107-9977-9cabf8de2428)
-  )
-  (wire (pts (xy 152.4 110.49) (xy 157.48 110.49))
-    (stroke (width 0) (type default))
-    (uuid 7ad114ea-6544-44aa-b078-aeec07406076)
-  )
-  (wire (pts (xy 152.4 74.93) (xy 157.48 74.93))
-    (stroke (width 0) (type default))
-    (uuid 7bdb0af8-f1bf-4cb7-9a95-717782870d5f)
-  )
-  (wire (pts (xy 152.4 102.87) (xy 157.48 102.87))
-    (stroke (width 0) (type default))
-    (uuid 8167fc52-58c9-4a0a-8c5e-854cd809d5ec)
-  )
-  (wire (pts (xy 152.4 63.5) (xy 157.48 63.5))
-    (stroke (width 0) (type default))
-    (uuid 8480a511-68de-4ea7-acd4-ce6013669722)
-  )
-  (wire (pts (xy 152.4 116.84) (xy 157.48 116.84))
-    (stroke (width 0) (type default))
-    (uuid 85a24449-97f1-4b47-b81e-b8c15ec58d60)
-  )
-  (wire (pts (xy 152.4 66.04) (xy 157.48 66.04))
-    (stroke (width 0) (type default))
-    (uuid a5b68b45-5a11-49e3-94bf-02daa9d0ea1d)
-  )
-  (wire (pts (xy 152.4 60.96) (xy 157.48 60.96))
-    (stroke (width 0) (type default))
-    (uuid b08111ff-b303-453c-81e2-9c892048aea1)
-  )
-  (wire (pts (xy 152.4 77.47) (xy 157.48 77.47))
-    (stroke (width 0) (type default))
-    (uuid b2065f26-60fa-434f-91b3-4b52db6bb5a0)
-  )
-  (wire (pts (xy 152.4 96.52) (xy 157.48 96.52))
-    (stroke (width 0) (type default))
-    (uuid b40ef630-00e5-4e85-ae21-a862b8bce818)
-  )
-  (wire (pts (xy 152.4 82.55) (xy 157.48 82.55))
-    (stroke (width 0) (type default))
-    (uuid b9c8eeca-9fae-46d6-a921-eef8880527e5)
-  )
-  (wire (pts (xy 152.4 93.98) (xy 157.48 93.98))
-    (stroke (width 0) (type default))
-    (uuid d1cbc546-fc11-430e-b095-6bc375927b84)
-  )
-  (wire (pts (xy 152.4 124.46) (xy 157.48 124.46))
-    (stroke (width 0) (type default))
-    (uuid f989e450-d1f4-4025-b7f1-f3f51e6d44fe)
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 89.535 107.442 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 553a68b2-43f7-45a5-aa29-1da614835789)
-    (property "Reference" "H1" (at 92.329 106.172 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 92.329 108.712 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 89.535 107.442 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 89.535 107.442 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Mounting Hole without connection" (at 89.535 107.442 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 89.535 125.857 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5c336cbd-258b-4429-84f1-a8ee02bff1ae)
-    (property "Reference" "H4" (at 92.329 124.587 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 92.329 127.127 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 89.535 125.857 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 89.535 125.857 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Mounting Hole without connection" (at 89.535 125.857 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 89.535 119.634 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 97c1e644-8a37-43b2-add2-d9c6b09ad2de)
-    (property "Reference" "H3" (at 92.329 118.364 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 92.329 120.904 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 89.535 119.634 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 89.535 119.634 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Mounting Hole without connection" (at 89.535 119.634 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 89.535 113.665 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a76ce476-b164-40ca-a670-92c7a7aafe1a)
-    (property "Reference" "H2" (at 92.329 112.395 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 92.329 114.935 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 89.535 113.665 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 89.535 113.665 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Mounting Hole without connection" (at 89.535 113.665 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 123.19 57.15) (size 29.21 71.12) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 08f54c79-9823-49b6-a2d6-0f99f475e3a2)
-    (property "Sheetname" "IP175G" (at 123.19 56.4384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "IP175G.kicad_sch" (at 123.19 128.8546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RXI1-" bidirectional (at 152.4 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 218d916f-c760-4599-8433-e6b043fe75a9)
-    )
-    (pin "TXO1-" bidirectional (at 152.4 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ada2bec9-a166-445f-80b6-557786fc5299)
-    )
-    (pin "TXO1+" bidirectional (at 152.4 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 7a2c490b-c856-4901-bb23-1b12a79312f4)
-    )
-    (pin "RXI1+" bidirectional (at 152.4 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid bb5789b2-2123-4f5e-b718-ac9d92d1b407)
-    )
-    (pin "RXI3+" bidirectional (at 152.4 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e62921af-1f18-4e86-ad28-05a222764a20)
-    )
-    (pin "TXO2-" bidirectional (at 152.4 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 37d236e6-b599-4499-bd98-e4ec295773cd)
-    )
-    (pin "TXO0-" bidirectional (at 152.4 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 121cf647-746d-4274-8f25-782db1765bf2)
-    )
-    (pin "TXO0+" bidirectional (at 152.4 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 84aec2c0-fefa-453e-9701-b8dad8a1608a)
-    )
-    (pin "RXI0-" bidirectional (at 152.4 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 980097cc-99bb-41e7-a582-28bf146bb276)
-    )
-    (pin "RXI0+" bidirectional (at 152.4 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2929ede2-04f4-4ae8-9a56-e433a2f17826)
-    )
-    (pin "RXI2-" bidirectional (at 152.4 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ba4b7b26-6264-43e1-89f8-f8a70aa2c7f7)
-    )
-    (pin "TXO2+" bidirectional (at 152.4 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 7580d3b1-256b-4c74-b57f-e931b98e7f63)
-    )
-    (pin "RXI2+" bidirectional (at 152.4 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f8c7daa6-5a12-46f4-bde9-a7d83982db74)
-    )
-    (pin "RXI3-" bidirectional (at 152.4 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 657d0ace-a77a-4f93-a14e-c0989831f443)
-    )
-    (pin "TXO3-" bidirectional (at 152.4 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 242e7299-d31e-4441-8f63-54bf6759b777)
-    )
-    (pin "TXO3+" bidirectional (at 152.4 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 93ca1a28-5abf-485a-a509-f857d693faf4)
-    )
-    (pin "RXI4-" bidirectional (at 152.4 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c7c95740-34e8-4153-b8d9-99439ab0695e)
-    )
-    (pin "TXO4+" bidirectional (at 152.4 116.84 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 07673252-b1d6-420b-9d46-c75e5738ef65)
-    )
-    (pin "TXO4-" bidirectional (at 152.4 119.38 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 17087bfd-7a6a-4e07-bd98-e864f6efb49a)
-    )
-    (pin "RXI4+" bidirectional (at 152.4 121.92 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 91381a48-2233-44e6-8b47-c89cea4904e9)
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 157.48 57.15) (size 29.21 71.12) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3b4e3a24-52bc-4456-b8ba-0ef7b116b867)
-    (property "Sheetname" "Magnetics" (at 157.48 56.4384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "magnetics.kicad_sch" (at 157.48 128.8546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "TXO4+" bidirectional (at 157.48 116.84 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 019eb32e-5f77-46f9-ae29-7c852a059d16)
-    )
-    (pin "TXO4-" bidirectional (at 157.48 119.38 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9c7bbf9c-f965-49fa-8a87-7fbcaed39a97)
-    )
-    (pin "TXO0+" bidirectional (at 157.48 60.96 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a6e3e1db-d9c2-467a-bc56-2b42fc76716a)
-    )
-    (pin "RXI0-" bidirectional (at 157.48 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid da00730c-cfd4-4603-8ded-7c49e3a0752f)
-    )
-    (pin "RXI0+" bidirectional (at 157.48 66.04 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5e8115f3-f1de-4080-a1f4-5d34c0fa989f)
-    )
-    (pin "RXI1-" bidirectional (at 157.48 82.55 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 05aaa839-da55-4899-9b9e-458ec3ede27b)
-    )
-    (pin "TXO1+" bidirectional (at 157.48 74.93 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 35a26610-bdb9-4bc5-b0cf-e5e172f11b36)
-    )
-    (pin "RXI1+" bidirectional (at 157.48 80.01 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1eee6f0b-2721-4f24-97ca-3f80e74f95cd)
-    )
-    (pin "RXI2+" bidirectional (at 157.48 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a8cb187c-42ca-4aa5-859e-007a8018a994)
-    )
-    (pin "TXO1-" bidirectional (at 157.48 77.47 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b7d2e8b0-6089-43fd-885c-d8b1a5eadd38)
-    )
-    (pin "TXO0-" bidirectional (at 157.48 63.5 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6ac60f02-7bed-4a1a-9602-8a221021312d)
-    )
-    (pin "RXI4+" bidirectional (at 157.48 121.92 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9d2a70b8-dff1-491d-8e78-1d8958e26f8d)
-    )
-    (pin "RXI4-" bidirectional (at 157.48 124.46 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 7c394b4a-bd8c-46cb-9f0f-67f56072e0b4)
-    )
-    (pin "TXO3-" bidirectional (at 157.48 105.41 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 44701de4-9e0d-499d-8b0d-bd5b52c83bde)
-    )
-    (pin "TXO3+" bidirectional (at 157.48 102.87 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 25729be3-f66a-43e8-9dea-6576374c13b8)
-    )
-    (pin "RXI3-" bidirectional (at 157.48 110.49 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 712f6c89-c0bd-4289-8d22-38ea412f0154)
-    )
-    (pin "RXI3+" bidirectional (at 157.48 107.95 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 193b16b5-e919-4f2c-80af-892e4c2e8f2f)
-    )
-    (pin "TXO2-" bidirectional (at 157.48 91.44 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 256f56c9-32c2-46cd-a7bd-5330a431d37f)
-    )
-    (pin "TXO2+" bidirectional (at 157.48 88.9 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e5c6e91b-10d7-4bd3-9144-ed81a26d3cd9)
-    )
-    (pin "RXI2-" bidirectional (at 157.48 96.52 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ae53e43e-a727-400f-8962-3d812b9f0246)
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 87.63 57.15) (size 29.21 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ae30af2c-3015-4dad-a9da-cdbd35ec9eec)
-    (property "Sheetname" "Power" (at 87.63 56.4384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 87.63 85.6746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "switch"
-        (path "/3a8c8799-9295-4740-b990-f123ec1feb18" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "3a8c8799-9295-4740-b990-f123ec1feb18")
+	(paper "A4")
+	(title_block
+		(title "mrxSwitch")
+		(date "2023-09-01")
+		(rev "V2.0")
+		(company "MUREX Robotics [Byran Huang and Max Liu]")
+		(comment 1 "utilizing the IC Plus IP175G and external magnetics")
+		(comment 2 "Ultra-compact 5 port unmanaged ethernet switch")
+		(comment 3 "// TECHNOLOGY FOR ALL.")
+		(comment 4 "// ATTEMPT THE IMPOSSIBLE.")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e647fc-4650-48ac-8163-e8078493b632")
+	)
+	(wire
+		(pts
+			(xy 152.4 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edfd357-7cf6-4405-9f33-6f9758b35de1")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 157.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e932c04-9f71-4d0e-bea8-db01199a1256")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3381fc0b-1db0-48dd-9894-90db1096ac97")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.92) (xy 157.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39de5901-f392-4ce3-a2c1-cfb33f9e6cf2")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d07192-9db2-4d48-82ba-1a7d580785cf")
+	)
+	(wire
+		(pts
+			(xy 152.4 105.41) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9023da-8c38-43eb-b3fc-e048f6460562")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a2a048-caa8-4107-9977-9cabf8de2428")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad114ea-6544-44aa-b078-aeec07406076")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdb0af8-f1bf-4cb7-9a95-717782870d5f")
+	)
+	(wire
+		(pts
+			(xy 152.4 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8167fc52-58c9-4a0a-8c5e-854cd809d5ec")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8480a511-68de-4ea7-acd4-ce6013669722")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a24449-97f1-4b47-b81e-b8c15ec58d60")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b68b45-5a11-49e3-94bf-02daa9d0ea1d")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08111ff-b303-453c-81e2-9c892048aea1")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2065f26-60fa-434f-91b3-4b52db6bb5a0")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40ef630-00e5-4e85-ae21-a862b8bce818")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c8eeca-9fae-46d6-a921-eef8880527e5")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cbc546-fc11-430e-b095-6bc375927b84")
+	)
+	(wire
+		(pts
+			(xy 152.4 124.46) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f989e450-d1f4-4025-b7f1-f3f51e6d44fe")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 89.535 107.442 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "553a68b2-43f7-45a5-aa29-1da614835789")
+		(property "Reference" "H1"
+			(at 92.329 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.329 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 89.535 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.535 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 89.535 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 89.535 125.857 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c336cbd-258b-4429-84f1-a8ee02bff1ae")
+		(property "Reference" "H4"
+			(at 92.329 124.587 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.329 127.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 89.535 125.857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.535 125.857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 89.535 125.857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 89.535 119.634 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c1e644-8a37-43b2-add2-d9c6b09ad2de")
+		(property "Reference" "H3"
+			(at 92.329 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.329 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 89.535 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.535 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 89.535 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 89.535 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76ce476-b164-40ca-a670-92c7a7aafe1a")
+		(property "Reference" "H2"
+			(at 92.329 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 92.329 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 89.535 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.535 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 89.535 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 57.15)
+		(size 29.21 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08f54c79-9823-49b6-a2d6-0f99f475e3a2")
+		(property "Sheetname" "IP175G"
+			(at 123.19 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IP175G.kicad_sch"
+			(at 123.19 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXI1-" bidirectional
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "218d916f-c760-4599-8433-e6b043fe75a9")
+		)
+		(pin "TXO1-" bidirectional
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ada2bec9-a166-445f-80b6-557786fc5299")
+		)
+		(pin "TXO1+" bidirectional
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a2c490b-c856-4901-bb23-1b12a79312f4")
+		)
+		(pin "RXI1+" bidirectional
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb5789b2-2123-4f5e-b718-ac9d92d1b407")
+		)
+		(pin "RXI3+" bidirectional
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e62921af-1f18-4e86-ad28-05a222764a20")
+		)
+		(pin "TXO2-" bidirectional
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37d236e6-b599-4499-bd98-e4ec295773cd")
+		)
+		(pin "TXO0-" bidirectional
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "121cf647-746d-4274-8f25-782db1765bf2")
+		)
+		(pin "TXO0+" bidirectional
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84aec2c0-fefa-453e-9701-b8dad8a1608a")
+		)
+		(pin "RXI0-" bidirectional
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "980097cc-99bb-41e7-a582-28bf146bb276")
+		)
+		(pin "RXI0+" bidirectional
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2929ede2-04f4-4ae8-9a56-e433a2f17826")
+		)
+		(pin "RXI2-" bidirectional
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba4b7b26-6264-43e1-89f8-f8a70aa2c7f7")
+		)
+		(pin "TXO2+" bidirectional
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7580d3b1-256b-4c74-b57f-e931b98e7f63")
+		)
+		(pin "RXI2+" bidirectional
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8c7daa6-5a12-46f4-bde9-a7d83982db74")
+		)
+		(pin "RXI3-" bidirectional
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "657d0ace-a77a-4f93-a14e-c0989831f443")
+		)
+		(pin "TXO3-" bidirectional
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "242e7299-d31e-4441-8f63-54bf6759b777")
+		)
+		(pin "TXO3+" bidirectional
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "93ca1a28-5abf-485a-a509-f857d693faf4")
+		)
+		(pin "RXI4-" bidirectional
+			(at 152.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7c95740-34e8-4153-b8d9-99439ab0695e")
+		)
+		(pin "TXO4+" bidirectional
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07673252-b1d6-420b-9d46-c75e5738ef65")
+		)
+		(pin "TXO4-" bidirectional
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17087bfd-7a6a-4e07-bd98-e864f6efb49a")
+		)
+		(pin "RXI4+" bidirectional
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91381a48-2233-44e6-8b47-c89cea4904e9")
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 57.15)
+		(size 29.21 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b4e3a24-52bc-4456-b8ba-0ef7b116b867")
+		(property "Sheetname" "Magnetics"
+			(at 157.48 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetics.kicad_sch"
+			(at 157.48 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TXO4+" bidirectional
+			(at 157.48 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "019eb32e-5f77-46f9-ae29-7c852a059d16")
+		)
+		(pin "TXO4-" bidirectional
+			(at 157.48 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c7bbf9c-f965-49fa-8a87-7fbcaed39a97")
+		)
+		(pin "TXO0+" bidirectional
+			(at 157.48 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6e3e1db-d9c2-467a-bc56-2b42fc76716a")
+		)
+		(pin "RXI0-" bidirectional
+			(at 157.48 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da00730c-cfd4-4603-8ded-7c49e3a0752f")
+		)
+		(pin "RXI0+" bidirectional
+			(at 157.48 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e8115f3-f1de-4080-a1f4-5d34c0fa989f")
+		)
+		(pin "RXI1-" bidirectional
+			(at 157.48 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05aaa839-da55-4899-9b9e-458ec3ede27b")
+		)
+		(pin "TXO1+" bidirectional
+			(at 157.48 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35a26610-bdb9-4bc5-b0cf-e5e172f11b36")
+		)
+		(pin "RXI1+" bidirectional
+			(at 157.48 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1eee6f0b-2721-4f24-97ca-3f80e74f95cd")
+		)
+		(pin "RXI2+" bidirectional
+			(at 157.48 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8cb187c-42ca-4aa5-859e-007a8018a994")
+		)
+		(pin "TXO1-" bidirectional
+			(at 157.48 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7d2e8b0-6089-43fd-885c-d8b1a5eadd38")
+		)
+		(pin "TXO0-" bidirectional
+			(at 157.48 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ac60f02-7bed-4a1a-9602-8a221021312d")
+		)
+		(pin "RXI4+" bidirectional
+			(at 157.48 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d2a70b8-dff1-491d-8e78-1d8958e26f8d")
+		)
+		(pin "RXI4-" bidirectional
+			(at 157.48 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c394b4a-bd8c-46cb-9f0f-67f56072e0b4")
+		)
+		(pin "TXO3-" bidirectional
+			(at 157.48 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44701de4-9e0d-499d-8b0d-bd5b52c83bde")
+		)
+		(pin "TXO3+" bidirectional
+			(at 157.48 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "25729be3-f66a-43e8-9dea-6576374c13b8")
+		)
+		(pin "RXI3-" bidirectional
+			(at 157.48 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "712f6c89-c0bd-4289-8d22-38ea412f0154")
+		)
+		(pin "RXI3+" bidirectional
+			(at 157.48 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "193b16b5-e919-4f2c-80af-892e4c2e8f2f")
+		)
+		(pin "TXO2-" bidirectional
+			(at 157.48 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "256f56c9-32c2-46cd-a7bd-5330a431d37f")
+		)
+		(pin "TXO2+" bidirectional
+			(at 157.48 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5c6e91b-10d7-4bd3-9144-ed81a26d3cd9")
+		)
+		(pin "RXI2-" bidirectional
+			(at 157.48 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae53e43e-a727-400f-8962-3d812b9f0246")
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 57.15)
+		(size 29.21 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae30af2c-3015-4dad-a9da-cdbd35ec9eec")
+		(property "Sheetname" "Power"
+			(at 87.63 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 87.63 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "switch"
+				(path "/3a8c8799-9295-4740-b990-f123ec1feb18"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
