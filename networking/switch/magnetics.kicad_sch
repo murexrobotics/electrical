@@ -2223,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 93.98) (xy 213.36 93.98)
+			(xy 205.74 101.6) (xy 213.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 101.6) (xy 213.36 101.6)
+			(xy 205.74 93.98) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 96.52) (xy 213.36 96.52)
+			(xy 205.74 99.06) (xy 213.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3103,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 99.06) (xy 213.36 99.06)
+			(xy 205.74 96.52) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3343,7 +3343,7 @@
 		(uuid "207dfd11-7b9a-4aeb-a41b-2dad35b98b01")
 	)
 	(label "TX1+"
-		(at 205.74 96.52 0)
+		(at 205.74 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3453,7 +3453,7 @@
 		(uuid "41c622cd-3040-4fb1-a8cb-e9288777d19b")
 	)
 	(label "RX1-"
-		(at 205.74 99.06 0)
+		(at 205.74 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3497,7 +3497,7 @@
 		(uuid "4d9353a6-0ba9-44ae-b2a4-ac1edcd38ff8")
 	)
 	(label "RX1+"
-		(at 205.74 101.6 0)
+		(at 205.74 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3871,7 +3871,7 @@
 		(uuid "f085bd10-5a1b-4b32-886a-7bcb13a6be03")
 	)
 	(label "TX1-"
-		(at 205.74 93.98 0)
+		(at 205.74 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
