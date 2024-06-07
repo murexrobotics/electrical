@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "mrxSwitch")
-		(date "2023-09-01")
+		(date "2024-06-02")
 		(rev "V2.0")
 		(company "MUREX Robotics [Byran Huang and Max Liu]")
 		(comment 1 "utilizing the IC Plus IP175G and external magnetics")
-		(comment 2 "Ultra-compact 5 port unmanaged ethernet switch")
+		(comment 2 "World's smallest and cheapest 5 port unmanaged ethernet switch")
 		(comment 3 "// TECHNOLOGY FOR ALL.")
 		(comment 4 "// ATTEMPT THE IMPOSSIBLE.")
 	)
