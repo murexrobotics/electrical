@@ -38,6 +38,7 @@ Members:
 - Altan Unver '25 (@L0ad1n6)
 - Crane Lee '27 (@Crane-Lee)
 - Varit Asavathiratham '25 (@BaritoDespacito)
+- Osbert Chang '27 (@Osbertchang)
 
 Emeriti:
 
