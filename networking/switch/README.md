@@ -1,3 +1,3 @@
 # Documentation
 
-<https://docs.murexrobotics.com/elec/boards/switch>
+<https://docs.murexrobotics.com/elec/boards/networking/switch>
