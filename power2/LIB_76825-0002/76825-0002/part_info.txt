@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=76825-0002
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2018-08-10 12:02:55
+Downloaded=2024-08-05 22:41:35
+3D=Y

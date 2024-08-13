@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "282837-2"
+   (description "Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Wire Entry Location Side | Stacking Configuration Side Stackable | Number of Rows 1 | Stacked Levels Without | Number of Positions 2 | Wire Entry Angle 90 | Contact Features: Contact Current Rating (Max) 13.5 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Dimensions: Wire Size 30  16 AWG | Wire Size .05  1.3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC |")
+   (family "CON")
+   (package "2828372")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282837-2&DocFormat=pdf")
+   (attribute "Geometry.Height" "10.3mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "282837-2")
+   (attribute "Mouser Part Number" "571-2828372")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282837-2?qs=A%252Bip%252BNCYi6O2H0NGWOeAxg%3D%3D")
+   (attribute "Arrow Part Number" "282837-2")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/282837-2/te-connectivity?region=europe")
+   (gate
+    (symbol "282837-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "282837-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "2828372"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.54 4.1)
+      (pt 7.62 4.1)
+      (pt 7.62 -4.1)
+      (pt -2.54 -4.1)
+      (pt -2.54 4.1))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.14 4.1)
+      (pt -2.54 4.1)
+      (pt -2.54 -4.1)
+      (pt -3.14 -4.1)
+      (pt -3.14 4.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.54 4.1)
+      (pt 7.62 4.1)
+      (pt 7.62 -4.1)
+      (pt -2.54 -4.1)
+      (pt -2.54 4.1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.14 5.1)
+      (pt 8.62 5.1)
+      (pt 8.62 -5.1)
+      (pt -4.14 -5.1)
+      (pt -4.14 5.1))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (model "282837-2.stp"
+    (euler 90 0 -90)
+    (offset 2.569999933242798 -0.009999999776482582 4.840000152587891)
+   )
+  )
+ )
+)

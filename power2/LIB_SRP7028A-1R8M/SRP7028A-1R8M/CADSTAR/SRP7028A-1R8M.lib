@@ -1,0 +1,18 @@
+.SRP7028A-1R8M :1 ;Bourns SRP7028A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 1.8 uH +/-20% 8.5A Idc
+INDPM7366X300N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SRP7028A-1R8M
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRP7028A-1R8M)
+~!Mouser Part Number (652-SRP7028A-1R8M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRP7028A-1R8M?qs=7z%252BmIopC6%2FJ3f%2FcMDr%252Bn6A%3D%3D)
+~!Arrow Part Number (SRP7028A-1R8M)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/srp7028a-1r8m/bourns?region=nac)
+~!Link Datasheet (http://www.farnell.com/datasheets/2361968.pdf)
+~!Height (3mm)
+~!3D_Model (SRP7028A-1R8M)
+SRP7028A-1R8M
+1.1!U 2.1!U 

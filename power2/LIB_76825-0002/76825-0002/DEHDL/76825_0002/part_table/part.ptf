@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '76825_0002'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "76825-0002" (!) = "", "768250002", "Other", "538-76825-0002", "https://www.mouser.co.uk/ProductDetail/Molex/76825-0002?qs=KpdAywxU011SrMvnYgR78w%3D%3D", "MOLEX - 76825-0002 - CONNECTOR, HEADER, 2POS, 2ROW, 5.7MM", "https://www.molex.com/pdm_docs/sd/768250002_sd.pdf", "14 mm"
+END_PART
+
+END.

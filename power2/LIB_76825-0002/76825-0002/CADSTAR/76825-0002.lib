@@ -1,0 +1,16 @@
+.76825-0002 :1 ;MOLEX - 76825-0002 - CONNECTOR, HEADER, 2POS, 2ROW, 5.7MM
+"768250002"
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 3
+*DFN 76825-0002
+~!Mouser Part Number (538-76825-0002)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/76825-0002?qs=KpdAywxU011SrMvnYgR78w%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (76825-0002)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/768250002_sd.pdf)
+~!Height (14mm)
+~!3D_Model (76825-0002)
+"76825-0002"
+1.1!U 2.1!U 

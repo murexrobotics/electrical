@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_521537"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-08-10-12:02:55)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "76825-0002")
+)
+
+
+(pinAssign "ECS_521537"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-08-10-12:02:55)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_521537")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "76825-0002")
+)
+
+
+(part "76825-0002"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-08-10-12:02:55)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "76825-0002")
+    (pinAssignRef "ECS_521537")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "MOLEX - 76825-0002 - CONNECTOR, HEADER, 2POS, 2ROW, 5.7MM")
+    (property "Mouser_Part_Number" "538-76825-0002")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/76825-0002?qs=KpdAywxU011SrMvnYgR78w%3D%3D")
+    (property "Manufacturer_Name" "Molex")
+    (property "Manufacturer_Part_Number" "76825-0002")
+    (property "Datasheet_Link" "https://www.molex.com/pdm_docs/sd/768250002_sd.pdf")
+    (property "compAreaTopHeight" 14)
+)
+
+

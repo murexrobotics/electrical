@@ -1,0 +1,18 @@
+.TPS56C230RJER :1 ;Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125
+QFN45P300X300X100-21N-D
+*STM IC
+*NGS
+*PLB 1="BST" 2="VIN_1" 3="VIN_2" 4="VIN_3" 5="VIN_4" 6="SW_1" 7="PGND_1" 8="PGND_2" 9="PGOOD" 10="NC_1" 11="SS" 12="EN" 13="AGND" 14="FB" 15="MODE" 16="NC_2" 17="VCC" 18="PGND_3" 19="SW_2" 20="SW_3" 21="PGND_4"
+*MXP 21
+*DFN TPS56C230RJER
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS56C230RJER)
+~!Mouser Part Number (595-TPS56C230RJER)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS56C230RJER?qs=B6kkDfuK7%2FDZws9l9ZFrjw%3D%3D)
+~!Arrow Part Number (TPS56C230RJER)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps56c230rjer/texas-instruments?region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/TPS56C230)
+~!Height (1mm)
+~!3D_Model (TPS56C230RJER)
+TPS56C230RJER
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

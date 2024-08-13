@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SRP7028A-1R8M
+#/390341/1430008/2.50/2/3/Inductor
+DEF SRP7028A-1R8M L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "SRP7028A-1R8M" 650 150 50 H V L CNN
+F2 "INDPM7366X300N" 650 50 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/2361968.pdf" 650 -50 50 H I L CNN
+F4 "Bourns SRP7028A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 1.8 uH +/-20% 8.5A Idc" 650 -150 50 H I L CNN "Description"
+F5 "3" 650 -250 50 H I L CNN "Height"
+F6 "Bourns" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "SRP7028A-1R8M" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "652-SRP7028A-1R8M" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bourns/SRP7028A-1R8M?qs=7z%252BmIopC6%2FJ3f%2FcMDr%252Bn6A%3D%3D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "SRP7028A-1R8M" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/srp7028a-1r8m/bourns?region=nac" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#End Library

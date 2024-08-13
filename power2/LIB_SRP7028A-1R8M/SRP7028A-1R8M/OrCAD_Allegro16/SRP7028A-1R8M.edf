@@ -1,0 +1,111 @@
+
+(EDIF
+  (rename &SRP7028A_1R8M "SRP7028A_1R8M")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 07 27 05 04 56)
+      (dataOrigin "390341/1430008/2.50/2/3/Inductor")
+      (program "SamacSys ECAD Model SRP7028A_1R8M"
+        (version "1.1"))))
+  (library
+  (rename &SRP7028A_1R8M "SRP7028A_1R8M")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SRP7028A_1R8M "SRP7028A_1R8M")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "L")
+          (property (rename PACKAGENAME "PackageName") (string "SRP7028A_1R8M"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "INDPM7366X300N"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Bourns"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SRP7028A-1R8M"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "652-SRP7028A-1R8M"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Bourns/SRP7028A-1R8M?qs=7z%252BmIopC6%2FJ3f%2FcMDr%252Bn6A%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "SRP7028A-1R8M"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/srp7028a-1r8m/bourns?region=nac"))
+          (property (rename &Description "Description") (string "Bourns SRP7028A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 1.8 uH +/-20percent 8.5A Idc"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.farnell.com/datasheets/2361968.pdf"))
+          (property (rename &Height "Height") (string "3 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SRP7028A_1R8M"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -100))))
+            )
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 0 -100)
+                    (pt 50 -52)
+                    (pt 100 -100)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 100 -100)
+                    (pt 150 -52)
+                    (pt 200 -100)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 200 -100)
+                    (pt 250 -52)
+                    (pt 300 -100)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 300 -100)
+                    (pt 350 -52)
+                    (pt 400 -100)))))
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 80))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 -20))))
+          )
+        )
+      )
+    )
+  )
+)

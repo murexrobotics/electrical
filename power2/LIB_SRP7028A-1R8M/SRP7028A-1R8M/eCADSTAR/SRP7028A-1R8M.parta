@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_390341"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-09-11:19:58)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SRP7028A-1R8M")
+)
+
+
+(pinAssign "ECS_390341"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-09-11:19:58)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_390341")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SRP7028A-1R8M")
+)
+
+
+(part "SRP7028A-1R8M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-09-11:19:58)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "SRP7028A-1R8M")
+    (pinAssignRef "ECS_390341")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Bourns SRP7028A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 1.8 uH +/-20% 8.5A Idc")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "SRP7028A-1R8M")
+    (property "Mouser_Part_Number" "652-SRP7028A-1R8M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP7028A-1R8M?qs=7z%252BmIopC6%2FJ3f%2FcMDr%252Bn6A%3D%3D")
+    (property "Arrow_Part_Number" "SRP7028A-1R8M")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/srp7028a-1r8m/bourns?region=nac")
+    (property "Datasheet_Link" "http://www.farnell.com/datasheets/2361968.pdf")
+    (property "compAreaTopHeight" 3)
+)
+
+

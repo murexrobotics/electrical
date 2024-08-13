@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP7028A-1R8M
+D Bourns SRP7028A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 1.8 uH +/-20% 8.5A Idc
+K
+F http://www.farnell.com/datasheets/2361968.pdf
+$ENDCMP
+#
+#End Doc Library

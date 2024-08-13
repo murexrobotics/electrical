@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/7101057/1430008/2.50/21/3/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN45P300X300X100-21N">
+<description>&lt;b&gt;rje&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0.9" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="2" x="-1.45" y="0.45" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="3" x="-1.45" y="0" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="4" x="-1.45" y="-0.45" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="5" x="-1.45" y="-0.9" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="6" x="-0.9" y="-1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-0.45" y="-1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="0.45" y="-1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="0.9" y="-1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="1.45" y="-0.9" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="12" x="1.45" y="-0.45" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="13" x="1.45" y="0" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="14" x="1.45" y="0.45" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="15" x="1.45" y="0.9" dx="0.85" dy="0.25" layer="1" rot="R0"/>
+<smd name="16" x="0.9" y="1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="17" x="0.45" y="1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="18" x="0" y="1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="19" x="-0.45" y="1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="20" x="-0.9" y="1.45" dx="0.85" dy="0.25" layer="1" rot="R90"/>
+<smd name="21" x="0" y="0" dx="1.075" dy="1.026" layer="1" rot="R90"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1.05" x2="-1.05" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.8745" y="1.575" radius="0.1125" width="0.225" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS56C230RJER">
+<wire x1="5.08" y1="12.7" x2="25.4" y2="12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-22.86" x2="25.4" y2="12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<text x="26.67" y="17.78" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="26.67" y="15.24" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BST" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="VIN_1" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="VIN_2" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="VIN_3" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="VIN_4" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="SW_1" x="10.16" y="-27.94" length="middle" direction="io" rot="R90"/>
+<pin name="PGND_1" x="12.7" y="-27.94" length="middle" direction="io" rot="R90"/>
+<pin name="PGND_2" x="15.24" y="-27.94" length="middle" direction="io" rot="R90"/>
+<pin name="PGOOD" x="17.78" y="-27.94" length="middle" direction="io" rot="R90"/>
+<pin name="NC_1" x="20.32" y="-27.94" length="middle" direction="io" rot="R90"/>
+<pin name="MODE" x="30.48" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="FB" x="30.48" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="AGND" x="30.48" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="EN" x="30.48" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="SS" x="30.48" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="PGND_4" x="7.62" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="SW_3" x="10.16" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="SW_2" x="12.7" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="PGND_3" x="15.24" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="VCC" x="17.78" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="NC_2" x="20.32" y="17.78" length="middle" direction="io" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS56C230RJER" prefix="IC">
+<description>&lt;b&gt;Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.ti.com/lit/gpn/TPS56C230"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS56C230RJER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN45P300X300X100-21N">
+<connects>
+<connect gate="G$1" pin="BST" pad="1"/>
+<connect gate="G$1" pin="VIN_1" pad="2"/>
+<connect gate="G$1" pin="VIN_2" pad="3"/>
+<connect gate="G$1" pin="VIN_3" pad="4"/>
+<connect gate="G$1" pin="VIN_4" pad="5"/>
+<connect gate="G$1" pin="SW_1" pad="6"/>
+<connect gate="G$1" pin="PGND_1" pad="7"/>
+<connect gate="G$1" pin="PGND_2" pad="8"/>
+<connect gate="G$1" pin="PGOOD" pad="9"/>
+<connect gate="G$1" pin="NC_1" pad="10"/>
+<connect gate="G$1" pin="SS" pad="11"/>
+<connect gate="G$1" pin="EN" pad="12"/>
+<connect gate="G$1" pin="AGND" pad="13"/>
+<connect gate="G$1" pin="FB" pad="14"/>
+<connect gate="G$1" pin="MODE" pad="15"/>
+<connect gate="G$1" pin="NC_2" pad="16"/>
+<connect gate="G$1" pin="VCC" pad="17"/>
+<connect gate="G$1" pin="PGND_3" pad="18"/>
+<connect gate="G$1" pin="SW_2" pad="19"/>
+<connect gate="G$1" pin="SW_3" pad="20"/>
+<connect gate="G$1" pin="PGND_4" pad="21"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="TPS56C230RJER" constant="no"/>
+<attribute name="Mouser_Part_Number" value="595-TPS56C230RJER" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS56C230RJER?qs=B6kkDfuK7%2FDZws9l9ZFrjw%3D%3D" constant="no"/>
+<attribute name="Arrow_Part_Number" value="TPS56C230RJER" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="https://www.arrow.com/en/products/tps56c230rjer/texas-instruments?region=nac" constant="no"/>
+<attribute name="Description" value="Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125" constant="no"/>
+<attribute name="Height" value="1mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

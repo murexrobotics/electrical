@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS56C230RJER
+D Switching Voltage Regulators 4.5-V to 18-V, 12-A synchronous buck converter 20-VQFN-HR -40 to 125
+K
+F https://www.ti.com/lit/gpn/TPS56C230
+$ENDCMP
+#
+#End Doc Library

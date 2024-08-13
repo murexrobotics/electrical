@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SRP7028A-1R8M
+PartCategory=Inductor
+PackageCategory=Inductors Precision Moulded
+PinCount=2
+Version=1.1
+Released=2020-09-09 11:19:58
+Downloaded=2024-07-27 05:04:56
+3D=Y

@@ -1,0 +1,52 @@
+LIB 282837-2
+ZONE 1 2 1 50.000 50.000 0.000 0.000 0 A 1
+GRID 1 1 1 1 1 1 1 4
+SHT 1 1 1 0 4 12 6
+PROP 0 componentType 1
+parts
+ENDPROP
+PROP 0 componentKind 1
+181
+ENDPROP
+PROP 0 partName 1
+282837-2
+ENDPROP
+VIEW 1 1 0 -1 -1 13 6 0 1.000 3 reference
+VIEW 1 1 0 -1 -1 13 4 0 1.000 3 partName
+ENDSHT
+LINE 1 -1 -1 -1 0 0 0
+POINT - 4 2
+POINT - 12 2
+POINT - 12 -4
+POINT - 4 -4
+POINT - 4 2
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 0
+POINT - 4 0
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -2
+POINT - 4 -2
+ENDLIN
+PIN 1 1 0 0
+PROP 0 pinLabel 1
+1
+ENDPROP
+PROP 0 pinNumber 1
+1
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 0.4 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 0 0 1.000 3 pinLabel
+ENDPIN
+PIN 2 1 0 -2
+PROP 0 pinLabel 1
+2
+ENDPROP
+PROP 0 pinNumber 1
+2
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -1.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -2 0 1.000 3 pinLabel
+ENDPIN
+ENDLIB
