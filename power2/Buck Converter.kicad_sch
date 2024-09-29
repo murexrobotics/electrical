@@ -5,49 +5,42 @@
 	(uuid "1486b9f8-fdc5-454c-a553-88bb81dd673d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "282837-2:282837-2"
+		(symbol "282837-2_1"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
+			(property "Reference" "P"
+				(at -2.5406 2.5438 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "282837-2"
-				(at 16.51 5.08 0)
+				(at -2.5424 -6.3745 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "2828372"
-				(at 16.51 -94.92 0)
+			(property "Footprint" "282837-2:TE_282837-2"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282837-2&DocFormat=pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Wire Entry Location Side | Stacking Configuration Side Stackable | Number of Rows 1 | Stacked Levels Without | Number of Positions 2 | Wire Entry Angle 90 | Contact Features: Contact Current Rating (Max) 13.5 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Dimensions: Wire Size 30  16 AWG | Wire Size .05  1.3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC |"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,80 +49,80 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "10.3"
-				(at 16.51 -394.92 0)
+			(property "Description" "TERMINAL BLOCK 3.5MM 2POS PCB"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 16.51 -494.92 0)
+			(property "MF" "On Shore"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "282837-2"
-				(at 16.51 -594.92 0)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "571-2828372"
-				(at 16.51 -694.92 0)
+			(property "PRICE" "0.28 USD"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282837-2?qs=A%252Bip%252BNCYi6O2H0NGWOeAxg%3D%3D"
-				(at 16.51 -794.92 0)
+			(property "PARTREV" "G3"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "282837-2"
-				(at 16.51 -894.92 0)
+			(property "MP" "OSTTE020104"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/282837-2/te-connectivity?region=europe"
-				(at 16.51 -994.92 0)
+			(property "AVAILABILITY" "Good"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "282837-2_1_1"
+			(symbol "282837-2_1_0_0"
 				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
+					(start -2.54 -5.08)
+					(end 2.54 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -139,188 +132,37 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at -7.62 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "76825-0002:76825-0002"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "76825-0002"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "768250002"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/768250002_sd.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOLEX - 76825-0002 - CONNECTOR, HEADER, 2POS, 2ROW, 5.7MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "14"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "538-76825-0002"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/76825-0002?qs=KpdAywxU011SrMvnYgR78w%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "76825-0002"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "76825-0002_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -447,169 +289,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1573,13 +1252,7 @@
 		(uuid "006afc4c-13e0-43b1-b91d-68ce116ef3a1")
 	)
 	(junction
-		(at 107.95 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0651cd7a-8849-4b56-9839-c2145e593ca2")
-	)
-	(junction
-		(at 243.84 86.36)
+		(at 256.54 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0693a7ab-4330-4ae6-872e-33058fdfce27")
@@ -1609,25 +1282,19 @@
 		(uuid "4839947f-21ee-44b6-83e8-bd229bdb32d9")
 	)
 	(junction
-		(at 88.9 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c536b17-7941-4a47-9158-dd9fde2df87a")
-	)
-	(junction
 		(at 111.76 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52862927-5799-407b-a766-1f153a06eb32")
 	)
 	(junction
-		(at 212.09 121.92)
+		(at 224.79 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "558f3648-22ad-47e7-816d-a239c563e521")
 	)
 	(junction
-		(at 217.17 86.36)
+		(at 229.87 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d9611bb-aa34-4a93-b6ea-b2ac52911ec5")
@@ -1639,22 +1306,28 @@
 		(uuid "68da2904-ddfe-4ff5-9602-29cea76d90a8")
 	)
 	(junction
-		(at 229.87 121.92)
+		(at 242.57 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d7661d2-6c7d-4b33-a151-83a8c48c2738")
-	)
-	(junction
-		(at 204.47 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71072de2-0534-4465-a20e-0cc46bb17987")
 	)
 	(junction
 		(at 107.95 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a95f8d-24b6-428d-a998-e1b4b81aca71")
+	)
+	(junction
+		(at 256.54 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80722add-2e49-4d2c-8d69-fcfffa9f923a")
+	)
+	(junction
+		(at 207.01 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8525e498-2353-4ec9-98a2-83eea6ebbe97")
 	)
 	(junction
 		(at 107.95 102.87)
@@ -1693,7 +1366,7 @@
 		(uuid "a42be3a4-1f12-407c-86b4-0027ba5ea921")
 	)
 	(junction
-		(at 217.17 121.92)
+		(at 229.87 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae19179f-c2c2-4f33-b1f7-32e73ac581d4")
@@ -1729,16 +1402,22 @@
 		(uuid "d236e586-c2b5-49d1-9f7e-9f5bed19e9ae")
 	)
 	(junction
-		(at 204.47 86.36)
+		(at 217.17 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa7ac9d-0fb7-4c75-a190-f52e2bf35f50")
 	)
 	(junction
-		(at 229.87 86.36)
+		(at 242.57 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6159528-a989-46d4-9d19-b50e660f5623")
+	)
+	(junction
+		(at 55.88 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f920a4b4-c584-46f8-90f9-37c3557f1d20")
 	)
 	(junction
 		(at 138.43 72.39)
@@ -1760,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 121.92) (xy 217.17 121.92)
+			(xy 224.79 121.92) (xy 229.87 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1790,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 86.36) (xy 217.17 99.06)
+			(xy 229.87 86.36) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +1499,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 106.68) (xy 229.87 121.92)
+			(xy 264.16 121.92) (xy 256.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10086d86-c8bf-40ff-9835-087830fcee47")
+	)
+	(wire
+		(pts
+			(xy 242.57 106.68) (xy 242.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1860,6 +1549,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 86.36) (xy 217.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22815f53-b8da-4164-a386-a98ef76f22e8")
+	)
+	(wire
+		(pts
 			(xy 142.24 80.01) (xy 140.97 80.01)
 		)
 		(stroke
@@ -1890,16 +1589,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 138.43) (xy 88.9 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c254bf-40cc-4827-bfad-5ebde01923a3")
-	)
-	(wire
-		(pts
 			(xy 107.95 110.49) (xy 107.95 102.87)
 		)
 		(stroke
@@ -1910,7 +1599,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 121.92) (xy 243.84 121.92)
+			(xy 50.8 138.43) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd7f618-c227-421d-8707-7aca813e0b70")
+	)
+	(wire
+		(pts
+			(xy 242.57 121.92) (xy 256.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1960,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 86.36) (xy 204.47 86.36)
+			(xy 193.04 86.36) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +1699,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 86.36) (xy 229.87 86.36)
+			(xy 229.87 86.36) (xy 242.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 121.92) (xy 229.87 121.92)
+			(xy 229.87 121.92) (xy 242.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2030,17 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 107.95 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50139a37-c7f3-433b-9829-7ac73cea6d2d")
-	)
-	(wire
-		(pts
-			(xy 204.47 106.68) (xy 204.47 121.92)
+			(xy 217.17 106.68) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 123.19) (xy 107.95 124.46)
+			(xy 107.95 120.65) (xy 107.95 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 217.17 121.92)
+			(xy 229.87 106.68) (xy 229.87 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2160,26 +1849,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 123.19) (xy 88.9 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b45dbb6-02ad-465f-b10b-b945aa6a22cf")
-	)
-	(wire
-		(pts
-			(xy 88.9 123.19) (xy 88.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3468fa-ac97-4395-adc9-e3d000cc9a35")
-	)
-	(wire
-		(pts
 			(xy 83.82 118.11) (xy 83.82 102.87)
 		)
 		(stroke
@@ -2190,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 217.17 86.36)
+			(xy 217.17 86.36) (xy 229.87 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 121.92) (xy 212.09 121.92)
+			(xy 217.17 121.92) (xy 224.79 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 121.92) (xy 243.84 106.68)
+			(xy 256.54 121.92) (xy 256.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2290,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 96.52) (xy 207.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b78e601-7295-4014-876f-893f9077c0ba")
+	)
+	(wire
+		(pts
 			(xy 165.1 86.36) (xy 165.1 138.43)
 		)
 		(stroke
@@ -2330,6 +2009,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 88.9) (xy 264.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb8354c-8532-422a-881d-6e8b60e3065c")
+	)
+	(wire
+		(pts
+			(xy 207.01 86.36) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff14e0e-340f-44db-83c2-b8e86cff2324")
+	)
+	(wire
+		(pts
 			(xy 168.91 86.36) (xy 171.45 86.36)
 		)
 		(stroke
@@ -2340,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 138.43) (xy 93.98 138.43)
+			(xy 83.82 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 243.84 99.06)
+			(xy 256.54 86.36) (xy 256.54 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 243.84 86.36)
+			(xy 242.57 86.36) (xy 256.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 229.87 99.06)
+			(xy 242.57 86.36) (xy 242.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2480,16 +2179,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 121.92) (xy 204.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb3d8b5-bb70-4ff8-812a-6e9d48c3e734")
-	)
-	(wire
-		(pts
 			(xy 133.35 62.23) (xy 133.35 82.55)
 		)
 		(stroke
@@ -2500,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 204.47 99.06)
+			(xy 217.17 86.36) (xy 217.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2527,6 +2216,16 @@
 			(type default)
 		)
 		(uuid "c850abe6-a803-432b-a761-c7aa0cfcac35")
+	)
+	(wire
+		(pts
+			(xy 193.04 102.87) (xy 207.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85bbd08-4fbc-4d0a-ad4b-d990938d0023")
 	)
 	(wire
 		(pts
@@ -2590,16 +2289,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 134.62) (xy 88.9 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de234270-69a2-45c3-bf18-be713e8fbbc3")
-	)
-	(wire
-		(pts
 			(xy 118.11 110.49) (xy 120.65 110.49)
 		)
 		(stroke
@@ -2650,6 +2339,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 105.41) (xy 50.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b8d322-4aa2-4b13-96aa-12e72ad265c3")
+	)
+	(wire
+		(pts
 			(xy 111.76 71.12) (xy 111.76 74.93)
 		)
 		(stroke
@@ -2660,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 251.46 86.36)
+			(xy 256.54 86.36) (xy 264.16 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2720,6 +2419,18 @@
 		)
 		(uuid "019ced0a-b2a6-4576-adf6-2dc79ab5e116")
 	)
+	(hierarchical_label "V_{OUT}"
+		(shape input)
+		(at 262.89 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "024a9dce-6633-47bc-9b85-4a6f4376a22e")
+	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 96.52 120.65 180)
@@ -2731,18 +2442,6 @@
 			(justify right)
 		)
 		(uuid "1a20688e-fc75-498f-96fc-1c97b745ab92")
-	)
-	(hierarchical_label "V_{IN}"
-		(shape input)
-		(at 50.8 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f360b92-4b93-4f84-b95c-d16683b67499")
 	)
 	(hierarchical_label "MODE"
 		(shape input)
@@ -2756,6 +2455,18 @@
 		)
 		(uuid "2412753a-5887-497c-a3a1-fe587cdd9906")
 	)
+	(hierarchical_label "V_{IN}"
+		(shape input)
+		(at 33.02 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "248bd12f-dd67-43c7-9d07-ddd7fdf03645")
+	)
 	(hierarchical_label "MODE"
 		(shape input)
 		(at 151.13 100.33 0)
@@ -2767,18 +2478,6 @@
 			(justify left)
 		)
 		(uuid "68d71e91-7d7b-42a0-b39e-69bbfb0ab6a9")
-	)
-	(hierarchical_label "V_{OUT}"
-		(shape input)
-		(at 251.46 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b32a03e3-4734-4e22-8e87-6a6466782a31")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2798,7 +2497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51.1kΩ"
+		(property "Value" "51k"
 			(at 98.298 129.794 0)
 			(effects
 				(font
@@ -2946,7 +2645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 54.9148 118.11 0)
 			(effects
 				(font
@@ -2983,6 +2682,145 @@
 			(project "Buck Converter"
 				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "282837-2_1")
+		(lib_id "282837-2:282837-2")
+		(at 43.18 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "195ff696-00a3-4013-bd0d-42b843e34ba6")
+		(property "Reference" "J1"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "282837-2"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "282837-2:TE_282837-2"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "On Shore"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "0.28 USD"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "G3"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "OSTTE020104"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99487d2-f850-402e-bdca-8a7f4d594473")
+		)
+		(pin "2"
+			(uuid "ad01f714-7d03-45e9-ba44-c19ac538458d")
+		)
+		(instances
+			(project "Buck Converter"
+				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3138,7 +2976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "102kΩ"
+		(property "Value" "102k"
 			(at 98.806 115.57 0)
 			(effects
 				(font
@@ -3339,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15kΩ "
+		(property "Value" "15k"
 			(at 195.58 110.4899 0)
 			(effects
 				(font
@@ -3408,7 +3246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "110kΩ "
+		(property "Value" "110k"
 			(at 195.58 97.7899 0)
 			(effects
 				(font
@@ -3454,126 +3292,6 @@
 			(project "Buck Converter"
 				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "76825-0002:76825-0002")
-		(at 44.45 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d8837d8-f145-48b3-86b9-39c01eec9cba")
-		(property "Reference" "J2"
-			(at 34.29 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "76825-0002"
-			(at 34.29 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "768250002"
-			(at 27.94 10.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/768250002_sd.pdf"
-			(at 27.94 -89.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOLEX - 76825-0002 - CONNECTOR, HEADER, 2POS, 2ROW, 5.7MM"
-			(at 44.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "14"
-			(at 27.94 -289.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-76825-0002"
-			(at 27.94 -389.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/76825-0002?qs=KpdAywxU011SrMvnYgR78w%3D%3D"
-			(at 27.94 -489.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 27.94 -589.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "76825-0002"
-			(at 27.94 -689.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b50e495-3021-4a4a-9513-2ca115b23aa1")
-		)
-		(pin "2"
-			(uuid "9bf9700e-6aa9-47e2-bb53-a033b2b8370b")
-		)
-		(instances
-			(project "Buck Converter"
-				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3437,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 121.92 0)
+		(at 224.79 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3728,7 +3446,7 @@
 		(fields_autoplaced yes)
 		(uuid "99e317c5-740a-46d0-95ca-e66282de930c")
 		(property "Reference" "#PWR012"
-			(at 212.09 128.27 0)
+			(at 224.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 127 0)
+			(at 224.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 121.92 0)
+			(at 224.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 121.92 0)
+			(at 224.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3481,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 121.92 0)
+			(at 224.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 68.8848 118.11 0)
 			(effects
 				(font
@@ -4061,7 +3779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec9b614-7695-4c96-93f4-20f5c9ddd9be")
-		(property "Reference" "100kΩ1"
+		(property "Reference" "R3"
 			(at 128.27 149.86 90)
 			(effects
 				(font
@@ -4070,7 +3788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 128.27 147.32 90)
 			(effects
 				(font
@@ -4115,7 +3833,7 @@
 		(instances
 			(project "Buck Converter"
 				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
-					(reference "100kΩ1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4130,7 +3848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b33b41c9-39ed-4306-8ccf-3a1784e21054")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 109.22 67.3101 0)
 			(effects
 				(font
@@ -4139,7 +3857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330kΩ "
+		(property "Value" "330k"
 			(at 109.22 64.7701 0)
 			(effects
 				(font
@@ -4184,149 +3902,7 @@
 		(instances
 			(project "Buck Converter"
 				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "282837-2:282837-2")
-		(at 262.89 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4a6a287-53e3-4d89-a675-a6ff01a8a9b2")
-		(property "Reference" "J1"
-			(at 279.4 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "282837-2"
-			(at 279.4 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2828372"
-			(at 279.4 182.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282837-2&DocFormat=pdf"
-			(at 279.4 282.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Wire Entry Location Side | Stacking Configuration Side Stackable | Number of Rows 1 | Stacked Levels Without | Number of Positions 2 | Wire Entry Angle 90 | Contact Features: Contact Current Rating (Max) 13.5 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Dimensions: Wire Size 30  16 AWG | Wire Size .05  1.3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC |"
-			(at 262.89 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.3"
-			(at 279.4 482.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 279.4 582.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "282837-2"
-			(at 279.4 682.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-2828372"
-			(at 279.4 782.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282837-2?qs=A%252Bip%252BNCYi6O2H0NGWOeAxg%3D%3D"
-			(at 279.4 882.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "282837-2"
-			(at 279.4 982.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/282837-2/te-connectivity?region=europe"
-			(at 279.4 1082.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91e99c61-10eb-4f33-9f05-bc2cf280774c")
-		)
-		(pin "2"
-			(uuid "61b0f523-3f0f-4249-bad6-d9287503334e")
-		)
-		(instances
-			(project "Buck Converter"
-				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
-					(reference "J1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4334,7 +3910,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 102.87 0)
+		(at 229.87 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4343,7 +3919,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4ac5a85-aa4c-4f16-acac-f57a57a97503")
 		(property "Reference" "C7"
-			(at 220.98 101.5999 0)
+			(at 233.68 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +3928,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 220.98 104.1399 0)
+			(at 233.68 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +3937,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 218.1352 106.68 0)
+			(at 230.8352 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +3946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 102.87 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +3955,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 102.87 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,17 +3979,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 88.9 130.81 270)
+		(lib_id "Device:C")
+		(at 207.01 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf9c6aca-1534-41a9-843e-049c34347dbf")
-		(property "Reference" "D1"
-			(at 91.44 129.5399 90)
+		(uuid "be3d050d-ba76-47f1-b9fe-3beb6e1a6439")
+		(property "Reference" "C5"
+			(at 210.82 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,8 +3997,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 91.44 132.0799 90)
+		(property "Value" "C"
+			(at 210.82 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,8 +4006,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 88.9 130.81 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.9752 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 130.81 0)
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,26 +4024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 130.81 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,15 +4034,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdc5fc3a-070b-4995-8a70-3ec63641870e")
+			(uuid "ea2d45a5-e0e5-4335-bd1d-a09820782a9f")
 		)
 		(pin "2"
-			(uuid "adcb4d7a-0400-4326-a418-aa6efb3939c3")
+			(uuid "9519f8a1-316e-4727-b24a-5a658048fc0a")
 		)
 		(instances
 			(project "Buck Converter"
 				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
-					(reference "D1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4558,7 +4116,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 102.87 0)
+		(at 242.57 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4567,7 +4125,7 @@
 		(fields_autoplaced yes)
 		(uuid "ced76c47-da46-4f4f-a686-80bd8df3b0ac")
 		(property "Reference" "C8"
-			(at 233.68 101.5999 0)
+			(at 246.38 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4134,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 233.68 104.1399 0)
+			(at 246.38 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 230.8352 106.68 0)
+			(at 243.5352 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 102.87 0)
+			(at 242.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 102.87 0)
+			(at 242.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4449,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 102.87 0)
+		(at 256.54 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4900,7 +4458,7 @@
 		(fields_autoplaced yes)
 		(uuid "db00152d-e3f3-496d-a4f9-a7e4bcaf9ea7")
 		(property "Reference" "C9"
-			(at 247.65 101.5999 0)
+			(at 260.35 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4467,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 247.65 104.1399 0)
+			(at 260.35 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +4476,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 244.8052 106.68 0)
+			(at 257.5052 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +4485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 102.87 0)
+			(at 256.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +4494,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 102.87 0)
+			(at 256.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,6 +4518,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 193.04 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9cdb47-b1f4-4d70-b5a1-7c6f4e238eb0")
+		(property "Reference" "#PWR09"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e41dc4f-480a-4be4-8088-c933c167b8df")
+		)
+		(instances
+			(project "Buck Converter"
+				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 78.74 0)
 		(unit 1)
@@ -4977,7 +4601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15kΩ "
+		(property "Value" "15kΩ"
 			(at 104.394 80.518 0)
 			(effects
 				(font
@@ -5030,7 +4654,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 102.87 0)
+		(at 217.17 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5039,7 +4663,7 @@
 		(fields_autoplaced yes)
 		(uuid "f36afdb8-acfd-4e15-8891-15d0dd99dbae")
 		(property "Reference" "C6"
-			(at 208.28 101.5999 0)
+			(at 220.98 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +4672,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 208.28 104.1399 0)
+			(at 220.98 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +4681,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 205.4352 106.68 0)
+			(at 218.1352 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +4690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 102.87 0)
+			(at 217.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +4699,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 102.87 0)
+			(at 217.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,6 +4852,148 @@
 			(project "Buck Converter"
 				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "282837-2_1")
+		(lib_id "282837-2:282837-2")
+		(at 271.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fca8da6f-2404-4ac5-a5c2-9cf53e5bf582")
+		(property "Reference" "J2"
+			(at 275.59 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "282837-2"
+			(at 275.59 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "282837-2:TE_282837-2"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "On Shore"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "0.28 USD"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "G3"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "OSTTE020104"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d2e3879-cc92-4658-bb3b-3906bf788316")
+		)
+		(pin "2"
+			(uuid "2ed78303-919c-4ae8-942b-f35b164d9b88")
+		)
+		(instances
+			(project "Buck Converter"
+				(path "/1486b9f8-fdc5-454c-a553-88bb81dd673d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
