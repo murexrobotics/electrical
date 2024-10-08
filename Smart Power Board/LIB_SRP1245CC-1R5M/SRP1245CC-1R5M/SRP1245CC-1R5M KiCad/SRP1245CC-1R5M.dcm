@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP1245CC-1R5M
+D Ind,13.5x12.5x4.8mm,1.5uH+/-20%,27A,shd
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRP1245CC.pdf
+$ENDCMP
+#
+#End Doc Library

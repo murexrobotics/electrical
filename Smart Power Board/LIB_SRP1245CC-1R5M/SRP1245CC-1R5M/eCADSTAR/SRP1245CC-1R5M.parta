@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_18436328"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-10-03:57:42)
+    (utime 2023-08-10-03:57:42)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SRP1245CC-1R5M")
+)
+
+
+(pinAssign "ECS_18436328"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-10-03:57:42)
+    (utime 2023-08-10-03:57:42)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18436328")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SRP1245CC-1R5M")
+)
+
+
+(part "SRP1245CC-1R5M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-10-03:57:42)
+    (utime 2023-08-10-03:57:42)
+    (packageRef "SRP1245CC-1R5M")
+    (pinAssignRef "ECS_18436328")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Ind,13.5x12.5x4.8mm,1.5uH+/-20%,27A,shd")
+    (property "Mouser_Part_Number" "652-SRP1245CC-1R5M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP1245CC-1R5M?qs=1Kr7Jg1SGW995LB%2Fs%252BVjpg%3D%3D")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "SRP1245CC-1R5M")
+    (property "Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/SRP1245CC.pdf")
+    (property "compAreaTopHeight" 5)
+)
+
+

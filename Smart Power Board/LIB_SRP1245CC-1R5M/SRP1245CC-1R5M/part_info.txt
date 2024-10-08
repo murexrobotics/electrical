@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SRP1245CC-1R5M
+PartCategory=Inductor
+PackageCategory=Inductors Precision Moulded
+PinCount=2
+Version=2.1
+Released=2023-08-10 03:57:42
+Downloaded=2024-10-06 17:16:21
+3D=Y

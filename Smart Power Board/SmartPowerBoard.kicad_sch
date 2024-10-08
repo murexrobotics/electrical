@@ -1,0 +1,599 @@
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "787a0061-c9d5-4e8d-b49f-b4e75e937f85")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 118.11 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c242417-b061-4c85-8538-8425603ba47f")
+	)
+	(junction
+		(at 118.11 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2baf0e4-4e3f-4a6e-bf56-e9dc070e1926")
+	)
+	(wire
+		(pts
+			(xy 118.11 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19eaa1a4-0c8d-4a41-bfb0-c8deadbd3a42")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218a2066-0a81-46e0-8eba-556a7ba3130d")
+	)
+	(wire
+		(pts
+			(xy 168.91 80.01) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a288288-1905-44ec-8618-4d9cccdaa989")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586c7679-f48d-4ca2-9358-5f0a6ce891e8")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588c0977-555a-456b-8e33-b039b2bd13b6")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b6499c-c7ee-4565-bb7e-b7ded041f7f4")
+	)
+	(wire
+		(pts
+			(xy 118.11 82.55) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865c081f-2926-4b1c-b657-1c171fc2384c")
+	)
+	(wire
+		(pts
+			(xy 191.77 81.28) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f6256f-0de0-4266-8a48-73d6b0cf8712")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a982642a-ce5d-4d60-9738-f94e95c56c86")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa58d0e5-c3af-4b8e-a954-ba775368d055")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba143371-75f9-42eb-a8ca-329ec18275aa")
+	)
+	(wire
+		(pts
+			(xy 118.11 68.58) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba84232e-0894-4e9f-8ce4-412d0e3aec6d")
+	)
+	(wire
+		(pts
+			(xy 118.11 54.61) (xy 168.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4e67fc-cb53-40d8-af67-25a4eff7d681")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 207.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3f0b35-a780-4f69-aa1c-547fdf1f8f52")
+	)
+	(wire
+		(pts
+			(xy 157.48 77.47) (xy 157.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2928f3-8255-4784-bc62-bd0940edd772")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a7200d-1dcb-4137-bd92-4413f37d8000")
+	)
+	(wire
+		(pts
+			(xy 118.11 68.58) (xy 118.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaabf74a-c74a-4d67-a56f-af39cd747e4f")
+	)
+	(wire
+		(pts
+			(xy 168.91 54.61) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb18d0d2-614f-4932-b535-bb5317724574")
+	)
+	(hierarchical_label "5V_{OUT}"
+		(shape input)
+		(at 191.77 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13d5c04d-0b95-4e52-a682-85121f836008")
+	)
+	(hierarchical_label "V_{OUT}"
+		(shape input)
+		(at 144.78 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d7f2cd1-4588-48a0-a5db-d4a4fc74c5e2")
+	)
+	(hierarchical_label "V_{OUT}"
+		(shape input)
+		(at 144.78 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a09f4d-57e0-4b11-bad8-fcbf25cdfd1e")
+	)
+	(hierarchical_label "12V_{IN}"
+		(shape input)
+		(at 171.45 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d4b8d99-9615-45cd-b758-96574b477f62")
+	)
+	(hierarchical_label "V_{IN}"
+		(shape input)
+		(at 125.73 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a2c9c6d-f9fe-42dd-8d70-46532b8675fc")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 191.77 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4dc00cb5-3bd9-4173-a27f-2c2fcde109c7")
+	)
+	(hierarchical_label "3.3V_{OUT}"
+		(shape input)
+		(at 191.77 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5877d9fd-0334-47a1-97a2-6022f0bf67d9")
+	)
+	(hierarchical_label "V_{IN}"
+		(shape input)
+		(at 83.82 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b35112c-d2b6-42ba-a5e5-ef6646b05a52")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 207.01 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85245e55-01e3-469d-a405-ad75971321cd")
+	)
+	(hierarchical_label "3.3V_{IN}"
+		(shape input)
+		(at 171.45 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb30abb-426e-4228-8cad-325f9f9af3e8")
+	)
+	(hierarchical_label "12V_{OUT}"
+		(shape input)
+		(at 191.77 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6e23a06-5024-4979-becc-ab92fc26ef7d")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 191.77 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a98722eb-3c27-4a6e-b508-b21d451db4b6")
+	)
+	(hierarchical_label "5V_{IN}"
+		(shape input)
+		(at 171.45 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acfb1575-c7ec-42a8-963c-3f23b066dbcb")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 207.01 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0e963d8-4dec-4da6-8b6a-996656813446")
+	)
+	(hierarchical_label "3.3V_{IN}"
+		(shape input)
+		(at 207.01 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3533230-66d5-4495-92b1-477b2b2ca88b")
+	)
+	(hierarchical_label "V_{OUT}"
+		(shape input)
+		(at 101.6 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d681885b-5161-4884-96a9-b7abfd3fae41")
+	)
+	(hierarchical_label "V_{IN}"
+		(shape input)
+		(at 125.73 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1f22694-4d0e-43fc-824a-ded3db8d930b")
+	)
+	(sheet
+		(at 125.73 91.44)
+		(size 19.05 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09ce01d1-d55d-4db1-b029-11fc4085741e")
+		(property "Sheetname" "Buck Converter 3.3V"
+			(at 125.73 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.3V.kicad_sch"
+			(at 125.73 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 63.5)
+		(size 19.05 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5dd8f6b1-552a-45c9-8a73-b8a0c181c148")
+		(property "Sheetname" "Buck Converter 5V"
+			(at 125.73 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 125.73 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 76.2)
+		(size 20.32 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "818d43e5-55ed-48bc-9cb0-eaf21065a6a4")
+		(property "Sheetname" "Triple Channel Monitor"
+			(at 171.45 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TCM.kicad_sch"
+			(at 171.45 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 75.565)
+		(size 22.86 20.955)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d28d5f16-4876-446b-bfa7-1919d5edff39")
+		(property "Sheetname" "PICO"
+			(at 207.01 74.8534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 207.01 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 77.47)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6e7c2ff-a9c6-4c57-b8db-749c9075ff0c")
+		(property "Sheetname" "Ideal Diode Controller"
+			(at 83.82 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IDC.kicad_sch"
+			(at 83.82 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

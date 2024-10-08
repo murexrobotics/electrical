@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SRP1245CC_1R5M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SRP1245CC-1R5M" (!) = "", "INDPM135125X500N", "Inductors Precision Moulded", "652-SRP1245CC-1R5M", "https://www.mouser.co.uk/ProductDetail/Bourns/SRP1245CC-1R5M?qs=1Kr7Jg1SGW995LB%2Fs%252BVjpg%3D%3D", "Ind,13.5x12.5x4.8mm,1.5uH+/-20%,27A,shd", "https://www.bourns.com/docs/Product-Datasheets/SRP1245CC.pdf", "5 mm"
+END_PART
+
+END.

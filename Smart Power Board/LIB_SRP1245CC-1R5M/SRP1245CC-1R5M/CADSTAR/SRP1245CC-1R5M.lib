@@ -1,0 +1,16 @@
+.SRP1245CC-1R5M :1 ;Ind,13.5x12.5x4.8mm,1.5uH+/-20%,27A,shd
+INDPM135125X500N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SRP1245CC-1R5M
+~!Mouser Part Number (652-SRP1245CC-1R5M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRP1245CC-1R5M?qs=1Kr7Jg1SGW995LB%2Fs%252BVjpg%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRP1245CC-1R5M)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/SRP1245CC.pdf)
+~!Height (5mm)
+~!3D_Model (SRP1245CC-1R5M)
+SRP1245CC-1R5M
+1.1!U 2.1!U 
