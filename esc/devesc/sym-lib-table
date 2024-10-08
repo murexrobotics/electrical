@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8323SRTAT")(type "KiCad")(uri "/Users/xamuil2/Documents/GitHub/electrical/library/DRV8323SRTAT/DRV8323SRTAT.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8305NPHP")(type "KiCad")(uri "/Users/xamuil2/Documents/GitHub/electrical/library/DRVESC/KiCad/DRV8305NPHP.kicad_sym")(options "")(descr ""))
+)
