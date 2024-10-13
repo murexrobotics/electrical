@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "WLCSP8-SOT8072")(type "KiCad")(uri "${MUREX_2024}/WLCSP8-SOT8072.pretty")(options "")(descr ""))
   (lib (name "Panelization")(type "KiCad")(uri "${MUREX_2024}/panelization.pretty")(options "")(descr ""))
+  (lib (name "LM7481")(type "KiCad")(uri "${KIPRJMOD}/LM7481.pretty")(options "")(descr ""))
 )
