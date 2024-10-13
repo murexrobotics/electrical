@@ -248,7 +248,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "minifoc esc.kicad_pro",
+    "filename": "navboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -406,11 +406,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "8ddd70c9-07a6-4f04-8f74-8215976b7312",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
