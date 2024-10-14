@@ -6,12 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "MUREX Shield")
-		(date "2024-10-06")
+		(date "2024-10-13")
 		(rev "V1.0")
-		(company "MUREX Robotics")
-		(comment 1 "Silicon")
-		(comment 3 "System Breakout")
-		(comment 4 "3-65V Autonomotive B2B NMOS In-line Highside Power Protection Board")
+		(company "MUREX Robotics [Max Liu]")
+		(comment 3 "> 30A @12V DC")
+		(comment 4 "3-65V Autonomotive Highside Power Protection Board with B2B IRFB3077PbF NMOS")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -1364,7 +1363,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1376,19 +1375,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1401,6 +1388,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
