@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX7500MSA_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "MAX7500MSA+T" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "700-MAX7500MSAT", "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX7500MSA%2bT?qs=1THa7WoU59F7t00CHZBrcA%3D%3D", "MAXIM INTEGRATED PRODUCTS - MAX7500MSA+T - TEMPERATURE SENSOR, 2DEG C, NSOIC-8", "https://componentsearchengine.com/Datasheets/2/MAX7500MSA+T.pdf", "1.75 mm"
+END_PART
+
+END.

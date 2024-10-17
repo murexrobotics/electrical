@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX7500MSA+T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2017-10-20 07:46:28
+Downloaded=2024-10-17 03:25:16
+3D=Y

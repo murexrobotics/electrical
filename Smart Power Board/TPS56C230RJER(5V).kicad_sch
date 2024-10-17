@@ -4088,7 +4088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1ffeac1-dbe3-4ae6-a353-f6859904cf0a")
-		(property "Reference" "IC1"
+		(property "Reference" "U4"
 			(at 153.162 106.934 0)
 			(effects
 				(font
@@ -4266,7 +4266,7 @@
 		(instances
 			(project "SmartPowerBoard"
 				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/5dd8f6b1-552a-45c9-8a73-b8a0c181c148"
-					(reference "IC1")
+					(reference "U4")
 					(unit 1)
 				)
 			)

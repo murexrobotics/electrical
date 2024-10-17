@@ -2910,7 +2910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89714816-fb5d-4eec-bb36-2326f1b2e12f")
-		(property "Reference" "IC3"
+		(property "Reference" "U5"
 			(at 163.322 119.634 0)
 			(effects
 				(font
@@ -3088,7 +3088,7 @@
 		(instances
 			(project "SmartPowerBoard"
 				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/09ce01d1-d55d-4db1-b029-11fc4085741e"
-					(reference "IC3")
+					(reference "U5")
 					(unit 1)
 				)
 			)

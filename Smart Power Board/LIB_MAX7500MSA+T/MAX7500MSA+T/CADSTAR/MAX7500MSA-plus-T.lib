@@ -1,0 +1,16 @@
+.MAX7500MSA-plus-T :1 ;MAXIM INTEGRATED PRODUCTS - MAX7500MSA+T - TEMPERATURE SENSOR, 2DEG C, NSOIC-8
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="SDA" 2="SCL" 3="OS" 4="GND" 5="A2" 6="A1" 7="A0" 8="+VS"
+*MXP 8
+*DFN MAX7500MSA-plus-T
+~!Mouser Part Number (700-MAX7500MSAT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX7500MSA%2bT?qs=1THa7WoU59F7t00CHZBrcA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX7500MSA+T)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/MAX7500MSA+T.pdf)
+~!Height (1.75mm)
+~!3D_Model (MAX7500MSA+T)
+MAX7500MSA-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
