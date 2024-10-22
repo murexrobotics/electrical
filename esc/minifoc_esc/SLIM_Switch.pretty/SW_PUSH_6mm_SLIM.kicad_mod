@@ -1,0 +1,256 @@
+(footprint "SW_PUSH_6mm_SLIM"
+	(version 20240706)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
+	(tags "tact sw push 6mm")
+	(property "Reference" "REF**"
+		(at 3.25 -2 0)
+		(layer "F.SilkS")
+		(uuid "d17f06b3-06cf-4b86-9576-eb75fb3cc3df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PUSH_6mm_SLIM"
+		(at 3.75 3.81 0)
+		(layer "F.Fab")
+		(uuid "5a601e4b-56c2-40d9-8b05-295fe984fd71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd6da298-c4bc-4709-ae28-d9f94b651726")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baa0711f-2dac-41d0-a4af-37f097981bd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f5e876e-e42f-43f8-a0b0-16f7fc77ceae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.052 1.27)
+		(end 5.552 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7c1e22f-b3eb-4ce5-b4e3-790a02a5acf0")
+	)
+	(fp_line
+		(start 5.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41e8c0e2-ece5-48f0-882a-2113ba801bdb")
+	)
+	(fp_line
+		(start -1.524 1.778)
+		(end -1.274 1.778)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d66c765c-a236-413e-850d-5f8f30e37dcf")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e143176-0779-4219-adda-16ec51b2d5a8")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.524 1.778)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26f9776c-5ec9-435b-9a8a-2966023c30f4")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39318ec2-78f4-4074-a528-7a5560bed69c")
+	)
+	(fp_line
+		(start -1.25 -1.5)
+		(end 7.75 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b31a3f4-0963-4a8f-99dd-2011fefccb9b")
+	)
+	(fp_line
+		(start 7.75 -1.5)
+		(end 8 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "778b8cee-cd6d-4b8b-8a63-9a632847fc50")
+	)
+	(fp_line
+		(start 7.75 1.778)
+		(end 8 1.778)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01495f9d-3285-429f-bafd-8177f54eee25")
+	)
+	(fp_line
+		(start 7.802 1.778)
+		(end -1.274 1.778)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a795f61a-4379-438f-a7cb-9daaf3d6a7d1")
+	)
+	(fp_line
+		(start 8 -1.5)
+		(end 8 1.524)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "331730ee-fcbd-4a2d-a106-49650f22c95a")
+	)
+	(fp_line
+		(start 8 1.778)
+		(end 8 1.528)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a71c932-a686-44e8-b404-6bec3b09760a")
+	)
+	(fp_line
+		(start 0.25 -0.75)
+		(end 3.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51b2ca53-bc63-449f-8d9a-16445856356f")
+	)
+	(fp_line
+		(start 3.25 -0.75)
+		(end 6.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f0d0b56-2335-4860-882c-e032a4e6cc27")
+	)
+	(fp_line
+		(start 6.302 0.762)
+		(end 0.302 0.762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a3fa572-d869-4bc0-89ce-c37ef2911a90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.25 2.25 0)
+		(layer "F.Fab")
+		(uuid "e5706493-de05-4287-8700-e83ddb8dd1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc834195-01dc-42ec-83f9-3044efe2074a")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 0 180)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9bff696e-f4e2-4d30-9078-7d0e4fe03cce")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
