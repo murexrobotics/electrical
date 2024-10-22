@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/325197/1430008/2.50/2/3/TVS Diode (Bi-directional)/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DIONM5436X244N">
+<description>&lt;b&gt;DO-214AA&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.2" y="0" dx="2.2" dy="2.15" layer="1" rot="R0"/>
+<smd name="2" x="2.2" y="0" dx="2.2" dy="2.15" layer="1" rot="R0"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-3.55" y1="2.22" x2="3.55" y2="2.22" width="0.05" layer="51"/>
+<wire x1="3.55" y1="2.22" x2="3.55" y2="-2.22" width="0.05" layer="51"/>
+<wire x1="3.55" y1="-2.22" x2="-3.55" y2="-2.22" width="0.05" layer="51"/>
+<wire x1="-3.55" y1="-2.22" x2="-3.55" y2="2.22" width="0.05" layer="51"/>
+<wire x1="-2.7" y1="1.81" x2="2.7" y2="1.81" width="0.1" layer="51"/>
+<wire x1="2.7" y1="1.81" x2="2.7" y2="-1.81" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-1.81" x2="-2.7" y2="-1.81" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-1.81" x2="-2.7" y2="1.81" width="0.1" layer="51"/>
+<wire x1="2.7" y1="1.81" x2="-2.7" y2="1.81" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="-1.81" x2="2.7" y2="-1.81" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SMBJ33CA">
+<wire x1="10.16" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.032" x2="10.16" y2="2.032" width="0.254" layer="94"/>
+<wire x1="9.144" y1="2.54" x2="10.16" y2="2.032" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.032" x2="11.176" y2="-2.54" width="0.254" layer="94"/>
+<text x="12.7" y="8.89" align="bottom-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="6.35" align="bottom-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="io" rot="R0"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMBJ33CA" prefix="D">
+<description>&lt;b&gt;ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMBJ33CA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIONM5436X244N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="652-SMBJ33CA" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ33CA?qs=d7fLapxX37Gs5v3ODWwxUA%3D%3D" constant="no"/>
+<attribute name="Manufacturer_Name" value="Bourns" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="SMBJ33CA" constant="no"/>
+<attribute name="Description" value="ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir" constant="no"/>
+<attribute name="Height" value="2.44mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

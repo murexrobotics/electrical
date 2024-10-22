@@ -1,0 +1,135 @@
+
+(EDIF
+  (rename &SMBJ33CA "SMBJ33CA")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 10 22 04 30 52)
+      (dataOrigin "325197/1430008/2.50/2/3/TVS Diode (Bi-directional)")
+      (program "SamacSys ECAD Model SMBJ33CA"
+        (version "1.1"))))
+  (library
+  (rename &SMBJ33CA "SMBJ33CA")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SMBJ33CA "SMBJ33CA")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename PACKAGENAME "PackageName") (string "SMBJ33CA"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "DIONM5436X244N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "652-SMBJ33CA"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ33CA?qs=d7fLapxX37Gs5v3ODWwxUA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Bourns"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SMBJ33CA"))
+          (property (rename &Description "Description") (string "ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf"))
+          (property (rename &Height "Height") (string "2.44 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SMBJ33CA"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 0 -200)
+                  (pt 0 0)
+                  (pt 200 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 400 -200)
+                  (pt 400 0)
+                  (pt 200 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -180)
+                  (pt 200 -20)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 160 0)
+                  (pt 200 -20)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -180)
+                  (pt 240 -200)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 300 180))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 300 80))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SMBJ33CA"
+   (description "ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir")
+   (family "DIO")
+   (package "DIONM5436X244N")
+   (attribute "Datasheet Link" "https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf")
+   (attribute "Geometry.Height" "2.44mm")
+   (attribute "Mouser Part Number" "652-SMBJ33CA")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ33CA?qs=d7fLapxX37Gs5v3ODWwxUA%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "SMBJ33CA")
+   (gate
+    (symbol "SMBJ33CA")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "SMBJ33CA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 200 -100) (pt 200 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 600 -100) (pt 600 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -80) (pt 400 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 360 100) (pt 400 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -80) (pt 440 -100))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIONM5436X244N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.55 2.22)
+      (pt 3.55 2.22)
+      (pt 3.55 -2.22)
+      (pt -3.55 -2.22)
+      (pt -3.55 2.22))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.7 1.81)
+      (pt 2.7 1.81)
+      (pt 2.7 -1.81)
+      (pt -2.7 -1.81)
+      (pt -2.7 1.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.7 1.81)
+      (pt -2.7 1.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.7 -1.81)
+      (pt 2.7 -1.81))))
+   (leg 1 (pt -2.2 0) (padstack 0))
+   (leg 2 (pt 2.2 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.15 2.2 0 0 0))
+   )
+   (model "SMBJ33CA.stp"
+    (euler 90 0 0)
+    (offset 0 0 1.309999942779541)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SMBJ33CA
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Diodes Moulded Non Polarised
+PinCount=2
+Version=1.1
+Released=2019-12-11 09:23:28
+Downloaded=2024-10-22 04:30:52
+3D=Y

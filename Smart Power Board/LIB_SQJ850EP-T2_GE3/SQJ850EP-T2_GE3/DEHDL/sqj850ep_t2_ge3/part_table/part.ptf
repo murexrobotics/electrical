@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SQJ850EP_T2_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SQJ850EP-T2_GE3" (!) = "", "SQJ850EPT2_GE3", "Other", "78-SQJ850EP-T2_GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJ850EP-T2_GE3?qs=MLItCLRbWswojS2ixM3GlA%3D%3D", "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET", "https://www.vishay.com/docs/65280/sqj850ep.pdf", "1.267 mm"
+END_PART
+
+END.

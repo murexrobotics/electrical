@@ -602,18 +602,6 @@
 		)
 		(uuid d017f4c6-a8e8-4ae1-85ca-ef61eda5f861)
 	)
-	(text ">What names are you talking about? Are you talking about the names in the blue font such as \"Ideal Diode Controller\"?"
-		(exclude_from_sim no)
-		(at 154.94 70.358 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
-				(color 15 24 255 1)
-			)
-		)
-		(uuid "03c4dd4d-1d33-4ca0-9e4f-fad1164b9943")
-	)
 	(text "PMICs"
 		(exclude_from_sim no)
 		(at 69.342 60.452 0)

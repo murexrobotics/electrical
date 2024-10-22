@@ -1,0 +1,15 @@
+.SQJ850EP-T2_GE3 :1 ;MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET
+SQJ850EPT2_GE3
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 8
+*DFN SQJ850EP-T2_GE3
+~!Mouser Part Number (78-SQJ850EP-T2_GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJ850EP-T2_GE3?qs=MLItCLRbWswojS2ixM3GlA%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SQJ850EP-T2_GE3)
+~!Link Datasheet (https://www.vishay.com/docs/65280/sqj850ep.pdf)
+~!Height (1.267mm)
+SQJ850EP-T2_GE3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

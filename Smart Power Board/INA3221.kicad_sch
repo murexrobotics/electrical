@@ -1044,7 +1044,7 @@
 		)
 		(uuid "fad8b233-8dda-4ec0-8f0b-e04334972602")
 	)
-	(hierarchical_label "5V_{IN}"
+	(hierarchical_label "12V_{IN}"
 		(shape input)
 		(at 114.3 96.52 180)
 		(fields_autoplaced yes)
@@ -1128,7 +1128,7 @@
 		)
 		(uuid "9ceec007-b6a1-414b-ab3e-57b9f9b96a15")
 	)
-	(hierarchical_label "3.3V_{IN}"
+	(hierarchical_label "12V_{IN}"
 		(shape input)
 		(at 114.3 105.41 180)
 		(fields_autoplaced yes)

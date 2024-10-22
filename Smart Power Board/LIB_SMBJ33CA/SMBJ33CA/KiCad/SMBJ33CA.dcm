@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMBJ33CA
+D ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir
+K
+F https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SQJ850EP-T2_GE3
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=8
+Version=1.5
+Released=2021-09-05 11:34:50
+Downloaded=2024-10-22 04:08:06
+3D=N

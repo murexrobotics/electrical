@@ -1,0 +1,167 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SQJ850EP-T2_GE3"
+   (description "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET")
+   (family "TRX")
+   (package "SQJ850EPT2_GE3")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/65280/sqj850ep.pdf")
+   (attribute "Geometry.Height" "1.267mm")
+   (attribute "Mouser Part Number" "78-SQJ850EP-T2_GE3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJ850EP-T2_GE3?qs=MLItCLRbWswojS2ixM3GlA%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "SQJ850EP-T2_GE3")
+   (gate
+    (symbol "SQJ850EP-T2_GE3")
+    (pin "S_1" 1 PS)
+    (pin "S_2" 2 PS)
+    (pin "S_3" 3 PS)
+    (pin "G" 4 PS)
+    (pin "D_1" 5 PS)
+    (pin "D_2" 6 PS)
+    (pin "D_3" 7 PS)
+    (pin "D_4" 8 PS)
+   )
+  )
+  (symbol "SQJ850EP-T2_GE3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SQJ850EPT2_GE3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.45 2.185)
+      (pt 2.45 2.185)
+      (pt 2.45 -2.185)
+      (pt -2.45 -2.185)
+      (pt -2.45 2.185))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.625 3.946)
+      (pt 3.625 3.946)
+      (pt 3.625 -4.305)
+      (pt -3.625 -4.305)
+      (pt -3.625 3.946))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.45 -0.8)
+      (pt -2.45 -2.185)
+      (pt 2.45 -2.185)
+      (pt 2.45 -0.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.45 0.4)
+      (pt -2.45 2.185))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.45 0.4)
+      (pt 2.45 2.185))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.905 -4)
+      (arc (pt -1.905 -4.000) (pt -1.955 -4.000) (pt -1.855 -3.900) (start 180.0) (sweep -90.0))
+      (pt -1.905 -3.9)
+      (arc (pt -1.905 -3.900) (pt -1.955 -4.000) (pt -1.855 -3.900) (start 180.0) (sweep 90.0))
+      (pt -1.905 -4)
+      (arc (pt -1.905 -4.000) (pt -1.955 -4.000) (pt -1.855 -3.900) (start 180.0) (sweep -90.0))
+      (pt -1.905 -3.9))))
+   (leg 1 (pt -1.905 -2.895) (padstack 0))
+   (leg 2 (pt -0.635 -2.895) (padstack 0))
+   (leg 3 (pt 0.635 -2.895) (padstack 0))
+   (leg 4 (pt 1.905 -2.895) (padstack 0))
+   (leg 5 (pt 0.000 0.621) (padstack 5))
+   (leg 6 (pt 0.000 2.691) (padstack 6))
+   (leg 7 (pt -2.328 -0.180) (padstack 7))
+   (leg 8 (pt 2.328 -0.180) (padstack 8))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.410 0.820 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 3.630 4.061 0 0 0.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.510 5.000 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.595 0.610 0 0 90.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.595 0.610 0 0 90.000))
+   )
+  )
+ )
+)

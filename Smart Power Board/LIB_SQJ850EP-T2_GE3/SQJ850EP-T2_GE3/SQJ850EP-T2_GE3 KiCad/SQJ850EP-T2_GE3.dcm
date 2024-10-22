@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQJ850EP-T2_GE3
+D MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET
+K
+F https://www.vishay.com/docs/65280/sqj850ep.pdf
+$ENDCMP
+#
+#End Doc Library

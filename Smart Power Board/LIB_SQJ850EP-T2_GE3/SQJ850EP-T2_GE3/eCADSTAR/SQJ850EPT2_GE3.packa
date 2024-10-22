@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SQJ850EP-T2_GE3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-09-05-11:34:50)
+    (mountForm default
+        (footprintRef "SQJ850EPT2_GE3")
+        (spec "System")
+    )
+)
