@@ -277,7 +277,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -289,7 +289,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -3119,6 +3119,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "low pass filter for SO"
+		(exclude_from_sim no)
+		(at 72.898 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a92dd88e-f8e8-404a-aad1-14307338788a")
 	)
 	(junction
 		(at 76.2 157.226)
