@@ -767,12 +767,6 @@
 		(uuid "33e329d2-eef5-4b8b-b4dc-27af47290f3d")
 	)
 	(junction
-		(at 163.83 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4690282f-4155-4293-90c7-41e3985580b1")
-	)
-	(junction
 		(at 133.35 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -785,6 +779,18 @@
 		(uuid "b4b9f843-aa2a-4b15-9349-bd442299a181")
 	)
 	(junction
+		(at 166.37 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f22531-d450-4aa3-85c6-0bf45d5ea971")
+	)
+	(junction
+		(at 152.4 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4470bb8-cc33-4169-b0bb-182fd1413b2f")
+	)
+	(junction
 		(at 133.35 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -793,16 +799,6 @@
 	(no_connect
 		(at 149.86 116.84)
 		(uuid "a3ca2d7a-b3b0-4b00-8317-07e0b387ebb7")
-	)
-	(wire
-		(pts
-			(xy 163.83 92.71) (xy 165.1 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004c8db4-205b-4bc3-ae2b-28fbd86859d8")
 	)
 	(wire
 		(pts
@@ -846,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 161.29 92.71)
+			(xy 161.29 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -916,6 +912,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 90.17) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5708f98b-b7f1-4fda-973c-d4af50969e48")
+	)
+	(wire
+		(pts
 			(xy 114.3 87.63) (xy 133.35 87.63)
 		)
 		(stroke
@@ -946,17 +952,47 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 90.17) (xy 163.83 92.71)
+			(xy 166.37 85.09) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ac74c82-7c1c-4828-a40f-949c556a0f43")
+		(uuid "91c73fe9-e17e-4fbc-8396-d4f9b24d5afa")
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 163.83 90.17)
+			(xy 152.4 72.39) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d31357-83a8-4ec9-8d70-97725c706613")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdb4dfe-15c7-469f-9273-cdb8d856da64")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af196255-8633-4987-953e-61cfe69ccb7c")
+	)
+	(wire
+		(pts
+			(xy 161.29 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1080,7 @@
 		)
 		(uuid "fad8b233-8dda-4ec0-8f0b-e04334972602")
 	)
-	(hierarchical_label "12V_{IN}"
+	(hierarchical_label "5V_{IN}"
 		(shape input)
 		(at 114.3 96.52 180)
 		(fields_autoplaced yes)
@@ -1128,7 +1164,7 @@
 		)
 		(uuid "9ceec007-b6a1-414b-ab3e-57b9f9b96a15")
 	)
-	(hierarchical_label "12V_{IN}"
+	(hierarchical_label "3.3V_{IN}"
 		(shape input)
 		(at 114.3 105.41 180)
 		(fields_autoplaced yes)
@@ -1164,9 +1200,21 @@
 		)
 		(uuid "d33b82fa-0142-4e91-8e9f-caeb05491232")
 	)
-	(hierarchical_label "V_{PU}"
-		(shape passive)
-		(at 170.18 92.71 0)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 152.4 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc673e76-7857-4164-90e0-f7af404dce92")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 170.18 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1292,6 +1340,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 166.37 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39475d21-14c6-4349-9853-59c3c3d4bec7")
+		(property "Reference" "R8"
+			(at 168.91 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a068e6a-bf42-414d-a6e8-3ab97b387f8f")
+		)
+		(pin "2"
+			(uuid "779e8bae-ee59-4da5-8631-a40bd14ee546")
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/818d43e5-55ed-48bc-9cb0-eaf21065a6a4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 133.35 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1317,7 +1435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.35 99.06 0)
 			(effects
 				(font
@@ -1360,74 +1478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e49266d-4c35-4702-9ffb-68beaf9ea3a1")
-		(property "Reference" "R18"
-			(at 167.64 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 167.64 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c7cafc3-76f4-438a-ae44-9aadbb0b6311")
-		)
-		(pin "2"
-			(uuid "e16668a7-2270-4d69-aa64-a02129af6944")
-		)
-		(instances
-			(project "SmartPowerBoard"
-				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/818d43e5-55ed-48bc-9cb0-eaf21065a6a4"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 152.4 80.01 0)
 		(unit 1)
@@ -1454,7 +1504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -1588,7 +1638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -1657,7 +1707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.35 90.17 0)
 			(effects
 				(font
