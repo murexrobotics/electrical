@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MUREX MINIFOC ESC")
-		(date "2024-10-07")
+		(date "2024-10-30")
 		(rev "V1.0")
 		(company "MUREX ROBOTICS [Max Liu]")
 		(comment 1 "// TECH FOR ALL ")
@@ -5611,7 +5611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "DRV8316C:ESC"
 			(at 250.19 75.692 0)
 			(effects
 				(font
