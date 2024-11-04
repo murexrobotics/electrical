@@ -1,0 +1,136 @@
+LIB FDS6690A
+ZONE 1 2 1 50.000 50.000 0.000 0.000 0 A 1
+GRID 1 1 1 1 1 1 1 4
+SHT 1 1 1 0 8 20 10
+PROP 0 componentType 1
+parts
+ENDPROP
+PROP 0 componentKind 1
+101
+ENDPROP
+PROP 0 partName 1
+FDS6690A
+ENDPROP
+VIEW 1 1 0 -1 -1 17 6 0 1.000 3 reference
+VIEW 1 1 0 -1 -1 17 4 0 1.000 3 partName
+ENDSHT
+LINE 1 -1 -1 -1 0 0 0
+POINT - 4 2
+POINT - 16 2
+POINT - 16 -8
+POINT - 4 -8
+POINT - 4 2
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 0
+POINT - 4 0
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -2
+POINT - 4 -2
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -4
+POINT - 4 -4
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -6
+POINT - 4 -6
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 20 0
+POINT - 16 0
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 20 -2
+POINT - 16 -2
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 20 -4
+POINT - 16 -4
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 20 -6
+POINT - 16 -6
+ENDLIN
+PIN 1 1 0 0
+PROP 0 pinLabel 1
+S_1
+ENDPROP
+PROP 0 pinNumber 1
+1
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 0.4 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 0 0 1.000 3 pinLabel
+ENDPIN
+PIN 2 1 0 -2
+PROP 0 pinLabel 1
+S_2
+ENDPROP
+PROP 0 pinNumber 1
+2
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -1.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -2 0 1.000 3 pinLabel
+ENDPIN
+PIN 3 1 0 -4
+PROP 0 pinLabel 1
+S_3
+ENDPROP
+PROP 0 pinNumber 1
+3
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -3.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -4 0 1.000 3 pinLabel
+ENDPIN
+PIN 4 1 0 -6
+PROP 0 pinLabel 1
+G
+ENDPROP
+PROP 0 pinNumber 1
+4
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -5.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -6 0 1.000 3 pinLabel
+ENDPIN
+PIN 5 1 20 0
+PROP 0 pinLabel 1
+D_4
+ENDPROP
+PROP 0 pinNumber 1
+8
+ENDPROP
+VIEW 1 1 0 -1 -1 17.2 0.4 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 15.4 0 0 1.000 5 pinLabel
+ENDPIN
+PIN 6 1 20 -2
+PROP 0 pinLabel 1
+D_3
+ENDPROP
+PROP 0 pinNumber 1
+7
+ENDPROP
+VIEW 1 1 0 -1 -1 17.2 -1.6 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 15.4 -2 0 1.000 5 pinLabel
+ENDPIN
+PIN 7 1 20 -4
+PROP 0 pinLabel 1
+D_2
+ENDPROP
+PROP 0 pinNumber 1
+6
+ENDPROP
+VIEW 1 1 0 -1 -1 17.2 -3.6 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 15.4 -4 0 1.000 5 pinLabel
+ENDPIN
+PIN 8 1 20 -6
+PROP 0 pinLabel 1
+D_1
+ENDPROP
+PROP 0 pinNumber 1
+5
+ENDPROP
+VIEW 1 1 0 -1 -1 17.2 -5.6 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 15.4 -6 0 1.000 5 pinLabel
+ENDPIN
+ENDLIB

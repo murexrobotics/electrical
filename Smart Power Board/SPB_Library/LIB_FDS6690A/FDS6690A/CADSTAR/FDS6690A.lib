@@ -1,0 +1,16 @@
+.FDS6690A :1 ;FDS6690A, N-channel MOSFET Transistor 11 A 30 V, 8-Pin SOIC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 8
+*DFN FDS6690A
+~!Mouser Part Number (512-FDS6690A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDS6690A?qs=HK%252BeIG1iaajCQ7GvPyNvug%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (FDS6690A)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7499f5650a82e511eeed916ae198c5af.pdf)
+~!Height (1.75mm)
+~!3D_Model (FDS6690A)
+FDS6690A
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

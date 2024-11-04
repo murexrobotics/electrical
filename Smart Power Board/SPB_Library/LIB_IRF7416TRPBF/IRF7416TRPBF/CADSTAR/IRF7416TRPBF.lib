@@ -1,0 +1,16 @@
+.IRF7416TRPBF :1 ;INFINEON - IRF7416TRPBF - MOSFET Transistor, P Channel, 10 A, 30 V, 0.02 ohm, 10 V, 2.04 V
+SOIC127P600X175-8N
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 8
+*DFN IRF7416TRPBF
+~!Mouser Part Number (942-IRF7416TRPBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF7416TRPBF?qs=9%252BKlkBgLFf1tuhXoEVAcyA%3D%3D)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IRF7416TRPBF)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/IRF7416TRPBF.pdf)
+~!Height (1.75mm)
+~!3D_Model (IRF7416TRPBF)
+IRF7416TRPBF
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

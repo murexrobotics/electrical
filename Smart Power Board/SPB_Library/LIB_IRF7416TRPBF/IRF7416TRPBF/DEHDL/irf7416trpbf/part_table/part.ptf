@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRF7416TRPBF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IRF7416TRPBF" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "942-IRF7416TRPBF", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF7416TRPBF?qs=9%252BKlkBgLFf1tuhXoEVAcyA%3D%3D", "INFINEON - IRF7416TRPBF - MOSFET Transistor, P Channel, 10 A, 30 V, 0.02 ohm, 10 V, 2.04 V", "https://componentsearchengine.com/Datasheets/2/IRF7416TRPBF.pdf", "1.75 mm"
+END_PART
+
+END.

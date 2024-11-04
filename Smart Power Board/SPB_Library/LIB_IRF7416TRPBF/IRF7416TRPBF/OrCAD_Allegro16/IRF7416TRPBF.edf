@@ -1,0 +1,160 @@
+
+(EDIF
+  (rename &IRF7416TRPBF "IRF7416TRPBF")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 11 04 05 50 34)
+      (dataOrigin "834003/1430008/2.50/8/3/MOSFET (P-Channel)")
+      (program "SamacSys ECAD Model IRF7416TRPBF"
+        (version "1.1"))))
+  (library
+  (rename &IRF7416TRPBF "IRF7416TRPBF")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &IRF7416TRPBF "IRF7416TRPBF")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "IRF7416TRPBF"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOIC127P600X175-8N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "942-IRF7416TRPBF"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF7416TRPBF?qs=9%252BKlkBgLFf1tuhXoEVAcyA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Infineon"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "IRF7416TRPBF"))
+          (property (rename &Description "Description") (string "INFINEON - IRF7416TRPBF - MOSFET Transistor, P Channel, 10 A, 30 V, 0.02 ohm, 10 V, 2.04 V"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://componentsearchengine.com/Datasheets/2/IRF7416TRPBF.pdf"))
+          (property (rename &Height "Height") (string "1.75 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "IRF7416TRPBF"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &S_1 "S_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &S_2 "S_2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &S_3 "S_3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &G "G")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &D_1 "D_1")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &D_2 "D_2")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &D_3 "D_3")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &D_4 "D_4")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &S_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &S_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &S_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &G (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -400) (pt 0 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -400))))
+            )
+            (portImplementation
+              (name &D_4 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -100) (pt 800 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -100))))
+            )
+            (portImplementation
+              (name &D_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -200) (pt 800 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -200))))
+            )
+            (portImplementation
+              (name &D_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -300) (pt 800 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -300))))
+            )
+            (portImplementation
+              (name &D_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -400) (pt 800 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -400))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 600 0)
+                  (pt 600 -500)
+                  (pt 0 -500)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 30))))
+          )
+        )
+      )
+    )
+  )
+)

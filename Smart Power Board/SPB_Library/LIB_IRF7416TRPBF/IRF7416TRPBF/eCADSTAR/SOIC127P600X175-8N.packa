@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IRF7416TRPBF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-18-08:24:06)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

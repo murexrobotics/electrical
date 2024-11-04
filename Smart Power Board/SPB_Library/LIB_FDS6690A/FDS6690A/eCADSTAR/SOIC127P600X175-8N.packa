@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FDS6690A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-07-12:30:56)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

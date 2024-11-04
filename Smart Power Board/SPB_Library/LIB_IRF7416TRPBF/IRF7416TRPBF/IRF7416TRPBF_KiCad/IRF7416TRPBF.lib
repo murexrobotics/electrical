@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IRF7416TRPBF
+#/834003/1430008/2.50/8/3/MOSFET (P-Channel)
+DEF IRF7416TRPBF Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "IRF7416TRPBF" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/IRF7416TRPBF.pdf" 850 0 50 H I L CNN
+F4 "INFINEON - IRF7416TRPBF - MOSFET Transistor, P Channel, 10 A, 30 V, 0.02 ohm, 10 V, 2.04 V" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "942-IRF7416TRPBF" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF7416TRPBF?qs=9%252BKlkBgLFf1tuhXoEVAcyA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IRF7416TRPBF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_4 8 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_2 6 1000 -200 200 L 50 50 0 0 P
+X D_1 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

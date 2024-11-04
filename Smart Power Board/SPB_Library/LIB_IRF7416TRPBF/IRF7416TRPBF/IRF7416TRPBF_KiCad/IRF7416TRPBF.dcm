@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRF7416TRPBF
+D INFINEON - IRF7416TRPBF - MOSFET Transistor, P Channel, 10 A, 30 V, 0.02 ohm, 10 V, 2.04 V
+K
+F https://componentsearchengine.com/Datasheets/2/IRF7416TRPBF.pdf
+$ENDCMP
+#
+#End Doc Library

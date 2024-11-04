@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IRF7416TRPBF
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-04-16 03:16:09
+Downloaded=2024-11-04 05:50:34
+3D=Y

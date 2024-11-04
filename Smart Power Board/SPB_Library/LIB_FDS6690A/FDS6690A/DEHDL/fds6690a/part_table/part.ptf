@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDS6690A'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "FDS6690A" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "512-FDS6690A", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDS6690A?qs=HK%252BeIG1iaajCQ7GvPyNvug%3D%3D", "FDS6690A, N-channel MOSFET Transistor 11 A 30 V, 8-Pin SOIC", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7499f5650a82e511eeed916ae198c5af.pdf", "1.75 mm"
+END_PART
+
+END.

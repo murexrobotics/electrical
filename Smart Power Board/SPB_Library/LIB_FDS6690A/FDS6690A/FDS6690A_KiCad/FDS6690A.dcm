@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDS6690A
+D FDS6690A, N-channel MOSFET Transistor 11 A 30 V, 8-Pin SOIC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7499f5650a82e511eeed916ae198c5af.pdf
+$ENDCMP
+#
+#End Doc Library
