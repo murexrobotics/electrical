@@ -239,7 +239,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -251,7 +251,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -287,7 +287,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -299,7 +299,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -361,6 +361,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -371,17 +382,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -3376,12 +3376,6 @@
 		(uuid "82d3f17a-1b06-4059-9627-eb925daaff56")
 	)
 	(junction
-		(at 272.796 47.752)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88a5e357-81a3-4c93-88f7-dff12c5203f7")
-	)
-	(junction
 		(at 35.052 122.682)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3446,12 +3440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8e367e8-ca6b-4e8c-87bd-e6f717e75aff")
-	)
-	(junction
-		(at 272.796 55.372)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d67a7e93-4831-4908-8f3c-b4000af95d99")
 	)
 	(junction
 		(at 266.192 47.752)
@@ -4329,6 +4317,16 @@
 	)
 	(wire
 		(pts
+			(xy 272.796 57.912) (xy 272.796 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef52530-f444-4d7a-a875-f7b1ed8815f3")
+	)
+	(wire
+		(pts
 			(xy 248.158 107.696) (xy 253.492 107.696)
 		)
 		(stroke
@@ -4729,16 +4727,6 @@
 	)
 	(wire
 		(pts
-			(xy 272.796 60.452) (xy 272.796 55.372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f0c284-9350-4a04-a222-ee21379b7c90")
-	)
-	(wire
-		(pts
 			(xy 264.668 57.912) (xy 271.018 57.912)
 		)
 		(stroke
@@ -4816,16 +4804,6 @@
 			(type default)
 		)
 		(uuid "c7adb8f5-912e-4182-b194-d213852c8237")
-	)
-	(wire
-		(pts
-			(xy 272.796 55.372) (xy 272.796 47.752)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c85d1ebb-1db6-4092-8edc-a6b1fd9368b1")
 	)
 	(wire
 		(pts
@@ -5806,6 +5784,18 @@
 		)
 		(uuid "5ed68c32-6146-48b8-9156-12349757573c")
 	)
+	(hierarchical_label "UART0_TX"
+		(shape input)
+		(at 272.796 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f364258-38ff-456d-a361-7e1fdcbecc2d")
+	)
 	(hierarchical_label "INLA"
 		(shape input)
 		(at 149.86 75.946 0)
@@ -5853,6 +5843,18 @@
 			(justify left)
 		)
 		(uuid "78546459-3f8e-43df-8eb6-0ea1beb310d2")
+	)
+	(hierarchical_label "UART0_RX"
+		(shape input)
+		(at 272.796 55.372 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f67e92f-1f99-423a-af32-d2f468aa4c67")
 	)
 	(hierarchical_label "NSCS"
 		(shape input)
