@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SRR0735HA151M"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SRR0735HA151M")
+        (spec "default")
+    )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SRR0735HA-151M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-16-03:26:44)
+    (mountForm default
+        (footprintRef "SRR0735HA151M")
+        (spec "System")
+    )
+)

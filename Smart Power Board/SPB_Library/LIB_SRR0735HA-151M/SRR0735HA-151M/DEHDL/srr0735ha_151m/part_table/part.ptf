@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SRR0735HA_151M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SRR0735HA-151M" (!) = "", "SRR0735HA151M", "Other", "652-SRR0735HA-151M", "https://www.mouser.co.uk/ProductDetail/Bourns/SRR0735HA-151M?qs=mELouGlnn3dWb%2Fm7RDXtBg%3D%3D", "Ind,7.3x7.3x3.5,150uH+/-20%,0.47A,shd", "https://www.bourns.com/docs/Product-Datasheets/SRR0735HA.pdf", "3.7 mm"
+END_PART
+
+END.

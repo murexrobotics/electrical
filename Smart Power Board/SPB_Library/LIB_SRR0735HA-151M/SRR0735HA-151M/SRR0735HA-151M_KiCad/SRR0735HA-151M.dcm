@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRR0735HA-151M
+D Ind,7.3x7.3x3.5,150uH+/-20%,0.47A,shd
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRR0735HA.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -997,6 +997,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443ec791-16d9-46a0-919a-3c54f537b87f")
+	)
+	(wire
+		(pts
 			(xy 116.84 110.49) (xy 116.84 113.03)
 		)
 		(stroke
@@ -1223,7 +1233,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c8f17b2a-7d44-46b7-86ba-3c08e0b55c58")
+		(uuid "bba70cc7-5467-4728-87a7-d287c0ba78f1")
 	)
 	(wire
 		(pts
@@ -1277,16 +1287,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 135.89 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6ec6067-92c8-444c-b4db-291626f3adb3")
-	)
-	(wire
-		(pts
 			(xy 116.84 105.41) (xy 116.84 102.87)
 		)
 		(stroke
@@ -1317,7 +1317,7 @@
 	)
 	(hierarchical_label "5V_{IN}"
 		(shape input)
-		(at 114.3 96.52 180)
+		(at 114.3 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1329,7 +1329,7 @@
 	)
 	(hierarchical_label "3.3V_{OUT}"
 		(shape input)
-		(at 114.3 110.49 180)
+		(at 114.3 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1389,7 +1389,7 @@
 	)
 	(hierarchical_label "5V_{OUT}"
 		(shape input)
-		(at 114.3 101.6 180)
+		(at 114.3 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1398,18 +1398,6 @@
 			(justify right)
 		)
 		(uuid "9ceec007-b6a1-414b-ab3e-57b9f9b96a15")
-	)
-	(hierarchical_label "3.3V_{IN}"
-		(shape input)
-		(at 114.3 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1c9ed9f-73f5-43b2-9de4-b8de7610ab5a")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -1434,6 +1422,18 @@
 			(justify right)
 		)
 		(uuid "d33b82fa-0142-4e91-8e9f-caeb05491232")
+	)
+	(hierarchical_label "3.3V_{IN}"
+		(shape input)
+		(at 114.3 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7bce0d9-9686-4bb9-9027-b4da0a15e613")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -1710,7 +1710,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Shunt")
-		(at 132.08 99.06 0)
+		(at 121.92 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1719,7 +1719,7 @@
 		(fields_autoplaced yes)
 		(uuid "447e2332-5205-448a-87c4-71fdb8206281")
 		(property "Reference" "R16"
-			(at 129.54 97.7899 0)
+			(at 119.38 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1728,7 @@
 			)
 		)
 		(property "Value" "R_Shunt"
-			(at 129.54 100.3299 0)
+			(at 119.38 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,8 +1736,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026"
-			(at 130.302 99.06 90)
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK25"
+			(at 120.142 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 99.06 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1755,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 132.08 99.06 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Shunt")
-		(at 125.73 107.95 0)
+		(at 132.08 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1795,7 +1795,7 @@
 		(fields_autoplaced yes)
 		(uuid "73685cfd-dbef-4a3c-8553-d3985bb96bd8")
 		(property "Reference" "R17"
-			(at 123.19 106.6799 0)
+			(at 129.54 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(property "Value" "R_Shunt"
-			(at 123.19 109.2199 0)
+			(at 129.54 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,8 +1812,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026"
-			(at 123.952 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK12"
+			(at 130.302 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 107.95 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1831,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 125.73 107.95 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Shunt")
-		(at 121.92 90.17 0)
+		(at 125.73 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1939,7 +1939,7 @@
 		(dnp no)
 		(uuid "9720ad22-7561-4076-bce1-a3f871579d28")
 		(property "Reference" "R15"
-			(at 134.112 88.9 0)
+			(at 137.922 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1948,7 @@
 			)
 		)
 		(property "Value" "R_Shunt"
-			(at 134.112 91.44 0)
+			(at 137.922 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,8 +1956,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026"
-			(at 120.142 90.17 90)
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK12"
+			(at 123.952 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +1966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 90.17 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 121.92 90.17 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

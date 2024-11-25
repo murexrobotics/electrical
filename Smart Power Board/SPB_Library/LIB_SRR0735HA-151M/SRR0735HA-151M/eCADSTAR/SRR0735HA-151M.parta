@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_18967269"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-16-03:26:44)
+    (utime 2024-01-16-03:26:44)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SRR0735HA-151M")
+)
+
+
+(pinAssign "ECS_18967269"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-16-03:26:44)
+    (utime 2024-01-16-03:26:44)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18967269")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SRR0735HA-151M")
+)
+
+
+(part "SRR0735HA-151M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-16-03:26:44)
+    (utime 2024-01-16-03:26:44)
+    (packageRef "SRR0735HA-151M")
+    (pinAssignRef "ECS_18967269")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Ind,7.3x7.3x3.5,150uH+/-20%,0.47A,shd")
+    (property "Mouser_Part_Number" "652-SRR0735HA-151M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR0735HA-151M?qs=mELouGlnn3dWb%2Fm7RDXtBg%3D%3D")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "SRR0735HA-151M")
+    (property "Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/SRR0735HA.pdf")
+    (property "compAreaTopHeight" 3.7)
+)
+
+
