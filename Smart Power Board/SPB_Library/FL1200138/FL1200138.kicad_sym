@@ -1,0 +1,87 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "FL1200138" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Y" (id 0) (at -5.0878 6.35585 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "FL1200138" (id 1) (at -5.09439 -12.7 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "FL1200138:XTAL_FL1200138" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "N/A" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.78 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "DIODES INCORPORATED" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "FL1200138_0_0"
+      (polyline
+        (pts (xy -1.397 2.54) (xy 1.397 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 1.397 2.54) (xy 1.397 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 1.397 -2.54) (xy -1.397 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -1.397 2.54) (xy -1.397 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 2.3368 2.54) (xy 2.3368 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -2.3368 2.54) (xy -2.3368 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -5.08 0.0) (xy -2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (rectangle (start -5.08 -10.16) (end 5.08 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 -5.08 180.0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 -7.62 180.0) (length 2.54)
+        (name "GND__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

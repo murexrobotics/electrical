@@ -262,7 +262,7 @@
 				)
 			)
 		)
-		(symbol "IHLP4040DZER1R5M01:IHLP4040DZER1R5M01"
+		(symbol "SRR0735HA-151M:SRR0735HA-151M"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -276,7 +276,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "IHLP4040DZER1R5M01"
+			(property "Value" "SRR0735HA-151M"
 				(at 16.51 3.81 0)
 				(effects
 					(font
@@ -285,7 +285,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "INDPM108103X400N"
+			(property "Footprint" "SRR0735HA151M"
 				(at 16.51 -96.19 0)
 				(effects
 					(font
@@ -295,7 +295,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IHLP4040DZER1R5M01.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR0735HA.pdf"
 				(at 16.51 -196.19 0)
 				(effects
 					(font
@@ -305,7 +305,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fixed Inductors 1.5uH 20%"
+			(property "Description" "Ind,7.3x7.3x3.5,150uH+/-20%,0.47A,shd"
 				(at 0 0 0)
 				(effects
 					(font
@@ -314,7 +314,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "4"
+			(property "Height" "3.7"
 				(at 16.51 -396.19 0)
 				(effects
 					(font
@@ -324,7 +324,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Vishay"
+			(property "Mouser Part Number" "652-SRR0735HA-151M"
 				(at 16.51 -496.19 0)
 				(effects
 					(font
@@ -334,7 +334,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "IHLP4040DZER1R5M01"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR0735HA-151M?qs=mELouGlnn3dWb%2Fm7RDXtBg%3D%3D"
 				(at 16.51 -596.19 0)
 				(effects
 					(font
@@ -344,7 +344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "IHLP4040DZER1R5M01"
+			(property "Manufacturer_Name" "Bourns"
 				(at 16.51 -696.19 0)
 				(effects
 					(font
@@ -354,7 +354,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ihlp4040dzer1r5m01/vishay?region=nac"
+			(property "Manufacturer_Part_Number" "SRR0735HA-151M"
 				(at 16.51 -796.19 0)
 				(effects
 					(font
@@ -364,7 +364,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IHLP4040DZER1R5M01_1_1"
+			(symbol "SRR0735HA-151M_1_1"
 				(arc
 					(start 7.62 0)
 					(mid 6.35 1.219)
@@ -1104,6 +1104,12 @@
 		(uuid "337e3835-2cba-4951-93ce-df2adccd1aaa")
 	)
 	(junction
+		(at 172.72 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35346a82-1c59-491e-9d2d-e78ac770b4a5")
+	)
+	(junction
 		(at 207.01 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1126,12 +1132,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "559df66c-b049-47d8-a728-328a246870cd")
-	)
-	(junction
-		(at 172.72 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96c3a0d4-c924-40e6-b4b3-c5ec921e7010")
 	)
 	(junction
 		(at 127 105.41)
@@ -2565,6 +2565,128 @@
 		)
 	)
 	(symbol
+		(lib_id "SRR0735HA-151M:SRR0735HA-151M")
+		(at 172.72 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c2c2b8-8e95-4825-b42c-0ce0e8f7901b")
+		(property "Reference" "L2"
+			(at 173.99 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SRR0735HA-151M"
+			(at 173.99 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SRR0735HA151M"
+			(at 268.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR0735HA.pdf"
+			(at 368.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ind,7.3x7.3x3.5,150uH+/-20%,0.47A,shd"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.7"
+			(at 568.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-SRR0735HA-151M"
+			(at 668.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR0735HA-151M?qs=mELouGlnn3dWb%2Fm7RDXtBg%3D%3D"
+			(at 768.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 868.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRR0735HA-151M"
+			(at 968.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6da2233-8439-4662-8446-a55ecc18c956")
+		)
+		(pin "1"
+			(uuid "48988aee-1963-4c34-b0bc-78cca1ed8cae")
+		)
+		(instances
+			(project "SmartPowerBoard"
+				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/09ce01d1-d55d-4db1-b029-11fc4085741e"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 172.72 100.33 0)
 		(unit 1)
@@ -3702,128 +3824,6 @@
 			(project "SmartPowerBoard"
 				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/09ce01d1-d55d-4db1-b029-11fc4085741e"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IHLP4040DZER1R5M01:IHLP4040DZER1R5M01")
-		(at 172.72 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d05f8256-12a4-43df-b807-122b05c9422b")
-		(property "Reference" "L2"
-			(at 173.99 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "IHLP4040DZER1R5M01"
-			(at 173.99 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "INDPM108103X400N"
-			(at 268.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IHLP4040DZER1R5M01.pdf"
-			(at 368.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Inductors 1.5uH 20%"
-			(at 172.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4"
-			(at 568.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 668.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IHLP4040DZER1R5M01"
-			(at 768.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IHLP4040DZER1R5M01"
-			(at 868.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ihlp4040dzer1r5m01/vishay?region=nac"
-			(at 968.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e164ff5b-055f-45aa-bf9d-8c1aadaa6477")
-		)
-		(pin "1"
-			(uuid "9bcf15b6-cdc6-4936-b4c0-e2dca946e338")
-		)
-		(instances
-			(project "SmartPowerBoard"
-				(path "/787a0061-c9d5-4e8d-b49f-b4e75e937f85/09ce01d1-d55d-4db1-b029-11fc4085741e"
-					(reference "L2")
 					(unit 1)
 				)
 			)
