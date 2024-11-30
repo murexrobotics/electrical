@@ -1,0 +1,45 @@
+setwindow Form.padedit
+######################## New PadStack #########################
+pse_new
+fillin "s210_h140.pad"
+FORM padedit units Millimeter
+FORM padedit layers
+
+FORM padedit grid row 1
+FORM padedit geometry Square
+FORM padedit width 2.100
+FORM padedit height 2.100
+FORM padedit x_offset 0
+FORM padedit y_offset 0
+FORM padedit geometry_th Null
+FORM padedit geometry_ant Null
+
+FORM padedit grid row 2
+FORM padedit geometry Square
+FORM padedit width 2.100
+FORM padedit height 2.100
+FORM padedit x_offset 0
+FORM padedit y_offset 0
+FORM padedit geometry_th Null
+FORM padedit geometry_ant Null
+
+FORM padedit grid row 3
+FORM padedit geometry Square
+FORM padedit width 2.100
+FORM padedit height 2.100
+FORM padedit x_offset 0
+FORM padedit y_offset 0
+FORM padedit geometry_th Null
+FORM padedit geometry_ant Null
+
+FORM padedit parameters
+FORM padedit through_hole YES
+FORM padedit hole_size_y 1.4
+FORM padedit hole_size_x 1.4
+FORM padedit drill_fig Cross
+FORM padedit characters B
+FORM padedit drill_width 1.27
+FORM padedit drill_height 1.27
+FORM padedit plating Plated
+pse_save_as
+fillin "s210_h140.Pad"

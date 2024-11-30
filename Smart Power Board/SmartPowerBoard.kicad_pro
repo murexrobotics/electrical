@@ -618,6 +618,10 @@
       "Triple Channel Monitor"
     ],
     [
+      "319766d2-d027-4626-bb78-c35dd3607e0b",
+      "Inner Buck Converter 3.3V"
+    ],
+    [
       "d28d5f16-4876-446b-bfa7-1919d5edff39",
       "MCU"
     ]

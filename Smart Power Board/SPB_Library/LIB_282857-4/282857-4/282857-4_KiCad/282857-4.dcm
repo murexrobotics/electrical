@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 282857-4
+D Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Number of Rows 1 | Number of Positions 4 | Wire Entry Angle 90 | Wire Entry Location Side | Contact Features: Contact Current Rating (Max) 24 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Dimensions: Wire Size 30  12 AWG | Wire Size .05  3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Centerline (Pitch) 5.08 MM | Housing Material PA 6
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282857-4&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

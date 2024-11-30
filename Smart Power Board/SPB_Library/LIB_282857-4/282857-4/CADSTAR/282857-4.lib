@@ -1,0 +1,18 @@
+.282857-4 :1 ;Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Number of Rows 1 | Number of Positions 4 | Wire Entry Angle 90 | Wire Entry Location Side | Contact Features: Contact Current Rating (Max) 24 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Dimensions: Wire Size 30  12 AWG | Wire Size .05  3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Centerline (Pitch) 5.08 MM | Housing Material PA 6
+"2828574"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN 282857-4
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (282857-4)
+~!Mouser Part Number (571-282857-4)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282857-4?qs=tdJWXn2SgN6od76UTwL1iw%3D%3D)
+~!Arrow Part Number (282857-4)
+~!Link Arrow Price/Stock (null?region=nac)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282857-4&DocFormat=pdf)
+~!Height (19mm)
+~!3D_Model (282857-4)
+"282857-4"
+1.1!U 2.1!U 3.1!U 4.1!U 

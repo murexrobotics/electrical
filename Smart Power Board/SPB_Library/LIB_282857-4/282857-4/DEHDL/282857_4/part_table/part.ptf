@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '282857_4'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "282857-4" (!) = "", "2828574", "Other", "571-282857-4", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282857-4?qs=tdJWXn2SgN6od76UTwL1iw%3D%3D", "282857-4", "null?region=nac", "Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Number of Rows 1 | Number of Positions 4 | Wire Entry Angle 90 | Wire Entry Location Side | Contact Features: Contact Current Rating (Max) 24 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Dimensions: Wire Size 30  12 AWG | Wire Size .05  3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Centerline (Pitch) 5.08 MM | Housing Material PA 6", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282857-4&DocFormat=pdf", "19 mm"
+END_PART
+
+END.
