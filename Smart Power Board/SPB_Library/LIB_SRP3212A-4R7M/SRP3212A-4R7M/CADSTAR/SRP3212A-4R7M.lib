@@ -1,0 +1,16 @@
+.SRP3212A-4R7M :1 ;Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd
+INDC3225X120N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SRP3212A-4R7M
+~!Mouser Part Number (652-SRP3212A-4R7M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-4R7M?qs=t7xnP681wgUDaQ9KSPrZtA%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRP3212A-4R7M)
+~!Link Datasheet (https://www.bourns.com/docs/product-datasheets/srp3212.pdf)
+~!Height (1.2mm)
+~!3D_Model (SRP3212A-4R7M)
+SRP3212A-4R7M
+1.1!U 2.1!U 

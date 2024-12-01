@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP3212A-4R7M
+D Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd
+K
+F https://www.bourns.com/docs/product-datasheets/srp3212.pdf
+$ENDCMP
+#
+#End Doc Library

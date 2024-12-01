@@ -624,6 +624,14 @@
     [
       "d28d5f16-4876-446b-bfa7-1919d5edff39",
       "MCU"
+    ],
+    [
+      "92194010-a00d-4b80-8697-9ececeb7bda3",
+      "Inner Buck Converter 4V"
+    ],
+    [
+      "b2e9f5f8-2d73-4984-a72c-97a04d4e4e35",
+      "OLED Display"
     ]
   ],
   "text_variables": {}

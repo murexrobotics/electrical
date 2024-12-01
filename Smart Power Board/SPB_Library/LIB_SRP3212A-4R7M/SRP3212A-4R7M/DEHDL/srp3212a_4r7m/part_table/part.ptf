@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SRP3212A_4R7M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SRP3212A-4R7M" (!) = "", "INDC3225X120N", "Inductors Chip", "652-SRP3212A-4R7M", "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-4R7M?qs=t7xnP681wgUDaQ9KSPrZtA%3D%3D", "Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd", "https://www.bourns.com/docs/product-datasheets/srp3212.pdf", "1.2 mm"
+END_PART
+
+END.

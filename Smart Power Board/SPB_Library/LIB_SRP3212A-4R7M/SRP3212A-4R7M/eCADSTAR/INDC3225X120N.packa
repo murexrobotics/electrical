@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SRP3212A-4R7M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-03-03:19:40)
+    (mountForm default
+        (footprintRef "INDC3225X120N")
+        (spec "System")
+    )
+)

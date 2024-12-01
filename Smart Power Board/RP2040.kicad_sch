@@ -3050,10 +3050,6 @@
 		(uuid "f5a32ef7-6c1b-41ab-8482-68bb48fd889f")
 	)
 	(no_connect
-		(at 90.17 99.06)
-		(uuid "f7586c11-1de7-444c-91bd-76920391ed19")
-	)
-	(no_connect
 		(at 90.17 134.62)
 		(uuid "fdb275b6-6438-4ab3-ac84-3d5da65095cd")
 	)
@@ -3346,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "302cfc97-ccdf-44f0-8035-1040a631e1e2")
+	)
+	(wire
+		(pts
+			(xy 90.17 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328faf17-a36a-40ad-ad2a-a4f3a1c35949")
 	)
 	(wire
 		(pts
@@ -4242,18 +4248,6 @@
 		(uuid 173fbb96-5603-43ff-bc1a-9dab50c629de)
 	)
 	(rectangle
-		(start 179.324 16.51)
-		(end 284.226 164.846)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1dc46d19-8bf2-4029-be4e-124bbbcfaf6c)
-	)
-	(rectangle
 		(start 14.478 51.435)
 		(end 119.126 186.436)
 		(stroke
@@ -4323,17 +4317,6 @@
 			)
 		)
 		(uuid "4b2fe4b2-3255-4dc9-8206-4d6185db67fa")
-	)
-	(text "OLED Display\n"
-		(exclude_from_sim no)
-		(at 187.706 20.32 0)
-		(effects
-			(font
-				(face "JetBrains Mono")
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4bceb2f9-f2c2-4b0c-afc4-33ad057c35de")
 	)
 	(text "USB_BOOT Button"
 		(exclude_from_sim no)
@@ -4478,6 +4461,17 @@
 			(justify right bottom)
 		)
 		(uuid "3f06bd42-6236-4771-a13e-5b068626d937")
+	)
+	(label "GPIO4"
+		(at 106.68 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44e49d15-24ea-4c21-ba90-6f68adc13f58")
 	)
 	(label "QSPI_SCLK"
 		(at 142.24 106.68 0)

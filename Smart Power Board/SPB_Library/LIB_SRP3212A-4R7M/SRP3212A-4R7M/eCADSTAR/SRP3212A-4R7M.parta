@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_16197685"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-03-03:19:40)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SRP3212A-4R7M")
+)
+
+
+(pinAssign "ECS_16197685"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-03-03:19:40)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16197685")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SRP3212A-4R7M")
+)
+
+
+(part "SRP3212A-4R7M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-03-03:19:40)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "SRP3212A-4R7M")
+    (pinAssignRef "ECS_16197685")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd")
+    (property "Mouser_Part_Number" "652-SRP3212A-4R7M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-4R7M?qs=t7xnP681wgUDaQ9KSPrZtA%3D%3D")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "SRP3212A-4R7M")
+    (property "Datasheet_Link" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf")
+    (property "compAreaTopHeight" 1.2)
+)
+
+
