@@ -828,7 +828,7 @@
 		(uuid "3c1db06f-9242-474e-acdd-a5ff5756b480")
 	)
 	(junction
-		(at 193.04 91.44)
+		(at 199.39 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dbea84e-6aff-4052-96fd-678301fc026d")
@@ -840,13 +840,13 @@
 		(uuid "6912a4b3-58a5-4ac8-8185-1a5baaae6d3f")
 	)
 	(junction
-		(at 198.12 81.28)
+		(at 204.47 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90320815-a688-4809-9fef-bddf2f57bfb1")
 	)
 	(junction
-		(at 190.5 81.28)
+		(at 196.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "918df4e1-5874-454d-9446-9f19f8a0a200")
@@ -864,7 +864,7 @@
 		(uuid "bb1faa9a-78f1-4fe7-b696-353c9d7548df")
 	)
 	(junction
-		(at 190.5 86.36)
+		(at 196.85 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da08a561-e974-41ab-9db5-0365169744e4")
@@ -907,7 +907,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 198.12 91.44)
+			(xy 204.47 88.9) (xy 204.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 193.04 91.44)
+			(xy 204.47 91.44) (xy 199.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 190.5 86.36)
+			(xy 191.77 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 81.28) (xy 186.69 81.28)
+			(xy 196.85 81.28) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 200.66 81.28)
+			(xy 204.47 81.28) (xy 207.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1067,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 91.44) (xy 190.5 91.44)
+			(xy 172.72 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28665b9-b6fa-49df-a014-d70af90a30ec")
+	)
+	(wire
+		(pts
+			(xy 199.39 91.44) (xy 196.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 81.28) (xy 198.12 81.28)
+			(xy 196.85 81.28) (xy 204.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 198.12 83.82)
+			(xy 204.47 81.28) (xy 204.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1156,7 @@
 		(uuid "fa64f1f3-4295-4fe4-b588-7abed7cecf45")
 	)
 	(label "FB"
-		(at 185.42 86.36 0)
+		(at 191.77 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1166,6 +1176,17 @@
 			(justify left bottom)
 		)
 		(uuid "8e7b2c21-cc17-4e9b-bd5b-dcc46935376a")
+	)
+	(label "SW"
+		(at 168.91 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9131a2a1-c774-4283-9fde-0159660e4ab1")
 	)
 	(label "FB"
 		(at 128.27 83.82 0)
@@ -1214,7 +1235,7 @@
 	)
 	(hierarchical_label "4V_{CC}"
 		(shape output)
-		(at 200.66 81.28 0)
+		(at 207.01 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1292,7 +1313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 190.5 83.82 0)
+		(at 196.85 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1300,7 +1321,7 @@
 		(dnp no)
 		(uuid "4efba6c2-8c6f-498c-b51c-40cff2bb3b18")
 		(property "Reference" "R33"
-			(at 191.516 83.058 0)
+			(at 197.866 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1330,7 @@
 			)
 		)
 		(property "Value" "42.2k"
-			(at 191.516 84.836 0)
+			(at 197.866 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1339,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1357,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1451,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 91.44 0)
+		(at 199.39 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1439,7 +1460,7 @@
 		(fields_autoplaced yes)
 		(uuid "56bcc3d4-2c25-43f4-8ef2-8387e038679e")
 		(property "Reference" "#PWR063"
-			(at 193.04 97.79 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 96.52 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 91.44 0)
+			(at 199.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 91.44 0)
+			(at 199.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 91.44 0)
+			(at 199.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1814,7 @@
 	)
 	(symbol
 		(lib_id "SRP3212A-4R7M:SRP3212A-4R7M")
-		(at 166.37 81.28 0)
+		(at 172.72 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1802,7 +1823,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d03051f-b601-46af-bef5-0c01f6498e73")
 		(property "Reference" "L4"
-			(at 176.53 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1831,7 @@
 			)
 		)
 		(property "Value" "SRP3212A-4R7M"
-			(at 176.53 77.47 0)
+			(at 182.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1839,7 @@
 			)
 		)
 		(property "Footprint" "INDC3225X120N"
-			(at 182.88 177.47 0)
+			(at 189.23 177.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1849,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf"
-			(at 182.88 277.47 0)
+			(at 189.23 277.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1859,7 @@
 			)
 		)
 		(property "Description" "Ind,3.2x2.5x1mm,4.7uH+/-20%,2.2A,shd"
-			(at 166.37 81.28 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1868,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 182.88 477.47 0)
+			(at 189.23 477.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1878,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-SRP3212A-4R7M"
-			(at 182.88 577.47 0)
+			(at 189.23 577.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1888,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-4R7M?qs=t7xnP681wgUDaQ9KSPrZtA%3D%3D"
-			(at 182.88 677.47 0)
+			(at 189.23 677.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1898,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 182.88 777.47 0)
+			(at 189.23 777.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1908,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SRP3212A-4R7M"
-			(at 182.88 877.47 0)
+			(at 189.23 877.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 198.12 86.36 0)
+		(at 204.47 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2128,7 +2149,7 @@
 		(dnp no)
 		(uuid "d4bc0a0b-d51c-4a81-9fb4-54b86a64cc60")
 		(property "Reference" "C46"
-			(at 200.152 85.598 0)
+			(at 206.502 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2158,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 200.152 87.3822 0)
+			(at 206.502 87.3822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2167,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 198.12 86.36 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 86.36 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2185,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 86.36 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 190.5 88.9 0)
+		(at 196.85 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2197,7 +2218,7 @@
 		(dnp no)
 		(uuid "da9fbd0c-cce0-4500-af30-dfc3c1513cca")
 		(property "Reference" "R36"
-			(at 191.516 87.884 0)
+			(at 197.866 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2227,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 191.516 89.916 0)
+			(at 197.866 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2254,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1199,6 +1199,12 @@
 		(color 0 0 0 0)
 		(uuid "e6139cc3-8ecb-4cc3-aaa3-d40c5aa126f4")
 	)
+	(junction
+		(at 147.32 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fafa0503-13b5-4d11-a9cd-9bb10a3d6e50")
+	)
 	(no_connect
 		(at 160.02 110.49)
 		(uuid "9d906acf-c94e-416a-a420-b438ee631172")
@@ -1272,6 +1278,16 @@
 			(type default)
 		)
 		(uuid "210cf3fe-752a-4bf4-81ff-1454d89e8b84")
+	)
+	(wire
+		(pts
+			(xy 139.7 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217dbfe0-4bef-4e87-9048-ae0dcdd542e2")
 	)
 	(wire
 		(pts
@@ -1575,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 147.32 76.2)
+			(xy 147.32 68.58) (xy 147.32 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1672,6 +1688,16 @@
 			(type default)
 		)
 		(uuid "ab08a47a-87e3-4b5a-910d-98932186da34")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea8c144-7aca-4c74-ab77-b79e3fe4683d")
 	)
 	(wire
 		(pts
@@ -1904,6 +1930,17 @@
 		)
 		(uuid "0eb0566a-ff2f-4dcc-8651-0c31115fdc6a")
 	)
+	(label "V_{CC}"
+		(at 139.7 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "249aa5dc-30f9-42dd-8be0-c68501047200")
+	)
 	(label "MODE"
 		(at 139.7 63.5 0)
 		(fields_autoplaced yes)
@@ -1948,17 +1985,6 @@
 		)
 		(uuid "45eb94dd-e0e5-4635-87c5-51bd5d3d14df")
 	)
-	(label "EN"
-		(at 162.56 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5945ad0f-4876-4e9e-bcfd-e843ee117dd8")
-	)
 	(label "MODE"
 		(at 165.1 100.33 180)
 		(fields_autoplaced yes)
@@ -2002,6 +2028,18 @@
 			(justify right bottom)
 		)
 		(uuid "f8e2044f-fe98-4362-8c06-82eb058bb84e")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 162.56 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "805ac76f-5d86-44b2-937d-c908e86f2cbd")
 	)
 	(hierarchical_label "12V_{IN}"
 		(shape input)

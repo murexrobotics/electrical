@@ -1436,39 +1436,6 @@
 		)
 		(uuid "ff586231-889f-4a45-9166-9a64381921ee")
 	)
-	(label "5V_{OUT}"
-		(at 118.11 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d8be4f2-5333-475e-900c-222e0a1ccb04")
-	)
-	(label "12V_{OUT}"
-		(at 118.11 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f78409d-6391-47ad-bf85-9c986313a1ca")
-	)
-	(label "3.3V_{OUT}"
-		(at 118.11 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fba84297-1751-4d3f-a257-63cee9d5d2fa")
-	)
 	(hierarchical_label "12V_{IN}"
 		(shape input)
 		(at 118.11 118.11 180)
@@ -1529,9 +1496,33 @@
 		)
 		(uuid "a66146dc-839f-4fbc-b498-72c08d4e71e2")
 	)
+	(hierarchical_label "12V_{OUT}"
+		(shape input)
+		(at 118.11 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa3738f-aff5-4cea-a128-780fe02f6104")
+	)
+	(hierarchical_label "5V_{OUT}"
+		(shape input)
+		(at 118.11 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b00294a7-db8b-4587-b72d-543414cda632")
+	)
 	(hierarchical_label "5V_{IN}"
 		(shape input)
-		(at 118.11 104.14 180)
+		(at 118.11 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1543,7 +1534,7 @@
 	)
 	(hierarchical_label "3.3V_{IN}"
 		(shape input)
-		(at 118.11 90.17 180)
+		(at 118.11 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1552,6 +1543,18 @@
 			(justify right)
 		)
 		(uuid "d7bce0d9-9686-4bb9-9027-b4da0a15e613")
+	)
+	(hierarchical_label "3.3V_{OUT}"
+		(shape input)
+		(at 118.11 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db92756b-4165-4db8-af11-23cc1ce2b1b6")
 	)
 	(hierarchical_label "3.3V_{CC}"
 		(shape input)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.875,
-          "width": 0.2
+          "drill": 1.4,
+          "height": 2.1,
+          "width": 2.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -182,14 +182,11 @@
       "track_widths": [
         0.0,
         0.125,
-        0.2,
-        0.254,
         0.3,
         0.5,
         1.0,
         1.5,
-        1.75,
-        2.0
+        1.75
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -632,6 +629,10 @@
     [
       "b2e9f5f8-2d73-4984-a72c-97a04d4e4e35",
       "OLED Display"
+    ],
+    [
+      "0dd3838e-ad8d-454b-bdb3-e4e2180644fb",
+      "Connectors"
     ]
   ],
   "text_variables": {}

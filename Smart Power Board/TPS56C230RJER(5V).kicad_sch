@@ -1196,6 +1196,12 @@
 		(uuid "c77d401b-4b61-4bb7-840f-4e4331f28c4a")
 	)
 	(junction
+		(at 137.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb41ed07-dc84-4ffc-ae55-3211812d787e")
+	)
+	(junction
 		(at 85.09 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1655,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 55.88) (xy 137.16 63.5)
+			(xy 137.16 55.88) (xy 137.16 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1785,6 +1791,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 57.15) (xy 137.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00b513d-f5ba-4070-81f2-e688e097dfcd")
+	)
+	(wire
+		(pts
 			(xy 217.17 87.63) (xy 217.17 90.17)
 		)
 		(stroke
@@ -1885,6 +1901,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 57.15) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17f807b-26a8-44c2-9767-88145de55288")
+	)
+	(wire
+		(pts
 			(xy 162.56 57.15) (xy 162.56 59.69)
 		)
 		(stroke
@@ -1968,6 +1994,17 @@
 		)
 		(uuid "4bf2cc34-8710-4eab-a5c2-9684cdf93d17")
 	)
+	(label "V_{CC}"
+		(at 129.54 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f9506cb-1e55-4917-b175-15cdb45d8160")
+	)
 	(label "EN"
 		(at 101.6 95.25 0)
 		(fields_autoplaced yes)
@@ -1989,17 +2026,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a136081-b869-451e-b2a2-f360f610e271")
-	)
-	(label "EN"
-		(at 152.4 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71a343f4-c93c-417d-aa93-498ca321a0b5")
 	)
 	(label "SW"
 		(at 129.54 118.11 90)
@@ -2034,6 +2060,18 @@
 			(justify right)
 		)
 		(uuid "5bde72f2-b61c-443a-813c-e3d756792ed1")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 152.4 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77e78273-6fef-46d5-a901-2009817e91ed")
 	)
 	(hierarchical_label "5V_{OUT}"
 		(shape output)
