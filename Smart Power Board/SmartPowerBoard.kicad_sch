@@ -516,14 +516,14 @@
 		(uuid "8dc8438c-d682-4de2-ae62-e3cc5711848d")
 	)
 	(junction
-		(at 116.84 81.28)
+		(at 121.92 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2dd090-74da-4c1f-911d-e8667fa47a29")
 	)
 	(wire
 		(pts
-			(xy 149.86 124.46) (xy 149.86 134.62)
+			(xy 149.86 124.46) (xy 149.86 146.05)
 		)
 		(stroke
 			(width 0)
@@ -543,7 +543,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 125.73 110.49)
+			(xy 113.03 110.49) (xy 127 110.49)
 		)
 		(stroke
 			(width 0)
@@ -563,7 +563,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 116.84 69.85)
+			(xy 121.92 82.55) (xy 121.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -573,7 +573,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 69.85) (xy 118.11 69.85)
+			(xy 121.92 69.85) (xy 127 69.85)
 		)
 		(stroke
 			(width 0)
@@ -593,7 +593,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 125.73 130.81)
+			(xy 121.92 137.16) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a069a3b-c3b8-440c-8faa-d647672b9b30")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -603,7 +613,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 113.03 86.36)
+			(xy 133.35 86.36) (xy 113.03 86.36)
 		)
 		(stroke
 			(width 0)
@@ -653,7 +663,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 139.7 81.28)
+			(xy 173.99 137.16) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2f3295-e97c-4918-bf07-02e0aaf4fce2")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -673,7 +693,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 128.27) (xy 130.81 128.27)
+			(xy 173.99 128.27) (xy 133.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -723,6 +743,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 82.55) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9becb2-d653-418a-80c7-ce07998db24f")
+	)
+	(wire
+		(pts
 			(xy 160.02 119.38) (xy 173.99 119.38)
 		)
 		(stroke
@@ -730,6 +760,16 @@
 			(type default)
 		)
 		(uuid "a33e7d4b-2353-400a-b02a-e3ebecc8a1d0")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34a6954-9221-490e-a389-46df560ce023")
 	)
 	(wire
 		(pts
@@ -753,7 +793,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 81.28) (xy 116.84 81.28)
+			(xy 113.03 82.55) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +813,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 130.81) (xy 173.99 130.81)
+			(xy 127 130.81) (xy 173.99 130.81)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +853,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 130.81 86.36)
+			(xy 133.35 128.27) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +863,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 134.62) (xy 199.39 134.62)
+			(xy 149.86 146.05) (xy 199.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -833,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 69.85) (xy 199.39 69.85)
+			(xy 146.05 69.85) (xy 199.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1499,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 66.802)
+		(at 127 66.802)
 		(size 19.05 6.604)
 		(fields_autoplaced yes)
 		(stroke
@@ -1471,7 +1511,7 @@
 		)
 		(uuid "92194010-a00d-4b80-8697-9ececeb7bda3")
 		(property "Sheetname" "Inner Buck Converter 4V"
-			(at 118.11 66.0904 0)
+			(at 127 66.0904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1520,7 @@
 			)
 		)
 		(property "Sheetfile" "TPS561201DDCR(4V).kicad_sch"
-			(at 118.11 73.9906 0)
+			(at 127 73.9906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1530,7 @@
 			)
 		)
 		(pin "5V_{IN}" input
-			(at 118.11 69.85 180)
+			(at 127 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1540,7 @@
 			(uuid "cda14bdb-549f-4f05-83d8-239deafaaafb")
 		)
 		(pin "4V_{CC}" output
-			(at 137.16 69.85 0)
+			(at 146.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1559,7 @@
 	)
 	(sheet
 		(at 199.39 65.532)
-		(size 17.526 72.136)
+		(size 17.526 89.154)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1539,7 +1579,7 @@
 			)
 		)
 		(property "Sheetfile" "X096-2864KLBAG01-H30.kicad_sch"
-			(at 199.39 138.2526 0)
+			(at 199.39 155.2706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1599,7 @@
 			(uuid "db3338ce-428c-4e9c-a09c-70b54cbe861f")
 		)
 		(pin "3.3V_{CC}" input
-			(at 199.39 134.62 180)
+			(at 199.39 146.05 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1618,7 @@
 	)
 	(sheet
 		(at 173.99 107.95)
-		(size 20.32 24.638)
+		(size 20.32 34.798)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1598,7 +1638,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 173.99 133.1726 0)
+			(at 173.99 143.3326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,6 +1716,16 @@
 				(justify left)
 			)
 			(uuid "29f6d496-8fcc-49c3-8575-f79a2628b181")
+		)
+		(pin "5V_{IN}" input
+			(at 173.99 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c2800bf-8a39-472d-9ccd-80e52065e45b")
 		)
 		(instances
 			(project "SmartPowerBoard"

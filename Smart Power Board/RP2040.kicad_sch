@@ -4405,13 +4405,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 29.21) (xy 154.94 29.21)
+			(xy 154.94 29.21) (xy 165.1 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec14d2b9-cca3-46bf-a396-d47772afb64e")
+		(uuid "ea9a66f5-6d8c-4b25-8c0f-6e3170b6aa19")
 	)
 	(wire
 		(pts
@@ -4810,17 +4810,6 @@
 		)
 		(uuid "81a6cd52-3921-4ad5-b158-8eea465f979a")
 	)
-	(label "5V_{IN}"
-		(at 166.37 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83a18f18-c86b-43f8-a292-77e7fb1b20ba")
-	)
 	(label "QSPI_SD0"
 		(at 142.24 109.22 0)
 		(fields_autoplaced yes)
@@ -5043,6 +5032,18 @@
 		)
 		(uuid "127c11b4-8262-4678-91e2-413d761edcce")
 	)
+	(hierarchical_label "5V_{IN}"
+		(shape input)
+		(at 165.1 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24d172db-ee7e-4df4-b6b5-675b7cbc4785")
+	)
 	(hierarchical_label "CRIT"
 		(shape input)
 		(at 107.95 121.92 0)
@@ -5068,7 +5069,7 @@
 		(uuid "33d88923-74bb-4962-97e0-6b1b71f99073")
 	)
 	(hierarchical_label "EN(3V)"
-		(shape input)
+		(shape output)
 		(at 106.68 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5092,7 +5093,7 @@
 		(uuid "a81ce896-d43d-44d2-aeca-bf11c69efd11")
 	)
 	(hierarchical_label "EN(5V)"
-		(shape input)
+		(shape output)
 		(at 106.68 96.52 0)
 		(fields_autoplaced yes)
 		(effects
