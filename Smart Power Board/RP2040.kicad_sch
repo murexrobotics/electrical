@@ -3014,10 +3014,6 @@
 		(uuid "27382d0a-de47-4de8-91f6-aa2dfa7b801b")
 	)
 	(no_connect
-		(at 90.17 127)
-		(uuid "2c9e45b8-1479-4b51-8de4-06288759c709")
-	)
-	(no_connect
 		(at 90.17 149.86)
 		(uuid "40178a17-9a60-4214-888a-5c3c1bb1e943")
 	)
@@ -3032,6 +3028,10 @@
 	(no_connect
 		(at 90.17 119.38)
 		(uuid "53a5ca2b-b0e9-49a2-9ace-a6163085fe39")
+	)
+	(no_connect
+		(at 90.17 99.06)
+		(uuid "5f9dae23-1c99-4301-bc62-fdd2526523e0")
 	)
 	(no_connect
 		(at 90.17 106.68)
@@ -3472,16 +3472,6 @@
 			(type default)
 		)
 		(uuid "30d0e18e-aacc-4c6e-9c00-39c25ebb4572")
-	)
-	(wire
-		(pts
-			(xy 90.17 99.06) (xy 106.68 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328faf17-a36a-40ad-ad2a-a4f3a1c35949")
 	)
 	(wire
 		(pts
@@ -4365,6 +4355,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 127) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06d7f8a-5aa2-4a41-9923-8f79de287359")
+	)
+	(wire
+		(pts
 			(xy 163.83 93.98) (xy 163.83 99.06)
 		)
 		(stroke
@@ -4710,17 +4710,6 @@
 			(justify right bottom)
 		)
 		(uuid "3f06bd42-6236-4771-a13e-5b068626d937")
-	)
-	(label "GPIO4"
-		(at 106.68 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44e49d15-24ea-4c21-ba90-6f68adc13f58")
 	)
 	(label "QSPI_SCLK"
 		(at 142.24 106.68 0)
@@ -5079,6 +5068,18 @@
 			(justify left)
 		)
 		(uuid "8d817b90-4e59-4b6f-8a23-9396bbf7aace")
+	)
+	(hierarchical_label "GPIO15"
+		(shape input)
+		(at 107.95 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3a4bbf5-9199-4629-a34c-5e287e7e9233")
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
