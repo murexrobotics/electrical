@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20240101)
+	(version 20241004)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "161a0253-c5a1-4288-8bf2-bd846d5f6ea0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -261,6 +270,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MLP2520S3R3ST0S1:MLP2520S3R3ST0S1"
 			(pin_names
@@ -396,30 +406,6 @@
 				)
 			)
 			(symbol "MLP2520S3R3ST0S1_0_0"
-				(arc
-					(start -2.54 0)
-					(mid -3.81 1.2645)
-					(end -5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -1.27 1.2645)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -7.62 0)
@@ -432,10 +418,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -445,8 +431,8 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 1.27 1.2645)
+					(start -2.54 0)
+					(mid -1.27 1.2645)
 					(end 0 0)
 					(stroke
 						(width 0.254)
@@ -457,9 +443,33 @@
 					)
 				)
 				(arc
-					(start 5.08 0)
-					(mid 3.81 1.2645)
+					(start 0 0)
+					(mid 1.27 1.2645)
 					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -505,6 +515,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TPS561201DDCR:TPS561201DDCR"
 			(pin_names
@@ -651,53 +662,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -17.78 2.54 0)
+					(at -17.78 7.62 0)
 					(length 5.08)
-					(name "VIN"
+					(name "EN"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -724,16 +699,16 @@
 					)
 				)
 				(pin input line
-					(at -17.78 7.62 0)
+					(at -17.78 2.54 0)
 					(length 5.08)
-					(name "EN"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -759,13 +734,54 @@
 						)
 					)
 				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -856,6 +872,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
