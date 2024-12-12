@@ -223,6 +223,18 @@
 				)
 				(polyline
 					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 10.16 0) (xy 8.89 0.8467)
 					)
 					(stroke
@@ -235,7 +247,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -260,18 +272,6 @@
 				(polyline
 					(pts
 						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -405,7 +405,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -429,7 +429,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
 					)
 					(stroke
 						(width 0.127)

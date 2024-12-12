@@ -466,23 +466,23 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.2225) (xy 0 -2.54)
-					)
+				(circle
+					(center 0 -2.2225)
+					(radius 0.127)
 					(stroke
-						(width 0.1524)
+						(width 0.4064)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.2225)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy 0 -2.2225) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.4064)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
