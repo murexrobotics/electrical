@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "jlcpcb/production_files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.99.0-3334-g98ae574c78*%
-%TF.CreationDate,2024-12-15T17:16:10-05:00*%
+%TF.CreationDate,2024-12-15T17:17:25-05:00*%
 %TF.ProjectId,SmartPowerBoard,536d6172-7450-46f7-9765-72426f617264,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Bot*%
+%TF.FileFunction,Glue,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.99.0-3334-g98ae574c78) date 2024-12-15 17:16:10*
+G04 Created by KiCad (PCBNEW 8.99.0-3334-g98ae574c78) date 2024-12-15 17:17:25*
 %MOMM*%
 %LPD*%
 G01*
