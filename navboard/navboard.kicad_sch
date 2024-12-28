@@ -1,5 +1,56 @@
-(kicad_sch (version 20240812) (generator "eeschema") (generator_version "8.99")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20241004)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "85372226-2cac-49b4-9498-d8e6443adfdd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 92.71 74.168)
+		(size 23.622 27.432)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26903755-205c-4eee-ab20-756ac71fa431")
+		(property "Sheetname" "Sensors"
+			(at 92.71 73.4564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 92.71 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "navboard"
+				(path "/85372226-2cac-49b4-9498-d8e6443adfdd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -215,6 +215,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
+      "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -249,7 +250,7 @@
   },
   "meta": {
     "filename": "navboard.kicad_pro",
-    "version": 1
+    "version": 2
   },
   "net_settings": {
     "classes": [
@@ -406,6 +407,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "85372226-2cac-49b4-9498-d8e6443adfdd",
+      "Root"
+    ],
+    [
+      "26903755-205c-4eee-ab20-756ac71fa431",
+      "Sensors"
+    ]
+  ],
   "text_variables": {}
 }
