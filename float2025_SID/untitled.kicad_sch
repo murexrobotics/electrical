@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20241004)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "1bd4be4f-b098-470a-a7b2-99ad7f8f8853")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "3.3Vout"
+		(shape input)
+		(at 139.954 93.472 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "118332ea-7dd1-4b5a-8db7-c5c7812906ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.1774 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12Vin"
+		(shape input)
+		(at 124.968 94.488 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24db634e-6fb3-4579-a4f7-46ba9212ee7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.0598 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+)

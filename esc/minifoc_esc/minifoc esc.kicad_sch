@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240812)
+	(version 20241004)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "8ddd70c9-07a6-4f04-8f74-8215976b7312")
@@ -703,7 +703,8 @@
 				)
 				(pin power_in line
 					(at 24.13 12.7 270)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "VM"
 						(effects
 							(font
@@ -721,7 +722,8 @@
 				)
 				(pin power_in line
 					(at 24.13 12.7 270)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "VM"
 						(effects
 							(font
@@ -739,7 +741,8 @@
 				)
 				(pin power_out line
 					(at 27.94 -63.5 90)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "AGND"
 						(effects
 							(font
@@ -757,7 +760,8 @@
 				)
 				(pin power_out line
 					(at 31.75 -63.5 90)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "PGND"
 						(effects
 							(font
@@ -775,7 +779,8 @@
 				)
 				(pin power_out line
 					(at 31.75 -63.5 90)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "PGND"
 						(effects
 							(font
@@ -793,7 +798,8 @@
 				)
 				(pin power_in line
 					(at 55.88 -20.32 180)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "OUTA"
 						(effects
 							(font
@@ -811,7 +817,8 @@
 				)
 				(pin power_in line
 					(at 55.88 -24.13 180)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "OUTB"
 						(effects
 							(font
@@ -829,7 +836,8 @@
 				)
 				(pin power_in line
 					(at 55.88 -27.94 180)
-					(length 7.62) hide
+					(length 7.62)
+					(hide yes)
 					(name "OUTC"
 						(effects
 							(font
@@ -850,7 +858,9 @@
 		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1018,9 +1028,13 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1154,9 +1168,13 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:L_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1315,9 +1333,13 @@
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1412,9 +1434,13 @@
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4306,223 +4332,223 @@
 		)
 		(pin "+3.3V" input
 			(at 46.736 112.776 180)
+			(uuid "efca6cd9-2611-48c2-97d8-9265638709ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "efca6cd9-2611-48c2-97d8-9265638709ee")
 		)
 		(pin "UART0_RX" input
 			(at 46.736 131.064 180)
+			(uuid "ab839e60-3e7e-491a-ba99-605cccc5b3bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab839e60-3e7e-491a-ba99-605cccc5b3bb")
 		)
 		(pin "UART0_TX" input
 			(at 46.736 128.27 180)
+			(uuid "9a734416-17fd-4e8d-b862-a4f8afbd8786")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a734416-17fd-4e8d-b862-a4f8afbd8786")
 		)
 		(pin "NSLEEP" input
 			(at 77.978 133.35 0)
+			(uuid "be1a1fe4-fe32-4d63-9ba0-1b98fd8c086b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "be1a1fe4-fe32-4d63-9ba0-1b98fd8c086b")
 		)
 		(pin "UART1_RX" input
 			(at 46.736 123.698 180)
+			(uuid "92a25718-38d0-460f-8106-ea05af8299f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "92a25718-38d0-460f-8106-ea05af8299f5")
 		)
 		(pin "SOA" input
 			(at 77.978 141.224 0)
+			(uuid "4b9a75c8-0660-48ee-89ea-023ac6fcc882")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4b9a75c8-0660-48ee-89ea-023ac6fcc882")
 		)
 		(pin "SOB" input
 			(at 77.978 143.764 0)
+			(uuid "08b3fdc5-251f-418a-b695-bdf5974fec11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "08b3fdc5-251f-418a-b695-bdf5974fec11")
 		)
 		(pin "SOC" input
 			(at 77.978 146.304 0)
+			(uuid "ebfcf332-3b74-477b-8c37-273c709149d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ebfcf332-3b74-477b-8c37-273c709149d3")
 		)
 		(pin "SDI" input
 			(at 46.736 138.176 180)
+			(uuid "9748b6e7-695a-4d81-b231-cdf1260c78f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9748b6e7-695a-4d81-b231-cdf1260c78f8")
 		)
 		(pin "NFAULT" input
 			(at 77.978 130.81 0)
+			(uuid "f76a710e-4dc2-475f-a79a-2a5d9f9e14e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f76a710e-4dc2-475f-a79a-2a5d9f9e14e8")
 		)
 		(pin "INHC" input
 			(at 77.978 125.476 0)
+			(uuid "dfa7d847-f456-4ef6-9bf8-e0207b86fab2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dfa7d847-f456-4ef6-9bf8-e0207b86fab2")
 		)
 		(pin "INLB" input
 			(at 77.978 117.856 0)
+			(uuid "8b817d95-d3a2-4c38-a6e1-b53ece6d9576")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8b817d95-d3a2-4c38-a6e1-b53ece6d9576")
 		)
 		(pin "INHB" input
 			(at 77.978 120.396 0)
+			(uuid "73b7ac1a-34c2-4110-97a1-f53bf441262b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "73b7ac1a-34c2-4110-97a1-f53bf441262b")
 		)
 		(pin "INLA" input
 			(at 77.978 112.776 0)
+			(uuid "d76578a2-e8f0-409d-8836-241805320c88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d76578a2-e8f0-409d-8836-241805320c88")
 		)
 		(pin "DRVOFF" input
 			(at 77.978 136.398 0)
+			(uuid "ae7d361c-4e10-4ac7-8577-454fadeda92d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae7d361c-4e10-4ac7-8577-454fadeda92d")
 		)
 		(pin "INHA" input
 			(at 77.978 115.316 0)
+			(uuid "81c64a2e-4f57-424b-9c47-285a6b0f2c00")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "81c64a2e-4f57-424b-9c47-285a6b0f2c00")
 		)
 		(pin "INLC" input
 			(at 77.978 122.936 0)
+			(uuid "b333478d-3053-4c7d-b312-d1ea8be02337")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b333478d-3053-4c7d-b312-d1ea8be02337")
 		)
 		(pin "SCLK" input
 			(at 46.736 143.51 180)
+			(uuid "fafbe0af-bfe5-42d8-9bb8-5dcaa6f1b8a2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fafbe0af-bfe5-42d8-9bb8-5dcaa6f1b8a2")
 		)
 		(pin "NSCS" input
 			(at 46.736 146.304 180)
+			(uuid "b82f7442-97f0-4247-92ed-ca67b72c2f77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b82f7442-97f0-4247-92ed-ca67b72c2f77")
 		)
 		(pin "SDO" input
 			(at 46.736 140.97 180)
+			(uuid "e5fe9a0b-2aad-40ac-8527-3287838d4f43")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5fe9a0b-2aad-40ac-8527-3287838d4f43")
 		)
 		(pin "UART1_TX" input
 			(at 46.736 120.904 180)
+			(uuid "5e12fa5e-999c-4495-adfb-6fabecd06c16")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e12fa5e-999c-4495-adfb-6fabecd06c16")
 		)
 		(pin "PWM" input
 			(at 46.736 116.84 180)
+			(uuid "62249e35-892d-4e59-a53c-ac29ea542040")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "62249e35-892d-4e59-a53c-ac29ea542040")
 		)
 		(instances
 			(project "minifoc esc"

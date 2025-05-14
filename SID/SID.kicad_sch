@@ -2458,7 +2458,7 @@
 		(at 15.24 51.562 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
@@ -2472,7 +2472,7 @@
 		(at 16.764 80.264 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
@@ -2500,7 +2500,7 @@
 		(at 47.244 131.318 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
@@ -2514,7 +2514,7 @@
 		(at 119.888 23.876 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 2.54 2.54)
 				(thickness 1.016)
 				(bold yes)
@@ -2528,7 +2528,7 @@
 		(at 24.892 146.05 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 1.27 1.27)
 			)
 			(justify left)
@@ -2540,7 +2540,7 @@
 		(at 44.196 156.972 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 2.54 2.54)
 			)
 			(justify left)
@@ -2552,7 +2552,7 @@
 		(at 19.812 38.608 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 1.8 1.8)
 				(thickness 0.225)
 			)
@@ -2565,7 +2565,7 @@
 		(at 135.636 69.596 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 2.032 2.032)
 				(thickness 0.254)
 			)
@@ -2578,7 +2578,7 @@
 		(at 123.19 131.318 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 1.27 1.27)
 				(thickness 0.1588)
 				(italic yes)
@@ -2592,7 +2592,7 @@
 		(at 99.314 131.318 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
@@ -2606,7 +2606,7 @@
 		(at 19.558 28.956 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
@@ -2621,7 +2621,7 @@
 		(at 142.748 24.13 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 2.54 2.54)
 				(thickness 1.016)
 				(bold yes)
@@ -2635,7 +2635,7 @@
 		(at 99.822 135.382 0)
 		(effects
 			(font
-				(face "JetBrains Mono")
+				(face "Default")
 				(size 1.27 1.27)
 				(thickness 0.1588)
 				(italic yes)
@@ -2658,7 +2658,7 @@
 			(at 224.79 126.2268 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2670,7 +2670,7 @@
 			(at 224.79 128.7668 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2682,7 +2682,7 @@
 			(at 213.614 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2694,7 +2694,7 @@
 			(at 213.614 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2706,7 +2706,7 @@
 			(at 218.44 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2746,7 +2746,7 @@
 			(at 208.28 126.2268 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2758,7 +2758,7 @@
 			(at 208.28 128.7668 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2770,7 +2770,7 @@
 			(at 197.104 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2782,7 +2782,7 @@
 			(at 197.104 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2794,7 +2794,7 @@
 			(at 201.93 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2833,7 +2833,7 @@
 			(at 17.399 79.502 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2845,7 +2845,7 @@
 			(at 17.526 80.772 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2857,7 +2857,7 @@
 			(at 16.764 87.122 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2869,7 +2869,7 @@
 			(at 16.764 87.122 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2881,7 +2881,7 @@
 			(at 16.764 87.122 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2918,7 +2918,7 @@
 			(at 175.26 126.2268 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2930,7 +2930,7 @@
 			(at 175.26 128.7668 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2942,7 +2942,7 @@
 			(at 164.084 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2954,7 +2954,7 @@
 			(at 164.084 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -2966,7 +2966,7 @@
 			(at 168.91 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3005,7 +3005,7 @@
 			(at 17.145 51.308 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3017,7 +3017,7 @@
 			(at 17.272 52.324 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3029,7 +3029,7 @@
 			(at 16.51 58.928 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3041,7 +3041,7 @@
 			(at 16.51 58.928 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3053,7 +3053,7 @@
 			(at 16.51 58.928 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3090,7 +3090,7 @@
 			(at 179.07 124.968 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3102,7 +3102,7 @@
 			(at 179.07 123.698 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3113,7 +3113,7 @@
 			(at 179.07 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3125,7 +3125,7 @@
 			(at 179.07 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3137,7 +3137,7 @@
 			(at 179.07 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3171,7 +3171,7 @@
 			(at 191.77 126.2268 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3183,7 +3183,7 @@
 			(at 191.77 128.7668 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3195,7 +3195,7 @@
 			(at 180.594 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3207,7 +3207,7 @@
 			(at 180.594 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3219,7 +3219,7 @@
 			(at 185.42 126.238 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3259,7 +3259,7 @@
 			(at 50.292 48.768 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3270,7 +3270,7 @@
 			(at 50.292 51.308 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3333,7 +3333,7 @@
 			(at 212.09 124.968 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3345,7 +3345,7 @@
 			(at 212.09 123.698 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3356,7 +3356,7 @@
 			(at 212.09 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3368,7 +3368,7 @@
 			(at 212.09 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3380,7 +3380,7 @@
 			(at 212.09 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3413,7 +3413,7 @@
 			(at 39.878 54.864 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3424,7 +3424,7 @@
 			(at 37.084 58.928 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3435,7 +3435,7 @@
 			(at 35.56 58.166 90)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3447,7 +3447,7 @@
 			(at 35.56 56.388 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3459,7 +3459,7 @@
 			(at 35.56 56.388 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3496,7 +3496,7 @@
 			(at 195.58 124.968 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3508,7 +3508,7 @@
 			(at 195.58 123.698 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3519,7 +3519,7 @@
 			(at 195.58 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3531,7 +3531,7 @@
 			(at 195.58 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3543,7 +3543,7 @@
 			(at 195.58 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3577,7 +3577,7 @@
 			(at 26.67 69.088 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3589,7 +3589,7 @@
 			(at 26.67 67.818 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3600,7 +3600,7 @@
 			(at 26.67 62.738 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3612,7 +3612,7 @@
 			(at 26.67 62.738 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3624,7 +3624,7 @@
 			(at 26.67 62.738 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3658,7 +3658,7 @@
 			(at 162.56 124.968 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3670,7 +3670,7 @@
 			(at 162.56 123.698 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3681,7 +3681,7 @@
 			(at 162.56 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3693,7 +3693,7 @@
 			(at 162.56 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3705,7 +3705,7 @@
 			(at 162.56 118.618 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3741,7 +3741,7 @@
 			(at 190.5 25.1964 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3753,7 +3753,7 @@
 			(at 190.5 55.7026 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3766,7 +3766,7 @@
 			(at 215.9 52.578 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3779,7 +3779,7 @@
 			(at 190.5 47.498 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3792,7 +3792,7 @@
 			(at 190.5 51.308 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3824,7 +3824,7 @@
 			(at 154.94 45.212 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3836,7 +3836,7 @@
 			(at 154.94 65.8626 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3849,7 +3849,7 @@
 			(at 154.94 50.038 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3862,7 +3862,7 @@
 			(at 177.8 55.118 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3894,7 +3894,7 @@
 			(at 196.342 28.702 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3906,7 +3906,7 @@
 			(at 199.39 49.3526 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3919,7 +3919,7 @@
 			(at 212.09 46.228 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3932,7 +3932,7 @@
 			(at 199.39 33.528 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3945,7 +3945,7 @@
 			(at 199.39 37.338 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3958,7 +3958,7 @@
 			(at 212.09 42.418 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -3991,7 +3991,7 @@
 			(at 86.36 89.9664 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4003,7 +4003,7 @@
 			(at 86.36 101.4226 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4016,7 +4016,7 @@
 			(at 86.36 94.488 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4029,7 +4029,7 @@
 			(at 104.14 98.298 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4042,7 +4042,7 @@
 			(at 104.14 93.218 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4055,7 +4055,7 @@
 			(at 104.14 95.758 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4088,7 +4088,7 @@
 			(at 232.41 98.8564 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4100,7 +4100,7 @@
 			(at 232.41 110.3126 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4113,7 +4113,7 @@
 			(at 247.65 104.648 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4146,7 +4146,7 @@
 			(at 60.96 89.9664 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4158,7 +4158,7 @@
 			(at 60.96 101.4226 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4171,7 +4171,7 @@
 			(at 60.96 98.298 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4184,7 +4184,7 @@
 			(at 78.74 94.488 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4217,7 +4217,7 @@
 			(at 154.94 97.5864 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4229,7 +4229,7 @@
 			(at 154.94 110.3126 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4242,7 +4242,7 @@
 			(at 177.8 102.108 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4255,7 +4255,7 @@
 			(at 154.94 102.108 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4288,7 +4288,7 @@
 			(at 60.96 73.4564 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4300,7 +4300,7 @@
 			(at 60.96 84.9126 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4313,7 +4313,7 @@
 			(at 60.96 81.788 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4326,7 +4326,7 @@
 			(at 78.74 77.978 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4359,7 +4359,7 @@
 			(at 195.58 97.5864 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4371,7 +4371,7 @@
 			(at 195.58 109.0426 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4384,7 +4384,7 @@
 			(at 195.58 102.108 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4397,7 +4397,7 @@
 			(at 218.44 105.918 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4410,7 +4410,7 @@
 			(at 218.44 100.838 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4442,7 +4442,7 @@
 			(at 224.79 51.562 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4454,7 +4454,7 @@
 			(at 224.79 72.2126 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4467,7 +4467,7 @@
 			(at 224.79 56.388 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4480,7 +4480,7 @@
 			(at 224.79 61.468 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4513,7 +4513,7 @@
 			(at 190.5 59.4864 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4525,7 +4525,7 @@
 			(at 190.5 76.0226 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4538,7 +4538,7 @@
 			(at 190.5 71.628 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4551,7 +4551,7 @@
 			(at 190.5 64.008 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4564,7 +4564,7 @@
 			(at 190.5 67.818 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4577,7 +4577,7 @@
 			(at 213.36 71.628 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4590,7 +4590,7 @@
 			(at 213.36 64.008 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4603,7 +4603,7 @@
 			(at 213.36 67.818 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4635,7 +4635,7 @@
 			(at 226.822 35.052 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4647,7 +4647,7 @@
 			(at 229.87 55.7026 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4660,7 +4660,7 @@
 			(at 229.87 42.418 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4693,7 +4693,7 @@
 			(at 86.36 106.4764 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4705,7 +4705,7 @@
 			(at 86.36 117.9326 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4718,7 +4718,7 @@
 			(at 104.14 112.268 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4751,7 +4751,7 @@
 			(at 154.94 81.0764 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4763,7 +4763,7 @@
 			(at 154.94 93.8026 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4776,7 +4776,7 @@
 			(at 177.8 85.598 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4789,7 +4789,7 @@
 			(at 154.94 85.598 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4802,7 +4802,7 @@
 			(at 177.8 89.408 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4835,7 +4835,7 @@
 			(at 224.79 73.4564 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4847,7 +4847,7 @@
 			(at 224.79 93.8026 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4860,7 +4860,7 @@
 			(at 224.79 89.408 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4873,7 +4873,7 @@
 			(at 224.79 81.788 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4886,7 +4886,7 @@
 			(at 224.79 85.598 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4899,7 +4899,7 @@
 			(at 224.79 77.978 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4912,7 +4912,7 @@
 			(at 247.65 89.408 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4945,7 +4945,7 @@
 			(at 86.36 73.4564 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4957,7 +4957,7 @@
 			(at 86.36 84.9126 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4970,7 +4970,7 @@
 			(at 86.36 77.978 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -4983,7 +4983,7 @@
 			(at 104.14 80.518 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5016,7 +5016,7 @@
 			(at 86.36 51.8664 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5028,7 +5028,7 @@
 			(at 86.36 64.5926 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5041,7 +5041,7 @@
 			(at 86.36 60.198 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5054,7 +5054,7 @@
 			(at 104.14 56.388 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5087,7 +5087,7 @@
 			(at 115.57 73.4564 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5099,7 +5099,7 @@
 			(at 115.57 84.9126 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5112,7 +5112,7 @@
 			(at 115.57 76.708 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5125,7 +5125,7 @@
 			(at 133.35 81.788 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5138,7 +5138,7 @@
 			(at 115.57 81.788 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5171,7 +5171,7 @@
 			(at 154.94 63.2964 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5183,7 +5183,7 @@
 			(at 154.94 76.0226 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5196,7 +5196,7 @@
 			(at 154.94 67.818 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5209,7 +5209,7 @@
 			(at 177.8 67.818 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5222,7 +5222,7 @@
 			(at 154.94 71.628 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5255,7 +5255,7 @@
 			(at 111.76 51.8664 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5267,7 +5267,7 @@
 			(at 111.76 64.5926 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5280,7 +5280,7 @@
 			(at 111.76 56.388 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5293,7 +5293,7 @@
 			(at 111.76 60.198 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5306,7 +5306,7 @@
 			(at 129.54 56.388 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5339,7 +5339,7 @@
 			(at 60.96 51.8664 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5351,7 +5351,7 @@
 			(at 60.96 64.5926 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5364,7 +5364,7 @@
 			(at 60.96 56.388 180)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -5377,7 +5377,7 @@
 			(at 78.74 60.198 0)
 			(effects
 				(font
-					(face "JetBrains Mono")
+					(face "Default")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
