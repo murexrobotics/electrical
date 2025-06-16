@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2025_SID.kicad_pro",
+    "filename": "Pump_SID.kicad_pro",
     "version": 2
   },
   "net_settings": {
@@ -396,7 +396,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -409,156 +409,16 @@
   },
   "sheets": [
     [
-      "ddc67faa-8eab-4c94-b3d4-83be0654f0fc",
+      "992be4c1-1eb6-4c50-9039-7dcb50b2a34f",
       "Root"
     ],
     [
-      "0efa8069-f213-4540-b46a-a2de686002d4",
-      "10.3\" Touch Display"
+      "a1154039-0015-47e1-8a98-b671c3ad0155",
+      "12V PSU"
     ],
     [
-      "c161d765-35d0-47b5-be7e-ad9575e56520",
-      "Socket+Switch"
-    ],
-    [
-      "ffa48625-ba74-4d7d-bf86-184bc05af2c3",
-      "LED PSU and Strip"
-    ],
-    [
-      "4676865d-8fb4-49ec-8cd1-8ae60cf7b9bf",
-      "3x Outlets"
-    ],
-    [
-      "cac0f149-ca79-472c-990a-e5ef07b1c6e3",
-      "ROCK PSU"
-    ],
-    [
-      "51fc567b-4060-471b-a28d-21d3ad0eb31f",
-      "ROCK 5B+"
-    ],
-    [
-      "7084a38b-4fc8-43a2-8b02-6293b39dca32",
-      "LXV PSU"
-    ],
-    [
-      "1890cf8e-6b8b-4506-97eb-12c271184e49",
-      "Monitor2 (14in)"
-    ],
-    [
-      "0e4ec565-07be-433a-9982-3fbe99833ed2",
-      "Computer PSU"
-    ],
-    [
-      "9e53a9d0-6a8c-431d-b5c6-84e990ebdee3",
-      "Relay"
-    ],
-    [
-      "ab588102-22e6-47b0-bc0d-06459f5916c5",
-      "Monitor PSU"
-    ],
-    [
-      "93721146-53a3-4abe-9389-c1957ae56960",
-      "Arduino Nano"
-    ],
-    [
-      "72a9c464-e64c-4a57-9f61-83363dc41d9b",
-      "Topside Mac Mini"
-    ],
-    [
-      "126360d9-fa0e-4daa-a46f-96572da7ad6d",
-      "Monitor"
-    ],
-    [
-      "fbb29599-0385-4897-b5bc-62a1529cbfa6",
-      "Emergency Stop"
-    ],
-    [
-      "0d1178e7-7205-404c-9b7e-73ff1ab1c4a4",
-      "USB Hub + 2.4GHz"
-    ],
-    [
-      "61185957-5a05-47ca-b295-7e0b87e831c4",
-      "Keyboard+Mouse"
-    ],
-    [
-      "4c38414d-0d53-4d3c-ac1d-f1c949749020",
-      "INA Current Sense"
-    ],
-    [
-      "f1fa4291-c3b9-4f53-9f7d-c773adf70234",
-      "Spectrum Analyzer"
-    ],
-    [
-      "e83148d4-c755-4439-b84d-b26bc5b3f7a4",
-      "PDB"
-    ],
-    [
-      "70d6d854-48d3-4578-ab4b-ccfbdac8f18d",
-      "Temp Probes"
-    ],
-    [
-      "46255337-4013-408d-8778-6a488812c076",
-      "Xbox Controller"
-    ],
-    [
-      "51865ed0-429d-47d7-b715-6534e81a7516",
-      "LX200V20EVB1"
-    ],
-    [
-      "427a3967-af4f-4c14-95d0-0d5e370d742a",
-      "Ethernet Switch"
-    ],
-    [
-      "53040256-f82f-4f27-96e1-6fd10276f239",
-      "Network Computer"
-    ],
-    [
-      "b0f660d4-ab7d-44d9-84bc-febf707f0a63",
-      "MUREX Buck Converter"
-    ],
-    [
-      "6ca0e9a1-b712-4d49-978f-7b3429a10694",
-      "pH Sensor"
-    ],
-    [
-      "af7b72d1-b8ef-4f7f-8208-0e2740c4b35d",
-      "LX200V20EVB"
-    ],
-    [
-      "8334b906-5ac5-4f03-82d9-757814a2730e",
-      "Navigator Board + RPI4"
-    ],
-    [
-      "5e1a10b7-4078-49c7-ac1e-46f3e011ab90",
-      "MUREX Ethernet Switch"
-    ],
-    [
-      "1f35a634-b185-4b38-aed7-d9fb00f91c94",
-      "IP Camera 1"
-    ],
-    [
-      "6a3428e1-6269-4996-ad0a-629075437a2e",
-      "RuiBet 4-1 ESC  (2x)"
-    ],
-    [
-      "a8f99006-1885-44aa-a175-8af754c352c3",
-      "IP Camera 2"
-    ],
-    [
-      "e27b8901-4873-4667-b926-59b7a1209116",
-      "BlueRobotics T200   (8x)"
-    ],
-    [
-      "f8ed3acf-d388-4f34-a03c-1c2034ba3958",
-      "BlueRobotics T200  8x1"
-    ],
-    [
-      "dd15b2c5-04a3-4931-860d-ada8d01eaa0b",
-      "BlueRobotics T200  8x2"
-    ],
-    [
-      "37a332a0-eb82-4435-9946-43895e74fcac",
-      "BlueRobotics T200  8x3"
+      "5271fb08-5819-430f-ae10-c2ab182d3a4b",
+      "12V Peristaltic Pump"
     ]
   ],
   "text_variables": {}
