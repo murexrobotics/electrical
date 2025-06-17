@@ -611,18 +611,6 @@
 		)
 	)
 	(rectangle
-		(start 22.86 137.922)
-		(end 130.302 187.452)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2c70cd9e-ba8d-4f6b-97c6-24bde6c3b2d8)
-	)
-	(rectangle
 		(start 22.86 107.442)
 		(end 68.072 132.334)
 		(stroke
@@ -634,16 +622,6 @@
 		)
 		(uuid a0b34c30-c24a-4d62-ac7d-d4228211eedb)
 	)
-	(text "ELEC-008R Requirements"
-		(exclude_from_sim no)
-		(at 64.008 146.304 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "20420b27-99c0-413d-b5e9-395e01928dcc")
-	)
 	(text "Bar30 Depth Sensor"
 		(exclude_from_sim no)
 		(at 165.1 117.094 0)
@@ -654,9 +632,9 @@
 		)
 		(uuid "2eec160d-ffbc-4d50-85db-3b160388b292")
 	)
-	(text "Float Full Load Amps (FLA) in water =  4.2A\nFuse size selected based upon FLA =  5A ATO  "
+	(text "Float Full Load Amps (FLA) in water =  2.5A\nFuse size selected based upon FLA =  2A ATO  "
 		(exclude_from_sim no)
-		(at 139.192 154.432 0)
+		(at 72.136 149.098 0)
 		(effects
 			(font
 				(size 3 3)
@@ -685,17 +663,6 @@
 		)
 		(uuid "55c04572-3134-4eac-9b96-479e880d58b5")
 	)
-	(text "2A = 2A\n0.3A = 0.3A\n0.5A = 0.5A\n\n2.8A * 150% = 4.2A"
-		(exclude_from_sim no)
-		(at 125.476 162.56 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify right)
-		)
-		(uuid "73796adb-213a-4bb0-a637-ae4695f84d9c")
-	)
 	(text "mrxFloat SID\n"
 		(exclude_from_sim no)
 		(at 84.836 58.166 0)
@@ -715,17 +682,6 @@
 			)
 		)
 		(uuid "a9a230a6-e387-40d6-88ee-e30d34bc3585")
-	)
-	(text "Thruster\nDC-DC Parasitic Power\nESP32 LoRa V3\n\nTotal Amps\n\nFused Selected: 5.0A ATO"
-		(exclude_from_sim no)
-		(at 27.432 167.64 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left)
-		)
-		(uuid "d403373d-d42e-497c-bb08-35ad340eb419")
 	)
 	(text "12V\n"
 		(exclude_from_sim no)
@@ -1280,7 +1236,7 @@
 				)
 			)
 		)
-		(property "Value" "5.0A"
+		(property "Value" "2.0A"
 			(at 141.732 88.9 90)
 			(effects
 				(font
