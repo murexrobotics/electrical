@@ -4,6 +4,14 @@
 	(generator_version "8.99")
 	(uuid "787a0061-c9d5-4e8d-b49f-b4e75e937f85")
 	(paper "A4")
+	(title_block
+		(title "Murex SMART Power Board")
+		(date "2025-06-17")
+		(rev "V1.0")
+		(company "MUREX ROBOTICS [Crane Lee]")
+		(comment 3 "voltage/current sensing, an OLED display, and an embedded controller")
+		(comment 4 "Power management board for 12V/5V/3.3V systems featuring triple channel ")
+	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -211,6 +219,18 @@
 				)
 				(polyline
 					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 10.16 0) (xy 8.89 -0.8467)
 					)
 					(stroke
@@ -224,18 +244,6 @@
 				(polyline
 					(pts
 						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
 					)
 					(stroke
 						(width 0.127)
@@ -369,6 +377,18 @@
 				)
 				(polyline
 					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.62 0) (xy 5.08 0)
 					)
 					(stroke
@@ -393,30 +413,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
@@ -430,6 +426,18 @@
 				(polyline
 					(pts
 						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.127)

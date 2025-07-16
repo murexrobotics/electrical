@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240101)
+	(version 20241004)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "3a8c8799-9295-4740-b990-f123ec1feb18")
@@ -8,7 +8,7 @@
 		(title "mrxSwitch")
 		(date "2024-06-02")
 		(rev "V2.0")
-		(company "MUREX Robotics [Byran Huang and Max Liu]")
+		(company "MUREX Robotics [Max Liu and Byran Huang]")
 		(comment 1 "utilizing the IC Plus IP175G and external magnetics")
 		(comment 2 "World's smallest and cheapest 5 port unmanaged ethernet switch")
 		(comment 3 "// TECHNOLOGY FOR ALL.")
@@ -96,6 +96,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -429,6 +430,10 @@
 	(sheet
 		(at 123.19 57.15)
 		(size 29.21 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -458,203 +463,203 @@
 		)
 		(pin "RXI1-" bidirectional
 			(at 152.4 82.55 0)
+			(uuid "218d916f-c760-4599-8433-e6b043fe75a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "218d916f-c760-4599-8433-e6b043fe75a9")
 		)
 		(pin "TXO1-" bidirectional
 			(at 152.4 77.47 0)
+			(uuid "ada2bec9-a166-445f-80b6-557786fc5299")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ada2bec9-a166-445f-80b6-557786fc5299")
 		)
 		(pin "TXO1+" bidirectional
 			(at 152.4 74.93 0)
+			(uuid "7a2c490b-c856-4901-bb23-1b12a79312f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a2c490b-c856-4901-bb23-1b12a79312f4")
 		)
 		(pin "RXI1+" bidirectional
 			(at 152.4 80.01 0)
+			(uuid "bb5789b2-2123-4f5e-b718-ac9d92d1b407")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bb5789b2-2123-4f5e-b718-ac9d92d1b407")
 		)
 		(pin "RXI3+" bidirectional
 			(at 152.4 107.95 0)
+			(uuid "e62921af-1f18-4e86-ad28-05a222764a20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e62921af-1f18-4e86-ad28-05a222764a20")
 		)
 		(pin "TXO2-" bidirectional
 			(at 152.4 91.44 0)
+			(uuid "37d236e6-b599-4499-bd98-e4ec295773cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "37d236e6-b599-4499-bd98-e4ec295773cd")
 		)
 		(pin "TXO0-" bidirectional
 			(at 152.4 63.5 0)
+			(uuid "121cf647-746d-4274-8f25-782db1765bf2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "121cf647-746d-4274-8f25-782db1765bf2")
 		)
 		(pin "TXO0+" bidirectional
 			(at 152.4 60.96 0)
+			(uuid "84aec2c0-fefa-453e-9701-b8dad8a1608a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "84aec2c0-fefa-453e-9701-b8dad8a1608a")
 		)
 		(pin "RXI0-" bidirectional
 			(at 152.4 68.58 0)
+			(uuid "980097cc-99bb-41e7-a582-28bf146bb276")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "980097cc-99bb-41e7-a582-28bf146bb276")
 		)
 		(pin "RXI0+" bidirectional
 			(at 152.4 66.04 0)
+			(uuid "2929ede2-04f4-4ae8-9a56-e433a2f17826")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2929ede2-04f4-4ae8-9a56-e433a2f17826")
 		)
 		(pin "RXI2-" bidirectional
 			(at 152.4 96.52 0)
+			(uuid "ba4b7b26-6264-43e1-89f8-f8a70aa2c7f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ba4b7b26-6264-43e1-89f8-f8a70aa2c7f7")
 		)
 		(pin "TXO2+" bidirectional
 			(at 152.4 88.9 0)
+			(uuid "7580d3b1-256b-4c74-b57f-e931b98e7f63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7580d3b1-256b-4c74-b57f-e931b98e7f63")
 		)
 		(pin "RXI2+" bidirectional
 			(at 152.4 93.98 0)
+			(uuid "f8c7daa6-5a12-46f4-bde9-a7d83982db74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f8c7daa6-5a12-46f4-bde9-a7d83982db74")
 		)
 		(pin "RXI3-" bidirectional
 			(at 152.4 110.49 0)
+			(uuid "657d0ace-a77a-4f93-a14e-c0989831f443")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "657d0ace-a77a-4f93-a14e-c0989831f443")
 		)
 		(pin "TXO3-" bidirectional
 			(at 152.4 105.41 0)
+			(uuid "242e7299-d31e-4441-8f63-54bf6759b777")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "242e7299-d31e-4441-8f63-54bf6759b777")
 		)
 		(pin "TXO3+" bidirectional
 			(at 152.4 102.87 0)
+			(uuid "93ca1a28-5abf-485a-a509-f857d693faf4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "93ca1a28-5abf-485a-a509-f857d693faf4")
 		)
 		(pin "RXI4-" bidirectional
 			(at 152.4 124.46 0)
+			(uuid "c7c95740-34e8-4153-b8d9-99439ab0695e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7c95740-34e8-4153-b8d9-99439ab0695e")
 		)
 		(pin "TXO4+" bidirectional
 			(at 152.4 116.84 0)
+			(uuid "07673252-b1d6-420b-9d46-c75e5738ef65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "07673252-b1d6-420b-9d46-c75e5738ef65")
 		)
 		(pin "TXO4-" bidirectional
 			(at 152.4 119.38 0)
+			(uuid "17087bfd-7a6a-4e07-bd98-e864f6efb49a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17087bfd-7a6a-4e07-bd98-e864f6efb49a")
 		)
 		(pin "RXI4+" bidirectional
 			(at 152.4 121.92 0)
+			(uuid "91381a48-2233-44e6-8b47-c89cea4904e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "91381a48-2233-44e6-8b47-c89cea4904e9")
 		)
 		(instances
 			(project "switch"
@@ -667,6 +672,10 @@
 	(sheet
 		(at 157.48 57.15)
 		(size 29.21 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -696,203 +705,203 @@
 		)
 		(pin "TXO4+" bidirectional
 			(at 157.48 116.84 180)
+			(uuid "019eb32e-5f77-46f9-ae29-7c852a059d16")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "019eb32e-5f77-46f9-ae29-7c852a059d16")
 		)
 		(pin "TXO4-" bidirectional
 			(at 157.48 119.38 180)
+			(uuid "9c7bbf9c-f965-49fa-8a87-7fbcaed39a97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c7bbf9c-f965-49fa-8a87-7fbcaed39a97")
 		)
 		(pin "TXO0+" bidirectional
 			(at 157.48 60.96 180)
+			(uuid "a6e3e1db-d9c2-467a-bc56-2b42fc76716a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a6e3e1db-d9c2-467a-bc56-2b42fc76716a")
 		)
 		(pin "RXI0-" bidirectional
 			(at 157.48 68.58 180)
+			(uuid "da00730c-cfd4-4603-8ded-7c49e3a0752f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "da00730c-cfd4-4603-8ded-7c49e3a0752f")
 		)
 		(pin "RXI0+" bidirectional
 			(at 157.48 66.04 180)
+			(uuid "5e8115f3-f1de-4080-a1f4-5d34c0fa989f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e8115f3-f1de-4080-a1f4-5d34c0fa989f")
 		)
 		(pin "RXI1-" bidirectional
 			(at 157.48 82.55 180)
+			(uuid "05aaa839-da55-4899-9b9e-458ec3ede27b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "05aaa839-da55-4899-9b9e-458ec3ede27b")
 		)
 		(pin "TXO1+" bidirectional
 			(at 157.48 74.93 180)
+			(uuid "35a26610-bdb9-4bc5-b0cf-e5e172f11b36")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "35a26610-bdb9-4bc5-b0cf-e5e172f11b36")
 		)
 		(pin "RXI1+" bidirectional
 			(at 157.48 80.01 180)
+			(uuid "1eee6f0b-2721-4f24-97ca-3f80e74f95cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1eee6f0b-2721-4f24-97ca-3f80e74f95cd")
 		)
 		(pin "RXI2+" bidirectional
 			(at 157.48 93.98 180)
+			(uuid "a8cb187c-42ca-4aa5-859e-007a8018a994")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a8cb187c-42ca-4aa5-859e-007a8018a994")
 		)
 		(pin "TXO1-" bidirectional
 			(at 157.48 77.47 180)
+			(uuid "b7d2e8b0-6089-43fd-885c-d8b1a5eadd38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b7d2e8b0-6089-43fd-885c-d8b1a5eadd38")
 		)
 		(pin "TXO0-" bidirectional
 			(at 157.48 63.5 180)
+			(uuid "6ac60f02-7bed-4a1a-9602-8a221021312d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6ac60f02-7bed-4a1a-9602-8a221021312d")
 		)
 		(pin "RXI4+" bidirectional
 			(at 157.48 121.92 180)
+			(uuid "9d2a70b8-dff1-491d-8e78-1d8958e26f8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9d2a70b8-dff1-491d-8e78-1d8958e26f8d")
 		)
 		(pin "RXI4-" bidirectional
 			(at 157.48 124.46 180)
+			(uuid "7c394b4a-bd8c-46cb-9f0f-67f56072e0b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c394b4a-bd8c-46cb-9f0f-67f56072e0b4")
 		)
 		(pin "TXO3-" bidirectional
 			(at 157.48 105.41 180)
+			(uuid "44701de4-9e0d-499d-8b0d-bd5b52c83bde")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "44701de4-9e0d-499d-8b0d-bd5b52c83bde")
 		)
 		(pin "TXO3+" bidirectional
 			(at 157.48 102.87 180)
+			(uuid "25729be3-f66a-43e8-9dea-6576374c13b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "25729be3-f66a-43e8-9dea-6576374c13b8")
 		)
 		(pin "RXI3-" bidirectional
 			(at 157.48 110.49 180)
+			(uuid "712f6c89-c0bd-4289-8d22-38ea412f0154")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "712f6c89-c0bd-4289-8d22-38ea412f0154")
 		)
 		(pin "RXI3+" bidirectional
 			(at 157.48 107.95 180)
+			(uuid "193b16b5-e919-4f2c-80af-892e4c2e8f2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "193b16b5-e919-4f2c-80af-892e4c2e8f2f")
 		)
 		(pin "TXO2-" bidirectional
 			(at 157.48 91.44 180)
+			(uuid "256f56c9-32c2-46cd-a7bd-5330a431d37f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "256f56c9-32c2-46cd-a7bd-5330a431d37f")
 		)
 		(pin "TXO2+" bidirectional
 			(at 157.48 88.9 180)
+			(uuid "e5c6e91b-10d7-4bd3-9144-ed81a26d3cd9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5c6e91b-10d7-4bd3-9144-ed81a26d3cd9")
 		)
 		(pin "RXI2-" bidirectional
 			(at 157.48 96.52 180)
+			(uuid "ae53e43e-a727-400f-8962-3d812b9f0246")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ae53e43e-a727-400f-8962-3d812b9f0246")
 		)
 		(instances
 			(project "switch"
@@ -905,6 +914,10 @@
 	(sheet
 		(at 87.63 57.15)
 		(size 29.21 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -945,4 +958,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
