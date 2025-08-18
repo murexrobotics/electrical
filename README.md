@@ -1,4 +1,4 @@
-# MUREX Electrical 2024
+# MUREX Electrical
 
 Attempt the impossible.
 
@@ -6,8 +6,7 @@ Attempt the impossible.
 
 Welcome to MUREX Robotics Electrical. We are focused on pushing boundaries and making electronics/systems design more accessible to all.
 
-![Raytraced Render](./img/december_23_poster.jpg)
-> December 2023 progress poster
+![Cover Image](./img/MRX.EE.png)
 
 ## Introduction
 
@@ -33,13 +32,17 @@ What does this mean? Now that you have read through what MUREX Robotics Electric
 *Always attempting the impossible,*\
 Members:
 
-- Byran Huang '25 (@Hello9999901)
 - Max Liu '26 (@xamuil2)
-- Altan Unver '25 (@L0ad1n6)
 - Crane Lee '27 (@Crane-Lee)
-- Varit Asavathiratham '25 (@BaritoDespacito)
 - Osbert Chang '27 (@Osbertchang)
+- Andrew Chen '28
 
 Emeriti:
 
+- Byran Huang '25 (@Hello9999901)
+- Altan Unver '25 (@L0ad1n6)
+- Varit Asavathiratham '25 (@BaritoDespacito)
 - Chaney Hollis '23 (@chaneyhollis)
+
+![Raytraced Render](./img/december_23_poster.jpg)
+> December 2023 progress poster
