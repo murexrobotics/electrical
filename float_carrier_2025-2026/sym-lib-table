@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "float_carrier_2025-2026.lib")(type "KiCad")(uri "${KIPRJMOD}/float_carrier_2025-2026.lib.kicad_sym")(options "")(descr ""))
+)
