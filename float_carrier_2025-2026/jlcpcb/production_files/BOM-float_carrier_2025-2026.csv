@@ -1,0 +1,16 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,"C5,C6",C_0402_1005Metric,C141382,2
+10k,"R1,R3,R4",R_0603_1608Metric,C5123581,3
+10uF,"C1,C2",C_0603_1608Metric,C694533,2
+2.2uH,L1,L_Bourns_SRP7028A_7.3x6.6mm,C2847539,1
+22uF,"C3,C4,C7",C_0603_1608Metric,C60077,3
+33.2k,R2,R_0603_1608Metric,C23003,1
+LED,D1,LED_0603_1608Metric,C2286,1
+TPS563200,U2,SOT-23-6,C97253,1
+Conn_01x07_Socket,J6,PinSocket_1x07_P2.54mm_Vertical,,1
+Screw_Terminal_01x02,J7,TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal,,1
+Conn_01x18_Socket,J1,PinSocket_1x18_P2.54mm_Vertical,,1
+Screw_Terminal_01x03_GND,J5,TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal,,1
+Conn_01x18_Socket,J2,PinSocket_1x18_P2.54mm_Vertical,,1
+Screw_Terminal_01x03_Servo,J4,TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal,,1
+Screw_Terminal_01x04_Depth_Sensor,J3,TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal,,1

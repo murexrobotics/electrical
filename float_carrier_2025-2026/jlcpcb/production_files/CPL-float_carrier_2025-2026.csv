@@ -1,0 +1,22 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10uF,C_0603_1608Metric,73.671,-100.201,0.0,top
+C2,10uF,C_0603_1608Metric,73.671,-104.265,0.0,top
+C3,22uF,C_0603_1608Metric,77.214,-98.497,-90.0,top
+C4,22uF,C_0603_1608Metric,84.58,-98.484,-90.0,top
+C5,0.1uF,C_0402_1005Metric,73.9166,-108.2548,0.0,top
+C6,0.1uF,C_0402_1005Metric,78.103,-116.429,90.0,top
+C7,22uF,C_0603_1608Metric,80.897,-98.484,-90.0,top
+D1,LED,LED_0603_1608Metric,123.25,-119.4625,90.0,top
+J1,Conn_01x18_Socket,PinSocket_1x18_P2.54mm_Vertical,115.57,-88.265,-90.0,top
+J2,Conn_01x18_Socket,PinSocket_1x18_P2.54mm_Vertical,115.57,-111.254,-90.0,top
+J3,Screw_Terminal_01x04_Depth_Sensor,TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal,112.59,-121.8,0.0,top
+J4,Screw_Terminal_01x03_Servo,TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal,101.26,-122.0,0.0,top
+J5,Screw_Terminal_01x03_GND,TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal,95.46,-80.2,180.0,top
+J6,Conn_01x07_Socket,PinSocket_1x07_P2.54mm_Vertical,110.0074,-81.4578,-90.0,top
+J7,Screw_Terminal_01x02,TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal,92.1766,-122.047,0.0,top
+L1,2.2uH,L_Bourns_SRP7028A_7.3x6.6mm,72.642,-90.549,0.0,top
+R1,10k,R_0603_1608Metric,120.75,-121.175,-90.0,top
+R2,33.2k,R_0603_1608Metric,77.722,-123.825,180.0,top
+R3,10k,R_0603_1608Metric,77.722,-120.521,0.0,top
+R4,10k,R_0603_1608Metric,69.086,-113.282,90.0,top
+U2,TPS563200,SOT-23-6,73.851,-113.4035,-90.0,top
