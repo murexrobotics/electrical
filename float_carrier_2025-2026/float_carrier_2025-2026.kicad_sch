@@ -2382,6 +2382,10 @@
 		(uuid "f791642d-d77e-4183-b262-a0807d9c3d1c")
 	)
 	(no_connect
+		(at 166.37 118.11)
+		(uuid "0d41c160-487d-4656-9a20-dbc590c71503")
+	)
+	(no_connect
 		(at 166.37 90.17)
 		(uuid "197fb238-462f-4814-b48a-f14a2f6cd969")
 	)
@@ -3081,7 +3085,7 @@
 		)
 		(uuid "225648b7-200d-45a4-86d9-0e908f7ea4f6")
 	)
-	(label "5V"
+	(label "6V"
 		(at 185.42 95.25 0)
 		(effects
 			(font

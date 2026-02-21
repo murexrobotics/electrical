@@ -135,7 +135,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1651,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
@@ -187,7 +187,13 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.0,
+        0.06,
+        0.09,
+        0.4,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
