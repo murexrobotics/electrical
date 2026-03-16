@@ -5,171 +5,6 @@
 	(uuid "b400aa6e-1f8b-4ecf-9888-7435774273eb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "282837-2_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at -2.5406 2.5438 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "282837-2"
-				(at -2.5424 -6.3745 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "282837-2:TE_282837-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TERMINAL BLOCK 3.5MM 2POS PCB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "On Shore"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "0.28 USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "G3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "OSTTE020104"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "AVAILABILITY" "Good"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "282837-2_1_0_0"
-				(rectangle
-					(start -2.54 -5.08)
-					(end 2.54 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1695,6 +1530,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 100.33) (xy 35.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df2db36-af9b-4e06-a95c-af68044019a9")
+	)
+	(wire
+		(pts
 			(xy 113.03 49.53) (xy 161.29 49.53)
 		)
 		(stroke
@@ -1955,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 97.79) (xy 43.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89671179-36db-4c81-8b23-188fc64fe26a")
+	)
+	(wire
+		(pts
 			(xy 76.2 130.81) (xy 86.36 130.81)
 		)
 		(stroke
@@ -2105,6 +1960,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 81.28) (xy 264.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05af1bd-4b75-409b-9bb7-a247e3b8c754")
+	)
+	(wire
+		(pts
 			(xy 222.25 78.74) (xy 222.25 91.44)
 		)
 		(stroke
@@ -2145,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 78.74) (xy 256.54 78.74)
+			(xy 248.92 78.74) (xy 264.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2434,6 +2299,17 @@
 		)
 		(uuid "4d930ca7-f249-49b2-b196-1b792908ad29")
 	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 43.18 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52bbbb82-708b-4dce-a8ac-de2e806ce473")
+	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 143.51 100.33 0)
@@ -2466,6 +2342,17 @@
 			(justify right)
 		)
 		(uuid "bec32a34-bafd-4ec7-9d96-e5d7a3ffbcd5")
+	)
+	(hierarchical_label "Vout"
+		(shape input)
+		(at 264.16 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e71665b4-abeb-46ad-b02f-731080714e5d")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2531,6 +2418,72 @@
 			(project "fatpower"
 				(path "/76e8a93d-4e96-45ce-bb86-daf1b53deb26/47c14edf-2ead-430c-8d0c-456f247f8cb2"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "078b14e1-d1ac-414f-9053-f0d7c2e05ee8")
+		(property "Reference" "#PWR018"
+			(at 264.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0bcdeaf-6334-4287-b6a0-1138b56a75e7")
+		)
+		(instances
+			(project ""
+				(path "/76e8a93d-4e96-45ce-bb86-daf1b53deb26/47c14edf-2ead-430c-8d0c-456f247f8cb2"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2676,43 +2629,34 @@
 		)
 	)
 	(symbol
-		(lib_name "282837-2_1")
-		(lib_id "282837-2:282837-2")
-		(at 35.56 97.79 180)
+		(lib_id "power:GND")
+		(at 35.56 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "195ff696-00a3-4013-bd0d-42b843e34ba6")
-		(property "Reference" "J1"
-			(at 35.56 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "22e4db6f-d4c8-41fe-94cd-ad23458d0d10")
+		(property "Reference" "#PWR016"
+			(at 35.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "282837-2"
-			(at 35.56 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "282837-2:TE_282837-2"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 35.56 97.79 0)
+		(property "Value" "GND"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,8 +2664,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 97.79 0)
+		(property "Datasheet" ""
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,86 +2673,22 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "On Shore"
-			(at 35.56 97.79 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "0.28 USD"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "G3"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "OSTTE020104"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "d99487d2-f850-402e-bdca-8a7f4d594473")
-		)
-		(pin "2"
-			(uuid "ad01f714-7d03-45e9-ba44-c19ac538458d")
+			(uuid "65068801-c025-4e1c-8faf-04087e3ff5c2")
 		)
 		(instances
-			(project "fatpower"
+			(project ""
 				(path "/76e8a93d-4e96-45ce-bb86-daf1b53deb26/47c14edf-2ead-430c-8d0c-456f247f8cb2"
-					(reference "J1")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4840,148 +4720,6 @@
 			(project "fatpower"
 				(path "/76e8a93d-4e96-45ce-bb86-daf1b53deb26/47c14edf-2ead-430c-8d0c-456f247f8cb2"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "282837-2_1")
-		(lib_id "282837-2:282837-2")
-		(at 264.16 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fca8da6f-2404-4ac5-a5c2-9cf53e5bf582")
-		(property "Reference" "J2"
-			(at 267.97 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "282837-2"
-			(at 267.97 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "282837-2:TE_282837-2"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "On Shore"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "0.28 USD"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "G3"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "OSTTE020104"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d2e3879-cc92-4658-bb3b-3906bf788316")
-		)
-		(pin "2"
-			(uuid "2ed78303-919c-4ae8-942b-f35b164d9b88")
-		)
-		(instances
-			(project "fatpower"
-				(path "/76e8a93d-4e96-45ce-bb86-daf1b53deb26/47c14edf-2ead-430c-8d0c-456f247f8cb2"
-					(reference "J2")
 					(unit 1)
 				)
 			)
