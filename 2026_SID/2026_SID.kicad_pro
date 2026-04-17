@@ -1,0 +1,562 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "2026_SID.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "6f837549-ddb2-4244-a8dd-e9716c2d8644",
+      "Root"
+    ],
+    [
+      "8b3f4266-ae60-408d-9043-1dd63d8a63a1",
+      "3x Outlets"
+    ],
+    [
+      "f4296bd7-ed95-4201-971b-e4c2204b34f9",
+      "Arduino Nano"
+    ],
+    [
+      "3752e533-55d6-421b-90f0-c825223e6fef",
+      "BlueRobotics T200 (8x)"
+    ],
+    [
+      "46afc4f8-ed8e-4c51-b0fe-1dd6e736743f",
+      "Insta 360 Link 2C"
+    ],
+    [
+      "7e1997e0-310d-4dd6-9d14-29d95c1463b9",
+      "3.3V Buck Converter"
+    ],
+    [
+      "2d1f2189-2672-4b6d-8a20-5853b29e9878",
+      "Computer PSU"
+    ],
+    [
+      "de0f0d16-ff18-4643-9042-27047d9987b0",
+      "Emergency Stop"
+    ],
+    [
+      "1aaff808-37ed-4b3d-b533-034a237ea9e4",
+      "Ethernet Switch"
+    ],
+    [
+      "ae1b21d0-ec07-4686-a28f-9dfaaac2931e",
+      "INA Current Sense"
+    ],
+    [
+      "bcc9dec9-8589-438c-8b5e-fe7007346834",
+      "IP Camera"
+    ],
+    [
+      "3ae23568-4b0b-4237-b089-d78da3ab4337",
+      "Keyboard+Mouse"
+    ],
+    [
+      "e440c256-0a32-4eaa-b861-adeb13f919cf",
+      "LED PSU and Strip"
+    ],
+    [
+      "279be4c9-dd7b-4eee-a9a8-46cd43fd8fc2",
+      "LX200V20EVB"
+    ],
+    [
+      "ff85ffb6-9b72-49db-b4a4-283d9dee56ec",
+      "LX200V20EVB1"
+    ],
+    [
+      "34f6300a-aa17-4084-b07c-70691e6a87c5",
+      "LXV PSU"
+    ],
+    [
+      "db391796-daa5-40ba-a622-358e20828730",
+      "Pololu 5V Buck Converter"
+    ],
+    [
+      "67d88b81-f2af-4726-a814-f1d1f8e537bc",
+      "MUREX Ethernet Switch"
+    ],
+    [
+      "f3725a40-ce15-432e-8ce5-91cfa2545f76",
+      "Monitor"
+    ],
+    [
+      "0fd1b888-3d22-49e1-9915-fc706e0cdc5e",
+      "Monitor PSU"
+    ],
+    [
+      "5a3b8841-4f0b-499b-ad1c-4970412e9e05",
+      "Monitor2 (14in)"
+    ],
+    [
+      "172bffeb-6983-4c90-a114-93cb1086c53c",
+      "Navigator Board + RPI4"
+    ],
+    [
+      "0491ce8d-be4f-4afe-b0b9-abfd86046f1b",
+      "Network Computer"
+    ],
+    [
+      "5bfbd280-c72e-49ea-9ffd-00eb9944ce67",
+      "PDB"
+    ],
+    [
+      "adcbb0e4-0fc3-4da6-b64a-8b68669ec6e9",
+      "ROCK 5B+"
+    ],
+    [
+      "e4ca7280-4c0d-4ee2-a0ad-4dd31de86aca",
+      "ROCK PSU"
+    ],
+    [
+      "7777a0ff-31f2-412f-96d7-25dcc4f382ba",
+      "Relay"
+    ],
+    [
+      "fd860332-56b2-4e60-9d6e-3385eb238eb3",
+      "ReadyToSky ESC (8x)"
+    ],
+    [
+      "2ee87314-6f62-4788-a514-b81a1c67f8b4",
+      "Socket+Switch"
+    ],
+    [
+      "04086cf4-e7f3-4b24-b5b8-fcaee58553c7",
+      "Spectrum Analyzer"
+    ],
+    [
+      "1b2e650f-e43d-4697-ac99-b4f5030a6335",
+      "Temp Probes"
+    ],
+    [
+      "27ccc454-8894-4a1a-af01-13ea14178271",
+      "Topside Mac Mini"
+    ],
+    [
+      "0f72dcad-6ab3-4dfd-9a2b-f8611a231386",
+      "USB Hub + 2.4GHz"
+    ],
+    [
+      "ebc2208c-60a2-44b9-84d0-5510f8d1d97f",
+      "Xbox Controller"
+    ]
+  ],
+  "text_variables": {}
+}
