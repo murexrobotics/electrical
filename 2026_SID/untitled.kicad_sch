@@ -27,4 +27,26 @@
 		)
 		(uuid "7b78c50f-001d-4b65-9258-b82d75cb8a56")
 	)
+	(hierarchical_label "PWM 13"
+		(shape input)
+		(at 226.06 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89fccc6c-cbd9-49b5-9020-c9aa058d3b2f")
+	)
+	(hierarchical_label "PWM 14"
+		(shape input)
+		(at 198.12 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99220566-6d76-42ce-a9e6-e7a9a4077a4d")
+	)
 )
